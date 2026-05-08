@@ -1,0 +1,97 @@
+"use client";
+
+import { useState } from "react";
+import { AdPreview } from "@/components/AdPreview";
+import { PromptPanel } from "@/components/PromptPanel";
+import { getAccessibleTitle, getDisplayTitle, hasReliableMetadata } from "@/lib/creative-display";
+import { playSuccessSound } from "@/lib/success-sound";
+import type { Creative } from "@/types/creative";
+
+type CreativeDetailProps = {
+  creative: Creative;
+  unlocked: boolean;
+  onOpenPricing: () => void;
+  onClose: () => void;
+};
+
+export function CreativeDetail({ creative, unlocked, onOpenPricing, onClose }: CreativeDetailProps) {
+  const [copied, setCopied] = useState(false);
+  const [pricingOpening, setPricingOpening] = useState(false);
+  const title = getDisplayTitle(creative);
+  const accessibleTitle = getAccessibleTitle(creative);
+  const reliableMetadata = hasReliableMetadata(creative);
+  const commentary =
+    "This one does the rare thing: it lets a single idea carry the room. The visual lands first, the copy stays out of its own way, and the whole thing feels considered without feeling precious. That is the move. One plain claim, one memorable object, enough space to make it feel inevitable.";
+
+  const handleCopyPrompt = async () => {
+    if (!unlocked) {
+      setPricingOpening(true);
+      window.setTimeout(() => {
+        setPricingOpening(false);
+        onOpenPricing();
+      }, 360);
+      return;
+    }
+
+    await navigator.clipboard.writeText(creative.reconstructionPrompt ?? creative.fullPrompt);
+    setCopied(true);
+    playSuccessSound();
+    window.setTimeout(() => setCopied(false), 1400);
+  };
+
+  return (
+    <aside className="detail-pane" aria-label={`${accessibleTitle} detail`}>
+      <div className="detail-topbar">
+        {reliableMetadata ? (
+          <div>
+            {title ? <h1>{title}</h1> : null}
+            <p>{creative.brandInspiration} · {creative.industry}</p>
+          </div>
+        ) : (
+          <div aria-hidden="true" />
+        )}
+        <div className="detail-actions">
+          <button
+            type="button"
+            className={`copy-prompt-mini ${pricingOpening ? "lock-opening" : ""}`}
+            onClick={handleCopyPrompt}
+            disabled={pricingOpening}
+          >
+            {unlocked && copied ? (
+              <span className="copy-check" aria-hidden="true">✓</span>
+            ) : (
+              <span aria-hidden="true">{unlocked ? "⧉" : <LockIcon />}</span>
+            )}
+            {unlocked ? (copied ? "Copied" : "Copy prompt") : "Unlock prompt"}
+          </button>
+          <button type="button" className="detail-close" onClick={onClose} aria-label="Close detail">
+            ×
+          </button>
+        </div>
+      </div>
+      <div className="detail-preview-wrap">
+        <AdPreview creative={creative} large />
+      </div>
+      <div className="detail-drawer">
+        <section className="detail-section detail-commentary">
+          <h2>Why it holds</h2>
+          <p>{commentary}</p>
+        </section>
+        <PromptPanel
+          creative={creative}
+          unlocked={unlocked}
+          onOpenPricing={onOpenPricing}
+        />
+      </div>
+    </aside>
+  );
+}
+
+function LockIcon() {
+  return (
+    <svg className="lock-icon" viewBox="0 0 20 20" focusable="false">
+      <rect x="4.5" y="8.5" width="11" height="8" rx="2" fill="none" stroke="currentColor" strokeWidth="1.8" />
+      <path className="lock-shackle" d="M7 8.5V6.8a3 3 0 0 1 6 0v1.7" fill="none" stroke="currentColor" strokeLinecap="round" strokeWidth="1.8" />
+    </svg>
+  );
+}
