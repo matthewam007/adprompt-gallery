@@ -102,14 +102,7 @@ export function Nav({ onPricing, search, onSearch }: NavProps) {
               ) : isSubmitting ? (
                 "..."
               ) : (
-                <span className="slot-label" aria-label="Save">
-                  <span className="slot-reel" aria-hidden="true">
-                    <span>Save</span>
-                    <span>Save</span>
-                    <span>Save</span>
-                    <span>Save</span>
-                  </span>
-                </span>
+                <span className="slot-label">Save</span>
               )}
             </button>
           </div>
