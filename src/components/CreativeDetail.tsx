@@ -4,7 +4,7 @@ import { useState } from "react";
 import { AdPreview } from "@/components/AdPreview";
 import { PromptPanel } from "@/components/PromptPanel";
 import { getAccessibleTitle, getDisplayTitle, hasReliableMetadata } from "@/lib/creative-display";
-import { playSuccessSound } from "@/lib/success-sound";
+import { playSuccessSound, playUnlockSound } from "@/lib/success-sound";
 import type { Creative } from "@/types/creative";
 
 type CreativeDetailProps = {
@@ -25,6 +25,7 @@ export function CreativeDetail({ creative, unlocked, onOpenPricing, onClose }: C
 
   const handleCopyPrompt = async () => {
     if (!unlocked) {
+      playUnlockSound();
       setPricingOpening(true);
       window.setTimeout(() => {
         setPricingOpening(false);

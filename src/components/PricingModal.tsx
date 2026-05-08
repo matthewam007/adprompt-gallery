@@ -26,7 +26,7 @@ export function PricingModal({ open, onClose, onSingleUnlock, onMembership }: Pr
           <article className="pricing-option pricing-option-single">
             <span>Single prompt</span>
             <h3>Unlock one prompt</h3>
-            <strong>$5</strong>
+            <strong>$2</strong>
             <p>For the one you came for.</p>
             <small>Includes full prompt, model notes, layout breakdown, and remix variables.</small>
             <button type="button" onClick={onSingleUnlock}>
@@ -36,7 +36,7 @@ export function PricingModal({ open, onClose, onSingleUnlock, onMembership }: Pr
           <article className="pricing-option pricing-option-member">
             <span>Membership</span>
             <h3>Member access</h3>
-            <strong>$20/mo</strong>
+            <strong>$15/mo</strong>
             <p>For people making ads every week.</p>
             <small>Unlock every prompt in the library, including new drops.</small>
             <button type="button" onClick={onMembership}>
