@@ -62,37 +62,37 @@ const motifDescriptions: Record<Creative["visual"]["motif"], string> = {
 };
 
 function buildSeedWhyItWorks(title: string, motif: Creative["visual"]["motif"], industry: Industry) {
-  return `This holds because the ad lets ${motifDescriptions[motif]} carry the argument instead of dressing the idea up. The promise behind "${title}" feels specific to ${industry.toLowerCase()} work, but the composition keeps its voice low and steady, which gives the claim room to feel useful rather than sold.`;
+  return `One good idea gets the room here, and the ad is smart enough not to crowd it. ${motifDescriptions[motif][0].toUpperCase()}${motifDescriptions[motif].slice(1)} carries the argument with a quiet hand, while the promise behind "${title}" stays close to the kind of ${industry.toLowerCase()} work people actually recognize.`;
 }
 
 function buildUploadedWhyItWorks(visualDirection: string, format: Format, industry: Industry) {
   const direction = visualDirection.toLowerCase();
 
   if (direction.includes("testimonial") || direction.includes("customer")) {
-    return `This holds because the proof is allowed to feel human without turning into a case study. The ${format.toLowerCase()} frame gives the reader a quick center of gravity, while the customer-led structure makes the ${industry.toLowerCase()} point feel observed rather than announced.`;
+    return `The proof feels human without turning into a case study. The ${format.toLowerCase()} frame gives the reader a quick center of gravity, and the customer-led structure makes the ${industry.toLowerCase()} point feel observed rather than announced.`;
   }
 
   if (direction.includes("comparison") || direction.includes("versus") || direction.includes("table")) {
-    return "This holds because the ad gives contrast a little discipline. The comparison does not need theater to make its point, just a clean read, a steady hierarchy, and enough restraint for the better choice to feel obvious by the time the eye reaches the bottom.";
+    return "The contrast has discipline, which is rarer than it sounds. There is no need for theater here, just a clean read, a steady hierarchy, and enough restraint for the better choice to feel obvious by the time the eye reaches the bottom.";
   }
 
   if (direction.includes("dashboard") || direction.includes("interface") || direction.includes("ui") || direction.includes("product")) {
-    return `This holds because the product is treated like evidence, not decoration. The interface gives the claim something concrete to lean on, and the surrounding space keeps the ad from becoming a tour of features, which is where a lot of ${industry.toLowerCase()} creative starts to lose its nerve.`;
+    return `The product is treated like evidence, not decoration. The interface gives the claim something concrete to lean on, and the surrounding space keeps the ad from becoming a tour of features, which is where a lot of ${industry.toLowerCase()} creative starts to lose its nerve.`;
   }
 
   if (direction.includes("illustration") || direction.includes("line art") || direction.includes("character")) {
-    return `This holds because the illustration softens the idea without making it cute for its own sake. There is enough personality to invite the reader in, but the composition stays composed, which lets the message keep its footing as a serious ${industry.toLowerCase()} reference.`;
+    return `The illustration softens the idea without making it cute for its own sake. There is enough personality to invite the reader in, but the composition stays composed, which lets the message keep its footing as a serious ${industry.toLowerCase()} reference.`;
   }
 
   if (direction.includes("poster") || direction.includes("editorial") || direction.includes("typography")) {
-    return "This holds because it behaves more like a good poster than a hard-selling ad. The type and spacing do the quiet work, the visual system gives the idea a point of view, and the whole piece feels confident enough to leave some air in the room.";
+    return "It behaves more like a good poster than a hard-selling ad. The type and spacing do the quiet work, the visual system gives the idea a point of view, and the whole piece feels confident enough to leave some air in the room.";
   }
 
   if (direction.includes("black") || direction.includes("dark")) {
-    return "This holds because the darker frame gives the idea weight without asking the copy to posture. The contrast pulls the eye toward the center, the hierarchy stays clean, and the result feels considered rather than loud.";
+    return "The darker frame gives the idea weight without asking the copy to posture. The contrast pulls the eye toward the center, the hierarchy stays clean, and the result feels considered rather than loud.";
   }
 
-  return `This holds because the reference has a clear center of gravity. It gives the reader one visual idea to settle into, keeps the message close to the surface, and lets the ${industry.toLowerCase()} promise feel composed instead of overexplained.`;
+  return `The reference has a clear center of gravity. It gives the reader one visual idea to settle into, keeps the message close to the surface, and lets the ${industry.toLowerCase()} promise feel composed instead of overexplained.`;
 }
 
 const basePrompt = (title: string, brand: BrandInspiration, industry: Industry, motif: string) =>

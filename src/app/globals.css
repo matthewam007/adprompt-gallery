@@ -915,8 +915,9 @@ button {
 }
 
 .detail-close {
-  display: grid;
-  place-items: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   width: 42px;
   height: 42px;
   border: 1px solid #e7e2db;
@@ -925,6 +926,7 @@ button {
   color: #77736d;
   font-size: 28px;
   line-height: 1;
+  padding: 0 0 3px;
 }
 
 .detail-close:hover {
@@ -1078,7 +1080,16 @@ button {
   justify-content: center;
   gap: 9px;
   min-width: 154px;
+  border-color: #d9cf41;
+  background: #fff760;
+  color: #060606;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), 0 5px 12px rgba(0, 0, 0, 0.055);
   white-space: nowrap;
+}
+
+.prompt-actions button:hover {
+  background: #fff98a;
+  color: #060606;
 }
 
 .copy-button {
@@ -1247,9 +1258,17 @@ button {
   gap: 12px;
 }
 
+.locked-panel-heading {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
 .panel-icon {
   display: inline-flex;
-  margin-bottom: 8px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0;
   color: var(--accent);
   font-size: 12px;
 }
@@ -1302,14 +1321,18 @@ button {
 }
 
 .icon-button {
-  display: grid;
-  place-items: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   width: 34px;
   height: 34px;
   border: 1px solid #e9e4dc;
   border-radius: 999px;
   background: #ffffff;
   color: #6f6b64;
+  font-size: 24px;
+  line-height: 1;
+  padding: 0 0 3px;
   transition: transform 150ms ease, border-color 150ms ease, background 150ms ease;
 }
 

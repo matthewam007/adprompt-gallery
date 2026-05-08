@@ -51,8 +51,10 @@ export function PromptPanel({ creative, unlocked, onOpenPricing }: PromptPanelPr
     return (
       <section className="prompt-panel prompt-panel-locked">
         <div>
-          <span className="panel-icon" aria-hidden="true"><LockIcon /></span>
-          <h3>Get the exact prompt</h3>
+          <div className="locked-panel-heading">
+            <span className="panel-icon" aria-hidden="true"><LockIcon /></span>
+            <h3>Get the exact prompt</h3>
+          </div>
           <p>Unlock the full prompt, teardown, and remix notes.</p>
         </div>
         <div className="prompt-preview">{creative.fullPrompt.slice(0, 148)}...</div>
