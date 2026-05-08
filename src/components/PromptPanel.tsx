@@ -63,11 +63,6 @@ export function PromptPanel({ creative, unlocked, onOpenPricing }: PromptPanelPr
           <p>{promptPreview}</p>
           <div className="prompt-preview-fade" aria-hidden="true" />
         </div>
-        <ul className="prompt-preview-includes" aria-label="Included after unlock">
-          <li>Exact reconstruction prompt</li>
-          <li>Model-ready composition notes</li>
-          <li>Safe remix direction</li>
-        </ul>
         <div className="prompt-actions">
           <button
             type="button"

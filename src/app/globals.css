@@ -1268,26 +1268,6 @@ button {
   background: linear-gradient(rgba(255, 255, 255, 0), #ffffff 72%);
 }
 
-.prompt-preview-includes {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.prompt-preview-includes li {
-  border: 1px solid #e4dfd7;
-  border-radius: 999px;
-  background: #ffffff;
-  color: #6b655e;
-  padding: 6px 9px;
-  font-size: 12px;
-  font-weight: 640;
-  line-height: 1;
-}
-
 .prompt-specs {
   margin: 12px 0;
 }
