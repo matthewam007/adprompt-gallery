@@ -25,6 +25,7 @@ export function PromptPanel({ creative, unlocked, onOpenPricing }: PromptPanelPr
   const [copied, setCopied] = useState(false);
   const [pricingOpening, setPricingOpening] = useState(false);
   const prompt = creative.reconstructionPrompt ?? creative.fullPrompt;
+  const promptPreview = getPromptPreview(prompt);
 
   const copyPrompt = async () => {
     await navigator.clipboard.writeText(prompt);
@@ -57,7 +58,16 @@ export function PromptPanel({ creative, unlocked, onOpenPricing }: PromptPanelPr
           </div>
           <p>Unlock the full prompt, teardown, and remix notes.</p>
         </div>
-        <div className="prompt-preview">{creative.fullPrompt.slice(0, 148)}...</div>
+        <div className="prompt-preview prompt-preview-locked">
+          <span>Preview</span>
+          <p>{promptPreview}</p>
+          <div className="prompt-preview-fade" aria-hidden="true" />
+        </div>
+        <ul className="prompt-preview-includes" aria-label="Included after unlock">
+          <li>Exact reconstruction prompt</li>
+          <li>Model-ready composition notes</li>
+          <li>Safe remix direction</li>
+        </ul>
         <div className="prompt-actions">
           <button
             type="button"
@@ -102,6 +112,14 @@ export function PromptPanel({ creative, unlocked, onOpenPricing }: PromptPanelPr
       <p className="prompt-text">{prompt}</p>
     </section>
   );
+}
+
+function getPromptPreview(prompt: string) {
+  const cleanPrompt = prompt.replace(/\s+/g, " ").trim();
+  const preview = cleanPrompt.slice(0, 255);
+  const lastSpace = preview.lastIndexOf(" ");
+
+  return `${preview.slice(0, lastSpace > 210 ? lastSpace : preview.length)}...`;
 }
 
 function ToolLogo({ name }: { name: PromptDestinationName }) {
