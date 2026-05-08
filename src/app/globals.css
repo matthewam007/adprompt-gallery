@@ -1139,8 +1139,19 @@ button {
   display: block;
   width: 23px;
   height: 23px;
-  border-radius: 6px;
-  object-fit: contain;
+  color: #171717;
+}
+
+.tool-logo-claude {
+  color: #d97757;
+}
+
+.tool-logo-gemini {
+  color: #8b6bff;
+}
+
+.tool-logo-perplexity {
+  color: #1f8d8b;
 }
 
 .copy-success {

@@ -1,18 +1,19 @@
 "use client";
 
-import Image from "next/image";
 import { useState } from "react";
 import { playSuccessSound, playUnlockSound } from "@/lib/success-sound";
 import type { Creative } from "@/types/creative";
 
 const promptDestinations = [
-  { name: "ChatGPT", url: "https://chatgpt.com/", iconUrl: "https://chatgpt.com/favicon.ico" },
-  { name: "Claude", url: "https://claude.ai/new", iconUrl: "https://claude.ai/favicon.ico" },
-  { name: "Gemini", url: "https://gemini.google.com/", iconUrl: "https://gemini.google.com/favicon.ico" },
-  { name: "Midjourney", url: "https://www.midjourney.com/imagine", iconUrl: "https://www.midjourney.com/favicon.ico" },
-  { name: "Perplexity", url: "https://www.perplexity.ai/", iconUrl: "https://www.perplexity.ai/favicon.ico" },
-  { name: "Meta AI", url: "https://www.meta.ai/", iconUrl: "https://www.meta.ai/favicon.ico" },
+  { name: "ChatGPT", url: "https://chatgpt.com/" },
+  { name: "Claude", url: "https://claude.ai/new" },
+  { name: "Gemini", url: "https://gemini.google.com/" },
+  { name: "Midjourney", url: "https://www.midjourney.com/imagine" },
+  { name: "Perplexity", url: "https://www.perplexity.ai/" },
+  { name: "Meta AI", url: "https://www.meta.ai/" },
 ] as const;
+
+type PromptDestinationName = (typeof promptDestinations)[number]["name"];
 
 type PromptPanelProps = {
   creative: Creative;
@@ -90,7 +91,7 @@ export function PromptPanel({ creative, unlocked, onOpenPricing }: PromptPanelPr
               aria-label={`Copy prompt and open ${destination.name}`}
               title={`Copy prompt and open ${destination.name}`}
             >
-              <Image className="tool-logo" src={destination.iconUrl} alt="" width={23} height={23} unoptimized />
+              <ToolLogo name={destination.name} />
               <span className="tool-tooltip" role="tooltip">{destination.name}</span>
             </button>
           ))}
@@ -98,6 +99,65 @@ export function PromptPanel({ creative, unlocked, onOpenPricing }: PromptPanelPr
       </div>
       <p className="prompt-text">{prompt}</p>
     </section>
+  );
+}
+
+function ToolLogo({ name }: { name: PromptDestinationName }) {
+  if (name === "ChatGPT") {
+    return (
+      <svg className="tool-logo tool-logo-chatgpt" viewBox="0 0 32 32" aria-hidden="true">
+        <path d="M12.1 5.6a6 6 0 0 1 9 3.4 6 6 0 0 1 4.7 8.2 6 6 0 0 1-6.8 8.6 6 6 0 0 1-9-3.4 6 6 0 0 1-4.7-8.2 6 6 0 0 1 6.8-8.6Z" fill="none" stroke="currentColor" strokeWidth="2" />
+        <path d="M11.4 12.1 16 9.5l4.6 2.6v5.3L16 20l-4.6-2.6v-5.3Zm4.6-2.6v5.2m4.6-2.6-4.6 2.6m0 5.3v-5.3m-4.6 2.7 4.6-2.7" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" />
+      </svg>
+    );
+  }
+
+  if (name === "Claude") {
+    return (
+      <svg className="tool-logo tool-logo-claude" viewBox="0 0 32 32" aria-hidden="true">
+        <path d="m16 3.5 3 9 9.5 3.5-9.5 3.5-3 9-3-9L3.5 16l9.5-3.5 3-9Z" />
+        <path d="m22.7 6.9-.9 5.5 5.3 2.1-5.6.9-2.2 5.3-.8-5.5-5.3-2.2 5.6-.8 2.1-5.3Z" opacity=".45" />
+      </svg>
+    );
+  }
+
+  if (name === "Gemini") {
+    return (
+      <svg className="tool-logo tool-logo-gemini" viewBox="0 0 32 32" aria-hidden="true">
+        <defs>
+          <linearGradient id="gemini-gradient" x1="4" x2="28" y1="26" y2="6">
+            <stop stopColor="#6D8DFF" />
+            <stop offset=".5" stopColor="#B969FF" />
+            <stop offset="1" stopColor="#F0C35A" />
+          </linearGradient>
+        </defs>
+        <path d="M16 3.5c1.7 6 5.5 9.8 11.5 11.5C21.5 16.7 17.7 20.5 16 26.5 14.3 20.5 10.5 16.7 4.5 15 10.5 13.3 14.3 9.5 16 3.5Z" fill="url(#gemini-gradient)" />
+      </svg>
+    );
+  }
+
+  if (name === "Midjourney") {
+    return (
+      <svg className="tool-logo tool-logo-midjourney" viewBox="0 0 32 32" aria-hidden="true">
+        <path d="M5 23.5c4.7-2.2 8-7.4 10.2-17.2 5 5.2 8.4 10.7 10.8 17.2H5Z" />
+        <path d="M15.2 6.3v17.2M8.9 23.5c2.6-3.2 5.7-5.1 9.1-5.7" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
+      </svg>
+    );
+  }
+
+  if (name === "Perplexity") {
+    return (
+      <svg className="tool-logo tool-logo-perplexity" viewBox="0 0 32 32" aria-hidden="true">
+        <path d="M7 5h18v22H7V5Zm5 0v22M20 5v22M7 13h18M7 20h18" fill="none" stroke="currentColor" strokeWidth="1.8" />
+        <path d="M12 13 20 5v22l-8-7v-7Z" />
+      </svg>
+    );
+  }
+
+  return (
+    <svg className="tool-logo tool-logo-meta" viewBox="0 0 32 32" aria-hidden="true">
+      <path d="M4.2 18.1c1.4-5.1 3.8-8 6.8-8 2.2 0 3.7 1.3 5 3.3 1.3-2 2.8-3.3 5-3.3 3 0 5.4 2.9 6.8 8 1 3.5-.5 5.9-3.3 5.9-2.4 0-4.3-1.7-8.5-7.2-4.2 5.5-6.1 7.2-8.5 7.2-2.8 0-4.3-2.4-3.3-5.9Z" fill="none" stroke="currentColor" strokeLinecap="round" strokeWidth="2.5" />
+    </svg>
   );
 }
 
