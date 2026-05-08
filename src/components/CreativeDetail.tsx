@@ -21,7 +21,8 @@ export function CreativeDetail({ creative, unlocked, onOpenPricing, onClose }: C
   const accessibleTitle = getAccessibleTitle(creative);
   const reliableMetadata = hasReliableMetadata(creative);
   const commentary =
-    "This one does the rare thing: it lets a single idea carry the room. The visual lands first, the copy stays out of its own way, and the whole thing feels considered without feeling precious. That is the move. One plain claim, one memorable object, enough space to make it feel inevitable.";
+    creative.whyItWorks ||
+    "This works because it trusts one good thought to do the talking. The visual arrives first and gives the eye somewhere easy to land, while the copy follows with just enough confidence to make the point feel earned. Nothing is trying too hard. The idea has room, the restraint feels intentional, and the whole piece carries itself with the kind of calm you remember later.";
 
   const handleCopyPrompt = async () => {
     if (!unlocked) {

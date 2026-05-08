@@ -36,9 +36,6 @@ export const brandInspirations: BrandInspiration[] = [
   "Figma",
 ];
 
-const why =
-  "A simple product truth, set in a visual system that feels more editorial than promotional. The layout gives the claim room to breathe, and the supporting copy does not try to win the argument twice.";
-
 const structure =
   "Lead with one plain claim. Place a quiet product artifact underneath it. Use one proof detail, one constraint, and a restrained footer tag so the reader knows what kind of company this is for.";
 
@@ -50,6 +47,53 @@ const remix = [
   "Keep the headline under eight words.",
   "Use one product artifact instead of a full dashboard.",
 ];
+
+const motifDescriptions: Record<Creative["visual"]["motif"], string> = {
+  receipt: "a familiar finance artifact",
+  code: "a small piece of product evidence",
+  chat: "a calm conversational moment",
+  docs: "a working document",
+  shield: "a clear security symbol",
+  timeline: "a visible sense of progress",
+  mail: "one clean communication moment",
+  terminal: "a developer artifact",
+  ledger: "an ordered proof system",
+  canvas: "a shared working surface",
+};
+
+function buildSeedWhyItWorks(title: string, motif: Creative["visual"]["motif"], industry: Industry) {
+  return `This holds because the ad lets ${motifDescriptions[motif]} carry the argument instead of dressing the idea up. The promise behind "${title}" feels specific to ${industry.toLowerCase()} work, but the composition keeps its voice low and steady, which gives the claim room to feel useful rather than sold.`;
+}
+
+function buildUploadedWhyItWorks(visualDirection: string, format: Format, industry: Industry) {
+  const direction = visualDirection.toLowerCase();
+
+  if (direction.includes("testimonial") || direction.includes("customer")) {
+    return `This holds because the proof is allowed to feel human without turning into a case study. The ${format.toLowerCase()} frame gives the reader a quick center of gravity, while the customer-led structure makes the ${industry.toLowerCase()} point feel observed rather than announced.`;
+  }
+
+  if (direction.includes("comparison") || direction.includes("versus") || direction.includes("table")) {
+    return "This holds because the ad gives contrast a little discipline. The comparison does not need theater to make its point, just a clean read, a steady hierarchy, and enough restraint for the better choice to feel obvious by the time the eye reaches the bottom.";
+  }
+
+  if (direction.includes("dashboard") || direction.includes("interface") || direction.includes("ui") || direction.includes("product")) {
+    return `This holds because the product is treated like evidence, not decoration. The interface gives the claim something concrete to lean on, and the surrounding space keeps the ad from becoming a tour of features, which is where a lot of ${industry.toLowerCase()} creative starts to lose its nerve.`;
+  }
+
+  if (direction.includes("illustration") || direction.includes("line art") || direction.includes("character")) {
+    return `This holds because the illustration softens the idea without making it cute for its own sake. There is enough personality to invite the reader in, but the composition stays composed, which lets the message keep its footing as a serious ${industry.toLowerCase()} reference.`;
+  }
+
+  if (direction.includes("poster") || direction.includes("editorial") || direction.includes("typography")) {
+    return "This holds because it behaves more like a good poster than a hard-selling ad. The type and spacing do the quiet work, the visual system gives the idea a point of view, and the whole piece feels confident enough to leave some air in the room.";
+  }
+
+  if (direction.includes("black") || direction.includes("dark")) {
+    return "This holds because the darker frame gives the idea weight without asking the copy to posture. The contrast pulls the eye toward the center, the hierarchy stays clean, and the result feels considered rather than loud.";
+  }
+
+  return `This holds because the reference has a clear center of gravity. It gives the reader one visual idea to settle into, keeps the message close to the surface, and lets the ${industry.toLowerCase()} promise feel composed instead of overexplained.`;
+}
 
 const basePrompt = (title: string, brand: BrandInspiration, industry: Industry, motif: string) =>
   `Create a quiet, editorial tech ad for a fictional ${industry.toLowerCase()} company. The piece is inspired by the restraint and spacing often seen in ${brand}-adjacent design language, but it must not copy any real brand asset. Concept: ${title}. Use a warm off-white canvas, near-black type, muted borders, one restrained accent, and a single ${motif} product artifact. Make it feel composed, useful, and worth saving.`;
@@ -110,7 +154,7 @@ const generatedCreatives: Creative[] = rows.map(
     visualStyleTags: ["editorial", "warm", "artifact-led", motif],
     premium,
     shortDescription: `${brandInspiration}-inspired ${format.toLowerCase()} concept for ${industry.toLowerCase()} teams.`,
-    whyItWorks: why,
+    whyItWorks: buildSeedWhyItWorks(title, motif, industry),
     structureNotes: structure,
     fullPrompt: basePrompt(title, brandInspiration, industry, motif),
     editableVariables: variables,
@@ -229,8 +273,7 @@ const uploadedCreatives: Creative[] = [...additionalUploadedSeeds, ...uploadedSe
     premium: index % 4 !== 0,
     image: `/ads/${filename}`,
     shortDescription: `${brandInspiration}-adjacent ${format.toLowerCase()} reference for ${industry.toLowerCase()} teams.`,
-    whyItWorks:
-      "The ad has one visual idea and lets it carry the argument. The copy stays short, the composition is easy to scan, and the object or metaphor makes the product point feel concrete instead of explained.",
+    whyItWorks: buildUploadedWhyItWorks(visualDirection, format, industry),
     structureNotes:
       "Start with a single plain claim. Pair it with one memorable object, artifact, or scene. Keep the supporting copy secondary, use generous negative space, and leave one clear action or proof cue near the edge.",
     fullPrompt:
