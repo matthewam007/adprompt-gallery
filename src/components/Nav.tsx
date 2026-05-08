@@ -102,12 +102,12 @@ export function Nav({ onPricing, search, onSearch }: NavProps) {
               ) : isSubmitting ? (
                 "..."
               ) : (
-                <span className="slot-label" aria-label="Join">
+                <span className="slot-label" aria-label="Save">
                   <span className="slot-reel" aria-hidden="true">
-                    <span>Join</span>
                     <span>Save</span>
-                    <span>In</span>
-                    <span>Join</span>
+                    <span>Save</span>
+                    <span>Save</span>
+                    <span>Save</span>
                   </span>
                 </span>
               )}
