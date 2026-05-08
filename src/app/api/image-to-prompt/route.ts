@@ -57,7 +57,7 @@ export async function POST(request: Request) {
             {
               type: "input_text",
               text:
-                "Analyze this ad image. Return a reusable prompt and teardown for AdPrompt Gallery. The title must be the readable main ad headline if present; otherwise use a concise literal label for the image's core concept. fullPrompt and reconstructionPrompt must be reconstruction-grade: exact enough to produce a very similar ad in one shot while replacing real logos/brand marks and exact source copy with fictional equivalents. Include canvas ratio, background, object placement, headline position, typography, color palette, lighting, visual metaphor, hierarchy, texture, margins, and exclusions. remixPrompt should be looser and designed for iteration.",
+                "Analyze this ad image. Return a reusable prompt and teardown for PromptSwipe. The title must be the readable main ad headline if present; otherwise use a concise literal label for the image's core concept. fullPrompt and reconstructionPrompt must be reconstruction-grade: exact enough to produce a very similar ad in one shot while replacing real logos/brand marks and exact source copy with fictional equivalents. Include canvas ratio, background, object placement, headline position, typography, color palette, lighting, visual metaphor, hierarchy, texture, margins, and exclusions. remixPrompt should be looser and designed for iteration.",
             },
             {
               type: "input_image",

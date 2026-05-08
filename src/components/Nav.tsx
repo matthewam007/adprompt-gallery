@@ -45,7 +45,7 @@ export function Nav({ onPricing, search, onSearch }: NavProps) {
   return (
     <header className="topbar">
       <nav className="shell nav">
-        <button className="wordmark" type="button" aria-label="AdPrompt Gallery">
+        <button className="wordmark" type="button" aria-label="PromptSwipe">
           <span className="brand-mark" aria-hidden="true">
             <svg viewBox="0 0 56 44" role="img">
               <rect x="32" y="3" width="8" height="5" rx="1.7" />
@@ -64,7 +64,7 @@ export function Nav({ onPricing, search, onSearch }: NavProps) {
               <rect x="20" y="38" width="5" height="5" rx="1.7" />
             </svg>
           </span>
-          AdPrompt Gallery
+          PromptSwipe
         </button>
         <label className="nav-search">
           <span>Search</span>

@@ -3,8 +3,8 @@ import { CustomCursor } from "@/components/CustomCursor";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "AdPrompt Gallery",
-  description: "A hand-picked library of prompts behind ads worth studying.",
+  title: "PromptSwipe",
+  description: "A swipe file for prompts behind ads worth studying.",
   icons: {
     icon: "/icon.svg",
   },

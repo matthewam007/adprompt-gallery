@@ -29,7 +29,7 @@ export function CustomCursor() {
 
     let waveTimeout: number | undefined;
     let hideWaveTimeout: number | undefined;
-    let hasWaved = window.sessionStorage.getItem("adprompt-cursor-wave") === "true";
+    let hasWaved = window.sessionStorage.getItem("promptswipe-cursor-wave") === "true";
 
     const move = (event: PointerEvent) => {
       const target = event.target instanceof Element ? event.target : null;
@@ -39,7 +39,7 @@ export function CustomCursor() {
 
       if (!hasWaved) {
         hasWaved = true;
-        window.sessionStorage.setItem("adprompt-cursor-wave", "true");
+        window.sessionStorage.setItem("promptswipe-cursor-wave", "true");
         waveTimeout = window.setTimeout(() => {
           setShowWave(true);
           hideWaveTimeout = window.setTimeout(() => setShowWave(false), 3200);

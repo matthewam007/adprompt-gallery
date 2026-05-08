@@ -72,7 +72,7 @@ export const adPromptBlueprintSchema = {
   ],
 } as const;
 
-export type AdPromptBlueprint = {
+export type PromptSwipeBlueprint = {
   title: string;
   brandInspiration: string;
   industry: string;

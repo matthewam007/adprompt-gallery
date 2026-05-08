@@ -4,13 +4,13 @@ import Image from "next/image";
 import { useMemo, useState } from "react";
 import { creatives } from "@/data/creatives";
 import { getAccessibleTitle, getDisplayTitle } from "@/lib/creative-display";
-import type { AdPromptBlueprint } from "@/lib/image-to-prompt-schema";
+import type { PromptSwipeBlueprint } from "@/lib/image-to-prompt-schema";
 
 const imageCreatives = creatives.filter((creative) => creative.image);
 
 export default function PromptLabPage() {
   const [selectedPath, setSelectedPath] = useState(imageCreatives[0]?.image ?? "");
-  const [result, setResult] = useState<AdPromptBlueprint | null>(null);
+  const [result, setResult] = useState<PromptSwipeBlueprint | null>(null);
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
   const selectedCreative = useMemo(
@@ -52,7 +52,7 @@ export default function PromptLabPage() {
     <main className="prompt-lab shell">
       <header className="prompt-lab-header">
         <div>
-          <a href="/">AdPrompt Gallery</a>
+          <a href="/">PromptSwipe</a>
           <h1>Prompt Lab</h1>
           <p>Turn an uploaded ad reference into a prompt, teardown, and JSON blueprint.</p>
         </div>
