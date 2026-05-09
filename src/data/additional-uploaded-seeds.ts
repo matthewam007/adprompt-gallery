@@ -1928,5 +1928,333 @@ export const additionalUploadedSeeds: UploadedSeed[] = [
     "Productivity",
     "Static",
     "direct-response productivity ad with a bold claim, simple visual hierarchy, and conversion-oriented restraint"
+  ],
+  [
+    "0aa97867b7e4292895b82461cb7b5ecd.jpg",
+    "Reference 01",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
+    "1123a4a4efbc78af4ddd413fcb7036bf.jpg",
+    "Reference 02",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
+    "2418cef2ac00d68ecde3e214a7f01c4f.jpg",
+    "Reference 03",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
+    "2ec7f472fe6659a3e9be6e33e9beb604.jpg",
+    "Reference 04",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
+    "2eee78ed5e58bae7de54d6b4be5d632c.jpg",
+    "Reference 05",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
+    "30bee91bb50ddb7e9f1c10732a98775d.jpg",
+    "Reference 06",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
+    "326d02c2f5111329cc66a7ad720c369d.jpg",
+    "Reference 07",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
+    "3973ddc123bcf25a6789e6202818e048.jpg",
+    "Reference 08",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
+    "4531dace2479577d2b03d23834e2cddd.jpg",
+    "Reference 09",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
+    "595518c8fbea2515c5b41242fd618676.jpg",
+    "Reference 10",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
+    "62e012ccbd10730e031c6cf4e899fac1.jpg",
+    "Reference 11",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
+    "699b3253d512747f961656d0d5903ca1.jpg",
+    "Reference 12",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
+    "84d5e68506f5cb068d1a77b754aa7034.jpg",
+    "Reference 13",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
+    "86c08b63434ad4383258c5fd8913ff0b.jpg",
+    "Reference 14",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
+    "87336285af610f50def86cdb762a5bd3.jpg",
+    "Reference 15",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
+    "8afbdb2036b4441be1eac06bc04d3a94.jpg",
+    "Reference 16",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
+    "8d6b53d73d76c2fc5d2bec035e34f1a1.jpg",
+    "Reference 17",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
+    "9191b807ce7a3dbdb15d096480e8b23c.jpg",
+    "Reference 18",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
+    "9bc739a8a6cec13056402a6be0c191ac.jpg",
+    "Reference 19",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
+    "DscpC0ZZaSmDsMX18GHyoPh3og.webp",
+    "Reference 20",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
+    "KA8T4l8yuJSXFJXZ5yFJyucGt4U.webp",
+    "Reference 21",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
+    "KVhRE2xFqtOEYIVN1V6nTTTJRA.webp",
+    "Reference 22",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
+    "Pj0Ilir1FJDOl0uVL98bpMLddk.webp",
+    "Reference 23",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
+    "QdVsh9lZHtA3trdfBHnjWC844U.webp",
+    "Reference 24",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
+    "Yellow text snippets@2x.png",
+    "Reference 25",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
+    "a5c4603042c3298111530776939a7a99.jpg",
+    "Reference 26",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
+    "b47354ff0017504438f0c750be95482d.jpg",
+    "Reference 27",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
+    "c5e06c5493f38092977577e742927f8c.jpg",
+    "Reference 28",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
+    "c90e355148a855a49ce492ff2ab8c3d7.jpg",
+    "Reference 29",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
+    "ca3d36a59a772bb9d908beb1845e68a3.jpg",
+    "Reference 30",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
+    "d07eb95e8b8cb01e0ea3874cbf932e6a.jpg",
+    "Reference 31",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
+    "d392bd3cc4cc6bf3287509cf8e75c6e8.jpg",
+    "Reference 32",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
+    "dc02ac506afc7768629c00c8c60f22c7.jpg",
+    "Reference 33",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
+    "ed03bb86c581de091160fe7ac1ca1848.jpg",
+    "Reference 34",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
+    "ed38d56264732c6f4f30fc686d16a193.jpg",
+    "Reference 35",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
+    "f1c627e7a6c3bec114072bd21b272109.jpg",
+    "Reference 36",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
+    "f8b61ba8585c901c1333e80b198e9045.jpg",
+    "Reference 37",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
+    "pBQ7TaBOBH0prdggrHC7e9FD2Q.webp",
+    "Reference 38",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
+    "t4ATxjSkWh4hnQ9buGigOY8EZ8.webp",
+    "Reference 39",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
+    "thmLatkPfIKWeWTyE66eFMSeus.webp",
+    "Reference 40",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
+    "vFbxzdISYTseQtADLNlViER187o.avif",
+    "Reference 41",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
   ]
 ];
