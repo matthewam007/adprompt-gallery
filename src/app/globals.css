@@ -1483,6 +1483,77 @@ button {
   box-shadow: 0 3px 0 rgba(0, 0, 0, 0.12), 0 12px 24px rgba(0, 0, 0, 0.1);
 }
 
+.pricing-option button:disabled {
+  cursor: wait;
+  opacity: 0.68;
+  transform: none;
+}
+
+.pricing-error {
+  margin: 16px 0 0;
+  border: 1px solid #e6c8bc;
+  border-radius: 8px;
+  background: #fff7f3;
+  color: #8f3c22 !important;
+  padding: 10px 12px;
+  font-size: 13px !important;
+  font-weight: 650 !important;
+}
+
+.checkout-state {
+  display: grid;
+  align-content: center;
+  min-height: 100vh;
+  max-width: 620px;
+  padding: 72px 0;
+}
+
+.checkout-state p {
+  margin: 0 0 10px;
+  color: #706a62;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.checkout-state h1 {
+  margin: 0;
+  color: #111111;
+  font-size: clamp(40px, 7vw, 72px);
+  line-height: 0.95;
+  letter-spacing: 0;
+}
+
+.checkout-state span {
+  display: block;
+  margin-top: 18px;
+  color: #635e57;
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.checkout-state code {
+  margin-top: 18px;
+  overflow-wrap: anywhere;
+  border: 1px solid #e5e1dc;
+  border-radius: 8px;
+  background: #ffffff;
+  padding: 10px;
+  color: #6d675f;
+  font-size: 12px;
+}
+
+.checkout-state a {
+  justify-self: start;
+  margin-top: 26px;
+  border: 1px solid #d9cf41;
+  border-radius: 999px;
+  background: #fff760;
+  color: #060606;
+  padding: 10px 14px;
+  text-decoration: none;
+  font-weight: 760;
+}
+
 .empty-state {
   border: 1px solid var(--line);
   border-radius: 8px;

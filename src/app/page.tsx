@@ -21,7 +21,9 @@ export default function Home() {
   const [selectedSlug, setSelectedSlug] = useState<string | null>(null);
   const [pricingOpen, setPricingOpen] = useState(false);
   const [memberAccess, setMemberAccess] = useState(false);
-  const [unlocked, setUnlocked] = useState<string[]>([]);
+  const [unlocked] = useState<string[]>([]);
+  const [checkoutLoading, setCheckoutLoading] = useState<"single" | "membership" | null>(null);
+  const [checkoutError, setCheckoutError] = useState("");
 
   const filteredCreatives = useMemo(() => {
     const query = search.trim().toLowerCase();
@@ -38,8 +40,28 @@ export default function Home() {
 
   const selectedCreative = creatives.find((creative) => creative.slug === selectedSlug) ?? null;
 
-  const unlockCreative = (slug: string) => {
-    setUnlocked((current) => (current.includes(slug) ? current : [...current, slug]));
+  const startCheckout = async (type: "single" | "membership") => {
+    setCheckoutLoading(type);
+    setCheckoutError("");
+
+    const response = await fetch("/api/checkout", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        type,
+        creativeSlug: selectedCreative?.slug,
+      }),
+    });
+
+    const payload = (await response.json()) as { url?: string; error?: string };
+
+    if (!response.ok || !payload.url) {
+      setCheckoutLoading(null);
+      setCheckoutError(payload.error ?? "Could not open checkout.");
+      return;
+    }
+
+    window.location.href = payload.url;
   };
 
   return (
@@ -80,17 +102,14 @@ export default function Home() {
       ) : null}
       <PricingModal
         open={pricingOpen}
-        onClose={() => setPricingOpen(false)}
-        onSingleUnlock={() => {
-          if (selectedCreative) {
-            unlockCreative(selectedCreative.slug);
-          }
+        onClose={() => {
           setPricingOpen(false);
+          setCheckoutError("");
         }}
-        onMembership={() => {
-          setMemberAccess(true);
-          setPricingOpen(false);
-        }}
+        onSingleUnlock={() => startCheckout("single")}
+        onMembership={() => startCheckout("membership")}
+        loading={checkoutLoading}
+        error={checkoutError}
       />
     </main>
   );
