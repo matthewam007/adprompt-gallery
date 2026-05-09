@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { AdPreview } from "@/components/AdPreview";
 import { PromptPanel } from "@/components/PromptPanel";
+import { analyticsEvents, trackEvent } from "@/lib/analytics";
 import { getAccessibleTitle, getDisplayTitle, hasReliableMetadata } from "@/lib/creative-display";
 import { playSuccessSound, playUnlockSound } from "@/lib/success-sound";
 import type { Creative } from "@/types/creative";
@@ -26,6 +27,10 @@ export function CreativeDetail({ creative, unlocked, onOpenPricing, onClose }: C
 
   const handleCopyPrompt = async () => {
     if (!unlocked) {
+      trackEvent(analyticsEvents.clickedUnlockPrompt, {
+        creativeSlug: creative.slug,
+        source: "detail_header",
+      });
       playUnlockSound();
       setPricingOpening(true);
       window.setTimeout(() => {
@@ -36,6 +41,10 @@ export function CreativeDetail({ creative, unlocked, onOpenPricing, onClose }: C
     }
 
     await navigator.clipboard.writeText(creative.reconstructionPrompt ?? creative.fullPrompt);
+    trackEvent(analyticsEvents.clickedCopyPrompt, {
+      creativeSlug: creative.slug,
+      source: "detail_header",
+    });
     setCopied(true);
     playSuccessSound();
     window.setTimeout(() => setCopied(false), 1400);

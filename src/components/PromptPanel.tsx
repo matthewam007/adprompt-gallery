@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { analyticsEvents, trackEvent } from "@/lib/analytics";
 import { playSuccessSound, playUnlockSound } from "@/lib/success-sound";
 import type { Creative } from "@/types/creative";
 
@@ -29,6 +30,10 @@ export function PromptPanel({ creative, unlocked, onOpenPricing }: PromptPanelPr
 
   const copyPrompt = async () => {
     await navigator.clipboard.writeText(prompt);
+    trackEvent(analyticsEvents.clickedCopyPrompt, {
+      creativeSlug: creative.slug,
+      source: "prompt_panel",
+    });
     setCopied(true);
     playSuccessSound();
     window.setTimeout(() => setCopied(false), 1400);
@@ -40,6 +45,10 @@ export function PromptPanel({ creative, unlocked, onOpenPricing }: PromptPanelPr
   };
 
   const openPricingWithUnlock = () => {
+    trackEvent(analyticsEvents.clickedUnlockPrompt, {
+      creativeSlug: creative.slug,
+      source: "prompt_panel",
+    });
     playUnlockSound();
     setPricingOpening(true);
     window.setTimeout(() => {

@@ -1,4 +1,5 @@
 import { brandInspirations, formats, industries } from "@/data/creatives";
+import { analyticsEvents, trackEvent } from "@/lib/analytics";
 import type { BrandInspiration, Format, Industry } from "@/types/creative";
 
 export type Filters = {
@@ -14,6 +15,10 @@ type FilterBarProps = {
 
 export function FilterBar({ filters, onChange }: FilterBarProps) {
   const selectIndustry = (industry: Filters["industry"]) => {
+    trackEvent(analyticsEvents.clickedFilter, {
+      filterType: "industry",
+      filterValue: industry,
+    });
     onChange({ ...filters, industry });
   };
 
@@ -36,13 +41,25 @@ export function FilterBar({ filters, onChange }: FilterBarProps) {
           label="Format"
           value={filters.format}
           options={formats}
-          onChange={(format) => onChange({ ...filters, format: format as Filters["format"] })}
+          onChange={(format) => {
+            trackEvent(analyticsEvents.clickedFilter, {
+              filterType: "format",
+              filterValue: format,
+            });
+            onChange({ ...filters, format: format as Filters["format"] });
+          }}
         />
         <Select
           label="Brand"
           value={filters.brand}
           options={["All", ...brandInspirations]}
-          onChange={(brand) => onChange({ ...filters, brand: brand as Filters["brand"] })}
+          onChange={(brand) => {
+            trackEvent(analyticsEvents.clickedFilter, {
+              filterType: "brand",
+              filterValue: brand,
+            });
+            onChange({ ...filters, brand: brand as Filters["brand"] });
+          }}
         />
       </div>
     </div>

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { analyticsEvents, trackEvent } from "@/lib/analytics";
 
 type NavProps = {
   onPricing: () => void;
@@ -38,6 +39,7 @@ export function Nav({ onPricing, search, onSearch }: NavProps) {
       return;
     }
 
+    trackEvent(analyticsEvents.emailSubmitted);
     setSubmitted(true);
     setEmail("");
   };
@@ -79,7 +81,15 @@ export function Nav({ onPricing, search, onSearch }: NavProps) {
           <a href="#gallery">Extension</a>
           <a href="#brands">Resources</a>
           <a href="#formats">About</a>
-          <button type="button" onClick={onPricing}>
+          <button
+            type="button"
+            onClick={() => {
+              trackEvent(analyticsEvents.openedPricing, {
+                source: "nav",
+              });
+              onPricing();
+            }}
+          >
             Pricing
           </button>
         </div>

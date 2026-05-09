@@ -1,12 +1,13 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { CreativeDetail } from "@/components/CreativeDetail";
 import { FilterBar, type Filters } from "@/components/FilterBar";
 import { GalleryGrid } from "@/components/GalleryGrid";
 import { Nav } from "@/components/Nav";
 import { PricingModal } from "@/components/PricingModal";
 import { creatives } from "@/data/creatives";
+import { analyticsEvents, trackEvent } from "@/lib/analytics";
 import { getAccessibleTitle, getSearchText } from "@/lib/creative-display";
 
 const initialFilters: Filters = {
@@ -40,7 +41,39 @@ export default function Home() {
 
   const selectedCreative = creatives.find((creative) => creative.slug === selectedSlug) ?? null;
 
+  useEffect(() => {
+    trackEvent(analyticsEvents.viewedGallery, {
+      totalCreatives: creatives.length,
+    });
+  }, []);
+
+  useEffect(() => {
+    const query = search.trim();
+
+    if (!query) {
+      return;
+    }
+
+    const timeout = window.setTimeout(() => {
+      trackEvent(analyticsEvents.searched, {
+        query,
+        resultCount: filteredCreatives.length,
+      });
+    }, 700);
+
+    return () => window.clearTimeout(timeout);
+  }, [filteredCreatives.length, search]);
+
   const startCheckout = async (type: "single" | "membership") => {
+    trackEvent(
+      type === "single"
+        ? analyticsEvents.clickedSinglePromptCheckout
+        : analyticsEvents.clickedMembershipCheckout,
+      {
+        creativeSlug: selectedCreative?.slug,
+      },
+    );
+
     setCheckoutLoading(type);
     setCheckoutError("");
 
@@ -86,7 +119,16 @@ export default function Home() {
       <section className="shell gallery-pane">
         <GalleryGrid
           creatives={filteredCreatives}
-          onSelect={setSelectedSlug}
+          onSelect={(slug) => {
+            const creative = creatives.find((item) => item.slug === slug);
+            trackEvent(analyticsEvents.openedAd, {
+              creativeSlug: slug,
+              premium: creative?.premium,
+              industry: creative?.industry,
+              format: creative?.format,
+            });
+            setSelectedSlug(slug);
+          }}
           isUnlocked={(creative) => memberAccess || !creative.premium || unlocked.includes(creative.slug)}
         />
       </section>
@@ -95,7 +137,12 @@ export default function Home() {
         <CreativeDetail
           creative={selectedCreative}
           unlocked={memberAccess || !selectedCreative.premium || unlocked.includes(selectedCreative.slug)}
-          onOpenPricing={() => setPricingOpen(true)}
+          onOpenPricing={() => {
+            trackEvent(analyticsEvents.openedPricing, {
+              creativeSlug: selectedCreative.slug,
+            });
+            setPricingOpen(true);
+          }}
           onClose={() => setSelectedSlug(null)}
         />
         </div>

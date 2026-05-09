@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { CheckoutSuccessTracker } from "@/components/CheckoutSuccessTracker";
 
 type CheckoutSuccessPageProps = {
   searchParams: {
@@ -9,6 +10,7 @@ type CheckoutSuccessPageProps = {
 export default function CheckoutSuccessPage({ searchParams }: CheckoutSuccessPageProps) {
   return (
     <main className="checkout-state shell">
+      <CheckoutSuccessTracker sessionId={searchParams.session_id} />
       <p>Payment received</p>
       <h1>The prompt is yours.</h1>
       <span>
