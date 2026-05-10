@@ -1691,379 +1691,403 @@ export const additionalUploadedSeeds: UploadedSeed[] = [
   ],
   [
     "Morethanjustawrapper_1200x1200png.jpeg",
-    "Morethanjustawrapper",
-    "Linear",
-    "Productivity",
-    "Meta",
-    "illustrated productivity ad built around a single metaphor, simple composition, and direct copy"
+    "More than just a wrapper",
+    "Notion",
+    "Collaboration",
+    "Static",
+    "Top: brand logos on left and right corners connected by dotted line. Center: Four nested white rounded rectangles with soft inner shadows and subtle glows. Center text inside innermost rectangle. Bottom center: pill-shaped CTA button."
   ],
   [
     "NavatticDemoWalkthrough_03_PT_1080x1080pxpng.jpeg",
-    "NavatticDemoWalkthrough 03 PT Px",
-    "Superhuman",
-    "Productivity",
-    "Meta",
-    "meta productivity ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "Processe a folha de pagamento em minutos – não dias.",
+    "Ramp",
+    "Fintech",
+    "Static",
+    "Centered headline top third, clustered iconography mid-center, horizontal branded banner bottom quarter"
   ],
   [
     "NewyearNewCRM-2png.jpeg",
-    "NewyearNewCRM 2",
-    "Notion",
+    "New era. New CRM.",
+    "Linear",
     "Productivity",
     "Static",
-    "direct-response productivity ad with a bold claim, simple visual hierarchy, and conversion-oriented restraint"
+    "Vertically stacked layout with top headline and bottom icon bar horizontally centered."
   ],
   [
     "NextjsSocial01-Minimalpng.jpeg",
-    "NextjsSocial01 Minimal",
-    "Cursor",
+    "Next.js CONF25 is October 22",
+    "Vercel",
     "Devtools",
-    "Meta",
-    "meta devtools ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "Static",
+    "Centered headline with text blocks stacked vertically, asymmetrically balanced blue squares of varying size and halftone pattern around edges and corners. Strong negative space around central text."
   ],
   [
     "Nory_eBook-Tech-Stack-Killing-Margins_2_4-51jpg.jpeg",
-    "Nory EBook Tech Stack Killing Margins 2",
-    "Stripe",
-    "Fintech",
-    "Launch",
-    "report-led fintech ad with a clear document artifact, concise headline, and premium thought-leadership framing"
+    "Your POS and your rota have never met.",
+    "Notion",
+    "Productivity",
+    "Static",
+    "Square composition organizing two dominant text zones (top-left large headline block, bottom-left small CTA) balanced against a smaller colored rectangle on the bottom-right holding a headline, subhead, and pixel-art icon."
   ],
   [
     "NotionvsConfluenceComparisonGuide1pdf.jpeg",
-    "NotionvsConfluenceComparisonGuide1pdf",
+    "Notion vs Confluence Comparison Guide",
     "Notion",
     "Productivity",
-    "Comparison",
-    "report-led productivity ad with a clear document artifact, concise headline, and premium thought-leadership framing"
+    "Static",
+    "Asymmetrical balanced layout with elements grouped in top left and bottom right corners creating diagonal visual flow."
+  ],
+  [
+    "OPT1_Enterprise_Inaction_Static_Paid_1x1png.jpeg",
+    "Being proactive is powerful leadership.",
+    "Ramp",
+    "Fintech",
+    "LinkedIn",
+    "Two equal vertical columns side by side, left with text and brand mark, right with photo background and UI overlay."
+  ],
+  [
+    "OPT2_Enterprise_Value_Static_Paid_1x1png.jpeg",
+    "Empower your employees to stay focused and engaged.",
+    "Ramp",
+    "Fintech",
+    "Static",
+    "Asymmetric balanced layout with background photo on right, content block on left, and a segmented feature bar across bottom."
   ],
   [
     "Onesystemforillustrationpng.jpeg",
-    "Onesystemforillustration",
-    "Linear",
-    "Productivity",
-    "Static",
-    "illustrated productivity ad built around a single metaphor, simple composition, and direct copy"
+    "One system for payroll, HR, expenses, and field ops.",
+    "Ramp",
+    "Fintech",
+    "LinkedIn",
+    "Asymmetric balanced: text on top left, line art on bottom right, brand logo bottom right corner"
   ],
   [
     "Option1-4_5-1png.jpeg",
-    "1 1",
-    "Linear",
-    "Productivity",
-    "LinkedIn",
-    "linkedin productivity ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "The finance team’s guide to leveraging AI",
+    "Stripe",
+    "Fintech",
+    "Static",
+    "Centered white square panel on vertical canvas with vignette background, logo top-left, headline below logo, abstract shape below headline occupying bottom area, and CTA button floating top-right outside the panel."
   ],
   [
     "Oz-Paid-Enterprise-Self-Hosting-03-4x5png.jpeg",
-    "Oz Enterprise Self Hosting 03",
-    "Stripe",
-    "Fintech",
-    "LinkedIn",
-    "linkedin fintech ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "Host agents on Your infrastructure",
+    "Linear",
+    "Devtools",
+    "Static",
+    "Vertical stack, top-left branding then headline and subheadline, left aligned. Black call-to-action button below text. Bottom center UI panel spanning width, divided horizontally, with toggle pills top and labeled container with agent pills bottom. Pixelated square dispersion on bottom right behind UI panel."
   ],
   [
     "Oz-Paid-Enterrprise-03-1x1png.jpeg",
-    "Oz Enterrprise 03",
-    "Claude",
+    "Cloud agents at scale",
+    "Wiz",
     "AI",
-    "Meta",
-    "meta ai ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "Static",
+    "Top-left brand icon and name with stacked headline and subheadline below on left, black CTA button below text, partial UI window occupying bottom half."
   ],
   [
     "Oz-Paid-Enterrprise-03-4x5png.jpeg",
-    "Oz Enterrprise 03",
-    "Claude",
-    "AI",
-    "LinkedIn",
-    "linkedin ai ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "Break out of your shell",
+    "Linear",
+    "Devtools",
+    "Static",
+    "Top-left brand mark and name, large headline below left, smaller subhead below headline, centered black rounded button below text block. Bottom half centered white rounded square with icon, curved shell segments arranged around it in arc."
   ],
   [
     "Oz-Platform-02-1x11png.jpeg",
-    "Oz Platform 02 1",
-    "Linear",
-    "Productivity",
-    "Meta",
-    "meta productivity ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "All the models. One orchestration platform",
+    "Claude",
+    "AI",
+    "Static",
+    "Asymmetrical balance with left-side textual content and right-side geometric stack visual creating weight contrast."
   ],
   [
     "POS-TOF-02-720x900jpg.jpeg",
-    "POS TOF 02",
-    "Linear",
-    "Productivity",
+    "94% Shopify ecommerce and POS on-time delivery rate",
+    "Stripe",
+    "Fintech",
     "Static",
-    "static productivity ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "Central vertical axis with concentric arcs top center and a vertical progress line rising from bottom center to midpoint, main numeric headline and supporting text aligned center below the arcs."
   ],
   [
     "PaidAd1B1png.jpeg",
-    "1B1",
-    "Claude",
-    "AI",
-    "Meta",
-    "meta ai ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "Unlock your institution’s full potential",
+    "Superhuman",
+    "Productivity",
+    "Static",
+    "Two-column layout with text left and icon cluster right, balanced horizontally center but with text vertically higher up and button near bottom left"
   ],
   [
     "PaidAd2B1png.jpeg",
-    "2B1",
-    "Claude",
+    "Superhuman supports you with AI designed for learning",
+    "Superhuman",
     "AI",
-    "Meta",
-    "meta ai ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "Static",
+    "Asymmetrical with top-left branding, large left-aligned headline center-left, smaller subhead below, and bottom-left CTA balanced by colorful abstract shapes bottom-right."
   ],
   [
     "PaidAds1Apng.jpeg",
-    "S1A",
-    "Claude",
-    "AI",
-    "Meta",
-    "meta ai ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "Drive higher course completion rates, stronger writing, and GPA growth.",
+    "Superhuman",
+    "Productivity",
+    "Static",
+    "Left-right balanced with text block on left and vertical stacked interactive buttons on right"
   ],
   [
     "PaidSocial-05png.jpeg",
-    "Social 05",
-    "Claude",
-    "AI",
-    "Meta",
-    "meta ai ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "Security Leaders Handbook",
+    "Wiz",
+    "Security",
+    "Static",
+    "Centered vertical square composition with main book object dominant above midline, arcs sweeping behind, clouds cropped bottom corners, CTA button below book horizontally centered."
   ],
   [
     "PaidSocial1080x1080png.jpeg",
-    "Social",
-    "Claude",
-    "AI",
-    "Meta",
-    "meta ai ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "Cheat sheet Data Security Best Practices",
+    "Wiz",
+    "Security",
+    "Static",
+    "Centered vertical alignment with distinct tiers: logo top-left, headline center-top, illustration center, CTA bottom center."
   ],
   [
     "Pernod-Ricardcustomerstory_Variation2_1200x1200png.jpeg",
-    "Pernod Ricardcustomerstory 2",
-    "Linear",
-    "Productivity",
-    "Meta",
-    "customer-proof productivity ad with a testimonial structure, one proof line, and restrained brand framing"
+    "Production AI at global scale",
+    "Notion",
+    "AI",
+    "Static",
+    "Split horizontal with top 50% text block and bottom 50% illustration cluster"
   ],
   [
     "Pj0Ilir1FJDOl0uVL98bpMLddk.webp",
-    "Reference 23",
-    "Linear",
+    "There's a better approach to upskilling your team",
+    "Notion",
     "Productivity",
     "Static",
-    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+    "Centered figure stepping on four stacked stairs labeled with resource names, brand logo top right near stairs, headline below left aligned, CTA button bottom right"
   ],
   [
     "Product_Toyota_1440x1440_Bpng.jpeg",
-    "Product Toyota B",
-    "Linear",
+    "Build from signal. Not vibes.",
+    "Notion",
     "Productivity",
     "Static",
-    "customer-proof productivity ad with a testimonial structure, one proof line, and restrained brand framing"
+    "Two horizontal sections stacked vertically - top half brand+headline, bottom half dashboard UI card."
   ],
   [
     "QdVsh9lZHtA3trdfBHnjWC844U.webp",
-    "Reference 24",
-    "Linear",
+    "With Bonsai, your agency can always:",
+    "Notion",
     "Productivity",
     "Static",
-    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+    "Vertical mobile screenshot with header bar at top, heading below, then vertical bullet list with icons and text"
   ],
   [
     "RetargetingAdpng.jpeg",
-    "Retargeting",
-    "Superhuman",
-    "Productivity",
-    "Meta",
-    "meta productivity ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "Uncover insights from India's developer community in the AI era",
+    "Figma",
+    "AI",
+    "Static",
+    "Horizontally split square with abstract geometric shapes and clean text block below"
   ],
   [
     "SM-Bonsai-RTG-WinDeliverGet-1200x1200png.jpeg",
-    "SM Bonsai RTG WinDeliverGet",
-    "Stripe",
-    "Fintech",
-    "Meta",
-    "event promotion ad with strong date-or-topic hierarchy, clear registration cue, and polished B2B restraint"
+    "Win clients",
+    "Notion",
+    "Productivity",
+    "Static",
+    "Vertical list aligned left with toggles right, separated by lines; black footer bar with logo and text; overlapping UI screen previews above footer."
   ],
   [
     "SM-Drata-PR-BlogPost-WhatIsARiskRegister-ST-1-1200x1200-042026png.jpeg",
-    "SM Drata PR BlogPost WhatIsARiskRegister ST 1",
-    "Wiz",
+    "Want to stay ahead of business risks?",
+    "Ramp",
     "Security",
-    "Meta",
-    "report-led security ad with a clear document artifact, concise headline, and premium thought-leadership framing"
+    "LinkedIn",
+    "Centered vertical layout with three horizontal zones: top text zone, central visual zone with planet and grid, bottom bar with brand and CTA"
   ],
   [
     "SM-Drata-PR-DecisionMakers-RiskManagement-PainPoints-ST-1-1200x1200-042026png.jpeg",
-    "SM Drata PR DecisionMakers RiskManagement PainPoints ST",
-    "Wiz",
+    "Spreadsheets Weren't Built for Risk Management",
+    "Ramp",
     "Security",
-    "Meta",
-    "meta security ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "Static",
+    "Top-left large headline, center-right spreadsheet grid fragment, scattered sticky notes overlaid, bottom-left subline, bottom-right brand wordmark"
   ],
   [
     "SM-Drata-PR-DrataForStartups-BOFU-BuyersAskForSOC2-ST-1-1200x1200-032026png.jpeg",
-    "SM Drata PR DrataForStartups BOFU BuyersAskForSOC2 ST",
-    "Wiz",
+    "When Buyers Ask for SOC 2, Are You Ready?",
+    "Stripe",
     "Security",
-    "Meta",
-    "comparison ad with two clear choices, one decisive product truth, and minimal visual clutter"
+    "Static",
+    "Two vertical columns: left text-heavy column and right flowchart column, balanced asymmetrically"
   ],
   [
     "SM-Drata-PR-MOFU-CaseStudies-Asana-ST-2-1200x1200-042026png.jpeg",
-    "SM Drata PR MOFU CaseStudies Asana ST",
-    "Wiz",
+    "Your buyers don’t want to wait days for security answers.",
+    "Stripe",
     "Security",
-    "Meta",
-    "customer-proof security ad with a testimonial structure, one proof line, and restrained brand framing"
+    "Static",
+    "Top bar with two horizontally aligned logos separated by vertical line, below a large centered light gray content block with headline and subtext left aligned, bottom full-width gradient bar with a small hatched pattern on the right side."
   ],
   [
     "SM-Drata-PR-MOFU-CaseStudies-Lemonade-ST-1-1200x1200-042026png.jpeg",
-    "SM Drata PR MOFU CaseStudies Lemon E",
-    "Wiz",
+    "\"The promise of automation has long been discussed in the compliance world, but never truly realized.\" Drata has turned that into reality.",
+    "Linear",
     "Security",
-    "Meta",
-    "customer-proof security ad with a testimonial structure, one proof line, and restrained brand framing"
+    "LinkedIn",
+    "Vertical 4:5 format with top banner, central quote text block, and bottom left testimonial panel."
   ],
   [
     "Screenshot 2026-05-03 at 1.06.11 PM.png",
-    "Screenshot 05 03 At 1.06.11 PM",
-    "Linear",
+    "Is cortisol burning you out?",
+    "Notion",
     "Productivity",
     "Static",
-    "static productivity ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "Vertical 4:5 canvas with centered top-aligned two-line text and horizontally arranged single row of 10 evenly spaced matchsticks below."
   ],
   [
     "ShipAISocial01-Minimalpng.jpeg",
-    "ShipAISocial01 Minimal",
-    "Cursor",
-    "Devtools",
-    "Meta",
-    "meta devtools ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "Ship Faster. Scale Smarter. Ship AI",
+    "Vercel",
+    "AI",
+    "Static",
+    "Centered single column vertical stack with scattered vertical bars around edges"
   ],
   [
     "SlipFall_4x5_1bpng.jpeg",
-    "SlipFall 1b",
+    "Accidents happen. Answers matter.",
     "Linear",
-    "Productivity",
+    "Security",
     "LinkedIn",
-    "linkedin productivity ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "Split vertical 4:5 with text left and video feed right, symmetrical spacing, clear visual hierarchy"
   ],
   [
     "SocialPost-Mastercard1png.jpeg",
-    "SocialPost Mastercard1",
+    "Join us in person for a breakout session with Mastercard",
     "Stripe",
     "Fintech",
-    "Meta",
-    "meta fintech ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "Static",
+    "Large headline top-left, smaller secondary text below, minimal bottom-left and bottom-right logos, large empty gradient background"
   ],
   [
     "State_of_vibe_codingpng.jpeg",
-    "State Of Vibe Coding",
-    "Cursor",
-    "Devtools",
-    "Launch",
-    "report-led devtools ad with a clear document artifact, concise headline, and premium thought-leadership framing"
+    "The State of Vibe Coding",
+    "Notion",
+    "Productivity",
+    "Static",
+    "Vertical square format with top-left aligned stacked headline and bottom area cluster"
   ],
   [
     "StaticAd-1080x1080-KV01-2png.jpeg",
-    "K 2",
-    "Linear",
+    "Figma helps Peloton speed up design handoff by 5x.",
+    "Figma",
     "Productivity",
-    "Meta",
-    "meta productivity ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "Static",
+    "Vertical 4:5 rectangle with three primary grouped objects: top right logo mark, left-justified large quote text with bold emphasis in upper portion, brand logo below quote, and CTA button aligned bottom left."
   ],
   [
     "StaticAd1_1x1_Q325_GetReal2AI_PaidSocialpng.jpeg",
-    "X1 GetReal2AI Social",
-    "Claude",
-    "AI",
-    "Meta",
-    "meta ai ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "How reliant are marketers on AI?",
+    "Notion",
+    "Productivity",
+    "Static",
+    "Vertical centered alignment with distinct zones: brand tagline top, headline below, segmented bar in middle, legend below bar, brand logo bottom-left, CTA bottom-right."
   ],
   [
     "StaticAd2_1x1_Q325_GetReal2AI_PaidSocialpng.jpeg",
-    "2 GetReal2AI Social",
-    "Claude",
-    "AI",
-    "Meta",
-    "meta ai ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "get real",
+    "Notion",
+    "Productivity",
+    "LinkedIn",
+    "Two stacked horizontal panels with each split half and centered headline top, bottom footer branding and CTA."
   ],
   [
     "Stillrunninggatedcontent1png.jpeg",
-    "Stillrunninggatedcontent1",
+    "Our ads will blow your mind.",
     "Notion",
     "Productivity",
     "Static",
-    "direct-response productivity ad with a bold claim, simple visual hierarchy, and conversion-oriented restraint"
+    "Asymmetrical balance with text block on upper left and winding curved ribbon flowing from top right to lower right corner, sweeping left near bottom."
   ],
   [
     "Stillrunninggatedcontent2png.jpeg",
-    "Stillrunninggatedcontent2",
-    "Notion",
-    "Productivity",
+    "Our ads will blow your mind.",
+    "Ramp",
+    "Fintech",
     "Static",
-    "direct-response productivity ad with a bold claim, simple visual hierarchy, and conversion-oriented restraint"
+    "Two main sections: left dominated by large stacked text, right dominated by big half-planet graphic overlapping text baseline."
   ],
   [
     "Stripe_StateOfAiEconomy_Static_Bolt_UserStories_V1_EN-US_1080x1080_2xjpg.jpeg",
-    "Stripe StateOfAiEconomy Bolt UserStories EN US",
+    "Bolt soared to $20M in revenue in 2 months",
     "Stripe",
     "Fintech",
-    "Meta",
-    "report-led fintech ad with a clear document artifact, concise headline, and premium thought-leadership framing"
+    "Static",
+    "Top-left white rounded rectangle container with layered text, floating over vibrant blurred gradient background occupying entire square canvas."
   ],
   [
     "Stripe_StateOfAiEconomy_Static_Loveable_UserStories_V1_EN-US_1080x1080_2xjpg.jpeg",
-    "Stripe StateOfAiEconomy Loveable UserStories EN US",
+    "Lovable reached $17M in ARR in 3 months",
     "Stripe",
     "Fintech",
-    "Meta",
-    "report-led fintech ad with a clear document artifact, concise headline, and premium thought-leadership framing"
+    "Static",
+    "Vertical layout with top-left aligned text elements and a dominant colorful block filling the lower half"
   ],
   [
     "SuperchargeyourERPpng.jpeg",
-    "SuperchargeyourERP",
-    "Stripe",
+    "Supercharge your ERP",
+    "Figma",
     "Fintech",
     "Static",
-    "static fintech ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "Centered main content with top and bottom balanced elements, two corner accents diagonally opposed for dynamic framing."
+  ],
+  [
+    "Symbolism_nonprofit_expense-management_folders_4x5jpg.jpeg",
+    "Still tracking your program expenses the old way?",
+    "Ramp",
+    "Fintech",
+    "Static",
+    "Vertical centered stack with foreground object overlay"
   ],
   [
     "T1-yellow-1png.jpeg",
-    "T1 Yellow 1",
-    "Linear",
-    "Productivity",
+    "Zero Trust Access for Game Studios",
+    "Ramp",
+    "Security",
     "Static",
-    "static productivity ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "Top-left aligned headline and subheadline, right side download widget, vertical platform icons to widget right, bottom-right CTA button"
   ],
   [
     "TSP_PMax_1200x1200px_9jpg.jpeg",
-    "TSP PMax Px 9",
-    "Linear",
-    "Productivity",
-    "Meta",
-    "meta productivity ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "IT Built For Growth",
+    "Ramp",
+    "Fintech",
+    "Static",
+    "Asymmetrical balanced layout with top-left logo and text block, bottom left large hand pressing button, bottom right dynamic figure on paper rocket creating diagonal energy."
   ],
   [
     "Tabflows_LI_square_no_borderpng.jpeg",
-    "Tabflows LI No Border",
-    "Stripe",
+    "You left the insurance system.",
+    "Notion",
     "Fintech",
-    "LinkedIn",
-    "linkedin fintech ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "Static",
+    "One-quarter text block top left, one-quarter object bottom right, ample negative space surrounding both elements."
   ],
   [
     "Testimonials_Stilljpg.jpeg",
-    "Testimonials Still",
-    "Superhuman",
+    "We're trusted by the world's leading tech companies to help them innovate their product offering.",
+    "Ramp",
     "Productivity",
     "Static",
-    "customer-proof productivity ad with a testimonial structure, one proof line, and restrained brand framing"
+    "Top two-thirds large left-aligned headline white text, bottom third a centered symmetrical 2x5 grid of white squares containing colorful flat logos, bottom right a small white monogram."
   ],
   [
     "Theme_NA_Photography_NA_Static_NA_Effects2026-C5-dictionary-1080x1080png.jpeg",
-    "Theme NA Photography NA NA Effects C5",
-    "Figma",
-    "Collaboration",
-    "Meta",
-    "meta collaboration ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "Intelligent finance",
+    "Ramp",
+    "Fintech",
+    "Carousel",
+    "Single magazine page framed closely with a slight curve on the left edge showing binding spine. Text blocks arranged top left to center, bottom third gradient background"
   ],
   [
     "TwitterPost_CFOAIpng.jpeg",
