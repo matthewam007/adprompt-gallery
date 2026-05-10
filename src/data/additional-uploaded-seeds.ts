@@ -2,6 +2,14 @@ import type { UploadedSeed } from "@/data/creatives";
 
 export const additionalUploadedSeeds: UploadedSeed[] = [
   [
+    "0093b098f960b16b4c2cdcf60cdc8f50.jpg",
+    "Choose a bank that's closer to you.",
+    "Ramp",
+    "Fintech",
+    "Static",
+    "Centered vertical stack with clear hierarchy: logo and brand top, icon center, headline beneath icon, CTA at bottom."
+  ],
+  [
     "01-Static-GatedStories-Brand-28_04_26-4x5png.jpeg",
     "FLORA moves faster with full design control",
     "Figma",
@@ -18,12 +26,36 @@ export const additionalUploadedSeeds: UploadedSeed[] = [
     "Centered vertical alignment with logo and headline stacked top center, table directly below filling width with consistent margins."
   ],
   [
+    "044c09d3fbaf86d4acbc5354581aba98.jpg",
+    "What's NOW What's NEXT",
+    "Notion",
+    "Productivity",
+    "Static",
+    "Horizontal layout with a central horizon gradient band and converging perspective lines from bottom center outward to top edges. Text inside a right-aligned speech bubble near horizon line. Cursor icon below bubble."
+  ],
+  [
     "0aa97867b7e4292895b82461cb7b5ecd.jpg",
     "Managing leads here again?",
     "Notion",
     "Productivity",
     "Static",
     "Centered spreadsheet window occupying roughly 70% width and 60% height of a 4:3 canvas, green background doubling as body and footer area with a horizontal band at bottom for tagline."
+  ],
+  [
+    "0b416699a0382b1a3fc7be66f8d95f7a.jpg",
+    "Can it wait?",
+    "Notion",
+    "Productivity",
+    "Static",
+    "Vertical center-aligned with emphasis on single object and top-aligned text"
+  ],
+  [
+    "0f4ac3e9d1be3c503bafa8f5ff7747eb.jpg",
+    "Don't miss praying hours.",
+    "Notion",
+    "Productivity",
+    "Static",
+    "Centered, vertical layout, symmetric with four horizontal zones: headline, subtitle, brand, product."
   ],
   [
     "100-Gartner-CriticalCapabilitiesMarketingReportLI_1200x12002apng.jpeg",
@@ -80,6 +112,14 @@ export const additionalUploadedSeeds: UploadedSeed[] = [
     "Fintech",
     "Static",
     "Vertical 1:1 layout with top logo, central icons and arrows, headline below, CTA button beneath headline, and footer label at bottom center."
+  ],
+  [
+    "10f30b3b9121973d8648db069e6e45ba.jpg",
+    "All together now.",
+    "Notion",
+    "Collaboration",
+    "Static",
+    "Centered vertical layout with top-right brand logo, top-left aligned headline and subhead, central circular meeting scene with background landmarks, bottom-aligned product logo and app icons left, URL right."
   ],
   [
     "111-LinkedInads-Option1-Copy16png2jfif.jpeg",
@@ -144,6 +184,14 @@ export const additionalUploadedSeeds: UploadedSeed[] = [
     "Productivity",
     "Static",
     "Centered vertical stack with balanced side elements; top left stacked badges, top right stacked file icons, bottom left cluster of colorful app icons, bottom right small acceptance box."
+  ],
+  [
+    "14472b12c8bfd218d8df8c7110b0e7cd.jpg",
+    "What if your business was just bread?",
+    "Ramp",
+    "Productivity",
+    "Static",
+    "Centered with top-aligned headline, horizontal bread row in center, text blocks spaced vertically"
   ],
   [
     "15cSpendtimeoncareNottabsLinkedInSquare1080x10802xpng.jpeg",
@@ -346,6 +394,14 @@ export const additionalUploadedSeeds: UploadedSeed[] = [
     "Single-column with vertical bar chart occupying lower three-fourths. Headline and subheadline top-left. Vertical rotated y-axis label along left margin. Brand icon top-right."
   ],
   [
+    "1776438442718.jpeg",
+    "5% of Vituity's budget is hiding in spend you can't see",
+    "Ramp",
+    "Fintech",
+    "Static",
+    "Symmetrical balance with text occupying left half vertically centered and paper object placed lower right balancing visual weight."
+  ],
+  [
     "1776790572150.jpeg",
     "Whatnot's next seismic shift is here",
     "Stripe",
@@ -418,12 +474,36 @@ export const additionalUploadedSeeds: UploadedSeed[] = [
     "Square 1:1 crop. Brand logo top-left, headline left aligned below it, subject cropped right holding laptop in foreground. Background blurred warm kitchen."
   ],
   [
+    "218b3a1c5a0852445219848b067457d9.jpg",
+    "“Hello” Good Buy.",
+    "Notion",
+    "Productivity",
+    "Static",
+    "Triangular arrangement of three cordless phones centered slightly below midline, headline top center, subheadline below phones center, body copy below subheadline, callout box bottom right, portrait and brand logo bottom left."
+  ],
+  [
     "2418cef2ac00d68ecde3e214a7f01c4f.jpg",
     "We Asked People to Draw Ketchup. They Drew Heinz.",
     "Ramp",
     "Fintech",
     "Static",
     "Centered vertical composition with top-aligned headline, central hand-drawn object, and bottom logo with tagline."
+  ],
+  [
+    "249cdf1ff87952eb2893732096630f06.jpg",
+    "OVERTHINKING   DOING",
+    "Notion",
+    "Productivity",
+    "Static",
+    "Horizontal split with two objects side by side near top third, each topped by large text, signature centered bottom."
+  ],
+  [
+    "2719756e4f518acf5f3ad1c27e605c6b.jpg",
+    "I hope you found this useful!",
+    "Notion",
+    "Productivity",
+    "Static",
+    "Centered headline under small circular headshot within a large inverted trapezoid white area, framed by mustard envelope shape background, colorful overlapping circles clustered below text inside white area, three small bottom aligned text lines spaced left to right on yellow background."
   ],
   [
     "2ec7f472fe6659a3e9be6e33e9beb604.jpg",
@@ -450,6 +530,14 @@ export const additionalUploadedSeeds: UploadedSeed[] = [
     "Centered text near top third with curved foam across bottom quarter, minimal use of elements"
   ],
   [
+    "321cef8f4527a80c13679aeb29a2938b.jpg",
+    "Before AI",
+    "Notion",
+    "Productivity",
+    "Static",
+    "Vertical center alignment with strong white space and minimal elements: large pencil at bottom center, headline above center, ellipse partially overlapping pencil tip."
+  ],
+  [
     "326d02c2f5111329cc66a7ad720c369d.jpg",
     "learning a language is f🪛🔥ing hard. that's why we made it f🍦🌼❤️ing fun.",
     "Notion",
@@ -466,12 +554,36 @@ export const additionalUploadedSeeds: UploadedSeed[] = [
     "Vertical, three horizontal sections: top banner with headline, middle large burnt toast image, bottom corner elements."
   ],
   [
+    "397a3f9dba40a09676c94666b14daf0c.jpg",
+    "Apple announces a technological breakthrough of incredible proportions.",
+    "Notion",
+    "Productivity",
+    "Static",
+    "Vertical layout with centered device horizontally, balanced by hands framing it vertically, headline text occupying top third, large whitespace margins."
+  ],
+  [
     "3am-onlycallthatdoesntcome-1080x1080png.jpeg",
     "Secure your downtime",
     "Stripe",
     "Security",
     "Static",
     "Left-aligned text block with bottom-left and bottom-right small text elements on solid background."
+  ],
+  [
+    "3b8321a23dd57d1cf5d605bd538d8523.jpg",
+    "Change is possible. Hope is power.",
+    "Notion",
+    "Collaboration",
+    "Static",
+    "Asymmetrical vertical layout with dominant top-left textual content and small visual accent below heading; bottom right brand signature provides balance."
+  ],
+  [
+    "416HmyoFPZL._SY445_SX342_FMwebp_.webp",
+    "mood and trope",
+    "Notion",
+    "Productivity",
+    "Static",
+    "Grid of 16 dots arranged evenly in 4 rows and 4 columns with generous margins and negative space."
   ],
   [
     "4531dace2479577d2b03d23834e2cddd.jpg",
@@ -482,12 +594,36 @@ export const additionalUploadedSeeds: UploadedSeed[] = [
     "Vertical 3:4 layout with headline occupying top left 40% vertical space, product image centered below headline near lower third vertically, body copy under product image, and small tagline centered at bottom."
   ],
   [
+    "45c9f3d8ab2997ac1eeb66137a48e14b.jpg",
+    "THE NEW YORKER",
+    "Notion",
+    "Productivity",
+    "Static",
+    "Vertical with heavy use of negative space. Top centered title balanced by tiny figure near bottom center and small text elements on top left and right. Artist signature bottom right corner for subtle visual anchor."
+  ],
+  [
+    "48f36c55713443d5366c01044ef07ffd.jpg",
+    "What you don't hear is just as important.",
+    "Superhuman",
+    "Productivity",
+    "Static",
+    "Single object (headphone) hanging top center, headline below spanning middle width, subtext below headline, small logo and tagline centered at bottom. Vertical hierarchy with large negative space."
+  ],
+  [
     "534a5a5f-8d06-4e18-b1a9-1f08c4ef0ceapng.jpeg",
     "From data silos to unified decisions",
     "Notion",
     "Productivity",
     "Static",
     "Centered 3D cube in lower half, headline above center, brand wordmark top center"
+  ],
+  [
+    "5768f7a06cfc40f43099c8fe0f81900f.jpg",
+    "What's the matter, don't you get it?",
+    "Notion",
+    "Productivity",
+    "Static",
+    "Central vertical alignment with newspaper image near top center, headline left-aligned below, subscription line under headline with balanced margins."
   ],
   [
     "595518c8fbea2515c5b41242fd618676.jpg",
@@ -522,6 +658,94 @@ export const additionalUploadedSeeds: UploadedSeed[] = [
     "Vertical 4:5, top-left aligned large headline stacked in four lines, mid-lower centered vehicle image, lower third small text block, logos bottom corners horizontally aligned."
   ],
   [
+    "6a8edc666000fe7a45cd839a7b5dd5fc.jpg",
+    "Doing Anything, But Crash",
+    "Ramp",
+    "Fintech",
+    "Static",
+    "Diagonal dynamic asymmetry with focal car on lower left and headline balancing top right, racing stripes lead eye through image"
+  ],
+  [
+    "6b25ecc2576e542dd088710e4a137877.jpg",
+    "Pan Am. First In Space.",
+    "Ramp",
+    "Productivity",
+    "Static",
+    "Vertical layout with top black bar, centered headline, followed by centered horizontal photo, then three columns of body text, and logo with slogan bottom left."
+  ],
+  [
+    "6eaf61c03f3ee91092e0e1720693dd90.jpg",
+    "Never run out of design inspiration again.",
+    "Notion",
+    "Productivity",
+    "Static",
+    "Vertical layout, white background with large text block top left, subline beneath, brand logo centered at bottom with colorful icons overlapping text."
+  ],
+  [
+    "6f87b4be5be61f4e1e1d3d7545844ce0.jpg",
+    "Innovation Doesn't Carry The Weight It Once Carried.",
+    "Ramp",
+    "Productivity",
+    "Static",
+    "Vertical poster, headline top 40%, shoe centered below headline mid to lower frame, text block beneath shoe, logo bottom right."
+  ],
+  [
+    "6fb9cb1f07ac0fc4f531f2dd800846ef.jpg",
+    "All hands on doc.",
+    "Notion",
+    "Collaboration",
+    "Static",
+    "Vertical 4:5 canvas with a top-left aligned headline and subheadline, central large tablet near bottom center, surrounded by five simple black & white businessperson illustrations interacting with the device, and brand elements aligned bottom horizontally."
+  ],
+  [
+    "7021fd8489e39d3d1a91b16e7c5c3494.jpg",
+    "How to design successful automated emails.",
+    "Notion",
+    "Productivity",
+    "Static",
+    "Centered vertical layout with brand icon and name at top, large headline below centered, bold hand-drawn illustration at bottom center, generous white space separating elements."
+  ],
+  [
+    "731edbf67b90c2b965cfef2e20ceed25.jpg",
+    "BOEING 727-227",
+    "Notion",
+    "Productivity",
+    "Static",
+    "Centered vertical stacking with top headline, central diagonal ascending multi-colored shapes, and bottom branding block."
+  ],
+  [
+    "7355b4b72a9780d4d228810b95825357.jpg",
+    "How To Save and Invest Money",
+    "Ramp",
+    "Fintech",
+    "Static",
+    "Vertical split: top left text cluster, bottom area coin stacks arranged in balanced groups, plus minor graphic accents near text."
+  ],
+  [
+    "784994f5b2c0cc2d1906ca8f9260b8fb.jpg",
+    "this. works",
+    "Notion",
+    "Productivity",
+    "Static",
+    "Vertical stacking of five staggered horizontal tabs filling lower two thirds of frame."
+  ],
+  [
+    "7e75ff60f27e79545d8d6a3b1a39feb9.jpg",
+    "Books make us better.",
+    "Notion",
+    "Productivity",
+    "Static",
+    "Vertical 2 equal halves split, left bright red, right pastel pink, left text dominant, right large illustration with CTA above fingertip, small tagline top-right"
+  ],
+  [
+    "815a07125bfc808a0f1ea092c55d70ff.jpg",
+    "How to civilize 7 a.m.",
+    "Ramp",
+    "Fintech",
+    "Static",
+    "Top-down flat lay with three main elements forming a loose triangle: cup top center, newspaper left side, coffee container bottom right, wristwatch top right. Text overlays integrated centrally and bottom."
+  ],
+  [
     "84d5e68506f5cb068d1a77b754aa7034.jpg",
     "LEAVE WORK AT WORK",
     "Notion",
@@ -554,12 +778,36 @@ export const additionalUploadedSeeds: UploadedSeed[] = [
     "Vertical stack with top-centered headline, large horizontal pile of phones in center, app icon bottom center."
   ],
   [
+    "8c5fa791eb97799587f9b7889c323f6c.jpg",
+    "Small Deeds Done Right.",
+    "Notion",
+    "Productivity",
+    "Static",
+    "Top third dominated by large left-aligned serif headline. Middle area features four floating objects arranged asymmetrically but balanced: ruler diagonally crossing headline, scissors at left bottom, pencil vertical right, floppy disk bottom right. Small bird icon near headline right. Bottom quarter dedicated to text blocks and minimal info lines. All elements separated by generous negative space."
+  ],
+  [
     "8d6b53d73d76c2fc5d2bec035e34f1a1.jpg",
     "A life full of energy is calling ...",
     "Superhuman",
     "Fintech",
     "Static",
     "Vertical center alignment with three textual zones: headline top, product image center, CTA bar bottom, and fine print below."
+  ],
+  [
+    "8e050094f860b3fdf0a57ac4c65ed8f4.jpg",
+    "The design files.",
+    "Notion",
+    "Productivity",
+    "Static",
+    "Centered stack of dot grid paper clipped top-left on bright yellow folder on warm wood surface, vertical 4:5 ratio."
+  ],
+  [
+    "8e5e6588fbf3a1215ca7085d4410fa9f.jpg",
+    "How to read a banana.",
+    "Notion",
+    "Productivity",
+    "Static",
+    "A single ripe banana vertically centered right on a white background, surrounded by five callouts connected with thin black lines to key banana parts. Headline large and center-top, brand name bottom right."
   ],
   [
     "90_languagespng.jpeg",
@@ -576,6 +824,46 @@ export const additionalUploadedSeeds: UploadedSeed[] = [
     "Fintech",
     "Static",
     "Vertical layout with left-aligned stacked phones, top right headline, bottom right app icon"
+  ],
+  [
+    "961b1e9164941744026b739f9d0bf6d8.jpg",
+    "If you can point, you can use a MacPlus",
+    "Notion",
+    "Productivity",
+    "Static",
+    "Vertical portrait, three planes: foreground (hand & mouse), midground (keyboard), background (monitor). Headline top left, logo top right. Balanced white negative space."
+  ],
+  [
+    "973ee197ac7f806c6223a16857c9e8e9.jpg",
+    "Very, Very Smart.",
+    "Notion",
+    "Productivity",
+    "Static",
+    "Vertical portrait with three primary horizontal zones: headline top third, product center, copy bottom third. Symmetrical composition with main product centered, keyboard in foreground."
+  ],
+  [
+    "9941495476bd0631eea5bd2497dd461d.jpg",
+    "Ever since I was a small child I knew I Wanted to be indoors on the Computer",
+    "Ramp",
+    "Productivity",
+    "Static",
+    "Centered composition with symmetrical alignment vertically. Main computer image mid-lower area, headline upper central, footer along bottom margin."
+  ],
+  [
+    "9992b011e3691f76220dbff2f5eeb432.jpg",
+    "Trains of thought departing daily.",
+    "Notion",
+    "Productivity",
+    "Static",
+    "Vertical layout with top heavy headline and bottom close-up object"
+  ],
+  [
+    "9b242efcd5af4639bb6ca8bb60d34160.jpg",
+    "MORE PULL",
+    "Notion",
+    "Productivity",
+    "Static",
+    "Balanced asymmetry with main subject (vehicle) on right, crease and rope on left, centered vertically. Bottom banner spanning full width."
   ],
   [
     "9bc739a8a6cec13056402a6be0c191ac.jpg",
@@ -866,6 +1154,14 @@ export const additionalUploadedSeeds: UploadedSeed[] = [
     "Two-zone vertical division: top black header with logo and large headline left aligned; bottom lilac grid with symmetrical geometric abstraction centered horizontally, balanced and symmetrical focused."
   ],
   [
+    "Ent-Finance_Implementation_logo-proof-fun_1x1jpg.jpeg",
+    "FINANCE TEAMS REPORT IMPLEMENTATION THAT TOOK WEEKS, NOT MONTHS",
+    "Ramp",
+    "Fintech",
+    "Static",
+    "Centered folded newspaper on vibrant yellow solid background, angled slightly, filling most of frame"
+  ],
+  [
     "FEAd-12jpg.jpeg",
     "30 hours of work saved in just 30 seconds.",
     "Notion",
@@ -891,107 +1187,107 @@ export const additionalUploadedSeeds: UploadedSeed[] = [
   ],
   [
     "Finserve_Buyer_Angle02_Linkedin_1200x1200png.jpeg",
-    "Finserve Buyer Angle02",
-    "Linear",
+    "Dashboards show issues. Retool acts on them.",
+    "Notion",
     "Productivity",
-    "LinkedIn",
-    "comparison ad with two clear choices, one decisive product truth, and minimal visual clutter"
+    "Static",
+    "Vertical rectangular layout with top-left branding and headline, centered floating isometric dashboard graphic, and bottom-centered CTA button."
   ],
   [
     "Frame1739334701png.jpeg",
-    "Frame",
-    "Linear",
-    "Productivity",
+    "Self-funded and seeing claims rise?",
+    "Notion",
+    "Fintech",
     "Static",
-    "static productivity ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "Two-column grid with left text cluster and right vertical bar chart"
   ],
   [
     "Frame85png.jpeg",
-    "Frame85",
-    "Linear",
+    "POSTHOG FEELS LIKE SOMEBODY LEFT ME A FREE PORSCHE 911 IN MY GARAGE EVERY MORNING.",
+    "Ramp",
     "Productivity",
-    "Static",
-    "static productivity ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "LinkedIn",
+    "Horizontal wide rectangle with clear sections: top-left logo block on cream, large magenta quote block to the right occupying top two-thirds, bottom right sports car and mascot overlapping quote block, handwritten text bottom left on cream background."
   ],
   [
     "Franken-techstack1png.jpeg",
-    "Franken Techstack1",
-    "Cursor",
-    "Devtools",
+    "Beware the Franken-tech stack.",
+    "Ramp",
+    "Fintech",
     "Static",
-    "illustrated devtools ad built around a single metaphor, simple composition, and direct copy"
+    "Two-column balanced layout with left text column and right large illustration, strong negative space on all edges."
   ],
   [
     "Fromvisualcontexttocode-webinar_1080x1350-02-2png.jpeg",
-    "Fromvisualcontexttocode Webinar 02 2",
-    "Cursor",
-    "Devtools",
-    "LinkedIn",
-    "illustrated devtools ad built around a single metaphor, simple composition, and direct copy"
+    "YOUR BEST CONTEXT IS INVISIBLE TO YOUR AI",
+    "Notion",
+    "Collaboration",
+    "Static",
+    "Centered headline with grid background, bottom corners reserved for brand and CTA, balanced and minimal"
   ],
   [
     "G-MST-0_1200x1200_SI_APAC-EN_CNCpng.jpeg",
-    "G MST 0 SI APAC EN CNC",
-    "Linear",
-    "Productivity",
-    "Meta",
-    "meta productivity ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "CxO guide to accelerate AI adoption while managing risk",
+    "Stripe",
+    "Security",
+    "Static",
+    "Top-left aligned headline with left-aligned CTA below, balanced by a detailed illustrated shield icon cluster bottom right and logo bottom left."
   ],
   [
     "G-OFAqYbEAAChmz.jpeg",
-    "G OFAqYbEAAChmz",
-    "Linear",
+    "Highlight the remarkable",
+    "Superhuman",
     "Productivity",
     "Static",
-    "static productivity ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "Vertical/portrait layout with three vertical zones: top text area (~1/3 height), bottom photo zone (~2/3 height), and a vertical highlight stroke connecting top margin to photo detail."
   ],
   [
     "G-yjivaaQAALYPS.png",
-    "G YjivaaQAALYPS",
-    "Linear",
+    "Highlight the difference",
+    "Notion",
     "Productivity",
     "Static",
-    "static productivity ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "Vertical layout with two main zones: dense text block occupying top ~80%, horizontal object (pen) at bottom ~15%, both centered horizontally."
   ],
   [
     "G4G53XRbQAA7t-h.png",
-    "G4G53XRbQAA7t H",
-    "Linear",
-    "Productivity",
+    "If you were negotiating here tomorrow you'd wear a Luxor",
+    "Ramp",
+    "Fintech",
     "Static",
-    "static productivity ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "Vertical layout with strong typographic hierarchy: large headline top left, wide panoramic photo centered beneath, secondary headline bottom left, watch close-up bottom right, balanced margins all around."
   ],
   [
     "G4Ra3h0bEAAs4pZ.png",
-    "G4Ra3h0bEAAs4pZ",
-    "Linear",
-    "Productivity",
+    "It takes 3.1 seconds to read this ad.",
+    "Superhuman",
+    "Fintech",
     "Static",
-    "static productivity ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "Centered vertical layout with three main zones: headline area top-center, motion-blurred car mid-center spanning width, logo bottom-center."
   ],
   [
     "G4YSOw5b0AATktC.png",
-    "G4YSOw5b0AATktC",
-    "Linear",
-    "Productivity",
+    "To put a few time zones between me and the annual report.",
+    "Superhuman",
+    "Fintech",
     "Static",
-    "static productivity ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "Vertical split with emphasis on top-left content and bottom-left branding. Large empty negative space dominates right and center vertical areas."
   ],
   [
     "G4gcFFYa8AA1gOp.png",
-    "G4gcFFYa8AA1gOp",
-    "Linear",
+    "“I never read The Economist.”",
+    "Notion",
     "Productivity",
     "Static",
-    "static productivity ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "Centered vertical alignment with two typographic elements stacked: a large quote then a smaller attribution beneath, vertically spaced."
   ],
   [
     "G5UXcyHbwAAaQPu.png",
-    "G5UXcyHbwAAaQPu",
-    "Linear",
-    "Productivity",
+    "Picks up five times more women than a Lamborghini.",
+    "Ramp",
+    "Fintech",
     "Static",
-    "static productivity ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "Vertical layout, 4:5 aspect ratio, headline top left, large image centered mid-lower, copy block below image, vertical brand strip on right edge."
   ],
   [
     "G5gYfG-aIAAkajI.png",

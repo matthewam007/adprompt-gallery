@@ -1,8 +1,67 @@
 [
   {
     "id": "uploaded-1",
+    "title": "Choose a bank that's closer to you.",
+    "slug": "uploaded-1-choose-a-bank-that-s-closer-to-you",
+    "brandInspiration": "Ramp",
+    "industry": "Fintech",
+    "format": "Static",
+    "visualStyleTags": [
+      "minimal",
+      "clean",
+      "modern",
+      "flat design",
+      "isometric iconography",
+      "fintech",
+      "approachable"
+    ],
+    "premium": false,
+    "image": "/ads/0093b098f960b16b4c2cdcf60cdc8f50.jpg",
+    "shortDescription": "Minimalist fintech ad with a simple blue wallet illustration, clean typography, and a vibrant call-to-action button on a soft blue background.",
+    "whyItWorks": "",
+    "structureNotes": "",
+    "fullPrompt": "",
+    "reconstructionPrompt": "",
+    "remixPrompt": "",
+    "editableVariables": [],
+    "negativePrompt": "",
+    "recommendedModel": "",
+    "aspectRatio": "4:5",
+    "remixNotes": [],
+    "promptQuality": {
+      "exactness": 8,
+      "editability": 9,
+      "brandSafety": 10,
+      "confidenceNote": "This blueprint offers strong specificity in layout, color, typography, and iconography to reliably recreate the ad’s structure and mood with moderate tweaking possible for brand customization."
+    },
+    "visualBlueprint": {
+      "composition": "",
+      "typography": "",
+      "palette": [],
+      "subject": "",
+      "layout": "",
+      "styleTags": [
+        "minimal",
+        "clean",
+        "modern",
+        "flat design",
+        "isometric iconography",
+        "fintech",
+        "approachable"
+      ]
+    },
+    "visual": {
+      "headline": "Choose a bank that's closer to you.",
+      "subline": "",
+      "background": "#f5efe6",
+      "accent": "#7a5c38",
+      "motif": "docs"
+    }
+  },
+  {
+    "id": "uploaded-2",
     "title": "FLORA moves faster with full design control",
-    "slug": "uploaded-1-flora-moves-faster-with-full-design-control",
+    "slug": "uploaded-2-flora-moves-faster-with-full-design-control",
     "brandInspiration": "Figma",
     "industry": "Productivity",
     "format": "Static",
@@ -17,7 +76,7 @@
       "clean",
       "balanced"
     ],
-    "premium": false,
+    "premium": true,
     "image": "/ads/01-Static-GatedStories-Brand-28_04_26-4x5png.jpeg",
     "shortDescription": "A tech software ad featuring a sleek dark-mode UI on a widescreen monitor on a desktop setup, emphasizing speed and design control for a product called FLORA.",
     "whyItWorks": "",
@@ -63,9 +122,9 @@
     }
   },
   {
-    "id": "uploaded-2",
+    "id": "uploaded-3",
     "title": "Get up to 80% off Attio Pro.",
-    "slug": "uploaded-2-get-up-to-80-off-attio-pro",
+    "slug": "uploaded-3-get-up-to-80-off-attio-pro",
     "brandInspiration": "Notion",
     "industry": "Productivity",
     "format": "Static",
@@ -122,9 +181,68 @@
     }
   },
   {
-    "id": "uploaded-3",
+    "id": "uploaded-4",
+    "title": "What's NOW What's NEXT",
+    "slug": "uploaded-4-what-s-now-what-s-next",
+    "brandInspiration": "Notion",
+    "industry": "Productivity",
+    "format": "Static",
+    "visualStyleTags": [
+      "minimalist",
+      "tech",
+      "modern",
+      "flat",
+      "clean",
+      "abstract",
+      "productive"
+    ],
+    "premium": true,
+    "image": "/ads/044c09d3fbaf86d4acbc5354581aba98.jpg",
+    "shortDescription": "Minimalist digital ad featuring a gradient horizon intersected by converging lines with a speech bubble and arrow cursor.",
+    "whyItWorks": "",
+    "structureNotes": "",
+    "fullPrompt": "",
+    "reconstructionPrompt": "",
+    "remixPrompt": "",
+    "editableVariables": [],
+    "negativePrompt": "",
+    "recommendedModel": "",
+    "aspectRatio": "16:9",
+    "remixNotes": [],
+    "promptQuality": {
+      "exactness": 7,
+      "editability": 8,
+      "brandSafety": 10,
+      "confidenceNote": "The prompt captures key structural and stylistic elements to produce a visually close ad sibling. Some exact font and gradient blends may require tuning, but the overall geometry, color zones, and layout are robustly described."
+    },
+    "visualBlueprint": {
+      "composition": "",
+      "typography": "",
+      "palette": [],
+      "subject": "",
+      "layout": "",
+      "styleTags": [
+        "minimalist",
+        "tech",
+        "modern",
+        "flat",
+        "clean",
+        "abstract",
+        "productive"
+      ]
+    },
+    "visual": {
+      "headline": "What's NOW What's NEXT",
+      "subline": "",
+      "background": "#f5efe6",
+      "accent": "#7a5c38",
+      "motif": "docs"
+    }
+  },
+  {
+    "id": "uploaded-5",
     "title": "Managing leads here again?",
-    "slug": "uploaded-3-managing-leads-here-again",
+    "slug": "uploaded-5-managing-leads-here-again",
     "brandInspiration": "Notion",
     "industry": "Productivity",
     "format": "Static",
@@ -137,7 +255,7 @@
       "cutout heads",
       "sans serif typography"
     ],
-    "premium": true,
+    "premium": false,
     "image": "/ads/0aa97867b7e4292895b82461cb7b5ecd.jpg",
     "shortDescription": "A green-themed ad shows a fake spreadsheet interface with a bold headline and three expressive emotive faces placed inside the sheet, plus a small call to action at the bottom.",
     "whyItWorks": "",
@@ -181,9 +299,125 @@
     }
   },
   {
-    "id": "uploaded-4",
+    "id": "uploaded-6",
+    "title": "Can it wait?",
+    "slug": "uploaded-6-can-it-wait",
+    "brandInspiration": "Notion",
+    "industry": "Productivity",
+    "format": "Static",
+    "visualStyleTags": [
+      "minimalist",
+      "elegant",
+      "calm",
+      "refined",
+      "productivity",
+      "paper-organization"
+    ],
+    "premium": true,
+    "image": "/ads/0b416699a0382b1a3fc7be66f8d95f7a.jpg",
+    "shortDescription": "A minimal, refined ad featuring a pile of diverse documents stuffed into a brown manila folder against a smooth gradient background, topped with a softly elegant serif headline and a concise subtitle.",
+    "whyItWorks": "",
+    "structureNotes": "",
+    "fullPrompt": "",
+    "reconstructionPrompt": "",
+    "remixPrompt": "",
+    "editableVariables": [],
+    "negativePrompt": "",
+    "recommendedModel": "",
+    "aspectRatio": "4:5",
+    "remixNotes": [],
+    "promptQuality": {
+      "exactness": 8,
+      "editability": 9,
+      "brandSafety": 10,
+      "confidenceNote": "The prompt is detailed and focused on key visual and typographic elements, which should yield a close composition and style match. Minor variations in paper arrangement and lighting are possible but do not detract from overall fidelity."
+    },
+    "visualBlueprint": {
+      "composition": "",
+      "typography": "",
+      "palette": [],
+      "subject": "",
+      "layout": "",
+      "styleTags": [
+        "minimalist",
+        "elegant",
+        "calm",
+        "refined",
+        "productivity",
+        "paper-organization"
+      ]
+    },
+    "visual": {
+      "headline": "Can it wait?",
+      "subline": "",
+      "background": "#f5efe6",
+      "accent": "#7a5c38",
+      "motif": "docs"
+    }
+  },
+  {
+    "id": "uploaded-7",
+    "title": "Don't miss praying hours.",
+    "slug": "uploaded-7-don-t-miss-praying-hours",
+    "brandInspiration": "Notion",
+    "industry": "Productivity",
+    "format": "Static",
+    "visualStyleTags": [
+      "vintage",
+      "minimalist",
+      "nostalgic",
+      "typographic",
+      "soft lighting",
+      "3D render",
+      "illustrated"
+    ],
+    "premium": true,
+    "image": "/ads/0f4ac3e9d1be3c503bafa8f5ff7747eb.jpg",
+    "shortDescription": "A vintage-style ad featuring a classic digital music player with a prominent nostalgic headline about not missing prayer times, using minimalistic layout and soft neutral background.",
+    "whyItWorks": "",
+    "structureNotes": "",
+    "fullPrompt": "",
+    "reconstructionPrompt": "",
+    "remixPrompt": "",
+    "editableVariables": [],
+    "negativePrompt": "",
+    "recommendedModel": "",
+    "aspectRatio": "8:11",
+    "remixNotes": [],
+    "promptQuality": {
+      "exactness": 8,
+      "editability": 7,
+      "brandSafety": 10,
+      "confidenceNote": "High confidence in preserving composition and style with minor adjustments required for unique branding elements."
+    },
+    "visualBlueprint": {
+      "composition": "",
+      "typography": "",
+      "palette": [],
+      "subject": "",
+      "layout": "",
+      "styleTags": [
+        "vintage",
+        "minimalist",
+        "nostalgic",
+        "typographic",
+        "soft lighting",
+        "3D render",
+        "illustrated"
+      ]
+    },
+    "visual": {
+      "headline": "Don't miss praying hours.",
+      "subline": "",
+      "background": "#f5efe6",
+      "accent": "#7a5c38",
+      "motif": "docs"
+    }
+  },
+  {
+    "id": "uploaded-8",
     "title": "Craft is the key to designer happiness",
-    "slug": "uploaded-4-craft-is-the-key-to-designer-happiness",
+    "slug": "uploaded-8-craft-is-the-key-to-designer-happiness",
     "brandInspiration": "Figma",
     "industry": "Productivity",
     "format": "Static",
@@ -240,9 +474,9 @@
     }
   },
   {
-    "id": "uploaded-5",
+    "id": "uploaded-9",
     "title": "The bar for PMs is higher than ever—learn how leading product teams are adapting",
-    "slug": "uploaded-5-the-bar-for-pms-is-higher-than-ever-learn-how-leading-product-teams-are-adapting",
+    "slug": "uploaded-9-the-bar-for-pms-is-higher-than-ever-learn-how-leading-product-teams-are-adapting",
     "brandInspiration": "Notion",
     "industry": "Productivity",
     "format": "Static",
@@ -301,9 +535,9 @@
     }
   },
   {
-    "id": "uploaded-6",
+    "id": "uploaded-10",
     "title": "State of the Designer 2026",
-    "slug": "uploaded-6-state-of-the-designer-2026",
+    "slug": "uploaded-10-state-of-the-designer-2026",
     "brandInspiration": "Figma",
     "industry": "Productivity",
     "format": "LinkedIn",
@@ -362,9 +596,9 @@
     }
   },
   {
-    "id": "uploaded-7",
+    "id": "uploaded-11",
     "title": "Align your work platform to your marketing strategy.",
-    "slug": "uploaded-7-align-your-work-platform-to-your-marketing-strategy",
+    "slug": "uploaded-11-align-your-work-platform-to-your-marketing-strategy",
     "brandInspiration": "Notion",
     "industry": "Collaboration",
     "format": "Static",
@@ -419,9 +653,9 @@
     }
   },
   {
-    "id": "uploaded-8",
+    "id": "uploaded-12",
     "title": "Real-time execution is the new standard.",
-    "slug": "uploaded-8-real-time-execution-is-the-new-standard",
+    "slug": "uploaded-12-real-time-execution-is-the-new-standard",
     "brandInspiration": "Notion",
     "industry": "Productivity",
     "format": "Static",
@@ -482,9 +716,9 @@
     }
   },
   {
-    "id": "uploaded-9",
+    "id": "uploaded-13",
     "title": "The PMO is the new operational backbone.",
-    "slug": "uploaded-9-the-pmo-is-the-new-operational-backbone",
+    "slug": "uploaded-13-the-pmo-is-the-new-operational-backbone",
     "brandInspiration": "Notion",
     "industry": "Productivity",
     "format": "Static",
@@ -539,9 +773,9 @@
     }
   },
   {
-    "id": "uploaded-10",
+    "id": "uploaded-14",
     "title": "Join 200K+ businesses saving 80% on client FX",
-    "slug": "uploaded-10-join-200k-businesses-saving-80-on-client-fx",
+    "slug": "uploaded-14-join-200k-businesses-saving-80-on-client-fx",
     "brandInspiration": "Ramp",
     "industry": "Fintech",
     "format": "Static",
@@ -598,9 +832,9 @@
     }
   },
   {
-    "id": "uploaded-11",
+    "id": "uploaded-15",
     "title": "SECURING AI AGENTS 101",
-    "slug": "uploaded-11-securing-ai-agents-101",
+    "slug": "uploaded-15-securing-ai-agents-101",
     "brandInspiration": "Wiz",
     "industry": "Security",
     "format": "Static",
@@ -657,9 +891,9 @@
     }
   },
   {
-    "id": "uploaded-12",
+    "id": "uploaded-16",
     "title": "AWS AI Security Best Practices",
-    "slug": "uploaded-12-aws-ai-security-best-practices",
+    "slug": "uploaded-16-aws-ai-security-best-practices",
     "brandInspiration": "Wiz",
     "industry": "Security",
     "format": "Static",
@@ -716,9 +950,9 @@
     }
   },
   {
-    "id": "uploaded-13",
+    "id": "uploaded-17",
     "title": "7 Best Practices for Secrets Security",
-    "slug": "uploaded-13-7-best-practices-for-secrets-security",
+    "slug": "uploaded-17-7-best-practices-for-secrets-security",
     "brandInspiration": "Wiz",
     "industry": "Security",
     "format": "Static",
@@ -777,9 +1011,68 @@
     }
   },
   {
-    "id": "uploaded-14",
+    "id": "uploaded-18",
+    "title": "All together now.",
+    "slug": "uploaded-18-all-together-now",
+    "brandInspiration": "Notion",
+    "industry": "Collaboration",
+    "format": "Static",
+    "visualStyleTags": [
+      "minimal",
+      "line-art",
+      "flat-color",
+      "modern",
+      "corporate",
+      "global",
+      "friendly"
+    ],
+    "premium": true,
+    "image": "/ads/10f30b3b9121973d8648db069e6e45ba.jpg",
+    "shortDescription": "A clean, minimalistic ad showing a diverse team around a circular table with iconic world landmarks in the background, emphasizing global collaboration through smart apps.",
+    "whyItWorks": "",
+    "structureNotes": "",
+    "fullPrompt": "",
+    "reconstructionPrompt": "",
+    "remixPrompt": "",
+    "editableVariables": [],
+    "negativePrompt": "",
+    "recommendedModel": "",
+    "aspectRatio": "4:5",
+    "remixNotes": [],
+    "promptQuality": {
+      "exactness": 8,
+      "editability": 9,
+      "brandSafety": 10,
+      "confidenceNote": "The prompt captures the core structural and stylistic details clearly, making it very likely to produce a visually close, legally safe variant of the original ad beyond basic resemblance."
+    },
+    "visualBlueprint": {
+      "composition": "",
+      "typography": "",
+      "palette": [],
+      "subject": "",
+      "layout": "",
+      "styleTags": [
+        "minimal",
+        "line-art",
+        "flat-color",
+        "modern",
+        "corporate",
+        "global",
+        "friendly"
+      ]
+    },
+    "visual": {
+      "headline": "All together now.",
+      "subline": "",
+      "background": "#f5efe6",
+      "accent": "#7a5c38",
+      "motif": "docs"
+    }
+  },
+  {
+    "id": "uploaded-19",
     "title": "How are product leaders navigating AI's potential?",
-    "slug": "uploaded-14-how-are-product-leaders-navigating-ai-s-potential",
+    "slug": "uploaded-19-how-are-product-leaders-navigating-ai-s-potential",
     "brandInspiration": "Claude",
     "industry": "AI",
     "format": "Static",
@@ -838,9 +1131,9 @@
     }
   },
   {
-    "id": "uploaded-15",
+    "id": "uploaded-20",
     "title": "I TRIED SO HARD AND GOT SOFA",
-    "slug": "uploaded-15-i-tried-so-hard-and-got-sofa",
+    "slug": "uploaded-20-i-tried-so-hard-and-got-sofa",
     "brandInspiration": "Notion",
     "industry": "Productivity",
     "format": "Static",
@@ -895,9 +1188,9 @@
     }
   },
   {
-    "id": "uploaded-16",
+    "id": "uploaded-21",
     "title": "FETCH THE FLAG CTF",
-    "slug": "uploaded-16-fetch-the-flag-ctf",
+    "slug": "uploaded-21-fetch-the-flag-ctf",
     "brandInspiration": "Notion",
     "industry": "Security",
     "format": "Static",
@@ -910,7 +1203,7 @@
       "tech friendly",
       "playful"
     ],
-    "premium": true,
+    "premium": false,
     "image": "/ads/1200x1200_FTF26_1png.jpeg",
     "shortDescription": "A pixel art style ad announcing a Capture The Flag cybersecurity event with a friendly human and dog character, bold event date and title, and a clear call to action.",
     "whyItWorks": "",
@@ -954,9 +1247,9 @@
     }
   },
   {
-    "id": "uploaded-17",
+    "id": "uploaded-22",
     "title": "See KnowBe4’s Exclusive GRC Partner in Action",
-    "slug": "uploaded-17-see-knowbe4-s-exclusive-grc-partner-in-action",
+    "slug": "uploaded-22-see-knowbe4-s-exclusive-grc-partner-in-action",
     "brandInspiration": "Ramp",
     "industry": "Security",
     "format": "Static",
@@ -971,7 +1264,7 @@
       "dark mode",
       "corporate"
     ],
-    "premium": false,
+    "premium": true,
     "image": "/ads/1200x1200-Ad3_GRCpng.jpeg",
     "shortDescription": "A dark themed tech event promo ad featuring a headline and associated info, with geometric circles visual and bold call to action at bottom right.",
     "whyItWorks": "",
@@ -1017,9 +1310,9 @@
     }
   },
   {
-    "id": "uploaded-18",
+    "id": "uploaded-23",
     "title": "Legal Intelligence That Works Where You Work",
-    "slug": "uploaded-18-legal-intelligence-that-works-where-you-work",
+    "slug": "uploaded-23-legal-intelligence-that-works-where-you-work",
     "brandInspiration": "Notion",
     "industry": "Productivity",
     "format": "Static",
@@ -1076,9 +1369,9 @@
     }
   },
   {
-    "id": "uploaded-19",
+    "id": "uploaded-24",
     "title": "Legal AI Adoption Needs More Than Tools",
-    "slug": "uploaded-19-legal-ai-adoption-needs-more-than-tools",
+    "slug": "uploaded-24-legal-ai-adoption-needs-more-than-tools",
     "brandInspiration": "Wiz",
     "industry": "AI",
     "format": "Static",
@@ -1133,9 +1426,9 @@
     }
   },
   {
-    "id": "uploaded-20",
+    "id": "uploaded-25",
     "title": "Agents Execute Tasks from Start to Finish",
-    "slug": "uploaded-20-agents-execute-tasks-from-start-to-finish",
+    "slug": "uploaded-25-agents-execute-tasks-from-start-to-finish",
     "brandInspiration": "Notion",
     "industry": "Productivity",
     "format": "Static",
@@ -1149,7 +1442,7 @@
       "calm",
       "efficient"
     ],
-    "premium": true,
+    "premium": false,
     "image": "/ads/1200x1200png.jpeg",
     "shortDescription": "A clean productivity tool ad showing task status indicators, a bold headline with mixed serif and sans-serif typography, and a centered call-to-action on a soft off-white background.",
     "whyItWorks": "",
@@ -1194,9 +1487,9 @@
     }
   },
   {
-    "id": "uploaded-21",
+    "id": "uploaded-26",
     "title": "Building the Business Case for Legal AI — A Guide for In-House Teams",
-    "slug": "uploaded-21-building-the-business-case-for-legal-ai-a-guide-for-in-house-teams",
+    "slug": "uploaded-26-building-the-business-case-for-legal-ai-a-guide-for-in-house-teams",
     "brandInspiration": "Claude",
     "industry": "AI",
     "format": "Static",
@@ -1209,7 +1502,7 @@
       "geometric",
       "elegant"
     ],
-    "premium": false,
+    "premium": true,
     "image": "/ads/1200x1200V1.jpeg",
     "shortDescription": "An AI legal guide ad featuring a deep charcoal background with elegant, classic serif typography and a geometric abstract pattern at the top 60%, complemented by a straightforward call-to-action button at bottom left.",
     "whyItWorks": "",
@@ -1253,9 +1546,70 @@
     }
   },
   {
-    "id": "uploaded-22",
+    "id": "uploaded-27",
+    "title": "What if your business was just bread?",
+    "slug": "uploaded-27-what-if-your-business-was-just-bread",
+    "brandInspiration": "Ramp",
+    "industry": "Productivity",
+    "format": "Static",
+    "visualStyleTags": [
+      "minimalist",
+      "clean",
+      "modern",
+      "corporate",
+      "soft lighting",
+      "natural texture",
+      "calm",
+      "inviting"
+    ],
+    "premium": true,
+    "image": "/ads/14472b12c8bfd218d8df8c7110b0e7cd.jpg",
+    "shortDescription": "Minimalist branding ad using sliced white bread visuals paired with bold, contrasting typography questioning business identity.",
+    "whyItWorks": "",
+    "structureNotes": "",
+    "fullPrompt": "",
+    "reconstructionPrompt": "",
+    "remixPrompt": "",
+    "editableVariables": [],
+    "negativePrompt": "",
+    "recommendedModel": "",
+    "aspectRatio": "4:5 (vertical)",
+    "remixNotes": [],
+    "promptQuality": {
+      "exactness": 8,
+      "editability": 7,
+      "brandSafety": 10,
+      "confidenceNote": "The prompt is detailed enough to reproduce major visual elements, hierarchy, typographic style, and layout closely. Slight deviations in exact bread slice texture or font nuances may occur, but overall it will generate a very close visual cousin."
+    },
+    "visualBlueprint": {
+      "composition": "",
+      "typography": "",
+      "palette": [],
+      "subject": "",
+      "layout": "",
+      "styleTags": [
+        "minimalist",
+        "clean",
+        "modern",
+        "corporate",
+        "soft lighting",
+        "natural texture",
+        "calm",
+        "inviting"
+      ]
+    },
+    "visual": {
+      "headline": "What if your business was just bread?",
+      "subline": "",
+      "background": "#f5efe6",
+      "accent": "#7a5c38",
+      "motif": "docs"
+    }
+  },
+  {
+    "id": "uploaded-28",
     "title": "Spend time on care. Not tabs.",
-    "slug": "uploaded-22-spend-time-on-care-not-tabs",
+    "slug": "uploaded-28-spend-time-on-care-not-tabs",
     "brandInspiration": "Notion",
     "industry": "Productivity",
     "format": "Static",
@@ -1308,9 +1662,9 @@
     }
   },
   {
-    "id": "uploaded-23",
+    "id": "uploaded-29",
     "title": "If we could peer into the immediate future",
-    "slug": "uploaded-23-if-we-could-peer-into-the-immediate-future",
+    "slug": "uploaded-29-if-we-could-peer-into-the-immediate-future",
     "brandInspiration": "Ramp",
     "industry": "Productivity",
     "format": "Static",
@@ -1323,7 +1677,7 @@
       "textured",
       "spotlight"
     ],
-    "premium": true,
+    "premium": false,
     "image": "/ads/16863.jpeg",
     "shortDescription": "A vintage-inspired ad for a futuristic aluminum motorcycle, with a dramatic spotlight composition and clean, readable typography.",
     "whyItWorks": "",
@@ -1367,9 +1721,9 @@
     }
   },
   {
-    "id": "uploaded-24",
+    "id": "uploaded-30",
     "title": "SOC 2 Compliance Checklist",
-    "slug": "uploaded-24-soc-2-compliance-checklist",
+    "slug": "uploaded-30-soc-2-compliance-checklist",
     "brandInspiration": "Ramp",
     "industry": "Security",
     "format": "Static",
@@ -1428,9 +1782,9 @@
     }
   },
   {
-    "id": "uploaded-25",
+    "id": "uploaded-31",
     "title": "The AI guide for product teams",
-    "slug": "uploaded-25-the-ai-guide-for-product-teams",
+    "slug": "uploaded-31-the-ai-guide-for-product-teams",
     "brandInspiration": "Notion",
     "industry": "Productivity",
     "format": "Static",
@@ -1444,7 +1798,7 @@
       "airy",
       "spacious"
     ],
-    "premium": false,
+    "premium": true,
     "image": "/ads/1733532705948.jpeg",
     "shortDescription": "A clean, softly shaded SaaS ad promoting an AI guidebook for product teams with a calm purple gradient background, neat sans-serif typography, and subtle 3D star-like glows.",
     "whyItWorks": "",
@@ -1489,9 +1843,9 @@
     }
   },
   {
-    "id": "uploaded-26",
+    "id": "uploaded-32",
     "title": "Fivetran + Census",
-    "slug": "uploaded-26-fivetran-census",
+    "slug": "uploaded-32-fivetran-census",
     "brandInspiration": "Ramp",
     "industry": "Fintech",
     "format": "Static",
@@ -1546,9 +1900,9 @@
     }
   },
   {
-    "id": "uploaded-27",
+    "id": "uploaded-33",
     "title": "1 in 4 creators say the most frustrating part of working with a brand is being told to speak in the brand's voice instead of their own",
-    "slug": "uploaded-27-1-in-4-creators-say-the-most-frustrating-part-of-working-with-a-brand-is-being-told-to-speak-in-the-brand-s-voice-instead-of-their-own",
+    "slug": "uploaded-33-1-in-4-creators-say-the-most-frustrating-part-of-working-with-a-brand-is-being-told-to-speak-in-the-brand-s-voice-instead-of-their-own",
     "brandInspiration": "Notion",
     "industry": "Collaboration",
     "format": "Static",
@@ -1560,7 +1914,7 @@
       "informational",
       "modern"
     ],
-    "premium": true,
+    "premium": false,
     "image": "/ads/1748439463968.jpeg",
     "shortDescription": "A minimalistic purple background advertisement featuring a large ratio statistic headline, a supporting paragraph of text underneath, four color-coded circles arranged in a grid, and a distinct call-to-action badge at the bottom left corner.",
     "whyItWorks": "",
@@ -1603,9 +1957,9 @@
     }
   },
   {
-    "id": "uploaded-28",
+    "id": "uploaded-34",
     "title": "This could have been a typeform",
-    "slug": "uploaded-28-this-could-have-been-a-typeform",
+    "slug": "uploaded-34-this-could-have-been-a-typeform",
     "brandInspiration": "Notion",
     "industry": "Productivity",
     "format": "Static",
@@ -1660,9 +2014,9 @@
     }
   },
   {
-    "id": "uploaded-29",
+    "id": "uploaded-35",
     "title": "The time from demo request to code delivery sped up by 50%.",
-    "slug": "uploaded-29-the-time-from-demo-request-to-code-delivery-sped-up-by-50",
+    "slug": "uploaded-35-the-time-from-demo-request-to-code-delivery-sped-up-by-50",
     "brandInspiration": "Superhuman",
     "industry": "Productivity",
     "format": "Static",
@@ -1674,7 +2028,7 @@
       "monospace",
       "testimonial"
     ],
-    "premium": false,
+    "premium": true,
     "image": "/ads/1755536725529.jpeg",
     "shortDescription": "A minimal, code-themed testimonial ad with high-contrast color palette and monospace typography that evokes efficiency and tech credibility.",
     "whyItWorks": "",
@@ -1717,9 +2071,9 @@
     }
   },
   {
-    "id": "uploaded-30",
+    "id": "uploaded-36",
     "title": "The Internet shut down yesterday.",
-    "slug": "uploaded-30-the-internet-shut-down-yesterday",
+    "slug": "uploaded-36-the-internet-shut-down-yesterday",
     "brandInspiration": "Superhuman",
     "industry": "Security",
     "format": "Static",
@@ -1778,9 +2132,9 @@
     }
   },
   {
-    "id": "uploaded-31",
+    "id": "uploaded-37",
     "title": "MCP NIGHT",
-    "slug": "uploaded-31-mcp-night",
+    "slug": "uploaded-37-mcp-night",
     "brandInspiration": "Notion",
     "industry": "Productivity",
     "format": "Static",
@@ -1794,7 +2148,7 @@
       "tech",
       "digital"
     ],
-    "premium": true,
+    "premium": false,
     "image": "/ads/1762380632329.jpeg",
     "shortDescription": "A tech event promo with stark pixel art and glitch aesthetic, featuring strong typographical hierarchy and a cool, dark color palette transitioning to pale lavender.",
     "whyItWorks": "",
@@ -1839,9 +2193,9 @@
     }
   },
   {
-    "id": "uploaded-32",
+    "id": "uploaded-38",
     "title": "Introducing Brex’s AI-Native Accounting API",
-    "slug": "uploaded-32-introducing-brex-s-ai-native-accounting-api",
+    "slug": "uploaded-38-introducing-brex-s-ai-native-accounting-api",
     "brandInspiration": "Stripe",
     "industry": "Fintech",
     "format": "Static",
@@ -1900,9 +2254,9 @@
     }
   },
   {
-    "id": "uploaded-33",
+    "id": "uploaded-39",
     "title": "Using Brex gives us half a headcount back, and we expect to save even more at scale.",
-    "slug": "uploaded-33-using-brex-gives-us-half-a-headcount-back-and-we-expect-to-save-even-more-at-scale",
+    "slug": "uploaded-39-using-brex-gives-us-half-a-headcount-back-and-we-expect-to-save-even-more-at-scale",
     "brandInspiration": "Ramp",
     "industry": "Fintech",
     "format": "Static",
@@ -1915,7 +2269,7 @@
       "fintech",
       "high contrast"
     ],
-    "premium": false,
+    "premium": true,
     "image": "/ads/1769451342205.jpeg",
     "shortDescription": "A testimonial style ad with a dark abstract textured background featuring a large white quote block center-left and clear branding top-right, plus small white caption text below.",
     "whyItWorks": "",
@@ -1959,9 +2313,9 @@
     }
   },
   {
-    "id": "uploaded-34",
+    "id": "uploaded-40",
     "title": "Klíč k adopci AI: Superpowered Professional",
-    "slug": "uploaded-34-kl-k-adopci-ai-superpowered-professional",
+    "slug": "uploaded-40-kl-k-adopci-ai-superpowered-professional",
     "brandInspiration": "Claude",
     "industry": "AI",
     "format": "Static",
@@ -2018,9 +2372,9 @@
     }
   },
   {
-    "id": "uploaded-35",
+    "id": "uploaded-41",
     "title": "Hey! Want to be my plus one for Mode?",
-    "slug": "uploaded-35-hey-want-to-be-my-plus-one-for-mode",
+    "slug": "uploaded-41-hey-want-to-be-my-plus-one-for-mode",
     "brandInspiration": "Notion",
     "industry": "Collaboration",
     "format": "Static",
@@ -2031,7 +2385,7 @@
       "modern",
       "conversational"
     ],
-    "premium": true,
+    "premium": false,
     "image": "/ads/1770998444732.jpeg",
     "shortDescription": "A warm, minimal ad featuring two white chat bubbles with a friendly, inviting text conversation on a vibrant, textured orange background.",
     "whyItWorks": "",
@@ -2073,9 +2427,9 @@
     }
   },
   {
-    "id": "uploaded-36",
+    "id": "uploaded-42",
     "title": "How marketers feel about Generative AI:",
-    "slug": "uploaded-36-how-marketers-feel-about-generative-ai",
+    "slug": "uploaded-42-how-marketers-feel-about-generative-ai",
     "brandInspiration": "Notion",
     "industry": "Productivity",
     "format": "Static",
@@ -2132,9 +2486,9 @@
     }
   },
   {
-    "id": "uploaded-37",
+    "id": "uploaded-43",
     "title": "Ballpark MCP Now live.",
-    "slug": "uploaded-37-ballpark-mcp-now-live",
+    "slug": "uploaded-43-ballpark-mcp-now-live",
     "brandInspiration": "Notion",
     "industry": "Productivity",
     "format": "Static",
@@ -2148,7 +2502,7 @@
       "clean",
       "bright accent colors"
     ],
-    "premium": false,
+    "premium": true,
     "image": "/ads/1772031115105.jpeg",
     "shortDescription": "A clean, minimalistic product launch announcement with strong headline emphasis and a friendly custom illustration.",
     "whyItWorks": "",
@@ -2193,9 +2547,9 @@
     }
   },
   {
-    "id": "uploaded-38",
+    "id": "uploaded-44",
     "title": "How to defeat meeting note madness",
-    "slug": "uploaded-38-how-to-defeat-meeting-note-madness",
+    "slug": "uploaded-44-how-to-defeat-meeting-note-madness",
     "brandInspiration": "Notion",
     "industry": "Productivity",
     "format": "Static",
@@ -2254,9 +2608,9 @@
     }
   },
   {
-    "id": "uploaded-39",
+    "id": "uploaded-45",
     "title": "51% of teams lose critical context during remediation",
-    "slug": "uploaded-39-51-of-teams-lose-critical-context-during-remediation",
+    "slug": "uploaded-45-51-of-teams-lose-critical-context-during-remediation",
     "brandInspiration": "Ramp",
     "industry": "Security",
     "format": "LinkedIn",
@@ -2270,7 +2624,7 @@
       "corporate",
       "polished"
     ],
-    "premium": true,
+    "premium": false,
     "image": "/ads/1773325354205.jpeg",
     "shortDescription": "A sleek security industry ad emphasizing a key statistic with modern dots-pattern background, an elegant report cover and a vivid CTA button.",
     "whyItWorks": "",
@@ -2315,9 +2669,9 @@
     }
   },
   {
-    "id": "uploaded-40",
+    "id": "uploaded-46",
     "title": "We're building the category that replaces it.",
-    "slug": "uploaded-40-we-re-building-the-category-that-replaces-it",
+    "slug": "uploaded-46-we-re-building-the-category-that-replaces-it",
     "brandInspiration": "Claude",
     "industry": "AI",
     "format": "Static",
@@ -2374,9 +2728,9 @@
     }
   },
   {
-    "id": "uploaded-41",
+    "id": "uploaded-47",
     "title": "THE FINAL FOUR OF SPENDING",
-    "slug": "uploaded-41-the-final-four-of-spending",
+    "slug": "uploaded-47-the-final-four-of-spending",
     "brandInspiration": "Ramp",
     "industry": "Fintech",
     "format": "Static",
@@ -2388,7 +2742,7 @@
       "high contrast",
       "fintech"
     ],
-    "premium": false,
+    "premium": true,
     "image": "/ads/1773763267832.jpeg",
     "shortDescription": "A black background financial data ad featuring a clean, bold headline above a simple four-bar chart representing spending increases, with a blurred basketball image at the bottom.",
     "whyItWorks": "",
@@ -2431,9 +2785,9 @@
     }
   },
   {
-    "id": "uploaded-42",
+    "id": "uploaded-48",
     "title": "71% say conversion is a top KPI.",
-    "slug": "uploaded-42-71-say-conversion-is-a-top-kpi",
+    "slug": "uploaded-48-71-say-conversion-is-a-top-kpi",
     "brandInspiration": "Figma",
     "industry": "Productivity",
     "format": "Static",
@@ -2488,9 +2842,9 @@
     }
   },
   {
-    "id": "uploaded-43",
+    "id": "uploaded-49",
     "title": "Warp uses Warp",
-    "slug": "uploaded-43-warp-uses-warp",
+    "slug": "uploaded-49-warp-uses-warp",
     "brandInspiration": "Claude",
     "industry": "AI",
     "format": "Static",
@@ -2503,7 +2857,7 @@
       "clean",
       "corporate"
     ],
-    "premium": true,
+    "premium": false,
     "image": "/ads/1775147323572.jpeg",
     "shortDescription": "A minimal, circular infographic consisting of a grayscale abstract globe and directional arrows with four text labels on a dark subtly textured background.",
     "whyItWorks": "",
@@ -2547,9 +2901,9 @@
     }
   },
   {
-    "id": "uploaded-44",
+    "id": "uploaded-50",
     "title": "Pressure doesn’t build culture. It reveals it.",
-    "slug": "uploaded-44-pressure-doesn-t-build-culture-it-reveals-it",
+    "slug": "uploaded-50-pressure-doesn-t-build-culture-it-reveals-it",
     "brandInspiration": "Notion",
     "industry": "Productivity",
     "format": "Static",
@@ -2606,9 +2960,9 @@
     }
   },
   {
-    "id": "uploaded-45",
+    "id": "uploaded-51",
     "title": "Meet your thinking partner",
-    "slug": "uploaded-45-meet-your-thinking-partner",
+    "slug": "uploaded-51-meet-your-thinking-partner",
     "brandInspiration": "Claude",
     "industry": "AI",
     "format": "Static",
@@ -2622,7 +2976,7 @@
       "line art",
       "flat lighting"
     ],
-    "premium": false,
+    "premium": true,
     "image": "/ads/1775908870050.jpeg",
     "shortDescription": "A sleek SaaS homepage hero section with a dark background, elegant serif headline in large scale, a minimalistic abstract line drawing, and a small navigation menu in lighter text in the top-left corner.",
     "whyItWorks": "",
@@ -2667,9 +3021,9 @@
     }
   },
   {
-    "id": "uploaded-46",
+    "id": "uploaded-52",
     "title": "More people are becoming entrepreneurs",
-    "slug": "uploaded-46-more-people-are-becoming-entrepreneurs",
+    "slug": "uploaded-52-more-people-are-becoming-entrepreneurs",
     "brandInspiration": "Stripe",
     "industry": "Fintech",
     "format": "Static",
@@ -2726,9 +3080,70 @@
     }
   },
   {
-    "id": "uploaded-47",
+    "id": "uploaded-53",
+    "title": "5% of Vituity's budget is hiding in spend you can't see",
+    "slug": "uploaded-53-5-of-vituity-s-budget-is-hiding-in-spend-you-can-t-see",
+    "brandInspiration": "Ramp",
+    "industry": "Fintech",
+    "format": "Static",
+    "visualStyleTags": [
+      "minimal",
+      "modern",
+      "professional",
+      "moody",
+      "focused",
+      "fintech",
+      "dark",
+      "contrast"
+    ],
+    "premium": false,
+    "image": "/ads/1776438442718.jpeg",
+    "shortDescription": "A dark-themed fintech ad featuring a crumpled receipt paper ball symbolizing hidden spend, with a clear headline drawing attention to budget visibility and a yellow highlight for emphasis.",
+    "whyItWorks": "",
+    "structureNotes": "",
+    "fullPrompt": "",
+    "reconstructionPrompt": "",
+    "remixPrompt": "",
+    "editableVariables": [],
+    "negativePrompt": "",
+    "recommendedModel": "",
+    "aspectRatio": "1:1",
+    "remixNotes": [],
+    "promptQuality": {
+      "exactness": 8,
+      "editability": 7,
+      "brandSafety": 9,
+      "confidenceNote": "This prompt robustly captures spatial layout, typography hierarchy, and essential visual elements. The brand and copy placeholders ensure legal safety. Minor variations in paper texture or lighting quality are expected but overall structure and tone are highly reproducible."
+    },
+    "visualBlueprint": {
+      "composition": "",
+      "typography": "",
+      "palette": [],
+      "subject": "",
+      "layout": "",
+      "styleTags": [
+        "minimal",
+        "modern",
+        "professional",
+        "moody",
+        "focused",
+        "fintech",
+        "dark",
+        "contrast"
+      ]
+    },
+    "visual": {
+      "headline": "5% of Vituity's budget is hiding in spend you can't see",
+      "subline": "",
+      "background": "#f5efe6",
+      "accent": "#7a5c38",
+      "motif": "docs"
+    }
+  },
+  {
+    "id": "uploaded-54",
     "title": "Whatnot's next seismic shift is here",
-    "slug": "uploaded-47-whatnot-s-next-seismic-shift-is-here",
+    "slug": "uploaded-54-whatnot-s-next-seismic-shift-is-here",
     "brandInspiration": "Stripe",
     "industry": "Fintech",
     "format": "Static",
@@ -2781,9 +3196,9 @@
     }
   },
   {
-    "id": "uploaded-48",
+    "id": "uploaded-55",
     "title": "Hire faster, with less effort",
-    "slug": "uploaded-48-hire-faster-with-less-effort",
+    "slug": "uploaded-55-hire-faster-with-less-effort",
     "brandInspiration": "Notion",
     "industry": "Productivity",
     "format": "Static",
@@ -2842,9 +3257,9 @@
     }
   },
   {
-    "id": "uploaded-49",
+    "id": "uploaded-56",
     "title": "Prelude named one of Europe's 50 fastest-growing tech companies.",
-    "slug": "uploaded-49-prelude-named-one-of-europe-s-50-fastest-growing-tech-companies",
+    "slug": "uploaded-56-prelude-named-one-of-europe-s-50-fastest-growing-tech-companies",
     "brandInspiration": "Ramp",
     "industry": "Fintech",
     "format": "Static",
@@ -2857,7 +3272,7 @@
       "modern",
       "fintech"
     ],
-    "premium": false,
+    "premium": true,
     "image": "/ads/1777401645438.jpeg",
     "shortDescription": "A clean, data-affirming brand ad highlighting recognition by notable European scaling and finance entities, with a large map backdrop and clear, confident type hierarchy.",
     "whyItWorks": "",
@@ -2901,9 +3316,9 @@
     }
   },
   {
-    "id": "uploaded-50",
+    "id": "uploaded-57",
     "title": "AI Impact on Startup Headcount",
-    "slug": "uploaded-50-ai-impact-on-startup-headcount",
+    "slug": "uploaded-57-ai-impact-on-startup-headcount",
     "brandInspiration": "Ramp",
     "industry": "AI",
     "format": "Static",
@@ -2915,7 +3330,7 @@
       "warm-gradient",
       "typography-centric"
     ],
-    "premium": true,
+    "premium": false,
     "image": "/ads/1777474833695.jpeg",
     "shortDescription": "A clean, modern infographic showing AI's influence on startup headcount with contrasting data blocks and a dynamic gradient backdrop.",
     "whyItWorks": "",
@@ -2958,9 +3373,9 @@
     }
   },
   {
-    "id": "uploaded-51",
+    "id": "uploaded-58",
     "title": "What you see on job boards.",
-    "slug": "uploaded-51-what-you-see-on-job-boards",
+    "slug": "uploaded-58-what-you-see-on-job-boards",
     "brandInspiration": "Ramp",
     "industry": "Productivity",
     "format": "Static",
@@ -3015,9 +3430,9 @@
     }
   },
   {
-    "id": "uploaded-52",
+    "id": "uploaded-59",
     "title": "Agents handle the busywork so you don’t have to",
-    "slug": "uploaded-52-agents-handle-the-busywork-so-you-don-t-have-to",
+    "slug": "uploaded-59-agents-handle-the-busywork-so-you-don-t-have-to",
     "brandInspiration": "Claude",
     "industry": "AI",
     "format": "Static",
@@ -3080,9 +3495,68 @@
     }
   },
   {
-    "id": "uploaded-53",
+    "id": "uploaded-60",
+    "title": "“Hello” Good Buy.",
+    "slug": "uploaded-60-hello-good-buy",
+    "brandInspiration": "Notion",
+    "industry": "Productivity",
+    "format": "Static",
+    "visualStyleTags": [
+      "vintage",
+      "retro",
+      "minimalist",
+      "typographic",
+      "product-focused",
+      "print ad",
+      "moody lighting"
+    ],
+    "premium": true,
+    "image": "/ads/218b3a1c5a0852445219848b067457d9.jpg",
+    "shortDescription": "A retro-style ad featuring three cordless phones in classic beige tones against a dark smoky background, anchored by large serif text headline and a detailed body copy to emphasize product value.",
+    "whyItWorks": "",
+    "structureNotes": "",
+    "fullPrompt": "",
+    "reconstructionPrompt": "",
+    "remixPrompt": "",
+    "editableVariables": [],
+    "negativePrompt": "",
+    "recommendedModel": "",
+    "aspectRatio": "4:5",
+    "remixNotes": [],
+    "promptQuality": {
+      "exactness": 8,
+      "editability": 7,
+      "brandSafety": 9,
+      "confidenceNote": "The prompt is thorough and specific enough to reliably reproduce the overall layout and visual tone, with room for minor stylistic interpretation. It avoids protected brand elements, ensuring safety while capturing key aesthetics."
+    },
+    "visualBlueprint": {
+      "composition": "",
+      "typography": "",
+      "palette": [],
+      "subject": "",
+      "layout": "",
+      "styleTags": [
+        "vintage",
+        "retro",
+        "minimalist",
+        "typographic",
+        "product-focused",
+        "print ad",
+        "moody lighting"
+      ]
+    },
+    "visual": {
+      "headline": "“Hello” Good Buy.",
+      "subline": "",
+      "background": "#f5efe6",
+      "accent": "#7a5c38",
+      "motif": "docs"
+    }
+  },
+  {
+    "id": "uploaded-61",
     "title": "We Asked People to Draw Ketchup. They Drew Heinz.",
-    "slug": "uploaded-53-we-asked-people-to-draw-ketchup-they-drew-heinz",
+    "slug": "uploaded-61-we-asked-people-to-draw-ketchup-they-drew-heinz",
     "brandInspiration": "Ramp",
     "industry": "Fintech",
     "format": "Static",
@@ -3137,9 +3611,127 @@
     }
   },
   {
-    "id": "uploaded-54",
+    "id": "uploaded-62",
+    "title": "OVERTHINKING   DOING",
+    "slug": "uploaded-62-overthinking-doing",
+    "brandInspiration": "Notion",
+    "industry": "Productivity",
+    "format": "Static",
+    "visualStyleTags": [
+      "minimalist",
+      "photorealistic",
+      "contrasting",
+      "clean",
+      "modern",
+      "calm"
+    ],
+    "premium": true,
+    "image": "/ads/249cdf1ff87952eb2893732096630f06.jpg",
+    "shortDescription": "A minimalistic two-panel visual: a tangled ball of blue yarn under 'OVERTHINKING' contrasted with a neatly knitted blue square under 'DOING', set against a pure white background with clean black sans-serif text above and a small signature element below.",
+    "whyItWorks": "",
+    "structureNotes": "",
+    "fullPrompt": "",
+    "reconstructionPrompt": "",
+    "remixPrompt": "",
+    "editableVariables": [],
+    "negativePrompt": "",
+    "recommendedModel": "",
+    "aspectRatio": "1:1",
+    "remixNotes": [],
+    "promptQuality": {
+      "exactness": 8,
+      "editability": 9,
+      "brandSafety": 10,
+      "confidenceNote": "The prompt captures key compositional and stylistic elements well, ensuring high fidelity to the original while easily allowing customizations in color, text, and style."
+    },
+    "visualBlueprint": {
+      "composition": "",
+      "typography": "",
+      "palette": [],
+      "subject": "",
+      "layout": "",
+      "styleTags": [
+        "minimalist",
+        "photorealistic",
+        "contrasting",
+        "clean",
+        "modern",
+        "calm"
+      ]
+    },
+    "visual": {
+      "headline": "OVERTHINKING   DOING",
+      "subline": "",
+      "background": "#f5efe6",
+      "accent": "#7a5c38",
+      "motif": "docs"
+    }
+  },
+  {
+    "id": "uploaded-63",
+    "title": "I hope you found this useful!",
+    "slug": "uploaded-63-i-hope-you-found-this-useful",
+    "brandInspiration": "Notion",
+    "industry": "Productivity",
+    "format": "Static",
+    "visualStyleTags": [
+      "minimal",
+      "warm",
+      "friendly",
+      "vector flat",
+      "serif headline",
+      "colorful",
+      "overlapping shapes",
+      "clean layout"
+    ],
+    "premium": true,
+    "image": "/ads/2719756e4f518acf5f3ad1c27e605c6b.jpg",
+    "shortDescription": "A clean, minimal productivity app ad featuring a warm personal message, rounded bright colorful circles, and a mustard-yellow envelope shape background.",
+    "whyItWorks": "",
+    "structureNotes": "",
+    "fullPrompt": "",
+    "reconstructionPrompt": "",
+    "remixPrompt": "",
+    "editableVariables": [],
+    "negativePrompt": "",
+    "recommendedModel": "",
+    "aspectRatio": "1:1",
+    "remixNotes": [],
+    "promptQuality": {
+      "exactness": 8,
+      "editability": 9,
+      "brandSafety": 10,
+      "confidenceNote": "This prompt is detailed and precise enough to produce a very close cousin of the original design in its composition, style, and mood. Minor text differences can be adjusted easily. Color and placement info is clear, ensuring a faithful reconstruction."
+    },
+    "visualBlueprint": {
+      "composition": "",
+      "typography": "",
+      "palette": [],
+      "subject": "",
+      "layout": "",
+      "styleTags": [
+        "minimal",
+        "warm",
+        "friendly",
+        "vector flat",
+        "serif headline",
+        "colorful",
+        "overlapping shapes",
+        "clean layout"
+      ]
+    },
+    "visual": {
+      "headline": "I hope you found this useful!",
+      "subline": "",
+      "background": "#f5efe6",
+      "accent": "#7a5c38",
+      "motif": "docs"
+    }
+  },
+  {
+    "id": "uploaded-64",
     "title": "Unexpected Works.",
-    "slug": "uploaded-54-unexpected-works",
+    "slug": "uploaded-64-unexpected-works",
     "brandInspiration": "Notion",
     "industry": "Productivity",
     "format": "Static",
@@ -3194,9 +3786,9 @@
     }
   },
   {
-    "id": "uploaded-55",
+    "id": "uploaded-65",
     "title": "Deposit from any crypto wallet.",
-    "slug": "uploaded-55-deposit-from-any-crypto-wallet",
+    "slug": "uploaded-65-deposit-from-any-crypto-wallet",
     "brandInspiration": "Stripe",
     "industry": "Fintech",
     "format": "Static",
@@ -3210,7 +3802,7 @@
       "bold typography",
       "lifestyle photography"
     ],
-    "premium": true,
+    "premium": false,
     "image": "/ads/2eee78ed5e58bae7de54d6b4be5d632c.jpg",
     "shortDescription": "A clean fintech ad highlighting easy crypto deposits with a physical card and app interface.",
     "whyItWorks": "",
@@ -3255,9 +3847,9 @@
     }
   },
   {
-    "id": "uploaded-56",
+    "id": "uploaded-66",
     "title": "gu___ess who?",
-    "slug": "uploaded-56-gu-ess-who",
+    "slug": "uploaded-66-gu-ess-who",
     "brandInspiration": "Notion",
     "industry": "Fintech",
     "format": "Static",
@@ -3312,9 +3904,68 @@
     }
   },
   {
-    "id": "uploaded-57",
+    "id": "uploaded-67",
+    "title": "Before AI",
+    "slug": "uploaded-67-before-ai",
+    "brandInspiration": "Notion",
+    "industry": "Productivity",
+    "format": "Static",
+    "visualStyleTags": [
+      "minimalist",
+      "hand-drawn",
+      "sketch",
+      "serif typography",
+      "flat lighting",
+      "white space",
+      "contemplative"
+    ],
+    "premium": true,
+    "image": "/ads/321cef8f4527a80c13679aeb29a2938b.jpg",
+    "shortDescription": "Minimalist ad featuring an outlined hand-drawn pencil with a delicate serif headline punning on 'craft' and AI.",
+    "whyItWorks": "",
+    "structureNotes": "",
+    "fullPrompt": "",
+    "reconstructionPrompt": "",
+    "remixPrompt": "",
+    "editableVariables": [],
+    "negativePrompt": "",
+    "recommendedModel": "",
+    "aspectRatio": "1:1",
+    "remixNotes": [],
+    "promptQuality": {
+      "exactness": 8,
+      "editability": 7,
+      "brandSafety": 10,
+      "confidenceNote": "The prompt provides strong structural and stylistic guidance, likely producing a close visual cousin of the original while ensuring legal safety by avoiding trademarked elements. Minor variations in brush stroke style and exact text kerning can be expected across models."
+    },
+    "visualBlueprint": {
+      "composition": "",
+      "typography": "",
+      "palette": [],
+      "subject": "",
+      "layout": "",
+      "styleTags": [
+        "minimalist",
+        "hand-drawn",
+        "sketch",
+        "serif typography",
+        "flat lighting",
+        "white space",
+        "contemplative"
+      ]
+    },
+    "visual": {
+      "headline": "Before AI",
+      "subline": "",
+      "background": "#f5efe6",
+      "accent": "#7a5c38",
+      "motif": "docs"
+    }
+  },
+  {
+    "id": "uploaded-68",
     "title": "learning a language is f🪛🔥ing hard. that's why we made it f🍦🌼❤️ing fun.",
-    "slug": "uploaded-57-learning-a-language-is-f-ing-hard-that-s-why-we-made-it-f-ing-fun",
+    "slug": "uploaded-68-learning-a-language-is-f-ing-hard-that-s-why-we-made-it-f-ing-fun",
     "brandInspiration": "Notion",
     "industry": "Productivity",
     "format": "Static",
@@ -3326,7 +3977,7 @@
       "emoji integration",
       "friendly mascot"
     ],
-    "premium": false,
+    "premium": true,
     "image": "/ads/326d02c2f5111329cc66a7ad720c369d.jpg",
     "shortDescription": "A playful language learning ad using emoji substitutions within a friendly, rounded typeface on a clean background with a mascot and app download badges below.",
     "whyItWorks": "",
@@ -3369,9 +4020,9 @@
     }
   },
   {
-    "id": "uploaded-58",
+    "id": "uploaded-69",
     "title": "DON'T BE A BURNT TOAST.",
-    "slug": "uploaded-58-don-t-be-a-burnt-toast",
+    "slug": "uploaded-69-don-t-be-a-burnt-toast",
     "brandInspiration": "Superhuman",
     "industry": "Fintech",
     "format": "Static",
@@ -3382,7 +4033,7 @@
       "modern",
       "geometric-sans-serif"
     ],
-    "premium": true,
+    "premium": false,
     "image": "/ads/3973ddc123bcf25a6789e6202818e048.jpg",
     "shortDescription": "Minimalist ad with a bold, relatable headline above a large image of a burnt toast slice and a small sunscreen tube at bottom right, emphasizing sun protection with humor.",
     "whyItWorks": "",
@@ -3424,9 +4075,66 @@
     }
   },
   {
-    "id": "uploaded-59",
+    "id": "uploaded-70",
+    "title": "Apple announces a technological breakthrough of incredible proportions.",
+    "slug": "uploaded-70-apple-announces-a-technological-breakthrough-of-incredible-proportions",
+    "brandInspiration": "Notion",
+    "industry": "Productivity",
+    "format": "Static",
+    "visualStyleTags": [
+      "minimalist",
+      "vintage",
+      "elegant",
+      "editorial",
+      "clean",
+      "natural lighting"
+    ],
+    "premium": true,
+    "image": "/ads/397a3f9dba40a09676c94666b14daf0c.jpg",
+    "shortDescription": "A minimalist ad with a central vintage computer unit held horizontally between two hands, topped by a classic serif headline praising a technological breakthrough, set on a crisp white background.",
+    "whyItWorks": "",
+    "structureNotes": "",
+    "fullPrompt": "",
+    "reconstructionPrompt": "",
+    "remixPrompt": "",
+    "editableVariables": [],
+    "negativePrompt": "",
+    "recommendedModel": "",
+    "aspectRatio": "4:5",
+    "remixNotes": [],
+    "promptQuality": {
+      "exactness": 8,
+      "editability": 7,
+      "brandSafety": 10,
+      "confidenceNote": "The prompt should produce a close approximation of the original ad’s layout, text placement, and minimalist aesthetic. Slight variation in hand and device details is expected but acceptable for brand safety."
+    },
+    "visualBlueprint": {
+      "composition": "",
+      "typography": "",
+      "palette": [],
+      "subject": "",
+      "layout": "",
+      "styleTags": [
+        "minimalist",
+        "vintage",
+        "elegant",
+        "editorial",
+        "clean",
+        "natural lighting"
+      ]
+    },
+    "visual": {
+      "headline": "Apple announces a technological breakthrough of incredible proportions.",
+      "subline": "",
+      "background": "#f5efe6",
+      "accent": "#7a5c38",
+      "motif": "docs"
+    }
+  },
+  {
+    "id": "uploaded-71",
     "title": "Secure your downtime",
-    "slug": "uploaded-59-secure-your-downtime",
+    "slug": "uploaded-71-secure-your-downtime",
     "brandInspiration": "Stripe",
     "industry": "Security",
     "format": "Static",
@@ -3479,9 +4187,125 @@
     }
   },
   {
-    "id": "uploaded-60",
+    "id": "uploaded-72",
+    "title": "Change is possible. Hope is power.",
+    "slug": "uploaded-72-change-is-possible-hope-is-power",
+    "brandInspiration": "Notion",
+    "industry": "Collaboration",
+    "format": "Static",
+    "visualStyleTags": [
+      "minimal",
+      "bold",
+      "typographic",
+      "flat color",
+      "symbolic",
+      "modern classic"
+    ],
+    "premium": true,
+    "image": "/ads/3b8321a23dd57d1cf5d605bd538d8523.jpg",
+    "shortDescription": "A bright, minimal poster with bold black serif typography over a vivid yellow background, featuring a single black butterfly image, evoking optimism and empowerment.",
+    "whyItWorks": "",
+    "structureNotes": "",
+    "fullPrompt": "",
+    "reconstructionPrompt": "",
+    "remixPrompt": "",
+    "editableVariables": [],
+    "negativePrompt": "",
+    "recommendedModel": "",
+    "aspectRatio": "3:4",
+    "remixNotes": [],
+    "promptQuality": {
+      "exactness": 8,
+      "editability": 9,
+      "brandSafety": 10,
+      "confidenceNote": "This prompt is carefully structured to replicate the original's layout and style closely, with editable elements included for customization. The high contrast color scheme and minimal elements simplify faithful recreation."
+    },
+    "visualBlueprint": {
+      "composition": "",
+      "typography": "",
+      "palette": [],
+      "subject": "",
+      "layout": "",
+      "styleTags": [
+        "minimal",
+        "bold",
+        "typographic",
+        "flat color",
+        "symbolic",
+        "modern classic"
+      ]
+    },
+    "visual": {
+      "headline": "Change is possible. Hope is power.",
+      "subline": "",
+      "background": "#f5efe6",
+      "accent": "#7a5c38",
+      "motif": "docs"
+    }
+  },
+  {
+    "id": "uploaded-73",
+    "title": "mood and trope",
+    "slug": "uploaded-73-mood-and-trope",
+    "brandInspiration": "Notion",
+    "industry": "Productivity",
+    "format": "Static",
+    "visualStyleTags": [
+      "minimalist",
+      "modern",
+      "geometric",
+      "clean",
+      "flat color",
+      "abstract",
+      "sans-serif"
+    ],
+    "premium": false,
+    "image": "/ads/416HmyoFPZL._SY445_SX342_FMwebp_.webp",
+    "shortDescription": "A minimalist book cover style ad featuring a clean grid of colored and black dots with modern sans-serif text.",
+    "whyItWorks": "",
+    "structureNotes": "",
+    "fullPrompt": "",
+    "reconstructionPrompt": "",
+    "remixPrompt": "",
+    "editableVariables": [],
+    "negativePrompt": "",
+    "recommendedModel": "",
+    "aspectRatio": "4:5",
+    "remixNotes": [],
+    "promptQuality": {
+      "exactness": 8,
+      "editability": 7,
+      "brandSafety": 10,
+      "confidenceNote": "High confidence that reconstructing the minimalist design and layout will replicate the clean, modern feel while leaving room for text and color customization."
+    },
+    "visualBlueprint": {
+      "composition": "",
+      "typography": "",
+      "palette": [],
+      "subject": "",
+      "layout": "",
+      "styleTags": [
+        "minimalist",
+        "modern",
+        "geometric",
+        "clean",
+        "flat color",
+        "abstract",
+        "sans-serif"
+      ]
+    },
+    "visual": {
+      "headline": "mood and trope",
+      "subline": "",
+      "background": "#f5efe6",
+      "accent": "#7a5c38",
+      "motif": "docs"
+    }
+  },
+  {
+    "id": "uploaded-74",
     "title": "The $3.95 Zippo. Give it a quick try. Say... 35 years.",
-    "slug": "uploaded-60-the-3-95-zippo-give-it-a-quick-try-say-35-years",
+    "slug": "uploaded-74-the-3-95-zippo-give-it-a-quick-try-say-35-years",
     "brandInspiration": "Wiz",
     "industry": "Fintech",
     "format": "Static",
@@ -3536,9 +4360,119 @@
     }
   },
   {
-    "id": "uploaded-61",
+    "id": "uploaded-75",
+    "title": "THE NEW YORKER",
+    "slug": "uploaded-75-the-new-yorker",
+    "brandInspiration": "Notion",
+    "industry": "Productivity",
+    "format": "Static",
+    "visualStyleTags": [
+      "minimalist",
+      "vintage",
+      "illustrative",
+      "textured",
+      "hand-drawn"
+    ],
+    "premium": true,
+    "image": "/ads/45c9f3d8ab2997ac1eeb66137a48e14b.jpg",
+    "shortDescription": "Minimalist illustration resembling a 1960s magazine cover, predominantly green with a tiny figure playing golf at the bottom center and bold magazine title at top center.",
+    "whyItWorks": "",
+    "structureNotes": "",
+    "fullPrompt": "",
+    "reconstructionPrompt": "",
+    "remixPrompt": "",
+    "editableVariables": [],
+    "negativePrompt": "",
+    "recommendedModel": "",
+    "aspectRatio": "5:7",
+    "remixNotes": [],
+    "promptQuality": {
+      "exactness": 7,
+      "editability": 8,
+      "brandSafety": 10,
+      "confidenceNote": "The prompt reliably recreates the key structural and stylistic elements of the vintage magazine cover with good fidelity, though fine texture and painterly detail may vary slightly."
+    },
+    "visualBlueprint": {
+      "composition": "",
+      "typography": "",
+      "palette": [],
+      "subject": "",
+      "layout": "",
+      "styleTags": [
+        "minimalist",
+        "vintage",
+        "illustrative",
+        "textured",
+        "hand-drawn"
+      ]
+    },
+    "visual": {
+      "headline": "THE NEW YORKER",
+      "subline": "",
+      "background": "#f5efe6",
+      "accent": "#7a5c38",
+      "motif": "docs"
+    }
+  },
+  {
+    "id": "uploaded-76",
+    "title": "What you don't hear is just as important.",
+    "slug": "uploaded-76-what-you-don-t-hear-is-just-as-important",
+    "brandInspiration": "Superhuman",
+    "industry": "Productivity",
+    "format": "Static",
+    "visualStyleTags": [
+      "Minimalist",
+      "Sophisticated",
+      "Calm",
+      "Textured background",
+      "Classic serif typography"
+    ],
+    "premium": true,
+    "image": "/ads/48f36c55713443d5366c01044ef07ffd.jpg",
+    "shortDescription": "Minimalist ad focused on a sleek, modern headphone hung centered above a bold headline and minimal subtext on a textured light background.",
+    "whyItWorks": "",
+    "structureNotes": "",
+    "fullPrompt": "",
+    "reconstructionPrompt": "",
+    "remixPrompt": "",
+    "editableVariables": [],
+    "negativePrompt": "",
+    "recommendedModel": "",
+    "aspectRatio": "4:5",
+    "remixNotes": [],
+    "promptQuality": {
+      "exactness": 8,
+      "editability": 9,
+      "brandSafety": 10,
+      "confidenceNote": "The prompt captures the key compositional and stylistic features well, ensuring a strong visual match while allowing brand-safe creative swaps."
+    },
+    "visualBlueprint": {
+      "composition": "",
+      "typography": "",
+      "palette": [],
+      "subject": "",
+      "layout": "",
+      "styleTags": [
+        "Minimalist",
+        "Sophisticated",
+        "Calm",
+        "Textured background",
+        "Classic serif typography"
+      ]
+    },
+    "visual": {
+      "headline": "What you don't hear is just as important.",
+      "subline": "",
+      "background": "#f5efe6",
+      "accent": "#7a5c38",
+      "motif": "docs"
+    }
+  },
+  {
+    "id": "uploaded-77",
     "title": "From data silos to unified decisions",
-    "slug": "uploaded-61-from-data-silos-to-unified-decisions",
+    "slug": "uploaded-77-from-data-silos-to-unified-decisions",
     "brandInspiration": "Notion",
     "industry": "Productivity",
     "format": "Static",
@@ -3595,9 +4529,68 @@
     }
   },
   {
-    "id": "uploaded-62",
+    "id": "uploaded-78",
+    "title": "What's the matter, don't you get it?",
+    "slug": "uploaded-78-what-s-the-matter-don-t-you-get-it",
+    "brandInspiration": "Notion",
+    "industry": "Productivity",
+    "format": "Static",
+    "visualStyleTags": [
+      "vintage",
+      "print ad",
+      "minimalist",
+      "monochrome",
+      "classic serif",
+      "nostalgic",
+      "textured paper"
+    ],
+    "premium": true,
+    "image": "/ads/5768f7a06cfc40f43099c8fe0f81900f.jpg",
+    "shortDescription": "A vintage-style ad showing a folded newspaper casting a shadow with a bold headline below inviting subscription, evoking skepticism and curiosity.",
+    "whyItWorks": "",
+    "structureNotes": "",
+    "fullPrompt": "",
+    "reconstructionPrompt": "",
+    "remixPrompt": "",
+    "editableVariables": [],
+    "negativePrompt": "",
+    "recommendedModel": "",
+    "aspectRatio": "8:10 portrait",
+    "remixNotes": [],
+    "promptQuality": {
+      "exactness": 8,
+      "editability": 7,
+      "brandSafety": 10,
+      "confidenceNote": "The prompt provides strong control over layout, typography, and visual style to produce a close visual cousin, though perfect text legibility and fine typographic nuance may require minor tuning."
+    },
+    "visualBlueprint": {
+      "composition": "",
+      "typography": "",
+      "palette": [],
+      "subject": "",
+      "layout": "",
+      "styleTags": [
+        "vintage",
+        "print ad",
+        "minimalist",
+        "monochrome",
+        "classic serif",
+        "nostalgic",
+        "textured paper"
+      ]
+    },
+    "visual": {
+      "headline": "What's the matter, don't you get it?",
+      "subline": "",
+      "background": "#f5efe6",
+      "accent": "#7a5c38",
+      "motif": "docs"
+    }
+  },
+  {
+    "id": "uploaded-79",
     "title": "And yet he can change a tyre.",
-    "slug": "uploaded-62-and-yet-he-can-change-a-tyre",
+    "slug": "uploaded-79-and-yet-he-can-change-a-tyre",
     "brandInspiration": "Notion",
     "industry": "Productivity",
     "format": "Static",
@@ -3654,9 +4647,9 @@
     }
   },
   {
-    "id": "uploaded-63",
+    "id": "uploaded-80",
     "title": "5 ways AI can turn your store data into your next move",
-    "slug": "uploaded-63-5-ways-ai-can-turn-your-store-data-into-your-next-move",
+    "slug": "uploaded-80-5-ways-ai-can-turn-your-store-data-into-your-next-move",
     "brandInspiration": "Notion",
     "industry": "AI",
     "format": "Static",
@@ -3713,9 +4706,9 @@
     }
   },
   {
-    "id": "uploaded-64",
+    "id": "uploaded-81",
     "title": "You ghosted your lesson. Now he's haunting you.",
-    "slug": "uploaded-64-you-ghosted-your-lesson-now-he-s-haunting-you",
+    "slug": "uploaded-81-you-ghosted-your-lesson-now-he-s-haunting-you",
     "brandInspiration": "Superhuman",
     "industry": "Productivity",
     "format": "Static",
@@ -3727,7 +4720,7 @@
       "corporate",
       "vector-art"
     ],
-    "premium": true,
+    "premium": false,
     "image": "/ads/62e012ccbd10730e031c6cf4e899fac1.jpg",
     "shortDescription": "A playful language learning ad with a green cartoon mascot peeking from the left margin, bold headline, and clean white and green color scheme.",
     "whyItWorks": "",
@@ -3770,9 +4763,9 @@
     }
   },
   {
-    "id": "uploaded-65",
+    "id": "uploaded-82",
     "title": "The original search engine.",
-    "slug": "uploaded-65-the-original-search-engine",
+    "slug": "uploaded-82-the-original-search-engine",
     "brandInspiration": "Ramp",
     "industry": "Fintech",
     "format": "Static",
@@ -3784,7 +4777,7 @@
       "clean",
       "authentic"
     ],
-    "premium": false,
+    "premium": true,
     "image": "/ads/699b3253d512747f961656d0d5903ca1.jpg",
     "shortDescription": "A clean, vintage-style car ad featuring a white SUV with clear, bold headline and a scientific feel.",
     "whyItWorks": "",
@@ -3827,9 +4820,654 @@
     }
   },
   {
-    "id": "uploaded-66",
+    "id": "uploaded-83",
+    "title": "Doing Anything, But Crash",
+    "slug": "uploaded-83-doing-anything-but-crash",
+    "brandInspiration": "Ramp",
+    "industry": "Fintech",
+    "format": "Static",
+    "visualStyleTags": [
+      "vintage",
+      "retro",
+      "minimalistic",
+      "advertising",
+      "classic typography",
+      "dynamic motion",
+      "textured background"
+    ],
+    "premium": true,
+    "image": "/ads/6a8edc666000fe7a45cd839a7b5dd5fc.jpg",
+    "shortDescription": "A vintage-style car ad featuring a dynamic blue sedan driving on stylized red racing lines against a textured beige background, with heroic, confident headline text positioned at upper right, and bold brand identity in bottom center.",
+    "whyItWorks": "",
+    "structureNotes": "",
+    "fullPrompt": "",
+    "reconstructionPrompt": "",
+    "remixPrompt": "",
+    "editableVariables": [],
+    "negativePrompt": "",
+    "recommendedModel": "",
+    "aspectRatio": "4:5",
+    "remixNotes": [],
+    "promptQuality": {
+      "exactness": 7,
+      "editability": 8,
+      "brandSafety": 10,
+      "confidenceNote": "The prompt is tailored to capture layout, style, and feel closely, though exact car model details and facial features are generalized for legal safety and generation variability."
+    },
+    "visualBlueprint": {
+      "composition": "",
+      "typography": "",
+      "palette": [],
+      "subject": "",
+      "layout": "",
+      "styleTags": [
+        "vintage",
+        "retro",
+        "minimalistic",
+        "advertising",
+        "classic typography",
+        "dynamic motion",
+        "textured background"
+      ]
+    },
+    "visual": {
+      "headline": "Doing Anything, But Crash",
+      "subline": "",
+      "background": "#f5efe6",
+      "accent": "#7a5c38",
+      "motif": "docs"
+    }
+  },
+  {
+    "id": "uploaded-84",
+    "title": "Pan Am. First In Space.",
+    "slug": "uploaded-84-pan-am-first-in-space",
+    "brandInspiration": "Ramp",
+    "industry": "Productivity",
+    "format": "Static",
+    "visualStyleTags": [
+      "vintage",
+      "print ad",
+      "serif typography",
+      "minimal color",
+      "balanced",
+      "calm",
+      "refined",
+      "luxury"
+    ],
+    "premium": true,
+    "image": "/ads/6b25ecc2576e542dd088710e4a137877.jpg",
+    "shortDescription": "A vintage-style airline ad showcasing luxury first-class seating with a headline emphasizing exclusivity and space, paired with dense, classic serif text below and a calm, relaxed photo of a man reclining in a spacious plane seat.",
+    "whyItWorks": "",
+    "structureNotes": "",
+    "fullPrompt": "",
+    "reconstructionPrompt": "",
+    "remixPrompt": "",
+    "editableVariables": [],
+    "negativePrompt": "",
+    "recommendedModel": "",
+    "aspectRatio": "7:8",
+    "remixNotes": [],
+    "promptQuality": {
+      "exactness": 7,
+      "editability": 8,
+      "brandSafety": 9,
+      "confidenceNote": "This prompt is crafted to replicate the vintage print ad layout and feel with moderate precision while allowing changes to avoid brand conflicts. It should recreate the structure well, albeit photo details may need further refinement depending on the model's image capabilities."
+    },
+    "visualBlueprint": {
+      "composition": "",
+      "typography": "",
+      "palette": [],
+      "subject": "",
+      "layout": "",
+      "styleTags": [
+        "vintage",
+        "print ad",
+        "serif typography",
+        "minimal color",
+        "balanced",
+        "calm",
+        "refined",
+        "luxury"
+      ]
+    },
+    "visual": {
+      "headline": "Pan Am. First In Space.",
+      "subline": "",
+      "background": "#f5efe6",
+      "accent": "#7a5c38",
+      "motif": "docs"
+    }
+  },
+  {
+    "id": "uploaded-85",
+    "title": "Never run out of design inspiration again.",
+    "slug": "uploaded-85-never-run-out-of-design-inspiration-again",
+    "brandInspiration": "Notion",
+    "industry": "Productivity",
+    "format": "Static",
+    "visualStyleTags": [
+      "minimal",
+      "modern",
+      "bold",
+      "clean",
+      "playful",
+      "typographic",
+      "flat-color",
+      "productivity-ad"
+    ],
+    "premium": false,
+    "image": "/ads/6eaf61c03f3ee91092e0e1720693dd90.jpg",
+    "shortDescription": "A minimalistic productivity ad emphasizing continuous design inspiration with a bold headline, descriptive subline, and a playful logo featuring app icons integrated into the name.",
+    "whyItWorks": "",
+    "structureNotes": "",
+    "fullPrompt": "",
+    "reconstructionPrompt": "",
+    "remixPrompt": "",
+    "editableVariables": [],
+    "negativePrompt": "",
+    "recommendedModel": "",
+    "aspectRatio": "4:5",
+    "remixNotes": [],
+    "promptQuality": {
+      "exactness": 8,
+      "editability": 9,
+      "brandSafety": 10,
+      "confidenceNote": "The prompt captures spatial relationships, typography style, and overall layout well. Some variance may occur in icon design due to abstract replacements, but core structure and style are highly reproducible."
+    },
+    "visualBlueprint": {
+      "composition": "",
+      "typography": "",
+      "palette": [],
+      "subject": "",
+      "layout": "",
+      "styleTags": [
+        "minimal",
+        "modern",
+        "bold",
+        "clean",
+        "playful",
+        "typographic",
+        "flat-color",
+        "productivity-ad"
+      ]
+    },
+    "visual": {
+      "headline": "Never run out of design inspiration again.",
+      "subline": "",
+      "background": "#f5efe6",
+      "accent": "#7a5c38",
+      "motif": "docs"
+    }
+  },
+  {
+    "id": "uploaded-86",
+    "title": "Innovation Doesn't Carry The Weight It Once Carried.",
+    "slug": "uploaded-86-innovation-doesn-t-carry-the-weight-it-once-carried",
+    "brandInspiration": "Ramp",
+    "industry": "Productivity",
+    "format": "Static",
+    "visualStyleTags": [
+      "vintage",
+      "minimal",
+      "elegant",
+      "print-ad",
+      "serif typography",
+      "clean"
+    ],
+    "premium": true,
+    "image": "/ads/6f87b4be5be61f4e1e1d3d7545844ce0.jpg",
+    "shortDescription": "A vintage-style shoe advertisement with a prominent headline, large product image, and descriptive copy below, all arranged on a soft beige background.",
+    "whyItWorks": "",
+    "structureNotes": "",
+    "fullPrompt": "",
+    "reconstructionPrompt": "",
+    "remixPrompt": "",
+    "editableVariables": [],
+    "negativePrompt": "",
+    "recommendedModel": "",
+    "aspectRatio": "4:5",
+    "remixNotes": [],
+    "promptQuality": {
+      "exactness": 8,
+      "editability": 9,
+      "brandSafety": 10,
+      "confidenceNote": "The prompt carefully captures the core visual hierarchy, typography style, and object placement relevant for clear ad reconstruction. Minor color and copy adjustments may be needed depending on AI tool nuances."
+    },
+    "visualBlueprint": {
+      "composition": "",
+      "typography": "",
+      "palette": [],
+      "subject": "",
+      "layout": "",
+      "styleTags": [
+        "vintage",
+        "minimal",
+        "elegant",
+        "print-ad",
+        "serif typography",
+        "clean"
+      ]
+    },
+    "visual": {
+      "headline": "Innovation Doesn't Carry The Weight It Once Carried.",
+      "subline": "",
+      "background": "#f5efe6",
+      "accent": "#7a5c38",
+      "motif": "docs"
+    }
+  },
+  {
+    "id": "uploaded-87",
+    "title": "All hands on doc.",
+    "slug": "uploaded-87-all-hands-on-doc",
+    "brandInspiration": "Notion",
+    "industry": "Collaboration",
+    "format": "Static",
+    "visualStyleTags": [
+      "minimalist",
+      "line-art",
+      "flat design",
+      "collaboration",
+      "tech",
+      "clean",
+      "modern"
+    ],
+    "premium": true,
+    "image": "/ads/6fb9cb1f07ac0fc4f531f2dd800846ef.jpg",
+    "shortDescription": "A clean, minimal ad featuring an oversized tablet with collaborative document editing depicted by small businesspeople interacting playfully with the screen, signifying teamwork.",
+    "whyItWorks": "",
+    "structureNotes": "",
+    "fullPrompt": "",
+    "reconstructionPrompt": "",
+    "remixPrompt": "",
+    "editableVariables": [],
+    "negativePrompt": "",
+    "recommendedModel": "",
+    "aspectRatio": "4:5",
+    "remixNotes": [],
+    "promptQuality": {
+      "exactness": 8,
+      "editability": 9,
+      "brandSafety": 10,
+      "confidenceNote": "This prompt is structured carefully to reproduce the main composition, style, and messaging hierarchy seen in the original ad while removing protected branding elements. Its clean and distinctive styling makes it highly reproducible with small room for variation in details."
+    },
+    "visualBlueprint": {
+      "composition": "",
+      "typography": "",
+      "palette": [],
+      "subject": "",
+      "layout": "",
+      "styleTags": [
+        "minimalist",
+        "line-art",
+        "flat design",
+        "collaboration",
+        "tech",
+        "clean",
+        "modern"
+      ]
+    },
+    "visual": {
+      "headline": "All hands on doc.",
+      "subline": "",
+      "background": "#f5efe6",
+      "accent": "#7a5c38",
+      "motif": "docs"
+    }
+  },
+  {
+    "id": "uploaded-88",
+    "title": "How to design successful automated emails.",
+    "slug": "uploaded-88-how-to-design-successful-automated-emails",
+    "brandInspiration": "Notion",
+    "industry": "Productivity",
+    "format": "Static",
+    "visualStyleTags": [
+      "minimalist",
+      "line art",
+      "hand-drawn",
+      "monochrome",
+      "warm tone",
+      "serif type",
+      "quietly confident",
+      "simple",
+      "balanced"
+    ],
+    "premium": true,
+    "image": "/ads/7021fd8489e39d3d1a91b16e7c5c3494.jpg",
+    "shortDescription": "Minimalist ad with warm beige background, simple hand-drawn illustration, and a centered headline promoting email automation design.",
+    "whyItWorks": "",
+    "structureNotes": "",
+    "fullPrompt": "",
+    "reconstructionPrompt": "",
+    "remixPrompt": "",
+    "editableVariables": [],
+    "negativePrompt": "",
+    "recommendedModel": "",
+    "aspectRatio": "4:5",
+    "remixNotes": [],
+    "promptQuality": {
+      "exactness": 8,
+      "editability": 9,
+      "brandSafety": 10,
+      "confidenceNote": "This prompt captures the layout, typography, color scheme, and illustration style very closely, enabling generation of close visual cousins. Some minor variations in line drawing style may appear but overall structure is robust."
+    },
+    "visualBlueprint": {
+      "composition": "",
+      "typography": "",
+      "palette": [],
+      "subject": "",
+      "layout": "",
+      "styleTags": [
+        "minimalist",
+        "line art",
+        "hand-drawn",
+        "monochrome",
+        "warm tone",
+        "serif type",
+        "quietly confident",
+        "simple",
+        "balanced"
+      ]
+    },
+    "visual": {
+      "headline": "How to design successful automated emails.",
+      "subline": "",
+      "background": "#f5efe6",
+      "accent": "#7a5c38",
+      "motif": "docs"
+    }
+  },
+  {
+    "id": "uploaded-89",
+    "title": "BOEING 727-227",
+    "slug": "uploaded-89-boeing-727-227",
+    "brandInspiration": "Notion",
+    "industry": "Productivity",
+    "format": "Static",
+    "visualStyleTags": [
+      "vintage",
+      "flat colors",
+      "minimalist",
+      "typographic focus",
+      "retro aviation"
+    ],
+    "premium": false,
+    "image": "/ads/731edbf67b90c2b965cfef2e20ceed25.jpg",
+    "shortDescription": "A vintage-style airline advertisement featuring stylized colorful airplane silhouettes ascending diagonally, typographic hierarchy with bold headline and scripted subtext on a textured light background.",
+    "whyItWorks": "",
+    "structureNotes": "",
+    "fullPrompt": "",
+    "reconstructionPrompt": "",
+    "remixPrompt": "",
+    "editableVariables": [],
+    "negativePrompt": "",
+    "recommendedModel": "",
+    "aspectRatio": "2:3",
+    "remixNotes": [],
+    "promptQuality": {
+      "exactness": 8,
+      "editability": 9,
+      "brandSafety": 10,
+      "confidenceNote": "The prompt captures the visual hierarchy, composition, and retro style strongly, while converting trademarked names to safe fictional equivalents. Minor deviations in plane shape detail may occur, but overall the layout is reliably recreated."
+    },
+    "visualBlueprint": {
+      "composition": "",
+      "typography": "",
+      "palette": [],
+      "subject": "",
+      "layout": "",
+      "styleTags": [
+        "vintage",
+        "flat colors",
+        "minimalist",
+        "typographic focus",
+        "retro aviation"
+      ]
+    },
+    "visual": {
+      "headline": "BOEING 727-227",
+      "subline": "",
+      "background": "#f5efe6",
+      "accent": "#7a5c38",
+      "motif": "docs"
+    }
+  },
+  {
+    "id": "uploaded-90",
+    "title": "How To Save and Invest Money",
+    "slug": "uploaded-90-how-to-save-and-invest-money",
+    "brandInspiration": "Ramp",
+    "industry": "Fintech",
+    "format": "Static",
+    "visualStyleTags": [
+      "minimalist",
+      "flat design",
+      "monospaced typography",
+      "fintech",
+      "illustrative",
+      "balanced white space"
+    ],
+    "premium": true,
+    "image": "/ads/7355b4b72a9780d4d228810b95825357.jpg",
+    "shortDescription": "A clean fintech ad showcasing disciplined savings and investment via stacks of stylized coins and straightforward typography.",
+    "whyItWorks": "",
+    "structureNotes": "",
+    "fullPrompt": "",
+    "reconstructionPrompt": "",
+    "remixPrompt": "",
+    "editableVariables": [],
+    "negativePrompt": "",
+    "recommendedModel": "",
+    "aspectRatio": "2:3",
+    "remixNotes": [],
+    "promptQuality": {
+      "exactness": 8,
+      "editability": 9,
+      "brandSafety": 10,
+      "confidenceNote": "This prompt is precise in structure and composition, ensuring close visual alignment with the reference. The editable variables allow brand customization without risking legal issues from real trademarks."
+    },
+    "visualBlueprint": {
+      "composition": "",
+      "typography": "",
+      "palette": [],
+      "subject": "",
+      "layout": "",
+      "styleTags": [
+        "minimalist",
+        "flat design",
+        "monospaced typography",
+        "fintech",
+        "illustrative",
+        "balanced white space"
+      ]
+    },
+    "visual": {
+      "headline": "How To Save and Invest Money",
+      "subline": "",
+      "background": "#f5efe6",
+      "accent": "#7a5c38",
+      "motif": "docs"
+    }
+  },
+  {
+    "id": "uploaded-91",
+    "title": "this. works",
+    "slug": "uploaded-91-this-works",
+    "brandInspiration": "Notion",
+    "industry": "Productivity",
+    "format": "Static",
+    "visualStyleTags": [
+      "minimalist",
+      "tactile",
+      "warm pastel",
+      "paper texture",
+      "soft lighting",
+      "modern typography"
+    ],
+    "premium": true,
+    "image": "/ads/784994f5b2c0cc2d1906ca8f9260b8fb.jpg",
+    "shortDescription": "A clean, minimalist visual metaphor using stacked multicolored folder tabs with conversational text to imply organization and problem-solving.",
+    "whyItWorks": "",
+    "structureNotes": "",
+    "fullPrompt": "",
+    "reconstructionPrompt": "",
+    "remixPrompt": "",
+    "editableVariables": [],
+    "negativePrompt": "",
+    "recommendedModel": "",
+    "aspectRatio": "4:5",
+    "remixNotes": [],
+    "promptQuality": {
+      "exactness": 8,
+      "editability": 7,
+      "brandSafety": 10,
+      "confidenceNote": "This prompt captures spatial relations, color palette, typography style, and lighting closely, making it highly likely to produce a close visual cousin. Some texture and exact font nuances might vary depending on model details."
+    },
+    "visualBlueprint": {
+      "composition": "",
+      "typography": "",
+      "palette": [],
+      "subject": "",
+      "layout": "",
+      "styleTags": [
+        "minimalist",
+        "tactile",
+        "warm pastel",
+        "paper texture",
+        "soft lighting",
+        "modern typography"
+      ]
+    },
+    "visual": {
+      "headline": "this. works",
+      "subline": "",
+      "background": "#f5efe6",
+      "accent": "#7a5c38",
+      "motif": "docs"
+    }
+  },
+  {
+    "id": "uploaded-92",
+    "title": "Books make us better.",
+    "slug": "uploaded-92-books-make-us-better",
+    "brandInspiration": "Notion",
+    "industry": "Productivity",
+    "format": "Static",
+    "visualStyleTags": [
+      "minimalist",
+      "flat design",
+      "bold typography",
+      "cartoon illustration",
+      "friendly",
+      "balanced",
+      "modern"
+    ],
+    "premium": true,
+    "image": "/ads/7e75ff60f27e79545d8d6a3b1a39feb9.jpg",
+    "shortDescription": "Split-screen ad with a bold red left panel featuring a prominent headline and a pink right panel with a large illustrated hand pointing upward and a 'start here' call to action above it.",
+    "whyItWorks": "",
+    "structureNotes": "",
+    "fullPrompt": "",
+    "reconstructionPrompt": "",
+    "remixPrompt": "",
+    "editableVariables": [],
+    "negativePrompt": "",
+    "recommendedModel": "",
+    "aspectRatio": "2:1 horizontal",
+    "remixNotes": [],
+    "promptQuality": {
+      "exactness": 7,
+      "editability": 8,
+      "brandSafety": 10,
+      "confidenceNote": "The prompt is precise in recreating composition, colors, typography hierarchy, and illustration style. Slight variation in exact font and hand style is expected, but it reliably produces a close visual cousin of the original layout."
+    },
+    "visualBlueprint": {
+      "composition": "",
+      "typography": "",
+      "palette": [],
+      "subject": "",
+      "layout": "",
+      "styleTags": [
+        "minimalist",
+        "flat design",
+        "bold typography",
+        "cartoon illustration",
+        "friendly",
+        "balanced",
+        "modern"
+      ]
+    },
+    "visual": {
+      "headline": "Books make us better.",
+      "subline": "",
+      "background": "#f5efe6",
+      "accent": "#7a5c38",
+      "motif": "docs"
+    }
+  },
+  {
+    "id": "uploaded-93",
+    "title": "How to civilize 7 a.m.",
+    "slug": "uploaded-93-how-to-civilize-7-a-m",
+    "brandInspiration": "Ramp",
+    "industry": "Fintech",
+    "format": "Static",
+    "visualStyleTags": [
+      "vintage",
+      "classic",
+      "minimalist",
+      "warm lighting",
+      "textured fabric",
+      "flat lay"
+    ],
+    "premium": false,
+    "image": "/ads/815a07125bfc808a0f1ea092c55d70ff.jpg",
+    "shortDescription": "A vintage style coffee ad featuring a top-down shot of a steaming cup of coffee on a saucer, a folded newspaper, a wristwatch, and a container of SuisseMocha coffee powder arranged on a textured blue fabric backdrop with classic serif typography.",
+    "whyItWorks": "",
+    "structureNotes": "",
+    "fullPrompt": "",
+    "reconstructionPrompt": "",
+    "remixPrompt": "",
+    "editableVariables": [],
+    "negativePrompt": "",
+    "recommendedModel": "",
+    "aspectRatio": "5:6 vertical",
+    "remixNotes": [],
+    "promptQuality": {
+      "exactness": 8,
+      "editability": 9,
+      "brandSafety": 10,
+      "confidenceNote": "This prompt should generate a close functional and aesthetic cousin of the original ad, preserving layout, mood, and structure, though some text details and fine texture details might vary slightly."
+    },
+    "visualBlueprint": {
+      "composition": "",
+      "typography": "",
+      "palette": [],
+      "subject": "",
+      "layout": "",
+      "styleTags": [
+        "vintage",
+        "classic",
+        "minimalist",
+        "warm lighting",
+        "textured fabric",
+        "flat lay"
+      ]
+    },
+    "visual": {
+      "headline": "How to civilize 7 a.m.",
+      "subline": "",
+      "background": "#f5efe6",
+      "accent": "#7a5c38",
+      "motif": "docs"
+    }
+  },
+  {
+    "id": "uploaded-94",
     "title": "LEAVE WORK AT WORK",
-    "slug": "uploaded-66-leave-work-at-work",
+    "slug": "uploaded-94-leave-work-at-work",
     "brandInspiration": "Notion",
     "industry": "Fintech",
     "format": "Static",
@@ -3886,9 +5524,9 @@
     }
   },
   {
-    "id": "uploaded-67",
+    "id": "uploaded-95",
     "title": "You can't flirt in Portuguese. Yet.",
-    "slug": "uploaded-67-you-can-t-flirt-in-portuguese-yet",
+    "slug": "uploaded-95-you-can-t-flirt-in-portuguese-yet",
     "brandInspiration": "Superhuman",
     "industry": "Productivity",
     "format": "Static",
@@ -3947,9 +5585,9 @@
     }
   },
   {
-    "id": "uploaded-68",
+    "id": "uploaded-96",
     "title": "“LET'S EAT GRANDMA.”",
-    "slug": "uploaded-68-let-s-eat-grandma",
+    "slug": "uploaded-96-let-s-eat-grandma",
     "brandInspiration": "Notion",
     "industry": "Productivity",
     "format": "Static",
@@ -4008,9 +5646,9 @@
     }
   },
   {
-    "id": "uploaded-69",
+    "id": "uploaded-97",
     "title": "Mobile Ordering is here",
-    "slug": "uploaded-69-mobile-ordering-is-here",
+    "slug": "uploaded-97-mobile-ordering-is-here",
     "brandInspiration": "Ramp",
     "industry": "Fintech",
     "format": "Static",
@@ -4065,9 +5703,68 @@
     }
   },
   {
-    "id": "uploaded-70",
+    "id": "uploaded-98",
+    "title": "Small Deeds Done Right.",
+    "slug": "uploaded-98-small-deeds-done-right",
+    "brandInspiration": "Notion",
+    "industry": "Productivity",
+    "format": "Static",
+    "visualStyleTags": [
+      "minimalist",
+      "retro",
+      "corporate",
+      "illustrative",
+      "flat color",
+      "soft shadows",
+      "typographic focus"
+    ],
+    "premium": true,
+    "image": "/ads/8c5fa791eb97799587f9b7889c323f6c.jpg",
+    "shortDescription": "Minimalist ad showing precise arrangement of office tools under a bold serif headline on pale background.",
+    "whyItWorks": "",
+    "structureNotes": "",
+    "fullPrompt": "",
+    "reconstructionPrompt": "",
+    "remixPrompt": "",
+    "editableVariables": [],
+    "negativePrompt": "",
+    "recommendedModel": "",
+    "aspectRatio": "5:7 (vertical)",
+    "remixNotes": [],
+    "promptQuality": {
+      "exactness": 8,
+      "editability": 9,
+      "brandSafety": 10,
+      "confidenceNote": "The prompt balances exact layout and composition while substituting brand-sensitive content, which should reliably generate a closely matching ad style with minor variations in illustrative details."
+    },
+    "visualBlueprint": {
+      "composition": "",
+      "typography": "",
+      "palette": [],
+      "subject": "",
+      "layout": "",
+      "styleTags": [
+        "minimalist",
+        "retro",
+        "corporate",
+        "illustrative",
+        "flat color",
+        "soft shadows",
+        "typographic focus"
+      ]
+    },
+    "visual": {
+      "headline": "Small Deeds Done Right.",
+      "subline": "",
+      "background": "#f5efe6",
+      "accent": "#7a5c38",
+      "motif": "docs"
+    }
+  },
+  {
+    "id": "uploaded-99",
     "title": "A life full of energy is calling ...",
-    "slug": "uploaded-70-a-life-full-of-energy-is-calling",
+    "slug": "uploaded-99-a-life-full-of-energy-is-calling",
     "brandInspiration": "Superhuman",
     "industry": "Fintech",
     "format": "Static",
@@ -4122,9 +5819,123 @@
     }
   },
   {
-    "id": "uploaded-71",
+    "id": "uploaded-100",
+    "title": "The design files.",
+    "slug": "uploaded-100-the-design-files",
+    "brandInspiration": "Notion",
+    "industry": "Productivity",
+    "format": "Static",
+    "visualStyleTags": [
+      "minimal",
+      "warm lighting",
+      "tactile",
+      "productivity",
+      "handwritten accents",
+      "matte texture"
+    ],
+    "premium": true,
+    "image": "/ads/8e050094f860b3fdf0a57ac4c65ed8f4.jpg",
+    "shortDescription": "A stacked set of papers with dot grid patterns clipped together atop a bright yellow folder on a wood surface, featuring a bold headline, subtle handwritten notes, and a minimal call-to-action.",
+    "whyItWorks": "",
+    "structureNotes": "",
+    "fullPrompt": "",
+    "reconstructionPrompt": "",
+    "remixPrompt": "",
+    "editableVariables": [],
+    "negativePrompt": "",
+    "recommendedModel": "",
+    "aspectRatio": "4:5",
+    "remixNotes": [],
+    "promptQuality": {
+      "exactness": 8,
+      "editability": 9,
+      "brandSafety": 10,
+      "confidenceNote": "The prompt captures the composition, textures, and typography hierarchy robustly with room for minor visual detail variation. It avoids any brand identifiers or proprietary content fully, making it safe. The specificity around lighting and materials supports reliable rendering across tools."
+    },
+    "visualBlueprint": {
+      "composition": "",
+      "typography": "",
+      "palette": [],
+      "subject": "",
+      "layout": "",
+      "styleTags": [
+        "minimal",
+        "warm lighting",
+        "tactile",
+        "productivity",
+        "handwritten accents",
+        "matte texture"
+      ]
+    },
+    "visual": {
+      "headline": "The design files.",
+      "subline": "",
+      "background": "#f5efe6",
+      "accent": "#7a5c38",
+      "motif": "docs"
+    }
+  },
+  {
+    "id": "uploaded-101",
+    "title": "How to read a banana.",
+    "slug": "uploaded-101-how-to-read-a-banana",
+    "brandInspiration": "Notion",
+    "industry": "Productivity",
+    "format": "Static",
+    "visualStyleTags": [
+      "minimal",
+      "infographic",
+      "clean",
+      "modern",
+      "instructional",
+      "warm"
+    ],
+    "premium": false,
+    "image": "/ads/8e5e6588fbf3a1215ca7085d4410fa9f.jpg",
+    "shortDescription": "A clean infographic-style ad showing a close-up of a banana with detailed callouts explaining how to interpret its ripeness and quality.",
+    "whyItWorks": "",
+    "structureNotes": "",
+    "fullPrompt": "",
+    "reconstructionPrompt": "",
+    "remixPrompt": "",
+    "editableVariables": [],
+    "negativePrompt": "",
+    "recommendedModel": "",
+    "aspectRatio": "4:5 portrait",
+    "remixNotes": [],
+    "promptQuality": {
+      "exactness": 8,
+      "editability": 9,
+      "brandSafety": 10,
+      "confidenceNote": "Given the clear composition and distinctive elements, this prompt is highly likely to produce a close visual cousin to the original ad layout and feel, suitable for brand-safe remake and easy to adapt."
+    },
+    "visualBlueprint": {
+      "composition": "",
+      "typography": "",
+      "palette": [],
+      "subject": "",
+      "layout": "",
+      "styleTags": [
+        "minimal",
+        "infographic",
+        "clean",
+        "modern",
+        "instructional",
+        "warm"
+      ]
+    },
+    "visual": {
+      "headline": "How to read a banana.",
+      "subline": "",
+      "background": "#f5efe6",
+      "accent": "#7a5c38",
+      "motif": "docs"
+    }
+  },
+  {
+    "id": "uploaded-102",
     "title": "Does your front desk speak 90 languages?",
-    "slug": "uploaded-71-does-your-front-desk-speak-90-languages",
+    "slug": "uploaded-102-does-your-front-desk-speak-90-languages",
     "brandInspiration": "Claude",
     "industry": "AI",
     "format": "LinkedIn",
@@ -4183,9 +5994,9 @@
     }
   },
   {
-    "id": "uploaded-72",
+    "id": "uploaded-103",
     "title": "Mobile Ordering is here",
-    "slug": "uploaded-72-mobile-ordering-is-here",
+    "slug": "uploaded-103-mobile-ordering-is-here",
     "brandInspiration": "Ramp",
     "industry": "Fintech",
     "format": "Static",
@@ -4240,9 +6051,296 @@
     }
   },
   {
-    "id": "uploaded-73",
+    "id": "uploaded-104",
+    "title": "If you can point, you can use a MacPlus",
+    "slug": "uploaded-104-if-you-can-point-you-can-use-a-macplus",
+    "brandInspiration": "Notion",
+    "industry": "Productivity",
+    "format": "Static",
+    "visualStyleTags": [
+      "vintage",
+      "minimalist",
+      "productivity",
+      "tech nostalgia",
+      "clean",
+      "clear"
+    ],
+    "premium": true,
+    "image": "/ads/961b1e9164941744026b739f9d0bf6d8.jpg",
+    "shortDescription": "A minimalist vintage-style ad showing a large hand pointing at a classic computer mouse with an early Macintosh computer in the background, foregrounded by a bold headline about ease of use.",
+    "whyItWorks": "",
+    "structureNotes": "",
+    "fullPrompt": "",
+    "reconstructionPrompt": "",
+    "remixPrompt": "",
+    "editableVariables": [],
+    "negativePrompt": "",
+    "recommendedModel": "",
+    "aspectRatio": "4:5",
+    "remixNotes": [],
+    "promptQuality": {
+      "exactness": 8,
+      "editability": 7,
+      "brandSafety": 9,
+      "confidenceNote": "The prompt captures most key visual and compositional details essential to recreate the iconic vintage feel and layout. Minor differences in hand anatomy or typographic refinement may vary, but overall a close cousin is very achievable."
+    },
+    "visualBlueprint": {
+      "composition": "",
+      "typography": "",
+      "palette": [],
+      "subject": "",
+      "layout": "",
+      "styleTags": [
+        "vintage",
+        "minimalist",
+        "productivity",
+        "tech nostalgia",
+        "clean",
+        "clear"
+      ]
+    },
+    "visual": {
+      "headline": "If you can point, you can use a MacPlus",
+      "subline": "",
+      "background": "#f5efe6",
+      "accent": "#7a5c38",
+      "motif": "docs"
+    }
+  },
+  {
+    "id": "uploaded-105",
+    "title": "Very, Very Smart.",
+    "slug": "uploaded-105-very-very-smart",
+    "brandInspiration": "Notion",
+    "industry": "Productivity",
+    "format": "Static",
+    "visualStyleTags": [
+      "retro",
+      "vintage",
+      "minimalist",
+      "typography-focused",
+      "analog technology",
+      "clean layout",
+      "classic serif"
+    ],
+    "premium": false,
+    "image": "/ads/973ee197ac7f806c6223a16857c9e8e9.jpg",
+    "shortDescription": "A vintage-style ad featuring a word processor device with large serif headline above and descriptive text below, emphasizing simplicity and intelligence of the product.",
+    "whyItWorks": "",
+    "structureNotes": "",
+    "fullPrompt": "",
+    "reconstructionPrompt": "",
+    "remixPrompt": "",
+    "editableVariables": [],
+    "negativePrompt": "",
+    "recommendedModel": "",
+    "aspectRatio": "4:5",
+    "remixNotes": [],
+    "promptQuality": {
+      "exactness": 8,
+      "editability": 7,
+      "brandSafety": 10,
+      "confidenceNote": "The prompt should reliably recreate the core composition, subject placement, and mood, though intricate device details or exact typography nuances may vary slightly across tools."
+    },
+    "visualBlueprint": {
+      "composition": "",
+      "typography": "",
+      "palette": [],
+      "subject": "",
+      "layout": "",
+      "styleTags": [
+        "retro",
+        "vintage",
+        "minimalist",
+        "typography-focused",
+        "analog technology",
+        "clean layout",
+        "classic serif"
+      ]
+    },
+    "visual": {
+      "headline": "Very, Very Smart.",
+      "subline": "",
+      "background": "#f5efe6",
+      "accent": "#7a5c38",
+      "motif": "docs"
+    }
+  },
+  {
+    "id": "uploaded-106",
+    "title": "Ever since I was a small child I knew I Wanted to be indoors on the Computer",
+    "slug": "uploaded-106-ever-since-i-was-a-small-child-i-knew-i-wanted-to-be-indoors-on-the-computer",
+    "brandInspiration": "Ramp",
+    "industry": "Productivity",
+    "format": "Static",
+    "visualStyleTags": [
+      "retro",
+      "nostalgic",
+      "minimal",
+      "typographic",
+      "analog texture",
+      "warm lighting"
+    ],
+    "premium": true,
+    "image": "/ads/9941495476bd0631eea5bd2497dd461d.jpg",
+    "shortDescription": "A vintage-inspired tech ad featuring a retro computer centered on a vibrant yellow crinkled-paper background, with layered, elegant serif typography and complementary smaller sans-serif captions.",
+    "whyItWorks": "",
+    "structureNotes": "",
+    "fullPrompt": "",
+    "reconstructionPrompt": "",
+    "remixPrompt": "",
+    "editableVariables": [],
+    "negativePrompt": "",
+    "recommendedModel": "",
+    "aspectRatio": "5:6",
+    "remixNotes": [],
+    "promptQuality": {
+      "exactness": 8,
+      "editability": 7,
+      "brandSafety": 10,
+      "confidenceNote": "The prompt captures the layout, typography style, color palette, and composition very closely, ensuring a high likelihood of structurally accurate recreation. Adjustments might be needed on fine text kerning and exact paper texture detail depending on the image generation model."
+    },
+    "visualBlueprint": {
+      "composition": "",
+      "typography": "",
+      "palette": [],
+      "subject": "",
+      "layout": "",
+      "styleTags": [
+        "retro",
+        "nostalgic",
+        "minimal",
+        "typographic",
+        "analog texture",
+        "warm lighting"
+      ]
+    },
+    "visual": {
+      "headline": "Ever since I was a small child I knew I Wanted to be indoors on the Computer",
+      "subline": "",
+      "background": "#f5efe6",
+      "accent": "#7a5c38",
+      "motif": "docs"
+    }
+  },
+  {
+    "id": "uploaded-107",
+    "title": "Trains of thought departing daily.",
+    "slug": "uploaded-107-trains-of-thought-departing-daily",
+    "brandInspiration": "Notion",
+    "industry": "Productivity",
+    "format": "Static",
+    "visualStyleTags": [
+      "minimalist",
+      "vintage",
+      "monochrome",
+      "print ad",
+      "typographic",
+      "intellectual"
+    ],
+    "premium": true,
+    "image": "/ads/9992b011e3691f76220dbff2f5eeb432.jpg",
+    "shortDescription": "A minimalist, vintage-style print ad centered around a powerful typographic headline above a rolled newspaper, evoking daily dissemination of thoughtful news or ideas.",
+    "whyItWorks": "",
+    "structureNotes": "",
+    "fullPrompt": "",
+    "reconstructionPrompt": "",
+    "remixPrompt": "",
+    "editableVariables": [],
+    "negativePrompt": "",
+    "recommendedModel": "",
+    "aspectRatio": "3:4",
+    "remixNotes": [],
+    "promptQuality": {
+      "exactness": 8,
+      "editability": 9,
+      "brandSafety": 10,
+      "confidenceNote": "This prompt strongly captures the original's distinctive typographic hierarchy, monochrome palette, and balanced composition, yielding a close cousin without trademark conflicts."
+    },
+    "visualBlueprint": {
+      "composition": "",
+      "typography": "",
+      "palette": [],
+      "subject": "",
+      "layout": "",
+      "styleTags": [
+        "minimalist",
+        "vintage",
+        "monochrome",
+        "print ad",
+        "typographic",
+        "intellectual"
+      ]
+    },
+    "visual": {
+      "headline": "Trains of thought departing daily.",
+      "subline": "",
+      "background": "#f5efe6",
+      "accent": "#7a5c38",
+      "motif": "docs"
+    }
+  },
+  {
+    "id": "uploaded-108",
+    "title": "MORE PULL",
+    "slug": "uploaded-108-more-pull",
+    "brandInspiration": "Notion",
+    "industry": "Productivity",
+    "format": "Static",
+    "visualStyleTags": [
+      "minimalistic",
+      "clean",
+      "photorealistic",
+      "modern",
+      "corporate",
+      "conceptual"
+    ],
+    "premium": true,
+    "image": "/ads/9b242efcd5af4639bb6ca8bb60d34160.jpg",
+    "shortDescription": "A minimalistic print ad showing a silver off-road vehicle tied by rope to a crease in a white sheet being pulled tight from the left, highlighting the phrase 'MORE PULL' in bold sans serif beneath the vehicle.",
+    "whyItWorks": "",
+    "structureNotes": "",
+    "fullPrompt": "",
+    "reconstructionPrompt": "",
+    "remixPrompt": "",
+    "editableVariables": [],
+    "negativePrompt": "",
+    "recommendedModel": "",
+    "aspectRatio": "3:4",
+    "remixNotes": [],
+    "promptQuality": {
+      "exactness": 8,
+      "editability": 9,
+      "brandSafety": 10,
+      "confidenceNote": "The prompt strikes a strong balance between detail and flexibility to produce close cousins of the reference ad. It avoids brand details and keeps composition specific, so near-exact recreations are very feasible."
+    },
+    "visualBlueprint": {
+      "composition": "",
+      "typography": "",
+      "palette": [],
+      "subject": "",
+      "layout": "",
+      "styleTags": [
+        "minimalistic",
+        "clean",
+        "photorealistic",
+        "modern",
+        "corporate",
+        "conceptual"
+      ]
+    },
+    "visual": {
+      "headline": "MORE PULL",
+      "subline": "",
+      "background": "#f5efe6",
+      "accent": "#7a5c38",
+      "motif": "docs"
+    }
+  },
+  {
+    "id": "uploaded-109",
     "title": "Over one-third of the food produced in the United States is never eaten",
-    "slug": "uploaded-73-over-one-third-of-the-food-produced-in-the-united-states-is-never-eaten",
+    "slug": "uploaded-109-over-one-third-of-the-food-produced-in-the-united-states-is-never-eaten",
     "brandInspiration": "Notion",
     "industry": "Productivity",
     "format": "Static",
@@ -4299,9 +6397,9 @@
     }
   },
   {
-    "id": "uploaded-74",
+    "id": "uploaded-110",
     "title": "One manual CSV, two lost nights",
-    "slug": "uploaded-74-one-manual-csv-two-lost-nights",
+    "slug": "uploaded-110-one-manual-csv-two-lost-nights",
     "brandInspiration": "Superhuman",
     "industry": "Productivity",
     "format": "Static",
@@ -4358,9 +6456,9 @@
     }
   },
   {
-    "id": "uploaded-75",
+    "id": "uploaded-111",
     "title": "Your clients are global.",
-    "slug": "uploaded-75-your-clients-are-global",
+    "slug": "uploaded-111-your-clients-are-global",
     "brandInspiration": "Stripe",
     "industry": "Fintech",
     "format": "Static",
@@ -4417,9 +6515,9 @@
     }
   },
   {
-    "id": "uploaded-76",
+    "id": "uploaded-112",
     "title": "Create a feedback form for an online hair care brand",
-    "slug": "uploaded-76-create-a-feedback-form-for-an-online-hair-care-brand",
+    "slug": "uploaded-112-create-a-feedback-form-for-an-online-hair-care-brand",
     "brandInspiration": "Notion",
     "industry": "Productivity",
     "format": "Static",
@@ -4482,9 +6580,9 @@
     }
   },
   {
-    "id": "uploaded-77",
+    "id": "uploaded-113",
     "title": "Give your DPC clinic one place to think.",
-    "slug": "uploaded-77-give-your-dpc-clinic-one-place-to-think",
+    "slug": "uploaded-113-give-your-dpc-clinic-one-place-to-think",
     "brandInspiration": "Notion",
     "industry": "Productivity",
     "format": "Static",
@@ -4543,9 +6641,9 @@
     }
   },
   {
-    "id": "uploaded-78",
+    "id": "uploaded-114",
     "title": "Your DPC stack shouldn't be a puzzle.",
-    "slug": "uploaded-78-your-dpc-stack-shouldn-t-be-a-puzzle",
+    "slug": "uploaded-114-your-dpc-stack-shouldn-t-be-a-puzzle",
     "brandInspiration": "Notion",
     "industry": "Productivity",
     "format": "Static",
@@ -4602,9 +6700,9 @@
     }
   },
   {
-    "id": "uploaded-79",
+    "id": "uploaded-115",
     "title": "Effectively Launch Your Pricing Strategy",
-    "slug": "uploaded-79-effectively-launch-your-pricing-strategy",
+    "slug": "uploaded-115-effectively-launch-your-pricing-strategy",
     "brandInspiration": "Ramp",
     "industry": "Fintech",
     "format": "LinkedIn",
@@ -4665,9 +6763,9 @@
     }
   },
   {
-    "id": "uploaded-80",
+    "id": "uploaded-116",
     "title": "Demo Brex and get free AirPods",
-    "slug": "uploaded-80-demo-brex-and-get-free-airpods",
+    "slug": "uploaded-116-demo-brex-and-get-free-airpods",
     "brandInspiration": "Stripe",
     "industry": "Fintech",
     "format": "Static",
@@ -4726,9 +6824,9 @@
     }
   },
   {
-    "id": "uploaded-81",
+    "id": "uploaded-117",
     "title": "Too many video tools? The circus ends here.",
-    "slug": "uploaded-81-too-many-video-tools-the-circus-ends-here",
+    "slug": "uploaded-117-too-many-video-tools-the-circus-ends-here",
     "brandInspiration": "Superhuman",
     "industry": "Productivity",
     "format": "Static",
@@ -4785,9 +6883,9 @@
     }
   },
   {
-    "id": "uploaded-82",
+    "id": "uploaded-118",
     "title": "When you realize you can record, edit, and publish all in one place",
-    "slug": "uploaded-82-when-you-realize-you-can-record-edit-and-publish-all-in-one-place",
+    "slug": "uploaded-118-when-you-realize-you-can-record-edit-and-publish-all-in-one-place",
     "brandInspiration": "Notion",
     "industry": "Productivity",
     "format": "Static",
@@ -4842,9 +6940,9 @@
     }
   },
   {
-    "id": "uploaded-83",
+    "id": "uploaded-119",
     "title": "Build secure, AI-generated, production-ready apps",
-    "slug": "uploaded-83-build-secure-ai-generated-production-ready-apps",
+    "slug": "uploaded-119-build-secure-ai-generated-production-ready-apps",
     "brandInspiration": "Notion",
     "industry": "AI",
     "format": "Static",
@@ -4903,9 +7001,9 @@
     }
   },
   {
-    "id": "uploaded-84",
+    "id": "uploaded-120",
     "title": "37% of healthcare AI investments globally reach production.",
-    "slug": "uploaded-84-37-of-healthcare-ai-investments-globally-reach-production",
+    "slug": "uploaded-120-37-of-healthcare-ai-investments-globally-reach-production",
     "brandInspiration": "Claude",
     "industry": "AI",
     "format": "Static",
@@ -4960,9 +7058,9 @@
     }
   },
   {
-    "id": "uploaded-85",
+    "id": "uploaded-121",
     "title": "Unsanctioned SaaS doesn’t have to be an unmanageable risk",
-    "slug": "uploaded-85-unsanctioned-saas-doesn-t-have-to-be-an-unmanageable-risk",
+    "slug": "uploaded-121-unsanctioned-saas-doesn-t-have-to-be-an-unmanageable-risk",
     "brandInspiration": "Notion",
     "industry": "Security",
     "format": "Static",
@@ -5025,9 +7123,9 @@
     }
   },
   {
-    "id": "uploaded-86",
+    "id": "uploaded-122",
     "title": "SaaS on/offboarding with less time and frustration",
-    "slug": "uploaded-86-saas-on-offboarding-with-less-time-and-frustration",
+    "slug": "uploaded-122-saas-on-offboarding-with-less-time-and-frustration",
     "brandInspiration": "Superhuman",
     "industry": "Security",
     "format": "Static",
@@ -5086,9 +7184,9 @@
     }
   },
   {
-    "id": "uploaded-87",
+    "id": "uploaded-123",
     "title": "Resolve customer queries faster with Intercom’s Helpdesk",
-    "slug": "uploaded-87-resolve-customer-queries-faster-with-intercom-s-helpdesk",
+    "slug": "uploaded-123-resolve-customer-queries-faster-with-intercom-s-helpdesk",
     "brandInspiration": "Superhuman",
     "industry": "Productivity",
     "format": "Static",
@@ -5143,9 +7241,9 @@
     }
   },
   {
-    "id": "uploaded-88",
+    "id": "uploaded-124",
     "title": "From discovery call to final payment, all in Bonsai by Zoom",
-    "slug": "uploaded-88-from-discovery-call-to-final-payment-all-in-bonsai-by-zoom",
+    "slug": "uploaded-124-from-discovery-call-to-final-payment-all-in-bonsai-by-zoom",
     "brandInspiration": "Notion",
     "industry": "Collaboration",
     "format": "LinkedIn",
@@ -5200,9 +7298,9 @@
     }
   },
   {
-    "id": "uploaded-89",
+    "id": "uploaded-125",
     "title": "MAKE MORE VIDEO",
-    "slug": "uploaded-89-make-more-video",
+    "slug": "uploaded-125-make-more-video",
     "brandInspiration": "Notion",
     "industry": "Productivity",
     "format": "Static",
@@ -5255,9 +7353,9 @@
     }
   },
   {
-    "id": "uploaded-90",
+    "id": "uploaded-126",
     "title": "Minimalist abstract pattern of vertical lines",
-    "slug": "uploaded-90-minimalist-abstract-pattern-of-vertical-lines",
+    "slug": "uploaded-126-minimalist-abstract-pattern-of-vertical-lines",
     "brandInspiration": "Figma",
     "industry": "Productivity",
     "format": "Static",
@@ -5310,9 +7408,9 @@
     }
   },
   {
-    "id": "uploaded-91",
+    "id": "uploaded-127",
     "title": "The Build vs. Buy Shift is here",
-    "slug": "uploaded-91-the-build-vs-buy-shift-is-here",
+    "slug": "uploaded-127-the-build-vs-buy-shift-is-here",
     "brandInspiration": "Ramp",
     "industry": "Productivity",
     "format": "Static",
@@ -5369,9 +7467,9 @@
     }
   },
   {
-    "id": "uploaded-92",
+    "id": "uploaded-128",
     "title": "Stop the Audit Fire Drills",
-    "slug": "uploaded-92-stop-the-audit-fire-drills",
+    "slug": "uploaded-128-stop-the-audit-fire-drills",
     "brandInspiration": "Stripe",
     "industry": "Security",
     "format": "Static",
@@ -5430,9 +7528,9 @@
     }
   },
   {
-    "id": "uploaded-93",
+    "id": "uploaded-129",
     "title": "10 Steps to EU AI Act Readiness",
-    "slug": "uploaded-93-10-steps-to-eu-ai-act-readiness",
+    "slug": "uploaded-129-10-steps-to-eu-ai-act-readiness",
     "brandInspiration": "Linear",
     "industry": "Security",
     "format": "LinkedIn",
@@ -5491,9 +7589,9 @@
     }
   },
   {
-    "id": "uploaded-94",
+    "id": "uploaded-130",
     "title": "Create real-time data reports in under 1 min",
-    "slug": "uploaded-94-create-real-time-data-reports-in-under-1-min",
+    "slug": "uploaded-130-create-real-time-data-reports-in-under-1-min",
     "brandInspiration": "Notion",
     "industry": "Productivity",
     "format": "Static",
@@ -5552,9 +7650,9 @@
     }
   },
   {
-    "id": "uploaded-95",
+    "id": "uploaded-131",
     "title": "What if your 401(k) paid you back?",
-    "slug": "uploaded-95-what-if-your-401-k-paid-you-back",
+    "slug": "uploaded-131-what-if-your-401-k-paid-you-back",
     "brandInspiration": "Ramp",
     "industry": "Fintech",
     "format": "Static",
@@ -5611,9 +7709,9 @@
     }
   },
   {
-    "id": "uploaded-96",
+    "id": "uploaded-132",
     "title": "Expense chaos. Time wasted.",
-    "slug": "uploaded-96-expense-chaos-time-wasted",
+    "slug": "uploaded-132-expense-chaos-time-wasted",
     "brandInspiration": "Ramp",
     "industry": "Fintech",
     "format": "Static",
@@ -5668,9 +7766,9 @@
     }
   },
   {
-    "id": "uploaded-97",
+    "id": "uploaded-133",
     "title": "Pay bills faster with 10x accuracy",
-    "slug": "uploaded-97-pay-bills-faster-with-10x-accuracy",
+    "slug": "uploaded-133-pay-bills-faster-with-10x-accuracy",
     "brandInspiration": "Ramp",
     "industry": "Fintech",
     "format": "Static",
@@ -5725,9 +7823,9 @@
     }
   },
   {
-    "id": "uploaded-98",
+    "id": "uploaded-134",
     "title": "Expense approved before you can sip your matcha",
-    "slug": "uploaded-98-expense-approved-before-you-can-sip-your-matcha",
+    "slug": "uploaded-134-expense-approved-before-you-can-sip-your-matcha",
     "brandInspiration": "Ramp",
     "industry": "Fintech",
     "format": "Static",
@@ -5784,9 +7882,9 @@
     }
   },
   {
-    "id": "uploaded-99",
+    "id": "uploaded-135",
     "title": "The business app for consultants",
-    "slug": "uploaded-99-the-business-app-for-consultants",
+    "slug": "uploaded-135-the-business-app-for-consultants",
     "brandInspiration": "Notion",
     "industry": "Productivity",
     "format": "LinkedIn",
@@ -5845,9 +7943,9 @@
     }
   },
   {
-    "id": "uploaded-100",
+    "id": "uploaded-136",
     "title": "Turn your Webflow work into more clients and revenue",
-    "slug": "uploaded-100-turn-your-webflow-work-into-more-clients-and-revenue",
+    "slug": "uploaded-136-turn-your-webflow-work-into-more-clients-and-revenue",
     "brandInspiration": "Figma",
     "industry": "Productivity",
     "format": "Static",
@@ -5902,9 +8000,9 @@
     }
   },
   {
-    "id": "uploaded-101",
+    "id": "uploaded-137",
     "title": "“Rovo answers 80% of new hire questions at Sprout Social.”",
-    "slug": "uploaded-101-rovo-answers-80-of-new-hire-questions-at-sprout-social",
+    "slug": "uploaded-137-rovo-answers-80-of-new-hire-questions-at-sprout-social",
     "brandInspiration": "Notion",
     "industry": "AI",
     "format": "Static",
@@ -5963,9 +8061,9 @@
     }
   },
   {
-    "id": "uploaded-102",
+    "id": "uploaded-138",
     "title": "Is your current platform slowing down innovation?",
-    "slug": "uploaded-102-is-your-current-platform-slowing-down-innovation",
+    "slug": "uploaded-138-is-your-current-platform-slowing-down-innovation",
     "brandInspiration": "Stripe",
     "industry": "Fintech",
     "format": "Static",
@@ -6020,9 +8118,9 @@
     }
   },
   {
-    "id": "uploaded-103",
+    "id": "uploaded-139",
     "title": "Datadog Live en Monterrey con DEACERO",
-    "slug": "uploaded-103-datadog-live-en-monterrey-con-deacero",
+    "slug": "uploaded-139-datadog-live-en-monterrey-con-deacero",
     "brandInspiration": "Notion",
     "industry": "Security",
     "format": "Static",
@@ -6081,9 +8179,9 @@
     }
   },
   {
-    "id": "uploaded-104",
+    "id": "uploaded-140",
     "title": "Todos para uno. Uno para todos.",
-    "slug": "uploaded-104-todos-para-uno-uno-para-todos",
+    "slug": "uploaded-140-todos-para-uno-uno-para-todos",
     "brandInspiration": "Notion",
     "industry": "Security",
     "format": "Static",
@@ -6138,9 +8236,9 @@
     }
   },
   {
-    "id": "uploaded-105",
+    "id": "uploaded-141",
     "title": "Pedirle a los clientes que se verifiquen de nuevo en cada transacción es frustrante.",
-    "slug": "uploaded-105-pedirle-a-los-clientes-que-se-verifiquen-de-nuevo-en-cada-transacci-n-es-frustrante",
+    "slug": "uploaded-141-pedirle-a-los-clientes-que-se-verifiquen-de-nuevo-en-cada-transacci-n-es-frustrante",
     "brandInspiration": "Ramp",
     "industry": "Security",
     "format": "LinkedIn",
@@ -6199,9 +8297,9 @@
     }
   },
   {
-    "id": "uploaded-106",
+    "id": "uploaded-142",
     "title": "If we live in 2025, why is your product catalog stuck in the 1990s?",
-    "slug": "uploaded-106-if-we-live-in-2025-why-is-your-product-catalog-stuck-in-the-1990s",
+    "slug": "uploaded-142-if-we-live-in-2025-why-is-your-product-catalog-stuck-in-the-1990s",
     "brandInspiration": "Notion",
     "industry": "Productivity",
     "format": "Static",
@@ -6256,9 +8354,9 @@
     }
   },
   {
-    "id": "uploaded-107",
+    "id": "uploaded-143",
     "title": "Build on Webflow. Grow with Foundations.",
-    "slug": "uploaded-107-build-on-webflow-grow-with-foundations",
+    "slug": "uploaded-143-build-on-webflow-grow-with-foundations",
     "brandInspiration": "Figma",
     "industry": "Productivity",
     "format": "Static",
@@ -6313,9 +8411,9 @@
     }
   },
   {
-    "id": "uploaded-108",
+    "id": "uploaded-144",
     "title": "We’re not rebuilding auth flows in 2026",
-    "slug": "uploaded-108-we-re-not-rebuilding-auth-flows-in-2026",
+    "slug": "uploaded-144-we-re-not-rebuilding-auth-flows-in-2026",
     "brandInspiration": "Superhuman",
     "industry": "Security",
     "format": "LinkedIn",
@@ -6376,9 +8474,70 @@
     }
   },
   {
-    "id": "uploaded-109",
+    "id": "uploaded-145",
+    "title": "FINANCE TEAMS REPORT IMPLEMENTATION THAT TOOK WEEKS, NOT MONTHS",
+    "slug": "uploaded-145-finance-teams-report-implementation-that-took-weeks-not-months",
+    "brandInspiration": "Ramp",
+    "industry": "Fintech",
+    "format": "Static",
+    "visualStyleTags": [
+      "newspaper",
+      "clean",
+      "bold typography",
+      "monochrome",
+      "minimalist",
+      "structured",
+      "professional",
+      "bright background"
+    ],
+    "premium": false,
+    "image": "/ads/Ent-Finance_Implementation_logo-proof-fun_1x1jpg.jpeg",
+    "shortDescription": "A clean, bright ad mimicking a newspaper front page, highlighting quick finance implementation with logos of well-known tech brands and executive portraits on a vivid yellow background.",
+    "whyItWorks": "",
+    "structureNotes": "",
+    "fullPrompt": "",
+    "reconstructionPrompt": "",
+    "remixPrompt": "",
+    "editableVariables": [],
+    "negativePrompt": "",
+    "recommendedModel": "",
+    "aspectRatio": "1:1",
+    "remixNotes": [],
+    "promptQuality": {
+      "exactness": 8,
+      "editability": 8,
+      "brandSafety": 10,
+      "confidenceNote": "High confidence in prompt reproducing the structured newspaper layout and style, with good scope for text and branding customization. The style is distinctive but avoids brand infringement by fictionalizing logos and text."
+    },
+    "visualBlueprint": {
+      "composition": "",
+      "typography": "",
+      "palette": [],
+      "subject": "",
+      "layout": "",
+      "styleTags": [
+        "newspaper",
+        "clean",
+        "bold typography",
+        "monochrome",
+        "minimalist",
+        "structured",
+        "professional",
+        "bright background"
+      ]
+    },
+    "visual": {
+      "headline": "FINANCE TEAMS REPORT IMPLEMENTATION THAT TOOK WEEKS, NOT MONTHS",
+      "subline": "",
+      "background": "#f5efe6",
+      "accent": "#7a5c38",
+      "motif": "docs"
+    }
+  },
+  {
+    "id": "uploaded-146",
     "title": "30 hours of work saved in just 30 seconds.",
-    "slug": "uploaded-109-30-hours-of-work-saved-in-just-30-seconds",
+    "slug": "uploaded-146-30-hours-of-work-saved-in-just-30-seconds",
     "brandInspiration": "Notion",
     "industry": "Productivity",
     "format": "Static",
@@ -6393,7 +8552,7 @@
       "professional",
       "tech branding"
     ],
-    "premium": false,
+    "premium": true,
     "image": "/ads/FEAd-12jpg.jpeg",
     "shortDescription": "A clean, modern ad emphasizing time saved with a large number inside a unique shape, minimal text, and subtle branding.",
     "whyItWorks": "",
@@ -6439,9 +8598,9 @@
     }
   },
   {
-    "id": "uploaded-110",
+    "id": "uploaded-147",
     "title": "Governed AI apps for your financial data",
-    "slug": "uploaded-110-governed-ai-apps-for-your-financial-data",
+    "slug": "uploaded-147-governed-ai-apps-for-your-financial-data",
     "brandInspiration": "Ramp",
     "industry": "Fintech",
     "format": "Static",
@@ -6508,9 +8667,302 @@
     }
   },
   {
-    "id": "uploaded-111",
+    "id": "uploaded-148",
+    "title": "Dashboards show issues. Retool acts on them.",
+    "slug": "uploaded-148-dashboards-show-issues-retool-acts-on-them",
+    "brandInspiration": "Notion",
+    "industry": "Productivity",
+    "format": "Static",
+    "visualStyleTags": [
+      "minimal",
+      "modern",
+      "flat vector",
+      "soft shadows",
+      "muted colors",
+      "tech",
+      "calm",
+      "authoritative"
+    ],
+    "premium": true,
+    "image": "/ads/Finserve_Buyer_Angle02_Linkedin_1200x1200png.jpeg",
+    "shortDescription": "A clean SaaS ad with a dark blue gradient background featuring a floating, stylized dashboard UI element beneath concise, prominent headline text and a centered dark CTA button below.",
+    "whyItWorks": "",
+    "structureNotes": "",
+    "fullPrompt": "",
+    "reconstructionPrompt": "",
+    "remixPrompt": "",
+    "editableVariables": [],
+    "negativePrompt": "",
+    "recommendedModel": "",
+    "aspectRatio": "3:4 (vertical)",
+    "remixNotes": [],
+    "promptQuality": {
+      "exactness": 8,
+      "editability": 9,
+      "brandSafety": 10,
+      "confidenceNote": "The prompt captures the ad's core visual layout, typography, and color scheme accurately for strong recreation. Adjustments can be easily made via editable variables to suit alternate brands or messages."
+    },
+    "visualBlueprint": {
+      "composition": "",
+      "typography": "",
+      "palette": [],
+      "subject": "",
+      "layout": "",
+      "styleTags": [
+        "minimal",
+        "modern",
+        "flat vector",
+        "soft shadows",
+        "muted colors",
+        "tech",
+        "calm",
+        "authoritative"
+      ]
+    },
+    "visual": {
+      "headline": "Dashboards show issues. Retool acts on them.",
+      "subline": "",
+      "background": "#f5efe6",
+      "accent": "#7a5c38",
+      "motif": "docs"
+    }
+  },
+  {
+    "id": "uploaded-149",
+    "title": "Self-funded and seeing claims rise?",
+    "slug": "uploaded-149-self-funded-and-seeing-claims-rise",
+    "brandInspiration": "Notion",
+    "industry": "Fintech",
+    "format": "Static",
+    "visualStyleTags": [
+      "minimal",
+      "clean",
+      "professional",
+      "warm",
+      "balanced"
+    ],
+    "premium": false,
+    "image": "/ads/Frame1739334701png.jpeg",
+    "shortDescription": "A clean Fintech ad with a left-aligned headline, subtle supporting text, checklist benefits, and a two-column bar chart comparing intervention costs in diabetes care.",
+    "whyItWorks": "",
+    "structureNotes": "",
+    "fullPrompt": "",
+    "reconstructionPrompt": "",
+    "remixPrompt": "",
+    "editableVariables": [],
+    "negativePrompt": "",
+    "recommendedModel": "",
+    "aspectRatio": "1:1",
+    "remixNotes": [],
+    "promptQuality": {
+      "exactness": 8,
+      "editability": 9,
+      "brandSafety": 10,
+      "confidenceNote": "The prompt captures the composition and visual hierarchy very closely; slight variations in typeface or spacing may occur but overall structure and color placement will reliably match."
+    },
+    "visualBlueprint": {
+      "composition": "",
+      "typography": "",
+      "palette": [],
+      "subject": "",
+      "layout": "",
+      "styleTags": [
+        "minimal",
+        "clean",
+        "professional",
+        "warm",
+        "balanced"
+      ]
+    },
+    "visual": {
+      "headline": "Self-funded and seeing claims rise?",
+      "subline": "",
+      "background": "#f5efe6",
+      "accent": "#7a5c38",
+      "motif": "docs"
+    }
+  },
+  {
+    "id": "uploaded-150",
+    "title": "POSTHOG FEELS LIKE SOMEBODY LEFT ME A FREE PORSCHE 911 IN MY GARAGE EVERY MORNING.",
+    "slug": "uploaded-150-posthog-feels-like-somebody-left-me-a-free-porsche-911-in-my-garage-every-morning",
+    "brandInspiration": "Ramp",
+    "industry": "Productivity",
+    "format": "LinkedIn",
+    "visualStyleTags": [
+      "flat design",
+      "minimalist",
+      "playful",
+      "testimonial",
+      "cartoon mascot",
+      "bold typography",
+      "bright colors",
+      "clean layout"
+    ],
+    "premium": true,
+    "image": "/ads/Frame85png.jpeg",
+    "shortDescription": "A clean testimonial ad with a strong visual metaphor, featuring a stylized sports car and a friendly cartoon mascot, emphasizing delight and surprise with bold typography and clear hierarchy.",
+    "whyItWorks": "",
+    "structureNotes": "",
+    "fullPrompt": "",
+    "reconstructionPrompt": "",
+    "remixPrompt": "",
+    "editableVariables": [],
+    "negativePrompt": "",
+    "recommendedModel": "",
+    "aspectRatio": "16:7",
+    "remixNotes": [],
+    "promptQuality": {
+      "exactness": 8,
+      "editability": 9,
+      "brandSafety": 10,
+      "confidenceNote": "The prompt is quite comprehensive in structure, layout, colors, typography, and subjects, making it highly likely to produce a close and legally safe replica. Minor iteration may be needed to match exact style nuances of illustrative elements."
+    },
+    "visualBlueprint": {
+      "composition": "",
+      "typography": "",
+      "palette": [],
+      "subject": "",
+      "layout": "",
+      "styleTags": [
+        "flat design",
+        "minimalist",
+        "playful",
+        "testimonial",
+        "cartoon mascot",
+        "bold typography",
+        "bright colors",
+        "clean layout"
+      ]
+    },
+    "visual": {
+      "headline": "POSTHOG FEELS LIKE SOMEBODY LEFT ME A FREE PORSCHE 911 IN MY GARAGE EVERY MORNING.",
+      "subline": "",
+      "background": "#f5efe6",
+      "accent": "#7a5c38",
+      "motif": "docs"
+    }
+  },
+  {
+    "id": "uploaded-151",
+    "title": "Beware the Franken-tech stack.",
+    "slug": "uploaded-151-beware-the-franken-tech-stack",
+    "brandInspiration": "Ramp",
+    "industry": "Fintech",
+    "format": "Static",
+    "visualStyleTags": [
+      "minimalist",
+      "flat design",
+      "line art",
+      "bold typography",
+      "modern",
+      "tech metaphor"
+    ],
+    "premium": true,
+    "image": "/ads/Franken-techstack1png.jpeg",
+    "shortDescription": "A clean fintech ad warning about complicated tech stacks, featuring a minimal Frankenstein line illustration and a reassuring product message.",
+    "whyItWorks": "",
+    "structureNotes": "",
+    "fullPrompt": "",
+    "reconstructionPrompt": "",
+    "remixPrompt": "",
+    "editableVariables": [],
+    "negativePrompt": "",
+    "recommendedModel": "",
+    "aspectRatio": "1:1",
+    "remixNotes": [],
+    "promptQuality": {
+      "exactness": 8,
+      "editability": 9,
+      "brandSafety": 10,
+      "confidenceNote": "This prompt carefully balances specific layout and style details with generic brand elements, making it highly reliable for recreating the ad’s structure across modern image generation tools while maintaining legal safety."
+    },
+    "visualBlueprint": {
+      "composition": "",
+      "typography": "",
+      "palette": [],
+      "subject": "",
+      "layout": "",
+      "styleTags": [
+        "minimalist",
+        "flat design",
+        "line art",
+        "bold typography",
+        "modern",
+        "tech metaphor"
+      ]
+    },
+    "visual": {
+      "headline": "Beware the Franken-tech stack.",
+      "subline": "",
+      "background": "#f5efe6",
+      "accent": "#7a5c38",
+      "motif": "docs"
+    }
+  },
+  {
+    "id": "uploaded-152",
+    "title": "YOUR BEST CONTEXT IS INVISIBLE TO YOUR AI",
+    "slug": "uploaded-152-your-best-context-is-invisible-to-your-ai",
+    "brandInspiration": "Notion",
+    "industry": "Collaboration",
+    "format": "Static",
+    "visualStyleTags": [
+      "minimal",
+      "modern",
+      "typographic",
+      "high contrast",
+      "tech",
+      "clean",
+      "bold"
+    ],
+    "premium": true,
+    "image": "/ads/Fromvisualcontexttocode-webinar_1080x1350-02-2png.jpeg",
+    "shortDescription": "A stark tech ad highlighting hidden context in AI tools with bold typography, minimal layout, and strong contrast.",
+    "whyItWorks": "",
+    "structureNotes": "",
+    "fullPrompt": "",
+    "reconstructionPrompt": "",
+    "remixPrompt": "",
+    "editableVariables": [],
+    "negativePrompt": "",
+    "recommendedModel": "",
+    "aspectRatio": "4:5",
+    "remixNotes": [],
+    "promptQuality": {
+      "exactness": 8,
+      "editability": 9,
+      "brandSafety": 10,
+      "confidenceNote": "This prompt carefully captures all key textual and visual elements in the original ad, enabling high fidelity reproduction across models while allowing easy customization. Brand and trademarked content is replaced with fictitious versions to ensure safety and compliance."
+    },
+    "visualBlueprint": {
+      "composition": "",
+      "typography": "",
+      "palette": [],
+      "subject": "",
+      "layout": "",
+      "styleTags": [
+        "minimal",
+        "modern",
+        "typographic",
+        "high contrast",
+        "tech",
+        "clean",
+        "bold"
+      ]
+    },
+    "visual": {
+      "headline": "YOUR BEST CONTEXT IS INVISIBLE TO YOUR AI",
+      "subline": "",
+      "background": "#f5efe6",
+      "accent": "#7a5c38",
+      "motif": "docs"
+    }
+  },
+  {
+    "id": "uploaded-153",
     "title": "Your ERP has data. AR software makes it actionable.",
-    "slug": "uploaded-111-your-erp-has-data-ar-software-makes-it-actionable",
+    "slug": "uploaded-153-your-erp-has-data-ar-software-makes-it-actionable",
     "brandInspiration": "Ramp",
     "industry": "Fintech",
     "format": "LinkedIn",
@@ -6524,7 +8976,7 @@
       "modern",
       "trustworthy"
     ],
-    "premium": true,
+    "premium": false,
     "image": "/ads/FY26_Q2_VBR_Dpng.jpeg",
     "shortDescription": "A fintech ad showing how augmented reality software transforms ERP data into actionable insights, with a clean blue chart background and a clear call-to-action button.",
     "whyItWorks": "",
@@ -6562,6 +9014,468 @@
     },
     "visual": {
       "headline": "Your ERP has data. AR software makes it actionable.",
+      "subline": "",
+      "background": "#f5efe6",
+      "accent": "#7a5c38",
+      "motif": "docs"
+    }
+  },
+  {
+    "id": "uploaded-154",
+    "title": "CxO guide to accelerate AI adoption while managing risk",
+    "slug": "uploaded-154-cxo-guide-to-accelerate-ai-adoption-while-managing-risk",
+    "brandInspiration": "Stripe",
+    "industry": "Security",
+    "format": "Static",
+    "visualStyleTags": [
+      "flat design",
+      "minimalist",
+      "modern",
+      "tech",
+      "friendly",
+      "warm colors",
+      "corporate"
+    ],
+    "premium": true,
+    "image": "/ads/G-MST-0_1200x1200_SI_APAC-EN_CNCpng.jpeg",
+    "shortDescription": "A clean, bright orange-themed ad with a headline on the top left, a vivid call-to-action button below it, and a stylized shield icon with a brain and user avatars at the bottom right above a fictional cloud tech logo.",
+    "whyItWorks": "",
+    "structureNotes": "",
+    "fullPrompt": "",
+    "reconstructionPrompt": "",
+    "remixPrompt": "",
+    "editableVariables": [],
+    "negativePrompt": "",
+    "recommendedModel": "",
+    "aspectRatio": "1:1",
+    "remixNotes": [],
+    "promptQuality": {
+      "exactness": 8,
+      "editability": 9,
+      "brandSafety": 10,
+      "confidenceNote": "The prompt covers all major visual and compositional details precisely, enabling generation of close visual cousins to the reference ad. Some slight variation in avatar style or icon detail is expected but overall structure and feel are well defined."
+    },
+    "visualBlueprint": {
+      "composition": "",
+      "typography": "",
+      "palette": [],
+      "subject": "",
+      "layout": "",
+      "styleTags": [
+        "flat design",
+        "minimalist",
+        "modern",
+        "tech",
+        "friendly",
+        "warm colors",
+        "corporate"
+      ]
+    },
+    "visual": {
+      "headline": "CxO guide to accelerate AI adoption while managing risk",
+      "subline": "",
+      "background": "#f5efe6",
+      "accent": "#7a5c38",
+      "motif": "docs"
+    }
+  },
+  {
+    "id": "uploaded-155",
+    "title": "Highlight the remarkable",
+    "slug": "uploaded-155-highlight-the-remarkable",
+    "brandInspiration": "Superhuman",
+    "industry": "Productivity",
+    "format": "Static",
+    "visualStyleTags": [
+      "editorial",
+      "minimal",
+      "vintage photo",
+      "black and white",
+      "highlight stroke",
+      "clean typography",
+      "quiet tone",
+      "respectful"
+    ],
+    "premium": true,
+    "image": "/ads/G-OFAqYbEAAChmz.jpeg",
+    "shortDescription": "A sophisticated black and white editorial-style ad featuring a vintage NASA control room photo with a vertical yellow highlighter stroke from a distinctive marker overhead, highlighting one figure in the crowd, paired with concise, centered headline and subtext above the photo.",
+    "whyItWorks": "",
+    "structureNotes": "",
+    "fullPrompt": "",
+    "reconstructionPrompt": "",
+    "remixPrompt": "",
+    "editableVariables": [],
+    "negativePrompt": "",
+    "recommendedModel": "",
+    "aspectRatio": "4:5",
+    "remixNotes": [],
+    "promptQuality": {
+      "exactness": 8,
+      "editability": 7,
+      "brandSafety": 10,
+      "confidenceNote": "Strong reconstruction with detailed layout and content instructions. Some variation expected in photo grain and exact type scale, but key visual elements and tone are preserved."
+    },
+    "visualBlueprint": {
+      "composition": "",
+      "typography": "",
+      "palette": [],
+      "subject": "",
+      "layout": "",
+      "styleTags": [
+        "editorial",
+        "minimal",
+        "vintage photo",
+        "black and white",
+        "highlight stroke",
+        "clean typography",
+        "quiet tone",
+        "respectful"
+      ]
+    },
+    "visual": {
+      "headline": "Highlight the remarkable",
+      "subline": "",
+      "background": "#f5efe6",
+      "accent": "#7a5c38",
+      "motif": "docs"
+    }
+  },
+  {
+    "id": "uploaded-156",
+    "title": "Highlight the difference",
+    "slug": "uploaded-156-highlight-the-difference",
+    "brandInspiration": "Notion",
+    "industry": "Productivity",
+    "format": "Static",
+    "visualStyleTags": [
+      "minimal",
+      "typographic",
+      "monochrome with highlight",
+      "clean",
+      "modern"
+    ],
+    "premium": true,
+    "image": "/ads/G-yjivaaQAALYPS.png",
+    "shortDescription": "A minimalistic ad featuring a dense block of repeated words with one word highlighted by a yellow marker to emphasize uniqueness and focus, plus a simple marker image at the bottom.",
+    "whyItWorks": "",
+    "structureNotes": "",
+    "fullPrompt": "",
+    "reconstructionPrompt": "",
+    "remixPrompt": "",
+    "editableVariables": [],
+    "negativePrompt": "",
+    "recommendedModel": "",
+    "aspectRatio": "4:5",
+    "remixNotes": [],
+    "promptQuality": {
+      "exactness": 8,
+      "editability": 9,
+      "brandSafety": 10,
+      "confidenceNote": "This prompt should reproduce the core visual hierarchy and minimal aesthetic very well, though minor details like letter spacing and pen brand text might vary slightly."
+    },
+    "visualBlueprint": {
+      "composition": "",
+      "typography": "",
+      "palette": [],
+      "subject": "",
+      "layout": "",
+      "styleTags": [
+        "minimal",
+        "typographic",
+        "monochrome with highlight",
+        "clean",
+        "modern"
+      ]
+    },
+    "visual": {
+      "headline": "Highlight the difference",
+      "subline": "",
+      "background": "#f5efe6",
+      "accent": "#7a5c38",
+      "motif": "docs"
+    }
+  },
+  {
+    "id": "uploaded-157",
+    "title": "If you were negotiating here tomorrow you'd wear a Luxor",
+    "slug": "uploaded-157-if-you-were-negotiating-here-tomorrow-you-d-wear-a-luxor",
+    "brandInspiration": "Ramp",
+    "industry": "Fintech",
+    "format": "Static",
+    "visualStyleTags": [
+      "monochrome",
+      "minimalist",
+      "luxury",
+      "high contrast",
+      "editorial",
+      "print ad"
+    ],
+    "premium": false,
+    "image": "/ads/G4G53XRbQAA7t-h.png",
+    "shortDescription": "A high-contrast black and white ad featuring bold typographic messaging, a large central landscape photo of a grand conference building, and a close-up product image of a luxury watch with a detailed description beneath, set on a deep black background.",
+    "whyItWorks": "",
+    "structureNotes": "",
+    "fullPrompt": "",
+    "reconstructionPrompt": "",
+    "remixPrompt": "",
+    "editableVariables": [],
+    "negativePrompt": "",
+    "recommendedModel": "",
+    "aspectRatio": "4:5",
+    "remixNotes": [],
+    "promptQuality": {
+      "exactness": 8,
+      "editability": 8,
+      "brandSafety": 10,
+      "confidenceNote": "The prompt is constructed to strongly capture the original layout, typography, and subject matter to produce very close approximations. Brand and trademark replacements ensure legal safety while maintaining aspirational luxury tone."
+    },
+    "visualBlueprint": {
+      "composition": "",
+      "typography": "",
+      "palette": [],
+      "subject": "",
+      "layout": "",
+      "styleTags": [
+        "monochrome",
+        "minimalist",
+        "luxury",
+        "high contrast",
+        "editorial",
+        "print ad"
+      ]
+    },
+    "visual": {
+      "headline": "If you were negotiating here tomorrow you'd wear a Luxor",
+      "subline": "",
+      "background": "#f5efe6",
+      "accent": "#7a5c38",
+      "motif": "docs"
+    }
+  },
+  {
+    "id": "uploaded-158",
+    "title": "“I never read The Economist.”",
+    "slug": "uploaded-158-i-never-read-the-economist",
+    "brandInspiration": "Notion",
+    "industry": "Productivity",
+    "format": "Static",
+    "visualStyleTags": [
+      "minimalist",
+      "typography-focused",
+      "flat color",
+      "bold color contrast",
+      "quiet",
+      "sophisticated"
+    ],
+    "premium": true,
+    "image": "/ads/G4gcFFYa8AA1gOp.png",
+    "shortDescription": "A minimalist, provocative text-based ad featuring a bold quote in large serif type, set on a solid red background, with a small, understated attribution line below.",
+    "whyItWorks": "",
+    "structureNotes": "",
+    "fullPrompt": "",
+    "reconstructionPrompt": "",
+    "remixPrompt": "",
+    "editableVariables": [],
+    "negativePrompt": "",
+    "recommendedModel": "",
+    "aspectRatio": "4:5",
+    "remixNotes": [],
+    "promptQuality": {
+      "exactness": 8,
+      "editability": 9,
+      "brandSafety": 10,
+      "confidenceNote": "The prompt captures the minimalist typography-focused layout with precision, likely to reproduce a close visual cousin. Some font and spacing nuances may vary depending on model."
+    },
+    "visualBlueprint": {
+      "composition": "",
+      "typography": "",
+      "palette": [],
+      "subject": "",
+      "layout": "",
+      "styleTags": [
+        "minimalist",
+        "typography-focused",
+        "flat color",
+        "bold color contrast",
+        "quiet",
+        "sophisticated"
+      ]
+    },
+    "visual": {
+      "headline": "“I never read The Economist.”",
+      "subline": "",
+      "background": "#f5efe6",
+      "accent": "#7a5c38",
+      "motif": "docs"
+    }
+  },
+  {
+    "id": "uploaded-159",
+    "title": "It takes 3.1 seconds to read this ad.",
+    "slug": "uploaded-159-it-takes-3-1-seconds-to-read-this-ad",
+    "brandInspiration": "Superhuman",
+    "industry": "Fintech",
+    "format": "Static",
+    "visualStyleTags": [
+      "minimalist",
+      "futuristic",
+      "clean",
+      "monochrome",
+      "motion-blur",
+      "modern",
+      "elegant"
+    ],
+    "premium": true,
+    "image": "/ads/G4Ra3h0bEAAs4pZ.png",
+    "shortDescription": "Minimalist ad featuring a sleek black car in motion blur across a white background with bold headline and secondary text above, accompanied by a stylized logotype below.",
+    "whyItWorks": "",
+    "structureNotes": "",
+    "fullPrompt": "",
+    "reconstructionPrompt": "",
+    "remixPrompt": "",
+    "editableVariables": [],
+    "negativePrompt": "",
+    "recommendedModel": "",
+    "aspectRatio": "4:5",
+    "remixNotes": [],
+    "promptQuality": {
+      "exactness": 8,
+      "editability": 7,
+      "brandSafety": 10,
+      "confidenceNote": "This prompt carefully reconstructs the core visual and typographic hierarchy while swapping real trademarks for fictional equivalents, ensuring brand safety and faithful layout reproduction. Minor inherent ambiguity in car details and font exactness results in a strong 8/10 in exactness with room for adjustment."
+    },
+    "visualBlueprint": {
+      "composition": "",
+      "typography": "",
+      "palette": [],
+      "subject": "",
+      "layout": "",
+      "styleTags": [
+        "minimalist",
+        "futuristic",
+        "clean",
+        "monochrome",
+        "motion-blur",
+        "modern",
+        "elegant"
+      ]
+    },
+    "visual": {
+      "headline": "It takes 3.1 seconds to read this ad.",
+      "subline": "",
+      "background": "#f5efe6",
+      "accent": "#7a5c38",
+      "motif": "docs"
+    }
+  },
+  {
+    "id": "uploaded-160",
+    "title": "To put a few time zones between me and the annual report.",
+    "slug": "uploaded-160-to-put-a-few-time-zones-between-me-and-the-annual-report",
+    "brandInspiration": "Superhuman",
+    "industry": "Fintech",
+    "format": "Static",
+    "visualStyleTags": [
+      "minimal",
+      "corporate",
+      "quiet",
+      "modern",
+      "clean"
+    ],
+    "premium": true,
+    "image": "/ads/G4YSOw5b0AATktC.png",
+    "shortDescription": "A minimalistic ad showing a list with radio buttons and a company logo at bottom left on a light gray background.",
+    "whyItWorks": "",
+    "structureNotes": "",
+    "fullPrompt": "",
+    "reconstructionPrompt": "",
+    "remixPrompt": "",
+    "editableVariables": [],
+    "negativePrompt": "",
+    "recommendedModel": "",
+    "aspectRatio": "2:3",
+    "remixNotes": [],
+    "promptQuality": {
+      "exactness": 8,
+      "editability": 9,
+      "brandSafety": 10,
+      "confidenceNote": "The prompt carefully captures layout, color scheme, and content hierarchy with fictional branding, likely producing a visually similar ad without infringing on trademarks."
+    },
+    "visualBlueprint": {
+      "composition": "",
+      "typography": "",
+      "palette": [],
+      "subject": "",
+      "layout": "",
+      "styleTags": [
+        "minimal",
+        "corporate",
+        "quiet",
+        "modern",
+        "clean"
+      ]
+    },
+    "visual": {
+      "headline": "To put a few time zones between me and the annual report.",
+      "subline": "",
+      "background": "#f5efe6",
+      "accent": "#7a5c38",
+      "motif": "docs"
+    }
+  },
+  {
+    "id": "uploaded-161",
+    "title": "Picks up five times more women than a Lamborghini.",
+    "slug": "uploaded-161-picks-up-five-times-more-women-than-a-lamborghini",
+    "brandInspiration": "Ramp",
+    "industry": "Fintech",
+    "format": "Static",
+    "visualStyleTags": [
+      "retro",
+      "print ad",
+      "minimalist",
+      "humorous",
+      "bold typography",
+      "bright lighting",
+      "clean"
+    ],
+    "premium": false,
+    "image": "/ads/G5UXcyHbwAAaQPu.png",
+    "shortDescription": "A vintage style print ad featuring an assertive headline above a small van with visible passengers, promoting a practical car with humorous appeal.",
+    "whyItWorks": "",
+    "structureNotes": "",
+    "fullPrompt": "",
+    "reconstructionPrompt": "",
+    "remixPrompt": "",
+    "editableVariables": [],
+    "negativePrompt": "",
+    "recommendedModel": "",
+    "aspectRatio": "4:5",
+    "remixNotes": [],
+    "promptQuality": {
+      "exactness": 8,
+      "editability": 7,
+      "brandSafety": 10,
+      "confidenceNote": "This prompt is carefully constructed to replicate the original ad's clear structure, typographic style, color scheme, and composition while ensuring legal safety by replacing brand elements and sensitive content with fictional alternatives. Slight facial details may vary, but overall layout and mood should be highly consistent."
+    },
+    "visualBlueprint": {
+      "composition": "",
+      "typography": "",
+      "palette": [],
+      "subject": "",
+      "layout": "",
+      "styleTags": [
+        "retro",
+        "print ad",
+        "minimalist",
+        "humorous",
+        "bold typography",
+        "bright lighting",
+        "clean"
+      ]
+    },
+    "visual": {
+      "headline": "Picks up five times more women than a Lamborghini.",
       "subline": "",
       "background": "#f5efe6",
       "accent": "#7a5c38",
