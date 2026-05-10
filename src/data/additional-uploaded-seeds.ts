@@ -1931,11 +1931,11 @@ export const additionalUploadedSeeds: UploadedSeed[] = [
   ],
   [
     "SM-Drata-PR-MOFU-CaseStudies-Lemonade-ST-1-1200x1200-042026png.jpeg",
-    "\"The promise of automation has long been discussed in the compliance world, but never truly realized.\" Drata has turned that into reality.",
-    "Linear",
+    "Drata has turned that into reality.",
+    "Superhuman",
     "Security",
     "LinkedIn",
-    "Vertical 4:5 format with top banner, central quote text block, and bottom left testimonial panel."
+    "Top banner with two logos side by side, vertical separator line; large two-part quote occupying middle-left to full width; testimonial bar at bottom spanning full width."
   ],
   [
     "Screenshot 2026-05-03 at 1.06.11 PM.png",
@@ -2091,219 +2091,395 @@ export const additionalUploadedSeeds: UploadedSeed[] = [
   ],
   [
     "TwitterPost_CFOAIpng.jpeg",
-    "TwitterPost CFOAI",
-    "Stripe",
-    "Fintech",
-    "Static",
-    "static fintech ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
-  ],
-  [
-    "UltimateAIBuyersGuidebyNotionpdf.jpeg",
-    "UltimateAIBuyersGuidebyNotionpdf",
-    "Notion",
-    "Productivity",
-    "Launch",
-    "report-led productivity ad with a clear document artifact, concise headline, and premium thought-leadership framing"
-  ],
-  [
-    "UseCases_1_4x3png.jpeg",
-    "UseCases 1",
-    "Linear",
-    "Productivity",
-    "Static",
-    "customer-proof productivity ad with a testimonial structure, one proof line, and restrained brand framing"
-  ],
-  [
-    "ValueProp_NA_Illustration_NA_Static_Dark_Retargeting-V2_1080x1080png.jpeg",
-    "ValueProp NA Illustration NA Dark Retargeting",
-    "Superhuman",
-    "Productivity",
-    "Meta",
-    "illustrated productivity ad built around a single metaphor, simple composition, and direct copy"
-  ],
-  [
-    "W4B-Q1Campaignpng.jpeg",
-    "W4B Campaign",
+    "CFO.ai is quicker to setup than Excel/Sheets with Claude Opus 4.6 prompting.",
     "Claude",
     "AI",
     "Static",
-    "static ai ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "Centered tweet card occupying about half canvas width and less than half canvas height, balanced with margin space around."
+  ],
+  [
+    "UltimateAIBuyersGuidebyNotionpdf.jpeg",
+    "The Ultimate AI Buyer's Guide",
+    "Notion",
+    "Productivity",
+    "Static",
+    "Asymmetric, left-heavy text block with right vertical icon stack, bottom-left visual anchor with hand illustration"
+  ],
+  [
+    "UseCases_1_4x3png.jpeg",
+    "Basically, we don’t just do podcasts",
+    "Ramp",
+    "Productivity",
+    "Static",
+    "Vertical centered stack: icon and brand top, large centered headline, two columns of six pill-shaped content blocks with right checkmarks, and bottom centered CTA link."
+  ],
+  [
+    "ValueProp_NA_Illustration_NA_Static_Dark_Retargeting-V2_1080x1080png.jpeg",
+    "When fraud tools don't connect, gaps appear",
+    "Stripe",
+    "Security",
+    "LinkedIn",
+    "Left text block top to middle, right visual block bottom-right, logos top-left separated by line."
+  ],
+  [
+    "W4B-Q1Campaignpng.jpeg",
+    "A cash bonus for your entire team? Unreal.",
+    "Ramp",
+    "Fintech",
+    "Static",
+    "Vertical layout, elements center-aligned horizontally. Logo top center, headline and body text stacked below, large 3D textured objects anchoring bottom half with some overlap."
   ],
   [
     "WHERE-DOES-YOUR-SPEND-DATA-ACTUALLY-GOpng.jpeg",
-    "WHERE DOES YOUR SPEND DATA ACTUALLY GO",
-    "Wiz",
-    "Security",
+    "Wo landen Ihre Ausgabendaten?",
+    "Notion",
+    "Fintech",
     "Static",
-    "static security ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "Asymmetrical split: left vertical text stack, right tilted white card with diagram"
   ],
   [
     "WorkOSStack-2png.jpeg",
-    "WorkOSStack 2",
-    "Cursor",
-    "Devtools",
-    "Static",
-    "illustrated devtools ad built around a single metaphor, simple composition, and direct copy"
+    "WorkOS",
+    "Ramp",
+    "Security",
+    "LinkedIn",
+    "Centered vertical stack of three isometric floating panels with left-right aligned text labels, brand logo and name at top center"
   ],
   [
     "Yellow text snippets@2x.png",
-    "Reference 25",
-    "Linear",
+    "Buying stuff at work shouldn't suck",
+    "Ramp",
+    "Fintech",
+    "Static",
+    "Vertical split-screen with left cluttered collage and right minimal chat bubble"
+  ],
+  [
+    "a4549861d757bee59b9cfda23a986f50.jpg",
+    "Newsletter",
+    "Notion",
+    "Collaboration",
+    "Static",
+    "Centered seated figure cropped mid-thigh, newsletter held front and center covering head and torso, angled slightly right."
+  ],
+  [
+    "a488cf717b3ab6ec867aa6f7238284cb.jpg",
+    "HAPPY NEW MONTH",
+    "Notion",
     "Productivity",
     "Static",
-    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+    "Diagonal perspective file drawer at lower left with layered tab folders extending upward right. Text on top right quadrant, small brand mark top left. Thick border framing all."
   ],
   [
     "a5c4603042c3298111530776939a7a99.jpg",
-    "Reference 26",
-    "Linear",
+    "TO DO TA DA",
+    "Ramp",
     "Productivity",
     "Static",
-    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+    "Two vertical panels side-by-side, equal width, moderate rounded corners"
+  ],
+  [
+    "a8d90a5d159aa373e22cb2f696edd4cd.jpg",
+    "1,000 Songs in Your Pocket.",
+    "Notion",
+    "Productivity",
+    "Static",
+    "Vertical portrait ad; headline top left; main subject centered below headline; supporting text at bottom center."
   ],
   [
     "acq_ic_image_onboardpaycontractors-demo-aidatalabeling_en.jpeg",
-    "Acq Ic Image Onboardpaycontractors Demo Aidatalabeling En",
-    "Wiz",
-    "Security",
+    "Onboard and pay contractors with Deel",
+    "Ramp",
+    "Fintech",
     "Static",
-    "static security ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "Top-left aligned headline with smaller top-right capsule button. Beneath headline left side a large info card with text and circular stat. Right side a smaller data card with bar chart. Bottom right a circular gradient interactive graphic with pointer icon. CTA button below headline left aligned. Overall clean balanced layout with generous margins."
   ],
   [
     "ad-pendo-abm-v5png.jpeg",
-    "Pendo Abm",
-    "Superhuman",
-    "Productivity",
+    "Pendo's AI inbound agent.",
+    "Claude",
+    "AI",
+    "LinkedIn",
+    "Left-aligned text blocks with top-left logo, large headline centered vertically on left, supporting text above and below headline, CTA bottom left, secondary logo bottom right."
+  ],
+  [
+    "af42800f56c916cdce42012c9ca65839.jpg",
+    "The most uncomfortable chair you'll ever sit in.",
+    "Notion",
+    "Collaboration",
     "Static",
-    "static productivity ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "Centered single object with headline above and tagline below, vertical orientation"
   ],
   [
     "b47354ff0017504438f0c750be95482d.jpg",
-    "Reference 27",
-    "Linear",
+    "Wefound love on p. 329",
+    "Notion",
     "Productivity",
     "Static",
-    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+    "Vertical portrait with large whitespace, top-left aligned three-line headline, bottom center small dictionary book."
+  ],
+  [
+    "b674972c2bf3d206d27731acc6b51c0c.jpg",
+    "Your space isn't plain. It's curated.",
+    "Notion",
+    "Productivity",
+    "Static",
+    "Minimalist grid-like arrangement with playful asymmetry. Five colorful rectangles spaced in three rows, headline text stacked in three short fragments aligned flush left, tagline centered below, small vertical date element bottom right."
+  ],
+  [
+    "b91d89057f6db47c09bf8e11ead0bd85.jpg",
+    "Remember the days when everything was lighter?",
+    "Ramp",
+    "Productivity",
+    "Static",
+    "Vertical portrait, centered alignment, headline top, object centered below, logo bottom center"
+  ],
+  [
+    "b9cf322e8f434d3d62e91069c633a0b9.jpg",
+    "Marketing smarts to help you grow and scale",
+    "Superhuman",
+    "AI",
+    "Static",
+    "Top-heavy with the large headline occupying the upper 75% of the canvas, body copy below, and logo in bottom right corner."
+  ],
+  [
+    "bbfbacf0161f658008ad02fbfa55b013.jpg",
+    "I hope you found this useful!",
+    "Notion",
+    "Productivity",
+    "Static",
+    "Vertical centered composition with circular avatar top center, headline text below center, colored shapes scattered around text, shadow grounding shapes near bottom."
+  ],
+  [
+    "be6fe9d0327e092e7680cff182c9fa70.jpg",
+    "If the American dream has a diary, this is it.",
+    "Stripe",
+    "Fintech",
+    "Static",
+    "Vertical symmetrical layout with centered headline at top, folded newspaper anchored below, flanking side text columns, brand mark and tagline centered at bottom."
+  ],
+  [
+    "behance.jpg",
+    "This is a story about ninjas who live in a castle on Mars",
+    "Wiz",
+    "Collaboration",
+    "LinkedIn",
+    "A single vertical column of approximately 80 rectangular toy bricks stacked flush and centered on a bright white seamless background, with generous white margin all around."
   ],
   [
     "brandradfar.jpeg",
-    "Brandr Far",
-    "Figma",
-    "Collaboration",
+    "If you're not in AI answers, you're invisible.",
+    "Claude",
+    "AI",
+    "LinkedIn",
+    "Top-left brand logo, headline below left aligned, bottom half chat box centered horizontally, symmetrical vertical division into two main sections: solid black top, gradient bottom."
+  ],
+  [
+    "c247f702ce8256b26042f6650ba63fa4.jpg",
+    "Coverline: The Future of Work When No One Wants to Work",
+    "Notion",
+    "Productivity",
+    "Meta",
+    "Sparse symmetrical layout with heavy use of white space, two sticky notes balancing upper right and lower left quadrants, masthead top center"
+  ],
+  [
+    "c37bf647bdca9b7e89872c2e0f2abefe.jpg",
+    "Transcend Your Earthly Bonds.",
+    "Notion",
+    "AI",
     "Static",
-    "static collaboration ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "Vertical split: left text block, right isometric vintage computer cluster arranged diagonally from top right to bottom center."
+  ],
+  [
+    "c464a38645d5fcd79ee03abc45e1309d.jpg",
+    "How America Spends",
+    "Notion",
+    "Productivity",
+    "Static",
+    "Single centered vertical receipt with partial masthead horizontally bisected behind it, symmetrical balance, minimal negative space on bright yellow background."
   ],
   [
     "c5e06c5493f38092977577e742927f8c.jpg",
-    "Reference 28",
+    "so healthy it even looks like it's doing a sit-up",
+    "Ramp",
+    "Productivity",
+    "Static",
+    "Vertical poster, left aligned large stacked headline, bottom left banana image, top right brand badge"
+  ],
+  [
+    "c6d5a25943121e0a08553bc248e01e75.jpg",
+    "Break your own records everyday.",
     "Linear",
     "Productivity",
     "Static",
-    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+    "Split composition with text block top-left and 3D isometric illustration right-center, balanced by smaller figure group bottom-left. Generous white space around elements."
+  ],
+  [
+    "c74cdbd9924fbe0c1bccc77e3d860dbe.jpg",
+    "Escape from ordinary to extraordinary.",
+    "Ramp",
+    "Collaboration",
+    "Static",
+    "Minimalist vertical with centered alignment. Large key low center-left, small human figure low right with shadows. Brand text centered top, headline centered bottom."
   ],
   [
     "c90e355148a855a49ce492ff2ab8c3d7.jpg",
-    "Reference 29",
-    "Linear",
-    "Productivity",
+    "10% OFF TRUCK RENTALS BUYS A LOT OF PIZZA.",
+    "Ramp",
+    "Fintech",
     "Static",
-    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+    "Vertical portrait layout with headline top-left, truck bottom-right, pizza graphic behind truck."
   ],
   [
     "ca3d36a59a772bb9d908beb1845e68a3.jpg",
-    "Reference 30",
-    "Linear",
+    "70 WEIRD-AS-HELL THINGS UNDER $20 ON AMAZON THAT ARE SO DAMN GENIUS",
+    "Notion",
     "Productivity",
     "Static",
-    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+    "Vertical 4:3 ratio, top photo 60% height, bottom text panel 40%. Central horizontal alignment for hand and pouch. Text centered below photo with generous line spacing."
   ],
   [
     "clickyposts7png.jpeg",
-    "Clickyposts7",
-    "Linear",
-    "Productivity",
+    "Content That Converts",
+    "Ramp",
+    "Collaboration",
     "Static",
-    "static productivity ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "Balanced two-column layout with headline and text on left top, large 3D object mid-right, and 3D characters centered bottom. Radial blue dot decorations top corners framing the composition."
   ],
   [
     "customertestimonial-vertical_blkpng.jpeg",
-    "Customertestimonial Vertical Blk",
-    "Superhuman",
-    "Productivity",
-    "LinkedIn",
-    "customer-proof productivity ad with a testimonial structure, one proof line, and restrained brand framing"
+    "See why Corelight upgraded to Tailscale for secure and reliable connectivity",
+    "Stripe",
+    "Security",
+    "Static",
+    "Vertical layout with distinct sections: logo and brand top-left, headline below, CTA centered beneath headline, decorative geometric band at bottom."
   ],
   [
     "d07eb95e8b8cb01e0ea3874cbf932e6a.jpg",
-    "Reference 31",
-    "Linear",
+    "your marketing is boooooring",
+    "Ramp",
     "Productivity",
     "Static",
-    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+    "Horizontal billboard divided into two main visual zones: left textual block and right illustration cluster."
+  ],
+  [
+    "d12ddfed4085e6c3840aaffacd124427.jpg",
+    "Confused? Overwhelmed? Misled?",
+    "Notion",
+    "Productivity",
+    "Static",
+    "Vertical, 3:4 ratio poster with dominant typographic hierarchy and one main illustrative element"
   ],
   [
     "d392bd3cc4cc6bf3287509cf8e75c6e8.jpg",
-    "Reference 32",
-    "Linear",
+    "Test drive a Macintosh.",
+    "Notion",
     "Productivity",
     "Static",
-    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+    "Vertical orientation with centered alignment. Text top-centered occupying top third, mouse and glove centrally placed below text. Logo placed at bottom-right corner, small scale."
   ],
   [
     "dc02ac506afc7768629c00c8c60f22c7.jpg",
-    "Reference 33",
-    "Linear",
+    "Is Inflation Dead?",
+    "Notion",
+    "Fintech",
+    "Static",
+    "Vertical magazine cover with three-tier hierarchy: masthead top-left, large centered headline, large central figurative image below, small subtitle/line near bottom center."
+  ],
+  [
+    "dc3d9268ac312e6a1dd5b5910e0d9461.jpg",
+    "Why My Brain Can Speak English Better Than Me",
+    "Notion",
     "Productivity",
     "Static",
-    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+    "Asymmetrical split with large stacked headline on right half, smaller text blocks aligned flush left on left two-thirds, some overlap between headline and body text areas."
+  ],
+  [
+    "dc85e8710bd58bf99e79cb74633b0ca1.jpg",
+    "Instagram ad strategy guide.",
+    "Notion",
+    "Productivity",
+    "Static",
+    "Top-left small logo and wordmark; center headline below; large playful black ink illustration filling lower two-thirds, centered horizontally; ample negative space."
+  ],
+  [
+    "e0d9675cd8372f4aeab1387224e24c4e.jpg",
+    "The fast track has a passing lane.",
+    "Notion",
+    "Productivity",
+    "Static",
+    "Vertical, single column layout with distinct top-to-bottom hierarchy: headline, body text, image, tagline"
+  ],
+  [
+    "e6f98ab89fdff4d7837176ae7dd98625.jpg",
+    "Of the 235 million people in America, only a fraction can use a computer.",
+    "Notion",
+    "Productivity",
+    "Static",
+    "Vertical layout with central vertical axis. Headline text in top third, visual subject (hand + computer + bag) in center bottom two-thirds. Ample negative space around edges."
+  ],
+  [
+    "ea23267abb5944ef3ccc876550c03094.jpg",
+    "Trust the Processor",
+    "Ramp",
+    "Devtools",
+    "Static",
+    "Centered symmetrical layout with tilted processor chip slightly below center, headline above overlapping chip, small text balanced left and right, footer contact info bottom left."
+  ],
+  [
+    "ea38f81b552c4fb60c9348ac5cbd17fa.jpg",
+    "Lisa 7/7",
+    "Notion",
+    "Productivity",
+    "Static",
+    "Vertical portrait with top third occupied by a rectangular screen UI, center bottom features a hand with mouse, bottom right has stacked text block, top left and right have logo and headline horizontally aligned"
   ],
   [
     "ed03bb86c581de091160fe7ac1ca1848.jpg",
-    "Reference 34",
-    "Linear",
-    "Productivity",
+    "Every tax refund comes with a choice",
+    "Ramp",
+    "Fintech",
     "Static",
-    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+    "Vertical 9:16 layout with headline at top center, large 3D dial centered below, subtitle beneath dial, faint disclaimer at bottom."
   ],
   [
     "ed38d56264732c6f4f30fc686d16a193.jpg",
-    "Reference 35",
-    "Linear",
+    "Don't lose your Zippo. Lifetime friends are rare.",
+    "Superhuman",
     "Productivity",
     "Static",
-    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+    "Asymmetric with headline top-left and lighter below and right of center; textual blocks below left; large empty white negative space."
   ],
   [
     "engage_eor_image_femsa-testimonial-bpo_en_1080x1080px-1png.jpeg",
-    "Engage Eor Image Femsa Testimonial Bpo En",
-    "Superhuman",
-    "Productivity",
-    "Meta",
-    "customer-proof productivity ad with a testimonial structure, one proof line, and restrained brand framing"
+    "Due to its ability to ensure international compliance, we would recommend Deel to any company with large-scale operations.",
+    "Ramp",
+    "Fintech",
+    "LinkedIn",
+    "Centered large white card on deep purple textured background with logos above and CTA button below"
   ],
   [
     "engage_pay_image_bcg-casestudy-sdo_en_1080x1080pxpng.jpeg",
-    "Engage Pay Image Bcg Casestudy Sdo En",
-    "Linear",
-    "Productivity",
-    "Meta",
-    "customer-proof productivity ad with a testimonial structure, one proof line, and restrained brand framing"
+    "Global consulting. One payroll standard.",
+    "Ramp",
+    "Fintech",
+    "Static",
+    "Centered vertical layout with logos top center, headline large and stacked middle, CTA button bottom center, balanced negative space"
   ],
   [
     "exp2h2_donepng.jpeg",
-    "Exp2h2 Done",
-    "Linear",
+    "Take your mobile releases out of the black box",
+    "Notion",
     "Productivity",
     "Static",
-    "static productivity ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "Centered vertical stack: brand label at top, 3-line headline beneath, large outlined 3D box with open lid below headline, horizontal dotted lines extending from box sides."
   ],
   [
     "exp4h2_donepng.jpeg",
-    "Exp4h2 Done",
+    "RUNWAY RELEASE CADENCE",
     "Linear",
     "Productivity",
     "Static",
-    "static productivity ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "Top-left aligned headlines, two horizontally centered rows of 8 squares each, thin horizontal separator line, two-part body copy aligned left and right beneath squares, call to action button and domain text near bottom-left."
   ],
   [
     "f1c627e7a6c3bec114072bd21b272109.jpg",
