@@ -6,12 +6,12 @@ import { playSuccessSound, playUnlockSound } from "@/lib/success-sound";
 import type { Creative } from "@/types/creative";
 
 const promptDestinations = [
-  { name: "ChatGPT", url: "https://chatgpt.com/" },
-  { name: "Claude", url: "https://claude.ai/new" },
-  { name: "Gemini", url: "https://gemini.google.com/" },
-  { name: "Midjourney", url: "https://www.midjourney.com/imagine" },
-  { name: "Perplexity", url: "https://www.perplexity.ai/" },
-  { name: "Meta AI", url: "https://www.meta.ai/" },
+  { name: "ChatGPT", url: "https://chatgpt.com/", variant: "chatgpt" },
+  { name: "Claude", url: "https://claude.ai/new", variant: "chatgpt" },
+  { name: "Gemini", url: "https://gemini.google.com/", variant: "chatgpt" },
+  { name: "Midjourney", url: "https://www.midjourney.com/imagine", variant: "midjourney" },
+  { name: "Perplexity", url: "https://www.perplexity.ai/", variant: "chatgpt" },
+  { name: "Meta AI", url: "https://www.meta.ai/", variant: "chatgpt" },
 ] as const;
 
 type PromptDestinationName = (typeof promptDestinations)[number]["name"];
@@ -28,8 +28,8 @@ export function PromptPanel({ creative, unlocked, onOpenPricing }: PromptPanelPr
   const prompt = creative.reconstructionPrompt ?? creative.fullPrompt;
   const promptPreview = getPromptPreview(prompt);
 
-  const copyPrompt = async () => {
-    await navigator.clipboard.writeText(prompt);
+  const copyPrompt = async (promptText = prompt) => {
+    await navigator.clipboard.writeText(promptText);
     trackEvent(analyticsEvents.clickedCopyPrompt, {
       creativeSlug: creative.slug,
       source: "prompt_panel",
@@ -39,9 +39,9 @@ export function PromptPanel({ creative, unlocked, onOpenPricing }: PromptPanelPr
     window.setTimeout(() => setCopied(false), 1400);
   };
 
-  const openDestination = async (url: string) => {
+  const openDestination = async (url: string, variant: (typeof promptDestinations)[number]["variant"]) => {
     window.open(url, "_blank", "noopener,noreferrer");
-    await copyPrompt();
+    await copyPrompt(creative.modelVariants?.[variant] ?? prompt);
   };
 
   const openPricingWithUnlock = () => {
@@ -63,9 +63,9 @@ export function PromptPanel({ creative, unlocked, onOpenPricing }: PromptPanelPr
         <div>
           <div className="locked-panel-heading">
             <span className="panel-icon" aria-hidden="true"><LockIcon /></span>
-            <h3>Get the exact prompt</h3>
+            <h3>Get the exact reconstruction prompt</h3>
           </div>
-          <p>Unlock the full prompt, teardown, and remix notes.</p>
+          <p>Unlock the 80%-there reconstruction prompt and creative notes.</p>
         </div>
         <div className="prompt-preview prompt-preview-locked">
           <span>Preview</span>
@@ -91,7 +91,7 @@ export function PromptPanel({ creative, unlocked, onOpenPricing }: PromptPanelPr
     <section className="prompt-panel">
       <div className="panel-heading">
         <h3>Prompt</h3>
-        <button type="button" onClick={copyPrompt} className={`copy-button ${copied ? "copy-success" : ""}`}>
+        <button type="button" onClick={() => copyPrompt()} className={`copy-button ${copied ? "copy-success" : ""}`}>
           {copied ? <span className="copy-check" aria-hidden="true">✓</span> : null}
           {copied ? "Copied" : "Copy prompt"}
         </button>
@@ -103,7 +103,7 @@ export function PromptPanel({ creative, unlocked, onOpenPricing }: PromptPanelPr
             <button
               key={destination.name}
               type="button"
-              onClick={() => openDestination(destination.url)}
+              onClick={() => openDestination(destination.url, destination.variant)}
               aria-label={`Copy prompt and open ${destination.name}`}
               title={`Copy prompt and open ${destination.name}`}
             >

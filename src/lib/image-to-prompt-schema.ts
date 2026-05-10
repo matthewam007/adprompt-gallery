@@ -32,6 +32,28 @@ export const adPromptBlueprintSchema = {
       type: "array",
       items: { type: "string" },
     },
+    promptQuality: {
+      type: "object",
+      additionalProperties: false,
+      properties: {
+        exactness: { type: "number", minimum: 1, maximum: 10 },
+        editability: { type: "number", minimum: 1, maximum: 10 },
+        brandSafety: { type: "number", minimum: 1, maximum: 10 },
+        confidenceNote: { type: "string" },
+      },
+      required: ["exactness", "editability", "brandSafety", "confidenceNote"],
+    },
+    modelVariants: {
+      type: "object",
+      additionalProperties: false,
+      properties: {
+        chatgpt: { type: "string" },
+        midjourney: { type: "string" },
+        ideogram: { type: "string" },
+        flux: { type: "string" },
+      },
+      required: ["chatgpt", "midjourney", "ideogram", "flux"],
+    },
     visualBlueprint: {
       type: "object",
       additionalProperties: false,
@@ -68,6 +90,8 @@ export const adPromptBlueprintSchema = {
     "recommendedModel",
     "aspectRatio",
     "remixNotes",
+    "promptQuality",
+    "modelVariants",
     "visualBlueprint",
   ],
 } as const;
@@ -88,6 +112,18 @@ export type PromptSwipeBlueprint = {
   recommendedModel: string;
   aspectRatio: string;
   remixNotes: string[];
+  promptQuality: {
+    exactness: number;
+    editability: number;
+    brandSafety: number;
+    confidenceNote: string;
+  };
+  modelVariants: {
+    chatgpt: string;
+    midjourney: string;
+    ideogram: string;
+    flux: string;
+  };
   visualBlueprint: {
     composition: string;
     typography: string;

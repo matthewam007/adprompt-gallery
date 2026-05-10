@@ -1,5 +1,9 @@
 import type { BrandInspiration, Creative, Format, Industry } from "@/types/creative";
 import { additionalUploadedSeeds } from "@/data/additional-uploaded-seeds";
+import uploadedBlueprintsSource from "@/data/uploaded-blueprints.json";
+import type { PromptSwipeBlueprint } from "@/lib/image-to-prompt-schema";
+
+const uploadedBlueprints = uploadedBlueprintsSource as Record<string, PromptSwipeBlueprint | undefined>;
 
 export const industries: Array<"All" | Industry> = [
   "All",
@@ -262,51 +266,71 @@ const uploadedSeeds: UploadedSeed[] = [
 ];
 
 const uploadedCreatives: Creative[] = [...additionalUploadedSeeds, ...uploadedSeeds].map(
-  ([filename, title, brandInspiration, industry, format, visualDirection], index) => ({
-    id: `uploaded-${index + 1}`,
-    title,
-    slug: `uploaded-${index + 1}-${title.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "")}`,
-    brandInspiration,
-    industry,
-    format,
-    visualStyleTags: ["uploaded", "reference", "editorial"],
-    premium: index % 4 !== 0,
-    image: `/ads/${filename}`,
-    shortDescription: `${brandInspiration}-adjacent ${format.toLowerCase()} reference for ${industry.toLowerCase()} teams.`,
-    whyItWorks: buildUploadedWhyItWorks(visualDirection, format, industry),
-    structureNotes:
-      "Start with a single plain claim. Pair it with one memorable object, artifact, or scene. Keep the supporting copy secondary, use generous negative space, and leave one clear action or proof cue near the edge.",
-    fullPrompt:
-      `Create a high-fidelity original tech/SaaS ad based on this reference direction: ${visualDirection}. Reconstruct the visual logic closely while replacing any real logo, brand mark, trademarked object, and exact source copy with fictional equivalents. Match the reference's canvas feel, hierarchy, object count, typography weight, negative space, palette, lighting, texture, margin system, and headline placement. Make it suitable for a ${industry.toLowerCase()} product inspired by ${brandInspiration}'s restraint and composed enough to work as a ${format} ad. Use one clear visual metaphor, a short confident headline, and no hype.`,
-    reconstructionPrompt:
-      `Recreate this ad as an original fictional ${industry.toLowerCase()} SaaS ad, keeping the source image's composition as closely as possible without copying real logos, brand marks, or exact wording. Visual direction: ${visualDirection}. Preserve the canvas ratio, amount of negative space, primary subject placement, type scale, headline position, color temperature, border/margin rhythm, lighting style, and editorial pacing. Replace the source brand with a fictional product. Use a short plainspoken headline in the same approximate location and line length. Keep secondary copy minimal. Output should look like a close cousin of the reference at first glance, not just a generic ad in the same category.`,
-    remixPrompt:
-      `Create a fresh ${industry.toLowerCase()} ad inspired by this reference strategy: ${visualDirection}. Keep the calm editorial restraint and one-metaphor structure, but change the subject, headline, and product context so it becomes a new concept for a fictional ${brandInspiration}-inspired SaaS product.`,
-    editableVariables: [
-      "Product category",
-      "Primary claim",
-      "Visual metaphor",
-      "Audience",
-      "Proof detail",
-      "CTA",
-    ],
-    negativePrompt:
-      "No copied logos, no exact brand assets, no stock-photo people, no fake performance claims, no purple AI glow, no busy dashboard collage, no exclamation marks, no hype language.",
-    recommendedModel: index % 3 === 0 ? "Midjourney v7" : index % 3 === 1 ? "GPT-4.1 image" : "Ideogram 3.0",
-    aspectRatio: format === "LinkedIn" ? "4:5" : format === "Meta" ? "1:1" : "4:5",
-    remixNotes: [
-      "Replace the metaphor with a product-specific artifact.",
-      "Keep the headline under seven words.",
-      "Use the same layout with a different proof point.",
-    ],
-    visual: {
-      headline: title,
-      subline: "Uploaded reference.",
-      background: "#f5efe6",
-      accent: "#7a5c38",
-      motif: "docs",
-    },
-  }),
+  ([filename, title, brandInspiration, industry, format, visualDirection], index) => {
+    const blueprint = uploadedBlueprints[filename];
+    const resolvedTitle = blueprint?.title ?? title;
+    const resolvedBrand = (blueprint?.brandInspiration ?? brandInspiration) as BrandInspiration;
+    const resolvedIndustry = (blueprint?.industry ?? industry) as Industry;
+    const resolvedFormat = (blueprint?.format ?? format) as Format;
+
+    return {
+      id: `uploaded-${index + 1}`,
+      title: resolvedTitle,
+      slug: `uploaded-${index + 1}-${resolvedTitle.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "")}`,
+      brandInspiration: resolvedBrand,
+      industry: resolvedIndustry,
+      format: resolvedFormat,
+      visualStyleTags: blueprint?.visualBlueprint.styleTags ?? ["uploaded", "reference", "editorial"],
+      premium: index % 4 !== 0,
+      image: `/ads/${filename}`,
+      shortDescription:
+        blueprint?.shortDescription ??
+        `${resolvedBrand}-adjacent ${resolvedFormat.toLowerCase()} reference for ${resolvedIndustry.toLowerCase()} teams.`,
+      whyItWorks: blueprint?.whyItWorks ?? buildUploadedWhyItWorks(visualDirection, resolvedFormat, resolvedIndustry),
+      structureNotes:
+        blueprint?.structureNotes ??
+        "Start with a single plain claim. Pair it with one memorable object, artifact, or scene. Keep the supporting copy secondary, use generous negative space, and leave one clear action or proof cue near the edge.",
+      fullPrompt:
+        blueprint?.fullPrompt ??
+        `Create a high-fidelity original tech/SaaS ad based on this reference direction: ${visualDirection}. Reconstruct the visual logic closely while replacing any real logo, brand mark, trademarked object, and exact source copy with fictional equivalents. Match the reference's canvas feel, hierarchy, object count, typography weight, negative space, palette, lighting, texture, margin system, and headline placement. Make it suitable for a ${resolvedIndustry.toLowerCase()} product inspired by ${resolvedBrand}'s restraint and composed enough to work as a ${resolvedFormat} ad. Use one clear visual metaphor, a short confident headline, and no hype.`,
+      reconstructionPrompt:
+        blueprint?.reconstructionPrompt ??
+        `Recreate this ad as an original fictional ${resolvedIndustry.toLowerCase()} SaaS ad, keeping the source image's composition as closely as possible without copying real logos, brand marks, or exact wording. Visual direction: ${visualDirection}. Preserve the canvas ratio, amount of negative space, primary subject placement, type scale, headline position, color temperature, border/margin rhythm, lighting style, and editorial pacing. Replace the source brand with a fictional product. Use a short plainspoken headline in the same approximate location and line length. Keep secondary copy minimal. Output should look like a close cousin of the reference at first glance, not just a generic ad in the same category.`,
+      remixPrompt:
+        blueprint?.remixPrompt ??
+        `Create a fresh ${resolvedIndustry.toLowerCase()} ad inspired by this reference strategy: ${visualDirection}. Keep the calm editorial restraint and one-metaphor structure, but change the subject, headline, and product context so it becomes a new concept for a fictional ${resolvedBrand}-inspired SaaS product.`,
+      editableVariables: blueprint?.editableVariables ?? [
+        "Product category",
+        "Primary claim",
+        "Visual metaphor",
+        "Audience",
+        "Proof detail",
+        "CTA",
+      ],
+      negativePrompt:
+        blueprint?.negativePrompt ??
+        "No copied logos, no exact brand assets, no stock-photo people, no fake performance claims, no purple AI glow, no busy dashboard collage, no exclamation marks, no hype language.",
+      recommendedModel:
+        blueprint?.recommendedModel ??
+        (index % 3 === 0 ? "Midjourney v7" : index % 3 === 1 ? "GPT-4.1 image" : "Ideogram 3.0"),
+      aspectRatio: blueprint?.aspectRatio ?? (resolvedFormat === "LinkedIn" ? "4:5" : resolvedFormat === "Meta" ? "1:1" : "4:5"),
+      remixNotes: blueprint?.remixNotes ?? [
+        "Replace the metaphor with a product-specific artifact.",
+        "Keep the headline under seven words.",
+        "Use the same layout with a different proof point.",
+      ],
+      promptQuality: blueprint?.promptQuality,
+      modelVariants: blueprint?.modelVariants,
+      visualBlueprint: blueprint?.visualBlueprint,
+      visual: {
+        headline: resolvedTitle,
+        subline: blueprint ? "Vision-analyzed reference." : "Uploaded reference.",
+        background: "#f5efe6",
+        accent: "#7a5c38",
+        motif: "docs",
+      },
+    };
+  },
 );
 
 export const creatives: Creative[] = [...uploadedCreatives, ...generatedCreatives];

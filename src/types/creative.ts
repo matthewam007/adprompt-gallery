@@ -48,6 +48,26 @@ export type Creative = {
   recommendedModel: string;
   aspectRatio: string;
   remixNotes: string[];
+  promptQuality?: {
+    exactness: number;
+    editability: number;
+    brandSafety: number;
+    confidenceNote: string;
+  };
+  modelVariants?: {
+    chatgpt: string;
+    midjourney: string;
+    ideogram: string;
+    flux: string;
+  };
+  visualBlueprint?: {
+    composition: string;
+    typography: string;
+    palette: string[];
+    subject: string;
+    layout: string;
+    styleTags: string[];
+  };
   image?: string;
   visual: {
     headline: string;

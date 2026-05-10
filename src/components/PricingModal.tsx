@@ -38,7 +38,7 @@ export function PricingModal({
             <h3>Unlock one prompt</h3>
             <strong>$2</strong>
             <p>For the one you came for.</p>
-            <small>Includes full prompt, model notes, layout breakdown, and remix variables.</small>
+            <small>Includes the exact reconstruction prompt, model notes, layout breakdown, and remix variables.</small>
             <button type="button" onClick={onSingleUnlock} disabled={loading !== null}>
               {loading === "single" ? "Opening checkout..." : "Unlock prompt"}
             </button>

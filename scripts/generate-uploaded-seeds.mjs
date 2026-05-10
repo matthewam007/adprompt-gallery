@@ -25,6 +25,7 @@ await loadDotEnvLocal();
 
 const adsDir = join(process.cwd(), "public", "ads");
 const outputPath = join(process.cwd(), "src", "data", "additional-uploaded-seeds.ts");
+const blueprintPath = join(process.cwd(), "src", "data", "uploaded-blueprints.json");
 const creativesPath = join(process.cwd(), "src", "data", "creatives.ts");
 
 const mimeByExt = {
@@ -52,9 +53,85 @@ const schema = {
       type: "string",
       enum: ["Static", "Carousel", "LinkedIn", "X/Twitter", "Meta", "Launch", "Comparison", "Founder-led"],
     },
-    visualDirection: { type: "string" },
+    shortDescription: { type: "string" },
+    whyItWorks: { type: "string" },
+    structureNotes: { type: "string" },
+    fullPrompt: { type: "string" },
+    reconstructionPrompt: { type: "string" },
+    remixPrompt: { type: "string" },
+    editableVariables: {
+      type: "array",
+      items: { type: "string" },
+    },
+    negativePrompt: { type: "string" },
+    recommendedModel: { type: "string" },
+    aspectRatio: { type: "string" },
+    remixNotes: {
+      type: "array",
+      items: { type: "string" },
+    },
+    promptQuality: {
+      type: "object",
+      additionalProperties: false,
+      properties: {
+        exactness: { type: "number", minimum: 1, maximum: 10 },
+        editability: { type: "number", minimum: 1, maximum: 10 },
+        brandSafety: { type: "number", minimum: 1, maximum: 10 },
+        confidenceNote: { type: "string" },
+      },
+      required: ["exactness", "editability", "brandSafety", "confidenceNote"],
+    },
+    modelVariants: {
+      type: "object",
+      additionalProperties: false,
+      properties: {
+        chatgpt: { type: "string" },
+        midjourney: { type: "string" },
+        ideogram: { type: "string" },
+        flux: { type: "string" },
+      },
+      required: ["chatgpt", "midjourney", "ideogram", "flux"],
+    },
+    visualBlueprint: {
+      type: "object",
+      additionalProperties: false,
+      properties: {
+        composition: { type: "string" },
+        typography: { type: "string" },
+        palette: {
+          type: "array",
+          items: { type: "string" },
+        },
+        subject: { type: "string" },
+        layout: { type: "string" },
+        styleTags: {
+          type: "array",
+          items: { type: "string" },
+        },
+      },
+      required: ["composition", "typography", "palette", "subject", "layout", "styleTags"],
+    },
   },
-  required: ["title", "brandInspiration", "industry", "format", "visualDirection"],
+  required: [
+    "title",
+    "brandInspiration",
+    "industry",
+    "format",
+    "shortDescription",
+    "whyItWorks",
+    "structureNotes",
+    "fullPrompt",
+    "reconstructionPrompt",
+    "remixPrompt",
+    "editableVariables",
+    "negativePrompt",
+    "recommendedModel",
+    "aspectRatio",
+    "remixNotes",
+    "promptQuality",
+    "modelVariants",
+    "visualBlueprint",
+  ],
 };
 
 const args = new Map(
@@ -83,6 +160,7 @@ const existingRows = new Map(
     (match) => [match[1], match.slice(1)],
   ),
 );
+const existingBlueprints = JSON.parse(await readFile(blueprintPath, "utf8").catch(() => "{}"));
 
 const files = (await readdir(adsDir))
   .filter((file) => mimeByExt[extname(file).toLowerCase()])
@@ -94,13 +172,9 @@ let analyzed = 0;
 
 for (const file of files) {
   const existing = existingRows.get(file);
-  const title = existing?.[1] ?? "";
-  const looksMachineNamed =
-    !title ||
-    title === "Uploaded Reference" ||
-    /(?:png|jpg|jpeg|copy|LinkedIn|Static|BrandLayer|Persona|[A-Z0-9]{5,})/.test(title);
+  const existingBlueprint = existingBlueprints[file];
 
-  if (existing && !looksMachineNamed && !regenerateAll) {
+  if (existing && existingBlueprint && !regenerateAll) {
     rows.push(existing);
     continue;
   }
@@ -129,7 +203,7 @@ for (const file of files) {
         {
           role: "system",
           content:
-            "You label tech/SaaS ad references for a curated gallery. Accuracy beats cleverness. Title must be the visible main headline when readable. If the headline spans multiple lines, join it naturally with spaces. If no readable headline exists, use a short literal title for the main visual idea. Do not use filenames, campaign IDs, dates, dimensions, channel names, or guessed brand names as titles. Do not editorialize with clever alternate titles.",
+            "You are PromptSwipe's senior creative director and image-to-prompt specialist. Your job is to reverse-engineer tech/SaaS ad screenshots into reconstruction-grade prompts that can get roughly 80% of the way to the reference in one generation while staying legally safe. Do not claim to recover the original hidden prompt. Instead, create an exact reconstruction prompt: preserve composition, hierarchy, typography, spacing, subject placement, color, texture, lighting, margins, and ad format, while replacing real logos, trademarks, and exact protected copy with fictional equivalents. Write in a warm, plainspoken, quietly confident editorial voice. No hype, no exclamation marks.",
         },
         {
           role: "user",
@@ -137,7 +211,7 @@ for (const file of files) {
             {
               type: "input_text",
               text:
-                "Return metadata for this ad. The title should be relevant to the exact ad creative shown, not the file name. Choose the closest allowed brand inspiration by design language, not by any visible real logo. visualDirection should be a specific one-sentence description of the image's composition, subject, palette, typography, and layout.",
+                "Analyze this ad image and return a complete PromptSwipe blueprint. The title must be the visible main headline when readable; otherwise use a literal visual label. reconstructionPrompt is the product: make it highly specific, long enough to preserve the reference's layout and visual system, and optimized for producing a close cousin in one shot. Include exact details about canvas ratio, background, object count, object placement, headline location, type scale, type mood, spacing, palette, lighting, texture, CTA placement, and what to avoid. fullPrompt should be a polished cross-tool prompt. modelVariants must be tailored separately for ChatGPT image generation, Midjourney, Ideogram, and Flux. whyItWorks should be actual creative analysis in a warm Robert Redford-like voice, never starting with 'This holds because'. promptQuality should score how likely the prompt is to recreate the reference structure.",
             },
             { type: "input_image", image_url: dataUrl, detail: "high" },
           ],
@@ -146,7 +220,7 @@ for (const file of files) {
       text: {
         format: {
           type: "json_schema",
-          name: "uploaded_seed",
+          name: "promptswipe_blueprint",
           strict: true,
           schema,
         },
@@ -163,8 +237,16 @@ for (const file of files) {
   const outputText =
     payload.output_text ??
     payload.output?.flatMap((item) => item.content ?? []).find((content) => content.type === "output_text")?.text;
-  const seed = JSON.parse(outputText);
-  rows.push([file, seed.title, seed.brandInspiration, seed.industry, seed.format, seed.visualDirection]);
+  const blueprint = JSON.parse(outputText);
+  existingBlueprints[file] = blueprint;
+  rows.push([
+    file,
+    blueprint.title,
+    blueprint.brandInspiration,
+    blueprint.industry,
+    blueprint.format,
+    blueprint.visualBlueprint.composition,
+  ]);
   analyzed += 1;
 }
 
@@ -192,4 +274,8 @@ ${body}
 `,
 );
 
-console.log(`Wrote ${rows.length} rows to ${outputPath}. Analyzed ${analyzed} image(s).`);
+await writeFile(blueprintPath, `${JSON.stringify(existingBlueprints, null, 2)}\n`);
+
+console.log(`Wrote ${rows.length} rows to ${outputPath}.`);
+console.log(`Wrote ${Object.keys(existingBlueprints).length} blueprints to ${blueprintPath}.`);
+console.log(`Analyzed ${analyzed} image(s).`);
