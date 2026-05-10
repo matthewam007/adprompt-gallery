@@ -333,7 +333,7 @@ const uploadedCreatives: Creative[] = [...additionalUploadedSeeds, ...uploadedSe
   },
 );
 
-export const creatives: Creative[] = uploadedCreatives;
+export const creatives: Creative[] = uploadedCreatives.filter((creative) => creative.promptQuality);
 
 export function getCreativeBySlug(slug: string) {
   return creatives.find((creative) => creative.slug === slug);
