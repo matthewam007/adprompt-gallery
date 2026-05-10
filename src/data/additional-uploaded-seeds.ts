@@ -91,203 +91,203 @@ export const additionalUploadedSeeds: UploadedSeed[] = [
   ],
   [
     "1123a4a4efbc78af4ddd413fcb7036bf.jpg",
-    "Reference 02",
-    "Linear",
+    "I TRIED SO HARD AND GOT SOFA",
+    "Notion",
     "Productivity",
     "Static",
-    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+    "Centered layout with sofa aligned horizontally in lower two-thirds, headline text block above centered horizontally, subheadline below sofa near bottom center."
   ],
   [
     "1200x1200-Ad3_GRCpng.jpeg",
-    "3 GRC",
-    "Wiz",
+    "See KnowBe4’s Exclusive GRC Partner in Action",
+    "Ramp",
     "Security",
-    "Meta",
-    "meta security ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "Static",
+    "Centered vertical stack: top label, headline left aligned, subtext below, midsection large horizontal row of overlapping circles, bottom dark band with left-center-right segmented text and button."
   ],
   [
     "1200x1200V1.jpeg",
-    "Uploaded Reference",
-    "Linear",
-    "Productivity",
-    "Meta",
-    "meta productivity ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "Building the Business Case for Legal AI — A Guide for In-House Teams",
+    "Claude",
+    "AI",
+    "Static",
+    "Vertical 4:3 ratio with top 60% geometric line pattern area and bottom 40% text and button area."
   ],
   [
     "1200x1200_FTF26_1png.jpeg",
-    "FTF26 1",
-    "Linear",
-    "Productivity",
-    "Meta",
-    "meta productivity ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "FETCH THE FLAG CTF",
+    "Notion",
+    "Security",
+    "Static",
+    "Two-column balanced layout with text block left and character block right, grounded by pixelated floor strip, ample negative space around."
   ],
   [
     "1200x1200png copy 2.jpeg",
-    "Uploaded Reference",
-    "Linear",
+    "Legal Intelligence That Works Where You Work",
+    "Notion",
     "Productivity",
-    "Meta",
-    "meta productivity ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "Static",
+    "Central text over photo background with top-left logos and bottom-left button, balanced and uncluttered"
   ],
   [
     "1200x1200png copy.jpeg",
-    "Uploaded Reference",
-    "Linear",
-    "Productivity",
-    "Meta",
-    "meta productivity ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "Legal AI Adoption Needs More Than Tools",
+    "Wiz",
+    "AI",
+    "Static",
+    "Split canvas vertical thirds, left two-thirds dark textured background with text, right one-third window with figure and cityscape"
   ],
   [
     "1200x1200png.jpeg",
-    "Uploaded Reference",
-    "Linear",
+    "Agents Execute Tasks from Start to Finish",
+    "Notion",
     "Productivity",
-    "Meta",
-    "meta productivity ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "Static",
+    "Centered vertical stack with balanced side elements; top left stacked badges, top right stacked file icons, bottom left cluster of colorful app icons, bottom right small acceptance box."
   ],
   [
     "15cSpendtimeoncareNottabsLinkedInSquare1080x10802xpng.jpeg",
-    "15cSpendtimeoncareNottabs",
-    "Stripe",
-    "Fintech",
-    "LinkedIn",
-    "linkedin fintech ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "Spend time on care. Not tabs.",
+    "Notion",
+    "Productivity",
+    "Static",
+    "Vertical stack, centered alignment, generous white space, single-column"
   ],
   [
     "16863.jpeg",
-    "Uploaded Reference",
-    "Linear",
+    "If we could peer into the immediate future",
+    "Ramp",
     "Productivity",
     "Static",
-    "static productivity ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "Diagonal spotlight from top-left to bottom-right with text top-left, motorcycle centered slightly right in spotlight, brand name bottom right."
   ],
   [
     "1715896494131.jpeg",
-    "Uploaded Reference",
-    "Linear",
-    "Productivity",
+    "SOC 2 Compliance Checklist",
+    "Ramp",
+    "Security",
     "Static",
-    "static productivity ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "Central dominant book shape filling most of the square canvas, with text stacked on left and icons on right. CTA button overlays bottom right corner area inside book shape."
   ],
   [
     "1733532705948.jpeg",
-    "Uploaded Reference",
-    "Linear",
+    "The AI guide for product teams",
+    "Notion",
     "Productivity",
     "Static",
-    "static productivity ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "Vertical square with clear top-left to bottom-right flow: Label and headline top-left, logo top-right, product book preview bottom."
   ],
   [
     "1746118543750.jpeg",
-    "Uploaded Reference",
-    "Linear",
-    "Productivity",
+    "Fivetran + Census",
+    "Ramp",
+    "Fintech",
     "Static",
-    "static productivity ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "Symmetrical vertical layout with two brand logos top and bottom center connected by crossing diagonal lines intersecting at center."
   ],
   [
     "1748439463968.jpeg",
-    "Uploaded Reference",
-    "Linear",
-    "Productivity",
+    "1 in 4 creators say the most frustrating part of working with a brand is being told to speak in the brand's voice instead of their own",
+    "Notion",
+    "Collaboration",
     "Static",
-    "static productivity ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "Asymmetric balance with top-left heavy text countered by bottom-right circle cluster and bottom-left badge"
   ],
   [
     "1752755657039.jpeg",
-    "Uploaded Reference",
-    "Linear",
+    "This could have been a typeform",
+    "Notion",
     "Productivity",
     "Static",
-    "static productivity ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "Vertical centered alignment with clear visual tiers: headline, error + mug side by side, fruit basket + papers side by side, bottom instruction text, small blue notebook + candid photo at very bottom"
   ],
   [
     "1755536725529.jpeg",
-    "Uploaded Reference",
-    "Linear",
+    "The time from demo request to code delivery sped up by 50%.",
+    "Superhuman",
     "Productivity",
     "Static",
-    "static productivity ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "Vertical portrait, strong left alignment, generous negative space, minimal elements"
   ],
   [
     "1761020341553.jpeg",
-    "Uploaded Reference",
-    "Linear",
-    "Productivity",
+    "The Internet shut down yesterday.",
+    "Superhuman",
+    "Security",
     "Static",
-    "static productivity ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "Centered 1:1 layout with a single UI alert window occupying approx. 60% width and height. Background fully visible as pixelated landscape behind the window."
   ],
   [
     "1762380632329.jpeg",
-    "Uploaded Reference",
-    "Linear",
+    "MCP NIGHT",
+    "Notion",
     "Productivity",
     "Static",
-    "static productivity ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "Square 1:1 layout with two glitch pixel clusters near top corners, headline bottom left, brand top left, event info top right, vertical side text right margin"
   ],
   [
     "1769011240740.jpeg",
-    "Uploaded Reference",
-    "Linear",
-    "Productivity",
+    "Introducing Brex’s AI-Native Accounting API",
+    "Stripe",
+    "Fintech",
     "Static",
-    "static productivity ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "Asymmetric vertical layout with top-left aligned headline and brand, centered glowing orb below text, encircled by layered elliptical rings extending horizontally about halfway across the canvas."
   ],
   [
     "1769451342205.jpeg",
-    "Uploaded Reference",
-    "Linear",
-    "Productivity",
+    "Using Brex gives us half a headcount back, and we expect to save even more at scale.",
+    "Ramp",
+    "Fintech",
     "Static",
-    "static productivity ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "Centered large quote block left side with brand top right and small caption bottom divided into two columns"
   ],
   [
     "1770286209119.png",
-    "Uploaded Reference",
-    "Linear",
-    "Productivity",
+    "Klíč k adopci AI: Superpowered Professional",
+    "Claude",
+    "AI",
     "Static",
-    "static productivity ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "Symmetrical centered layout with a logo top-left, large two-line headline center-top, and three equal spaced pill-shaped buttons horizontally aligned along the lower third."
   ],
   [
     "1770998444732.jpeg",
-    "Uploaded Reference",
-    "Linear",
-    "Productivity",
+    "Hey! Want to be my plus one for Mode?",
+    "Notion",
+    "Collaboration",
     "Static",
-    "static productivity ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "Centered two-chat bubble conversation in vertical 4:5 frame"
   ],
   [
     "1771338171511.jpeg",
-    "Uploaded Reference",
-    "Linear",
+    "How marketers feel about Generative AI:",
+    "Notion",
     "Productivity",
     "Static",
-    "static productivity ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "Centered symmetrical layout with three main horizontal segments: brand name top center, large headline center, segmented bar mid-lower, bottom info corners. Strong vertical rhythm."
   ],
   [
     "1772031115105.jpeg",
-    "Uploaded Reference",
-    "Linear",
+    "Ballpark MCP Now live.",
+    "Notion",
     "Productivity",
     "Static",
-    "static productivity ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "Asymmetric with text left and large illustration right, balanced by white space."
   ],
   [
     "1773131791577.jpeg",
-    "Uploaded Reference",
-    "Linear",
+    "How to defeat meeting note madness",
+    "Notion",
     "Productivity",
     "Static",
-    "static productivity ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "Centered vertical stack of layered cards beneath a top-aligned headline with background ellipse shapes arranged horizontally behind cards for depth."
   ],
   [
     "1773325354205.jpeg",
-    "Uploaded Reference",
-    "Linear",
-    "Productivity",
-    "Static",
-    "static productivity ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "51% of teams lose critical context during remediation",
+    "Ramp",
+    "Security",
+    "LinkedIn",
+    "Asymmetrical grid with left heavy text block balancing right vertical report panel"
   ],
   [
     "1773687984007.jpeg",
