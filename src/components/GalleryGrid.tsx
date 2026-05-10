@@ -9,7 +9,7 @@ type GalleryGridProps = {
 
 export function GalleryGrid({ creatives, onSelect, isUnlocked }: GalleryGridProps) {
   if (creatives.length === 0) {
-    return <div className="empty-state">No references in this set.</div>;
+    return <div className="empty-state">No match. The good stuff may be under a different name.</div>;
   }
 
   return (

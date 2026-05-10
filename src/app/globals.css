@@ -252,6 +252,7 @@ button {
   line-height: 1;
 }
 
+.nav-links a,
 .nav-links button {
   color: #737373;
   text-decoration: none;
@@ -268,6 +269,7 @@ button {
   font-weight: 420;
 }
 
+.nav-links a:hover,
 .nav-links button:hover {
   color: var(--text);
 }
@@ -318,7 +320,7 @@ button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-width: 50px;
+  min-width: 112px;
   height: 32px;
   overflow: hidden;
   border: 1px solid #d9cf41;
@@ -332,7 +334,7 @@ button {
 
 .slot-label {
   display: block;
-  width: 34px;
+  width: 92px;
   height: 16px;
   overflow: hidden;
   line-height: 16px;
@@ -934,9 +936,11 @@ button {
   font-size: 28px;
   line-height: 1;
   padding: 0 0 3px;
+  transition: transform 180ms cubic-bezier(0.2, 0.9, 0.2, 1), background 160ms ease, color 160ms ease, border-color 160ms ease;
 }
 
 .detail-close:hover {
+  transform: rotate(8deg) scale(1.03);
   background: #f4f4f4;
   color: #171717;
 }
@@ -1566,6 +1570,68 @@ button {
   border-radius: 8px;
   padding: 28px;
   color: var(--muted);
+}
+
+.about-page {
+  min-height: 100vh;
+  background: #ffffff;
+}
+
+.about-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 76px;
+  border-bottom: 1px solid #ececec;
+}
+
+.about-nav > a:last-child {
+  color: #737373;
+  font-size: 15px;
+  font-weight: 520;
+  text-decoration: none;
+}
+
+.about-nav > a:last-child:hover {
+  color: #171717;
+}
+
+.about-essay {
+  width: min(760px, calc(100% - 48px));
+  padding: 76px 0 112px;
+}
+
+.about-kicker {
+  margin: 0 0 18px;
+  color: #77736d;
+  font-size: 14px;
+  font-weight: 720;
+}
+
+.about-essay h1 {
+  margin: 0 0 34px;
+  color: #121212;
+  font-size: clamp(38px, 5.8vw, 72px);
+  font-weight: 780;
+  line-height: 0.98;
+  letter-spacing: 0;
+}
+
+.about-essay p {
+  margin: 0 0 22px;
+  color: #2f2b26;
+  font-size: clamp(19px, 2vw, 24px);
+  font-weight: 450;
+  line-height: 1.42;
+}
+
+.about-signoff {
+  display: inline-flex;
+  align-items: center;
+  gap: 13px;
+  margin-top: 18px !important;
+  color: #171717 !important;
+  font-weight: 680 !important;
 }
 
 @media (max-width: 1040px) {

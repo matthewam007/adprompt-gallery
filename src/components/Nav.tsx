@@ -47,7 +47,7 @@ export function Nav({ onPricing, search, onSearch }: NavProps) {
   return (
     <header className="topbar">
       <nav className="shell nav">
-        <button className="wordmark" type="button" aria-label="PromptSwipe">
+        <a className="wordmark" href="/" aria-label="PromptSwipe home">
           <span className="brand-mark" aria-hidden="true">
             <svg viewBox="0 0 56 44" role="img">
               <rect x="32" y="3" width="8" height="5" rx="1.7" />
@@ -67,7 +67,7 @@ export function Nav({ onPricing, search, onSearch }: NavProps) {
             </svg>
           </span>
           PromptSwipe
-        </button>
+        </a>
         <label className="nav-search">
           <span>Search</span>
           <input
@@ -78,6 +78,7 @@ export function Nav({ onPricing, search, onSearch }: NavProps) {
           <span className="search-icon" aria-hidden="true">⌕</span>
         </label>
         <div className="nav-links" aria-label="Primary navigation">
+          <a href="/about">About</a>
           <button
             type="button"
             onClick={() => {
@@ -109,13 +110,13 @@ export function Nav({ onPricing, search, onSearch }: NavProps) {
               ) : isSubmitting ? (
                 "..."
               ) : (
-                <span className="slot-label" aria-label="Save">
+                <span className="slot-label" aria-label="Send good ads">
                   <span className="slot-reel" aria-hidden="true">
-                    <span>Save</span>
-                    <span>Save</span>
-                    <span>Save</span>
-                    <span>Save</span>
-                    <span>Save</span>
+                    <span>Send good ads</span>
+                    <span>Send good ads</span>
+                    <span>Send good ads</span>
+                    <span>Send good ads</span>
+                    <span>Send good ads</span>
                   </span>
                 </span>
               )}
@@ -125,7 +126,7 @@ export function Nav({ onPricing, search, onSearch }: NavProps) {
             {captureError ||
               (submitted
                 ? "📬 You’re in. We’ll send the next batch when it’s worth your time."
-                : "Get world-class ad ideas straight to your inbox weekly.")}
+                : "A weekly swipe file worth opening.")}
           </p>
         </form>
       </nav>
