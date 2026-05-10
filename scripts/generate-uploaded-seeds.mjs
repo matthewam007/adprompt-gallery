@@ -35,7 +35,6 @@ const mimeByExt = {
   ".png": "image/png",
   ".webp": "image/webp",
   ".gif": "image/gif",
-  ".avif": "image/avif",
 };
 
 const schema = {
@@ -153,7 +152,7 @@ if (!process.env.OPENAI_API_KEY) {
 
 const manualSource = await readFile(creativesPath, "utf8");
 const manuallySeeded = new Set(
-  [...manualSource.matchAll(/\[\s*"([^"]+\.(?:jpg|jpeg|png|webp|gif|avif))"/gi)].map((match) => match[1]),
+  [...manualSource.matchAll(/\[\s*"([^"]+\.(?:jpg|jpeg|png|webp|gif))"/gi)].map((match) => match[1]),
 );
 
 const existingSource = await readFile(outputPath, "utf8").catch(() => "");
