@@ -3,83 +3,99 @@ import type { UploadedSeed } from "@/data/creatives";
 export const additionalUploadedSeeds: UploadedSeed[] = [
   [
     "01-Static-GatedStories-Brand-28_04_26-4x5png.jpeg",
-    "01 GatedStories Brand 28 04 26",
-    "Notion",
+    "FLORA moves faster with full design control",
+    "Figma",
     "Productivity",
-    "LinkedIn",
-    "direct-response productivity ad with a bold claim, simple visual hierarchy, and conversion-oriented restraint"
+    "Static",
+    "Vertical 4:5 aspect ratio with centered widescreen monitor on desk, headline text top third left-aligned, call-to-action button bottom center, desk objects spaced naturally around monitor base."
   ],
   [
     "0426_singleimage_world-leading-startups_n_a_Dark_n_a_n_a_n_apng.jpeg",
-    "World Ding Startups N A Dark N",
-    "Linear",
+    "Get up to 80% off Attio Pro.",
+    "Notion",
     "Productivity",
     "Static",
-    "direct-response productivity ad with a bold claim, simple visual hierarchy, and conversion-oriented restraint"
+    "Centered vertical alignment with logo and headline stacked top center, table directly below filling width with consistent margins."
+  ],
+  [
+    "0aa97867b7e4292895b82461cb7b5ecd.jpg",
+    "Managing leads here again?",
+    "Notion",
+    "Productivity",
+    "Static",
+    "Centered spreadsheet window occupying roughly 70% width and 60% height of a 4:3 canvas, green background doubling as body and footer area with a horizontal band at bottom for tagline."
   ],
   [
     "100-Gartner-CriticalCapabilitiesMarketingReportLI_1200x12002apng.jpeg",
-    "100 Gartner CriticalCapabilitiesMarketingReportLI 2a",
-    "Linear",
-    "Productivity",
-    "LinkedIn",
-    "report-led productivity ad with a clear document artifact, concise headline, and premium thought-leadership framing"
+    "Align your work platform to your marketing strategy.",
+    "Notion",
+    "Collaboration",
+    "Static",
+    "Centered vertical stack with brand at top, headline below, CTA button next, and illustrated scene occupying lower half. Illustration balanced left with interface panel and speech bubble on right within lower block."
   ],
   [
     "108-PMOPersonaAds_BrandLayerIIILI_1200x12001bpng.jpeg",
-    "108 PMOPersona S BrandLayerIIILI 1b",
-    "Linear",
+    "Real-time execution is the new standard.",
+    "Notion",
     "Productivity",
-    "LinkedIn",
-    "linkedin productivity ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "Static",
+    "Centered vertical stack with brand icon and text at top, headline below, illustration in middle, then call to action text and small link at bottom - all centered horizontally."
   ],
   [
     "108-PMOPersonaAds_BrandLayerIIILI_1200x12004png.jpeg",
-    "108 PMOPersona S BrandLayerIIILI 4",
-    "Linear",
+    "The PMO is the new operational backbone.",
+    "Notion",
     "Productivity",
-    "LinkedIn",
-    "linkedin productivity ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "Static",
+    "Vertical rectangular 1:1 layout divided visually into left column of stacked shapes and right column of text elements plus button."
   ],
   [
     "1080X1080-22png.jpeg",
-    "Uploaded Reference",
-    "Linear",
-    "Productivity",
-    "Meta",
-    "meta productivity ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "SECURING AI AGENTS 101",
+    "Wiz",
+    "Security",
+    "Static",
+    "Centered vertical stack: brand top center, headline below, sub-headline below that, button beneath text cluster, large robot illustration anchored at bottom center, decorations scattered symmetrically around main elements."
   ],
   [
     "1080X108064png.jpeg",
-    "Uploaded Reference",
-    "Linear",
-    "Productivity",
-    "Meta",
-    "meta productivity ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "7 Best Practices for Secrets Security",
+    "Wiz",
+    "Security",
+    "Static",
+    "Centered vertical stack with top headline, middle graphic, bottom brand and CTA"
   ],
   [
     "1080x108056png.jpeg",
-    "Uploaded Reference",
-    "Linear",
-    "Productivity",
-    "Meta",
-    "meta productivity ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "AWS AI Security Best Practices",
+    "Wiz",
+    "Security",
+    "Static",
+    "Centered symmetrical layout with top heading, mid-level icons horizontally aligned, large bottom robot head, and corner CTAs and brand marks."
   ],
   [
     "1080x1080_MarginHeropng.jpeg",
-    "MarginHero",
-    "Stripe",
+    "Join 200K+ businesses saving 80% on client FX",
+    "Ramp",
     "Fintech",
-    "Meta",
-    "meta fintech ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "Static",
+    "Vertical 1:1 layout with top logo, central icons and arrows, headline below, CTA button beneath headline, and footer label at bottom center."
   ],
   [
     "111-LinkedInads-Option1-Copy16png2jfif.jpeg",
-    "111 S 1 16 2jfif",
+    "How are product leaders navigating AI's potential?",
+    "Claude",
+    "AI",
+    "Static",
+    "Two horizontal sections: top section about 1/3 height with headline left and brand logo right; bottom 2/3 with a horizontal arrangement of black rectangles containing abstract trees in staggered rows, centered horizontally."
+  ],
+  [
+    "1123a4a4efbc78af4ddd413fcb7036bf.jpg",
+    "Reference 02",
     "Linear",
     "Productivity",
-    "LinkedIn",
-    "linkedin productivity ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
   ],
   [
     "1200x1200-Ad3_GRCpng.jpeg",
@@ -402,12 +418,68 @@ export const additionalUploadedSeeds: UploadedSeed[] = [
     "linkedin productivity ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
   ],
   [
+    "2418cef2ac00d68ecde3e214a7f01c4f.jpg",
+    "Reference 03",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
+    "2ec7f472fe6659a3e9be6e33e9beb604.jpg",
+    "Reference 04",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
+    "2eee78ed5e58bae7de54d6b4be5d632c.jpg",
+    "Reference 05",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
+    "30bee91bb50ddb7e9f1c10732a98775d.jpg",
+    "Reference 06",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
+    "326d02c2f5111329cc66a7ad720c369d.jpg",
+    "Reference 07",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
+    "3973ddc123bcf25a6789e6202818e048.jpg",
+    "Reference 08",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
     "3am-onlycallthatdoesntcome-1080x1080png.jpeg",
     "3am Onlycallthatdoesntcome",
     "Linear",
     "Productivity",
     "Meta",
     "meta productivity ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+  ],
+  [
+    "4531dace2479577d2b03d23834e2cddd.jpg",
+    "Reference 09",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
   ],
   [
     "534a5a5f-8d06-4e18-b1a9-1f08c4ef0ceapng.jpeg",
@@ -418,6 +490,14 @@ export const additionalUploadedSeeds: UploadedSeed[] = [
     "static productivity ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
   ],
   [
+    "595518c8fbea2515c5b41242fd618676.jpg",
+    "Reference 10",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
     "5WaysMMBlog-Upmarket-Replatformer-US-English-MidMarket-Static-1x1png.jpeg",
     "5WaysMMBlog Upmarket Replatformer US MidMarket",
     "Notion",
@@ -426,12 +506,84 @@ export const additionalUploadedSeeds: UploadedSeed[] = [
     "report-led productivity ad with a clear document artifact, concise headline, and premium thought-leadership framing"
   ],
   [
+    "62e012ccbd10730e031c6cf4e899fac1.jpg",
+    "Reference 11",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
+    "699b3253d512747f961656d0d5903ca1.jpg",
+    "Reference 12",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
+    "84d5e68506f5cb068d1a77b754aa7034.jpg",
+    "Reference 13",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
+    "86c08b63434ad4383258c5fd8913ff0b.jpg",
+    "Reference 14",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
+    "87336285af610f50def86cdb762a5bd3.jpg",
+    "Reference 15",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
+    "8afbdb2036b4441be1eac06bc04d3a94.jpg",
+    "Reference 16",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
+    "8d6b53d73d76c2fc5d2bec035e34f1a1.jpg",
+    "Reference 17",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
     "90_languagespng.jpeg",
     "90 Languages",
     "Claude",
     "AI",
     "Static",
     "static ai ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+  ],
+  [
+    "9191b807ce7a3dbdb15d096480e8b23c.jpg",
+    "Reference 18",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
+    "9bc739a8a6cec13056402a6be0c191ac.jpg",
+    "Reference 19",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
   ],
   [
     "ATL-IntelligentHospital-Painpng.jpeg",
@@ -688,6 +840,14 @@ export const additionalUploadedSeeds: UploadedSeed[] = [
     "Productivity",
     "Static",
     "static productivity ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+  ],
+  [
+    "DscpC0ZZaSmDsMX18GHyoPh3og.webp",
+    "Reference 20",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
   ],
   [
     "EARN_Alt1_1_1png.jpeg",
@@ -1050,6 +1210,22 @@ export const additionalUploadedSeeds: UploadedSeed[] = [
     "meta devtools ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
   ],
   [
+    "KA8T4l8yuJSXFJXZ5yFJyucGt4U.webp",
+    "Reference 21",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
+    "KVhRE2xFqtOEYIVN1V6nTTTJRA.webp",
+    "Reference 22",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
     "KeepUberTeamsAlign_Redpng.jpeg",
     "KeepUberTeamsAlign Red",
     "Linear",
@@ -1354,12 +1530,28 @@ export const additionalUploadedSeeds: UploadedSeed[] = [
     "customer-proof productivity ad with a testimonial structure, one proof line, and restrained brand framing"
   ],
   [
+    "Pj0Ilir1FJDOl0uVL98bpMLddk.webp",
+    "Reference 23",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
     "Product_Toyota_1440x1440_Bpng.jpeg",
     "Product Toyota B",
     "Linear",
     "Productivity",
     "Static",
     "customer-proof productivity ad with a testimonial structure, one proof line, and restrained brand framing"
+  ],
+  [
+    "QdVsh9lZHtA3trdfBHnjWC844U.webp",
+    "Reference 24",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
   ],
   [
     "RetargetingAdpng.jpeg",
@@ -1618,6 +1810,22 @@ export const additionalUploadedSeeds: UploadedSeed[] = [
     "illustrated devtools ad built around a single metaphor, simple composition, and direct copy"
   ],
   [
+    "Yellow text snippets@2x.png",
+    "Reference 25",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
+    "a5c4603042c3298111530776939a7a99.jpg",
+    "Reference 26",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
     "acq_ic_image_onboardpaycontractors-demo-aidatalabeling_en.jpeg",
     "Acq Ic Image Onboardpaycontractors Demo Aidatalabeling En",
     "Wiz",
@@ -1634,12 +1842,44 @@ export const additionalUploadedSeeds: UploadedSeed[] = [
     "static productivity ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
   ],
   [
+    "b47354ff0017504438f0c750be95482d.jpg",
+    "Reference 27",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
     "brandradfar.jpeg",
     "Brandr Far",
     "Figma",
     "Collaboration",
     "Static",
     "static collaboration ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+  ],
+  [
+    "c5e06c5493f38092977577e742927f8c.jpg",
+    "Reference 28",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
+    "c90e355148a855a49ce492ff2ab8c3d7.jpg",
+    "Reference 29",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
+    "ca3d36a59a772bb9d908beb1845e68a3.jpg",
+    "Reference 30",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
   ],
   [
     "clickyposts7png.jpeg",
@@ -1656,6 +1896,46 @@ export const additionalUploadedSeeds: UploadedSeed[] = [
     "Productivity",
     "LinkedIn",
     "customer-proof productivity ad with a testimonial structure, one proof line, and restrained brand framing"
+  ],
+  [
+    "d07eb95e8b8cb01e0ea3874cbf932e6a.jpg",
+    "Reference 31",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
+    "d392bd3cc4cc6bf3287509cf8e75c6e8.jpg",
+    "Reference 32",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
+    "dc02ac506afc7768629c00c8c60f22c7.jpg",
+    "Reference 33",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
+    "ed03bb86c581de091160fe7ac1ca1848.jpg",
+    "Reference 34",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
+    "ed38d56264732c6f4f30fc686d16a193.jpg",
+    "Reference 35",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
   ],
   [
     "engage_eor_image_femsa-testimonial-bpo_en_1080x1080px-1png.jpeg",
@@ -1688,6 +1968,22 @@ export const additionalUploadedSeeds: UploadedSeed[] = [
     "Productivity",
     "Static",
     "static productivity ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+  ],
+  [
+    "f1c627e7a6c3bec114072bd21b272109.jpg",
+    "Reference 36",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
+  ],
+  [
+    "f8b61ba8585c901c1333e80b198e9045.jpg",
+    "Reference 37",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
   ],
   [
     "giftcard-orangemodepng.jpeg",
@@ -1792,6 +2088,14 @@ export const additionalUploadedSeeds: UploadedSeed[] = [
     "Productivity",
     "Comparison",
     "comparison productivity ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+  ],
+  [
+    "pBQ7TaBOBH0prdggrHC7e9FD2Q.webp",
+    "Reference 38",
+    "Linear",
+    "Productivity",
+    "Static",
+    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
   ],
   [
     "rainy-city-static-4-52png.jpeg",
@@ -1906,334 +2210,6 @@ export const additionalUploadedSeeds: UploadedSeed[] = [
     "linkedin productivity ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
   ],
   [
-    "unnamed (2).png",
-    "Unnamed",
-    "Linear",
-    "Productivity",
-    "Static",
-    "static productivity ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
-  ],
-  [
-    "unnamed.jpg",
-    "Unnamed",
-    "Linear",
-    "Productivity",
-    "Static",
-    "static productivity ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
-  ],
-  [
-    "youradsareinvisible6png.jpeg",
-    "Your Sareinvisible6",
-    "Linear",
-    "Productivity",
-    "Static",
-    "direct-response productivity ad with a bold claim, simple visual hierarchy, and conversion-oriented restraint"
-  ],
-  [
-    "0aa97867b7e4292895b82461cb7b5ecd.jpg",
-    "Reference 01",
-    "Linear",
-    "Productivity",
-    "Static",
-    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
-  ],
-  [
-    "1123a4a4efbc78af4ddd413fcb7036bf.jpg",
-    "Reference 02",
-    "Linear",
-    "Productivity",
-    "Static",
-    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
-  ],
-  [
-    "2418cef2ac00d68ecde3e214a7f01c4f.jpg",
-    "Reference 03",
-    "Linear",
-    "Productivity",
-    "Static",
-    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
-  ],
-  [
-    "2ec7f472fe6659a3e9be6e33e9beb604.jpg",
-    "Reference 04",
-    "Linear",
-    "Productivity",
-    "Static",
-    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
-  ],
-  [
-    "2eee78ed5e58bae7de54d6b4be5d632c.jpg",
-    "Reference 05",
-    "Linear",
-    "Productivity",
-    "Static",
-    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
-  ],
-  [
-    "30bee91bb50ddb7e9f1c10732a98775d.jpg",
-    "Reference 06",
-    "Linear",
-    "Productivity",
-    "Static",
-    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
-  ],
-  [
-    "326d02c2f5111329cc66a7ad720c369d.jpg",
-    "Reference 07",
-    "Linear",
-    "Productivity",
-    "Static",
-    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
-  ],
-  [
-    "3973ddc123bcf25a6789e6202818e048.jpg",
-    "Reference 08",
-    "Linear",
-    "Productivity",
-    "Static",
-    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
-  ],
-  [
-    "4531dace2479577d2b03d23834e2cddd.jpg",
-    "Reference 09",
-    "Linear",
-    "Productivity",
-    "Static",
-    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
-  ],
-  [
-    "595518c8fbea2515c5b41242fd618676.jpg",
-    "Reference 10",
-    "Linear",
-    "Productivity",
-    "Static",
-    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
-  ],
-  [
-    "62e012ccbd10730e031c6cf4e899fac1.jpg",
-    "Reference 11",
-    "Linear",
-    "Productivity",
-    "Static",
-    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
-  ],
-  [
-    "699b3253d512747f961656d0d5903ca1.jpg",
-    "Reference 12",
-    "Linear",
-    "Productivity",
-    "Static",
-    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
-  ],
-  [
-    "84d5e68506f5cb068d1a77b754aa7034.jpg",
-    "Reference 13",
-    "Linear",
-    "Productivity",
-    "Static",
-    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
-  ],
-  [
-    "86c08b63434ad4383258c5fd8913ff0b.jpg",
-    "Reference 14",
-    "Linear",
-    "Productivity",
-    "Static",
-    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
-  ],
-  [
-    "87336285af610f50def86cdb762a5bd3.jpg",
-    "Reference 15",
-    "Linear",
-    "Productivity",
-    "Static",
-    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
-  ],
-  [
-    "8afbdb2036b4441be1eac06bc04d3a94.jpg",
-    "Reference 16",
-    "Linear",
-    "Productivity",
-    "Static",
-    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
-  ],
-  [
-    "8d6b53d73d76c2fc5d2bec035e34f1a1.jpg",
-    "Reference 17",
-    "Linear",
-    "Productivity",
-    "Static",
-    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
-  ],
-  [
-    "9191b807ce7a3dbdb15d096480e8b23c.jpg",
-    "Reference 18",
-    "Linear",
-    "Productivity",
-    "Static",
-    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
-  ],
-  [
-    "9bc739a8a6cec13056402a6be0c191ac.jpg",
-    "Reference 19",
-    "Linear",
-    "Productivity",
-    "Static",
-    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
-  ],
-  [
-    "DscpC0ZZaSmDsMX18GHyoPh3og.webp",
-    "Reference 20",
-    "Linear",
-    "Productivity",
-    "Static",
-    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
-  ],
-  [
-    "KA8T4l8yuJSXFJXZ5yFJyucGt4U.webp",
-    "Reference 21",
-    "Linear",
-    "Productivity",
-    "Static",
-    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
-  ],
-  [
-    "KVhRE2xFqtOEYIVN1V6nTTTJRA.webp",
-    "Reference 22",
-    "Linear",
-    "Productivity",
-    "Static",
-    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
-  ],
-  [
-    "Pj0Ilir1FJDOl0uVL98bpMLddk.webp",
-    "Reference 23",
-    "Linear",
-    "Productivity",
-    "Static",
-    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
-  ],
-  [
-    "QdVsh9lZHtA3trdfBHnjWC844U.webp",
-    "Reference 24",
-    "Linear",
-    "Productivity",
-    "Static",
-    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
-  ],
-  [
-    "Yellow text snippets@2x.png",
-    "Reference 25",
-    "Linear",
-    "Productivity",
-    "Static",
-    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
-  ],
-  [
-    "a5c4603042c3298111530776939a7a99.jpg",
-    "Reference 26",
-    "Linear",
-    "Productivity",
-    "Static",
-    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
-  ],
-  [
-    "b47354ff0017504438f0c750be95482d.jpg",
-    "Reference 27",
-    "Linear",
-    "Productivity",
-    "Static",
-    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
-  ],
-  [
-    "c5e06c5493f38092977577e742927f8c.jpg",
-    "Reference 28",
-    "Linear",
-    "Productivity",
-    "Static",
-    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
-  ],
-  [
-    "c90e355148a855a49ce492ff2ab8c3d7.jpg",
-    "Reference 29",
-    "Linear",
-    "Productivity",
-    "Static",
-    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
-  ],
-  [
-    "ca3d36a59a772bb9d908beb1845e68a3.jpg",
-    "Reference 30",
-    "Linear",
-    "Productivity",
-    "Static",
-    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
-  ],
-  [
-    "d07eb95e8b8cb01e0ea3874cbf932e6a.jpg",
-    "Reference 31",
-    "Linear",
-    "Productivity",
-    "Static",
-    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
-  ],
-  [
-    "d392bd3cc4cc6bf3287509cf8e75c6e8.jpg",
-    "Reference 32",
-    "Linear",
-    "Productivity",
-    "Static",
-    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
-  ],
-  [
-    "dc02ac506afc7768629c00c8c60f22c7.jpg",
-    "Reference 33",
-    "Linear",
-    "Productivity",
-    "Static",
-    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
-  ],
-  [
-    "ed03bb86c581de091160fe7ac1ca1848.jpg",
-    "Reference 34",
-    "Linear",
-    "Productivity",
-    "Static",
-    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
-  ],
-  [
-    "ed38d56264732c6f4f30fc686d16a193.jpg",
-    "Reference 35",
-    "Linear",
-    "Productivity",
-    "Static",
-    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
-  ],
-  [
-    "f1c627e7a6c3bec114072bd21b272109.jpg",
-    "Reference 36",
-    "Linear",
-    "Productivity",
-    "Static",
-    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
-  ],
-  [
-    "f8b61ba8585c901c1333e80b198e9045.jpg",
-    "Reference 37",
-    "Linear",
-    "Productivity",
-    "Static",
-    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
-  ],
-  [
-    "pBQ7TaBOBH0prdggrHC7e9FD2Q.webp",
-    "Reference 38",
-    "Linear",
-    "Productivity",
-    "Static",
-    "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
-  ],
-  [
     "t4ATxjSkWh4hnQ9buGigOY8EZ8.webp",
     "Reference 39",
     "Linear",
@@ -2250,11 +2226,35 @@ export const additionalUploadedSeeds: UploadedSeed[] = [
     "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
   ],
   [
+    "unnamed (2).png",
+    "Unnamed",
+    "Linear",
+    "Productivity",
+    "Static",
+    "static productivity ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+  ],
+  [
+    "unnamed.jpg",
+    "Unnamed",
+    "Linear",
+    "Productivity",
+    "Static",
+    "static productivity ad with one central product idea, clean hierarchy, and a composed SaaS editorial tone"
+  ],
+  [
     "vFbxzdISYTseQtADLNlViER187o.avif",
     "Reference 41",
     "Linear",
     "Productivity",
     "Static",
     "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
-  ]
+  ],
+  [
+    "youradsareinvisible6png.jpeg",
+    "Your Sareinvisible6",
+    "Linear",
+    "Productivity",
+    "Static",
+    "direct-response productivity ad with a bold claim, simple visual hierarchy, and conversion-oriented restraint"
+  ],
 ];

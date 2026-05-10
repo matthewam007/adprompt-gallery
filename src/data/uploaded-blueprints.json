@@ -1,1 +1,727 @@
-{}
+{
+  "01-Static-GatedStories-Brand-28_04_26-4x5png.jpeg": {
+    "title": "FLORA moves faster with full design control",
+    "brandInspiration": "Figma",
+    "industry": "Productivity",
+    "format": "Static",
+    "shortDescription": "A tech software ad featuring a sleek dark-mode UI on a widescreen monitor on a desktop setup, emphasizing speed and design control for a product called FLORA.",
+    "whyItWorks": "This ad succeeds by combining a highly focused headline with a contextual visual that illustrates the product in-action. The use of dark mode on the UI adds a modern, professional ambience, while the warm ambient lighting on the desk surfaces keeps the scene relatable and inviting. The clear hierarchy funnels attention first to the bold headline, then to the onscreen interface, and finally to the simple call to action. It feels polished without being overstated.",
+    "structureNotes": "The composition is vertically centered with a widescreen monitor at mid-height showing the app UI. Above the monitor is a brand mark and headline left-aligned in the upper third of the frame. Below the monitor is a large rounded rectangular call-to-action button aligned horizontally center. Desk objects (keyboard, mouse, notebook, potted plant) are placed with natural spacing around the monitor base. Typography uses a clean sans-serif with strong weight contrast between headline and smaller UI text. The background is a subtle dark gradient with warm highlights near the desk. All text and UI elements remain legible with clear spacing.",
+    "fullPrompt": "A widescreen computer monitor centered on a wooden desk with ambient warm lighting, displaying a dark-mode design tool interface. The UI includes a sidebar on the left with navigation tabs labeled 'Pages', 'Layers', and 'Assets', a main content area in the center showing a layered webpage editor with headings and modules named 'Title', 'Paragraph', 'Slideshow', 'Video', and 'CTA'. On the right side, additional settings panels with toggles labeled 'Effects', 'Overlays', 'Cursor', and 'Styles' with opacity slider and color input visible. Above the monitor, a minimalistic logo and bold headline text reading 'FLORA moves faster with full design control' in a large, readable sans-serif font in white. Below the monitor, a wide, rounded rectangular white button with black text 'Read FLORA's story' centered horizontally. The background is a gradient dark color with subtle warm gold highlights casting soft light on desk elements: a black mechanical keyboard, white notebook with sketches, a black mouse, a small green potted plant on the left, and a coffee cup on the right. Composition balanced, modern, professional but warm, no real logos or trademarked elements, avoid clutter and bright colors outside the UI screen and button. Canvas ratio roughly 4:5 vertical rectangle suitable for social media posts.",
+    "reconstructionPrompt": "Ultra-realistic scene of a modern office desk setup with a large widescreen computer monitor placed centrally on a warm wooden surface, softly lit by warm ambient lighting creating subtle golden glows on desk items including a black mechanical keyboard, a mouse, a small potted green plant on the left, a closed white notebook with hand-drawn sketches, and a matte black coffee cup on the right. The monitor displays a dark-themed graphic design software interface in a clean UI: left sidebar with collapsible menu items labeled Pages, Layers, Assets in white text; main content area showing webpage editing modules labeled 'Title', 'Paragraph', 'Slideshow', 'Video', 'CTA' with layered objects; right sidebar panel with toggles named Effects, Overlays, Cursor, Styles, including sliders and color pickers. Above the monitor is a simplified geometric logo and below it a large white sans-serif headline text in all caps: 'FLORA moves faster with full design control', left aligned in the upper third of the image. At the bottom, center horizontally, a wide rounded white button with black text reading 'Read FLORA's story'. Use a harmonious neutral black and gray palette with white typography and warm desk lighting contrast. Depth of field modest, keeping all desk objects and screen UI in clear focus. Avoid real brand logos or exact UI replication. Image in a 4:5 vertical aspect ratio, clean composition, balanced margins for social media usage.",
+    "remixPrompt": "A sleek minimalist workspace featuring a centered widescreen monitor showing a dark-themed design application interface with labeled navigation sidebars and editing panels, warm natural ambient lighting casting gentle highlights on a wooden desk with a black keyboard, mouse, small green succulent, and a notebook with sketches, clean sans-serif headline above the monitor reading 'FLORA moves faster with full design control' in bold white text, and a large rounded call-to-action button below the monitor that says 'Read FLORA's story', styled in a crisp modern UI with neutral colors and subtle textures, 4:5 vertical format, balanced composition focused on clarity and inviting warmth, no real logos or trademarks included.",
+    "editableVariables": [
+      "brandName",
+      "headlineText",
+      "buttonText",
+      "UI labels",
+      "desk items color and positions",
+      "background gradient tone",
+      "lighting warmth"
+    ],
+    "negativePrompt": "No real logos or trademarks, avoid cluttered desktop or messy UI, no bright or neon colors outside button and UI, no human figures or faces, no cartoonish styles, no excessive glare or reflection on monitor.",
+    "recommendedModel": "Midjourney v5",
+    "aspectRatio": "4:5",
+    "remixNotes": [
+      "Try changing brand and headlines for different SaaS or productivity apps",
+      "Adjust desk objects to reflect different work environments",
+      "Swap dark mode UI for light mode or alternative color themes",
+      "Change headline messaging to fit other creative workflows"
+    ],
+    "promptQuality": {
+      "exactness": 8,
+      "editability": 9,
+      "brandSafety": 10,
+      "confidenceNote": "Given the clear structure, lighting, and composition described, the prompt is likely to recreate a visually similar tech ad scene with correct layout, color tones, and UI style, while allowing easy customization for variable text and brand."
+    },
+    "modelVariants": {
+      "chatgpt": "Generate a detailed, realistic description of a modern desktop workspace featuring a widescreen computer monitor displaying a professional dark-mode design software interface with clearly labeled navigation sidebars and editing panels. Include warm ambient lighting, a wooden desk with keyboard, mouse, notebook, potted plant, and coffee cup. The scene includes a large headline above the monitor reading 'FLORA moves faster with full design control' in bold white sans-serif font, and a white rounded call-to-action button below with black text 'Read FLORA's story'. The background should be a subtle dark gradient. Use approximately 4:5 vertical canvas ratio.",
+      "midjourney": "/imagine A modern desktop workspace, widescreen monitor centered showing a sleek dark-mode UI with labeled sidebars (Pages, Layers, Assets), editing panels, and navigation, warm ambient lighting casting golden glows on wooden desk with black mechanical keyboard, mouse, white notebook, small green potted plant, and coffee cup, bold white sans-serif headline text above monitor: 'FLORA moves faster with full design control', white rounded rectangular call-to-action button below monitor with black text 'Read FLORA's story', dark gradient background, 4:5 aspect ratio --v 5 --q 2 --ar 4:5 --style photorealistic",
+      "ideogram": "Create an illustration of a clean, modern workspace with a central widescreen monitor displaying a dark-themed design application. The screen shows labeled UI sidebars and editing panels with clear typography. Above the screen, place a bold white headline text reading 'FLORA moves faster with full design control'. Below the monitor, include a large rounded button labeled 'Read FLORA's story'. The desk features warm lighting with a wooden surface, a keyboard, mouse, a notebook, a potted green plant, and a coffee cup. The background should be a soft dark gradient. Layout is vertical in 4:5 ratio, minimalist and clean style.",
+      "flux": "Generate an ad composition featuring a centered widescreen monitor on a wooden desk, displaying a dark-mode UI of a design tool with side navigation and panels labeled accordingly. Above is a bold sans-serif headline 'FLORA moves faster with full design control' in white, left-aligned top third. Below the monitor is a white rounded call-to-action button with black text 'Read FLORA's story', horizontally centered. Desk items include a black keyboard, mouse, notebook, green potted plant, and coffee cup with warm ambient lighting and subtle dark gradient background. Canvas ratio 4:5 vertical."
+    },
+    "visualBlueprint": {
+      "composition": "Vertical 4:5 aspect ratio with centered widescreen monitor on desk, headline text top third left-aligned, call-to-action button bottom center, desk objects spaced naturally around monitor base.",
+      "typography": "Bold, clean, geometric sans-serif for headline in white, large point size with high contrast; smaller UI text in clean sans-serif, all legible on dark backgrounds.",
+      "palette": [
+        "#000000",
+        "#1A1A1A",
+        "#FFFFFF",
+        "#0A84FF",
+        "#FFC107",
+        "#4CAF50"
+      ],
+      "subject": "A modern productivity SaaS UI displayed on widescreen monitor, with desktop workspace items and clear call to action button.",
+      "layout": "Balanced symmetrical alignment with clear margins, text and UI organized in neat columns and panels, foreground desktop items framing the monitor naturally.",
+      "styleTags": [
+        "modern",
+        "minimalist",
+        "dark-mode",
+        "warm-lit",
+        "professional",
+        "tech",
+        "UI",
+        "clean",
+        "balanced"
+      ]
+    }
+  },
+  "0426_singleimage_world-leading-startups_n_a_Dark_n_a_n_a_n_apng.jpeg": {
+    "title": "Get up to 80% off Attio Pro.",
+    "brandInspiration": "Notion",
+    "industry": "Productivity",
+    "format": "Static",
+    "shortDescription": "A dark-themed promotional ad showcasing a strong discount headline and a simple, clean table of partner companies with their integration status.",
+    "whyItWorks": "The ad's strength lies in its calm, minimalist approach that communicates value without distraction. The generous use of space and stark contrast keeps the eyes focused on the main offer and the straightforward table beneath it, promoting clarity and trust. The dark background paired with clean white and green type enhances readability and delivers a modern, professional tone that feels both urgent and credible.",
+    "structureNotes": "The ad uses a 4:3 vertical canvas ratio with a solid black background. The logo and company name sit top-center, followed by a large, bold headline arranged in two lines. Below that is a structured, two-column table listing company names with distinctive icons on the left and 'Yes' badges aligned right, all separated by thin dividing lines. Typeface is a clean sans serif, with generous line height and spacing between rows for clarity. No other graphical elements distract — focus remains on text and icons. CTAs or buttons are absent, reinforcing a simple promotional announcement.",
+    "fullPrompt": "Create a 4:3 vertical promotional ad with a solid black background. At the top center, place a minimalist abstract logo and brand name in white sans serif. Below, present a two-line headline reading 'Get up to 80% off Attio Pro' in large, bold, white sans serif typography, centered with generous line spacing. Underneath, display a two-column table with five rows. The left column includes checkboxes (unchecked) and company names each paired with a distinct, simple colorful icon. The right column shows green rounded rectangle badges with the word 'Yes' in white, aligned right. Use thin horizontal lines to separate rows. The overall mood is modern and professional with balanced negative space and no additional embellishments or CTAs. Avoid gradients, shadows, or complex backgrounds.",
+    "reconstructionPrompt": "Design a vertical 4:3 ratio dark-themed promotional ad with a black background. Top-center: a clean, white abstract geometric logo and brand name in bold, modern sans serif font. Center below: large two-line headline in white, bold sans serif text stating 'Get up to 80% off Attio Pro' with line height about 1.2 and centered alignment. Beneath headline: a minimalistic data table spanning the width, containing five rows and two columns. Left column: each row starts with an empty square checkbox followed by a colorful, distinct icon representing a fictional company name in white text, left aligned with a sans serif font size smaller than the headline but comfortably readable. Right column: right-aligned pill-shaped green badges with the text 'Yes' in white. Use subtle thin dividing lines between rows, consistent horizontal padding inside cells. Maintain balanced white space and clean alignment. No additional images, CTAs, or embellishments. Keep typography crisp and the overall style minimal and professional, evoking tech productivity tools.",
+    "remixPrompt": "Transform the ad into a vertical 4:3 layout with a charcoal gray background instead of black. Swap the brand name and logo to a new abstract symbol and fictional name. Change the headline to highlight a time-limited discount offer, adjusting text length but maintaining two lines and similar type scale. Replace the five company icons and names with new abstract colorful shapes and names. Keep the right column badges reading 'Yes' but experiment with alternate soothing green shades and rounded shapes. Retain the table structure, spacing, and alignment for clean, minimal presentation.",
+    "editableVariables": [
+      "headline text",
+      "brand name",
+      "brand logo symbol",
+      "company names",
+      "company icons",
+      "badge label text",
+      "color palette"
+    ],
+    "negativePrompt": "No people, no real logos, no photographs, no gradients, no shadows, no decorative backgrounds, no extraneous UI elements like buttons or input fields beyond checkboxes and badges",
+    "recommendedModel": "Midjourney V5",
+    "aspectRatio": "4:3",
+    "remixNotes": [
+      "Swap brand and product names to fit different fictional SaaS",
+      "Adjust headline copy to advertise similar deals or features",
+      "Change company icons and names to reflect new fictional partners",
+      "Experiment with background darkness levels for different atmospheres",
+      "Modify badge colors and shapes for alternate status indicators"
+    ],
+    "promptQuality": {
+      "exactness": 8,
+      "editability": 7,
+      "brandSafety": 9,
+      "confidenceNote": "High confidence in layout and color details; minor variations expected in icon design and font rendering across models."
+    },
+    "modelVariants": {
+      "chatgpt": "Generate a detailed textual description of a 4:3 vertical dark-mode SaaS promotional ad with a centered white geometric logo and brand name at the top, followed by a large two-line white headline 'Get up to 80% off Attio Pro' in bold modern sans serif font, and a clean two-column table below listing five company names each with a distinct colorful icon and checkboxes on the left, and green badges with 'Yes' on the right, all on a solid black background with subtle dividing lines.",
+      "midjourney": "--ar 4:3 --v 5 --style 4a A vertical dark UI promo ad with black background, top center white abstract geometric logo and brand name, large two-line bold white sans serif headline saying 'Get up to 80% off Attio Pro' centered, below a simple two-column table with five rows, left side has small colorful icons plus company names next to unchecked square checkboxes, right side has green pill-shaped badges reading 'Yes', thin horizontal lines separating rows, minimal and clean, modern typography, high contrast, digital branding style.",
+      "ideogram": "Create a clean, professional 4:3 vertical SaaS promotional ad with black background, top center white minimal logo with brand name in bold font, two-line large white sans serif headline centered reading 'Get up to 80% off Attio Pro'. Below, a simple two-column table with five rows: left column has small distinctive colorful icons with fictional company names and empty checkboxes, right column aligned right with green rounded badges containing 'Yes' in white. Emphasize clarity, spacing, and minimalism.",
+      "flux": "Make a vertical 4:3 canvas, black background. Place a white geometric brand icon and name at top center. Below that, large white bold headline text in two lines: 'Get up to 80% off Attio Pro', centered. Under the headline, a neat two-column table with 5 rows: left column has empty checkboxes with colorful icons next to company names in white text, right column has right aligned bright green rounded badges with 'Yes' text. Use thin dividing lines, clean spacing, modern sans serif typography with no shadows or effects."
+    },
+    "visualBlueprint": {
+      "composition": "Centered vertical alignment with logo and headline stacked top center, table directly below filling width with consistent margins.",
+      "typography": "Bold, geometric sans serif font family. Headline large, bold, white; table text smaller, regular weight white. 'Yes' badges use a friendly rounded sans serif in white on green.",
+      "palette": [
+        "#000000",
+        "#FFFFFF",
+        "#2E7D32",
+        "#A4C639",
+        "#64B5F6",
+        "#81C784",
+        "#FF7043"
+      ],
+      "subject": "A promotional SaaS discount offer highlighting partner integrations in a table format.",
+      "layout": "Vertical 4:3 ratio. Elements stacked: logo/name top center, headline centered below, table beneath spanning most width with left and right aligned content.",
+      "styleTags": [
+        "minimal",
+        "dark mode",
+        "modern",
+        "clean",
+        "professional",
+        "UI",
+        "tech brand"
+      ]
+    }
+  },
+  "0aa97867b7e4292895b82461cb7b5ecd.jpg": {
+    "title": "Managing leads here again?",
+    "brandInspiration": "Notion",
+    "industry": "Productivity",
+    "format": "Static",
+    "shortDescription": "A green-themed ad shows a fake spreadsheet interface with a bold headline and three expressive emotive faces placed inside the sheet, plus a small call to action at the bottom.",
+    "whyItWorks": "This ad strikes a balance between familiarity and humor. It uses a spreadsheet interface, a universally known working environment, to hook viewers in with relatable frustration expressed by the headline and subtle facial expressions. The minimal color palette and restrained typography keep focus on the message and faces, while the clean layout creates an inviting, easily digestible visual rhythm. The call to action at the bottom anchors the design and gives a clear next step without competing with the main content.",
+    "structureNotes": "The ad is a green background with a centered mock spreadsheet window sized roughly 4:3. The spreadsheet uses clean grid lines and a typical toolbar area at the top with faint realistic UI details (menus Home, Insert, Draw, etc.). The main headline in the sheet's grid cells is the largest text, left aligned around row 5 and spanning columns A through J. Three human headshots with distinct puzzled or annoyed expressions appear overlapping the spreadsheet cells at three distinct positions: top-left, upper right, and bottom center. The bottom of the ad features a subtle tagline in white text with a lightning bolt icon to the left, horizontally centered in a green band about 1/6 of the canvas height. Typeface for headline: heavy sans serif with some italic emphasis. Typeface for tagline: rounded sans serif, smaller and lighter weight. Spacing: generous line height, decent padding around the window edges and bottom tagline. The faces should appear as cutouts with clean edges and natural lighting, avoiding any harsh shadows or contrasts. Avoid clutter or additional UI controls beyond what is shown. Avoid extra text or tagline variants that dilute the main question dynamic.",
+    "fullPrompt": "Generate a 4:3 ratio static ad image on a dark forest green background. Centered is a realistic spreadsheet window mockup with typical UI elements: top toolbar including menus labeled 'File', 'Home', 'Insert', 'Draw', 'Page Layout', 'Data', formatting toolbar with font selection 'Calibri (Body)', size '11', text style buttons, and grid columns labeled A through L and rows numbered 1 through 13 visible. The sheet tab at bottom left is labeled 'Sheet1'. Inside the grid cells (around columns B to J and rows 4 to 10), place a large bold black sans serif headline reading 'Managing leads here again?' with 'again' italicized. Overlay three human headshots with nuanced confused or annoyed expressions: one near top-left over cells A2-B3, one near upper right over columns I-J row 2, and one centered below the headline near row 12 columns E-G. The heads appear as clean cutouts with natural lighting and even skin tones. At the bottom below the window, within a green band matching the background but slightly lighter and occupying roughly 1/6 of vertical space, center text in white rounded sans serif reading \"It's 2025, upgrade to ⚡ Instantly\" with a simple stylized lightning bolt icon left of 'Instantly'. The overall mood is lightly humorous and slightly frustrated yet inviting. Maintain crisp edges, subtle sheet gridlines, and balanced negative space. Avoid cluttering UI. No logos or trademarks. The type scale is large for headline (about 48pt), smaller for tagline (around 18pt). The color palette is limited to dark green, white, black, and natural skin tones. The lighting on faces is soft and even, no dramatic shadows. Maintain consistent margins and spacing so the layout feels uncluttered but tight.",
+    "reconstructionPrompt": "Create a 4:3 ad with a deep green background and a centered spreadsheet application window mockup. The window uses a clean UI with top menu bar labeled 'File', 'Home', 'Insert', 'Draw', 'Page Layout', 'Data', font set to 'Calibri (Body)', size 11, and a standard toolbar with bold/italic and color options visible but subdued. The main sheet area shows columns headed A to L and rows 1 to 13 in faint grid lines. In cells B4 to J10, insert the bold black headline: 'Managing leads here again?' with 'again' italicized. Overlay three expressive, cutout human headshots with varying confused or skeptical expressions placed at top-left overlapping cells A2-B3, top-right over I2-J3, and bottom-center near E12-G12. Below the window, place a horizontally centered tagline in white simple rounded type on a lighter green horizontal band: \"It's 2025, upgrade to ⚡ Instantly\" with a minimalist lightning bolt icon preceding 'Instantly'. The typography uses heavy sans serif for the headline, smaller lighter rounded sans serif for the tagline. Ensure spacing balances negative space; the headline is large (~48pt), tagline smaller (~18pt). Faces have soft, natural lighting and neutral background removed, edges sharply cut out. Avoid extra UI elements or logos. Maintain grid clarity, crisp margins, and harmonious color palette: dark green, black, white, skin tones.",
+    "remixPrompt": "Design a 4:3 ad with a friendly green background and a centered fake spreadsheet interface featuring simple menu text like 'File', 'Home', 'Insert', and others, plus a font dropdown set to a clean sans serif at size 11. The spreadsheet grid displays columns A to L and rows 1 to 13, with a bold, black headline reading 'Managing leads here again?' in cells B4 to J10, italicizing the word 'again'. Place three cutout expressive human heads showing confusion or frustration: one top-left overlapping cells A2-B3, top-right over I2-J3, and bottom-center near E12-G12. At the bottom below the spreadsheet, include a white tagline on a lighter green bar reading: 'It's 2025, upgrade to ⚡ Instantly' with a simple lightning icon left of the brand name. Keep the layout clean with balanced spacing and natural lighting on faces. Avoid logos, clutter, or extra UI features beyond the described elements.",
+    "editableVariables": [
+      "Headline text",
+      "Number of heads",
+      "Placement of heads",
+      "Tagline text",
+      "Background color shade",
+      "Typeface for headline",
+      "Typeface for tagline"
+    ],
+    "negativePrompt": "No real brand logos, no trademarks, no text unrelated to the described layout, no cluttered UI elements, no harsh shadows or dramatic lighting on faces, no extra characters or objects, no complex textures or gradients beyond subtle UI shading, no distorted text or faces, no pixelation or low resolution, no unrelated backgrounds or backgrounds outside the green color palette.",
+    "recommendedModel": "Stable Diffusion XL 1.0",
+    "aspectRatio": "4:3",
+    "remixNotes": [
+      "Try replacing the spreadsheet with different productivity app interfaces like task boards or calendars.",
+      "Experiment with different emotions on the heads to match various user frustrations or joys.",
+      "Change the color scheme from green to blue or purple but keep the simple two-tone background and UI style.",
+      "Swap headline text to other common workplace frustrations for localized relevance."
+    ],
+    "promptQuality": {
+      "exactness": 8,
+      "editability": 7,
+      "brandSafety": 10,
+      "confidenceNote": "High confidence in reconstructing the layout, text placement, and mood with some variation expected in facial features. Editable variables allow customization while retaining structure."
+    },
+    "modelVariants": {
+      "chatgpt": "Write a detailed prompt for image generation describing a 4:3 ratio ad with a centered spreadsheet UI window on a deep green background. The UI includes menus 'File', 'Home', etc., a Calibri font selection at size 11, and a grid with columns A-L and rows 1-13. The main headline 'Managing leads here again?' is bold and black in grid cells B4 to J10, with 'again' in italics. Place three expressive cutout human headshots with puzzled expressions at top-left (A2-B3), top-right (I2-J3), and bottom-center (E12-G12). Below window on a lighter green band, add white text 'It's 2025, upgrade to ⚡ Instantly' with a lightning bolt icon. Emphasize clean layout, natural lighting on faces, sans serif fonts, and balanced spacing. Avoid trademarks and clutter.",
+      "midjourney": "4:3 ad, deep green background with centered spreadsheet mockup window showing menu bar with 'File', 'Home', 'Insert' etc., font set to Calibri 11, grid columns A through L, rows 1-13 visible, bold black headline 'Managing leads here again?' from cells B4 to J10 with 'again' italicized, three expressive cutout human heads with puzzled looks placed top-left A2-B3, top-right I2-J3, bottom-center E12-G12, simple lightning bolt icon preceding white tagline 'It's 2025, upgrade to ⚡ Instantly' on a lighter green band below, clean UI, soft natural lighting, no logos, minimalistic, digital art, vector style.",
+      "ideogram": "Illustrate a 4:3 ad with a centered spreadsheet window on a dark green background. The window features top menus labeled 'File', 'Home', 'Insert', font selection 'Calibri', size 11. Visible grid with columns A-L and rows 1-13. Place bold black text headline 'Managing leads here again?' with 'again' italic from B4 to J10. Overlay three human heads showing puzzled expressions placed top-left, top-right, and bottom-center. Below the window is a softer green horizontal bar containing white tagline text 'It's 2025, upgrade to ⚡ Instantly' accompanied by a stylized lightning bolt icon. Keep layout clean and neat with natural lighting on faces.",
+      "flux": "Create a 4:3 ad image with a dark green background and a central spreadsheet app window. The UI shows the menus 'File', 'Home', 'Insert', 'Draw', 'Page Layout', 'Data', font 'Calibri (Body)' with size 11. Columns labeled A-L and rows 1-13 visible. The headline in the spreadsheet grid says 'Managing leads here again?' in bold sans serif black text from cells B4-J10, with 'again' italicized. Three human head cutouts appear: top-left over A2-B3, top-right over I2-J3, bottom-center near E12-G12, all with confused expressions. Beneath, on a lighter green strip, a white tagline reads 'It's 2025, upgrade to ⚡ Instantly' with a lightning bolt icon to the left. Simple, clean style with natural light on faces, no trademarks."
+    },
+    "visualBlueprint": {
+      "composition": "Centered spreadsheet window occupying roughly 70% width and 60% height of a 4:3 canvas, green background doubling as body and footer area with a horizontal band at bottom for tagline.",
+      "typography": "Two fonts: bold heavy sans serif for headline (~48pt), smaller rounded sans serif for tagline (~18pt). 'again' in italic style within headline. Typeface set in black for headline and white for tagline.",
+      "palette": [
+        "#1B4D2E",
+        "#2D6B3A",
+        "#000000",
+        "#FFFFFF",
+        "#D9B99B (skin tone)"
+      ],
+      "subject": "A clean spreadsheet UI with a question headline and three expressive human head cutouts showing confusion or slight frustration, plus a lightning icon and tagline below.",
+      "layout": "Grid-based, top menu bar, grid of cells visible, headline text aligned left starting about row 5 spanning columns B-J, three heads positioned top-left, top-right, bottom-center overlapping spreadsheet cells, tagline centered in bottom green strip.",
+      "styleTags": [
+        "minimalist",
+        "clean UI",
+        "realistic faces",
+        "flat color",
+        "digital ad",
+        "cutout heads",
+        "sans serif typography"
+      ]
+    }
+  },
+  "100-Gartner-CriticalCapabilitiesMarketingReportLI_1200x12002apng.jpeg": {
+    "title": "Align your work platform to your marketing strategy.",
+    "brandInspiration": "Notion",
+    "industry": "Collaboration",
+    "format": "Static",
+    "shortDescription": "A clean, modern ad visual featuring a purple-blue background with a minimalistic illustrated character interacting with a star rating interface, paired with a clear brand logo, headline, and a prominent call to action button.",
+    "whyItWorks": "There’s an effortless elegance in how this ad balances simplicity with a dash of personality. The spacious layout and crisp typography let the message breathe, inviting users in without feeling rushed. The whimsical illustration adds warmth and a gentle human touch while supporting the messaging rather than overwhelming it. The harmonious color palette ties everything together, encouraging focus and action in a natural way.",
+    "structureNotes": "Use a vertical rectangle canvas with a 1:1 aspect ratio. Background color is a soft violet-blue fill. Top area includes a colorful rounded brand logo with the brand name in bold lowercase sans-serif. Below that, a large headline in white, center-aligned, uses a clean, rounded sans-serif font at about 24-28pt on a typical screen. Beneath the headline is a wide pill-shaped white CTA button with straightforward black text and a subtle right arrow icon, centered horizontally. The lower half features a simplified, stylized human character composed of geometric shapes in black and pink lines, positioned left center, interacting with a semi-transparent interface panel containing a star rating visual and text lines, all in white and purple tones. Speech bubble icon is placed to the right of the panel. Maintain generous whitespace all around for a calm vibe. Avoid gradients, shadows, busy backgrounds, or detailed textures. The overall mood is clean, friendly, and modern.",
+    "fullPrompt": "Create an ad image in 1:1 aspect ratio with a solid violet-blue background covering the entire canvas. Center at the top a colorful, abstract logo composed of simple rounded bars in red, yellow, and green, next to a bold lowercase wordmark in white rounded sans-serif font. Below the logo, place a large headline reading ‘Align your work platform to your marketing strategy.’ in white, center-aligned, using a clean, geometric sans-serif font with moderate letter spacing and line height for comfortable reading. Under the headline, include a wide, pill-shaped white button with black text that says ‘Download the full report →’, also centered horizontally with subtle horizontal padding. In the lower half, depict a minimalistic, stylized human figure made of black rounded shapes and pink linear strokes, positioned slightly to the left side, reaching out with a finger to tap a semi-transparent pale blue panel containing a star rating interface (five stars with the leftmost star highlighted), plus a few horizontal lines to represent text, all in shades of purple and white. Add a small speech bubble in dark purple with horizontal white lines and a yellow circle accent to the right side of this panel. Ensure all elements have clear spacing and the layout feels open and balanced. Lighting is flat and even, with no gradients or shadows, emphasizing a digital flat design style. Avoid any real brand names or trademarks, complex textures, or cluttered backgrounds.",
+    "reconstructionPrompt": "An elegant 1:1 digital ad with a violet-blue background fill, featuring a colorful abstract logo with red, yellow, green rounded bars and bold white lowercase sans-serif wordmark centered at the top. Below, a large white headline text: 'Align your work platform to your marketing strategy.', center aligned, using a clean, rounded geometric sans-serif font with relaxed spacing. Beneath the headline sits a wide, pill-shaped white call-to-action button horizontally centered with black text 'Download the full report →'. The bottom half features a minimalistic stylized human figure composed of black rounded shapes and pink outlined strokes on the left, pointing to a translucent blue rectangular interface panel containing a star rating (five stars, one star highlighted in purple), several faint horizontal text lines in purple shades, and a dark purple speech bubble with white lines and a yellow circle accent to the right. Layout includes generous whitespace, flat lighting, no shadows or gradients, and a contemporary friendly flat illustration style. Exclude real trademarks, photographic textures, or complex backgrounds.",
+    "remixPrompt": "Design a friendly digital ad in 1:1 ratio with a calming violet-blue background featuring a playful, geometric brand logo in primary colors and a lowercase white wordmark at top center. Add a concise headline in clean sans-serif font below center reading ‘Align your work platform to your marketing strategy.’ Include a large rounded white button below with contrasting black text and arrow. In the lower half left, show a minimalistic illustrated figure in black and pink line art interacting with a translucent interface panel presenting a purple star rating and text placeholders, plus a speech bubble element in purple with a yellow dot. Keep the layout spacious, modern, and light, with no shadows or gradients. Avoid using real brand names or complicated imagery.",
+    "editableVariables": [
+      "brand logo colors",
+      "headline text",
+      "CTA text",
+      "background hue",
+      "illustration style accents"
+    ],
+    "negativePrompt": "No photographic elements, no complex textures, no gradients or shadows, no real brand logos or trademarks, no cluttered backgrounds, no 3D effects, no human faces or detailed anatomy, no dull or muted colors",
+    "recommendedModel": "Midjourney v5 or stable diffusion 2.1",
+    "aspectRatio": "1:1",
+    "remixNotes": [
+      "Experiment with changing headline text for different industries.",
+      "Adjust illustration colors to align with alternate brand palettes.",
+      "Swap CTA text and icon direction for localization.",
+      "Try replacing the character with different minimalistic shapes or figures.",
+      "Shift background color along violet-blue spectrum for mood variation."
+    ],
+    "promptQuality": {
+      "exactness": 8,
+      "editability": 9,
+      "brandSafety": 10,
+      "confidenceNote": "This prompt is well calibrated to reproduce the spatial organization, typography hierarchy, and color scheme with high fidelity while replacing protected elements with safe, fictional substitutes. Minor variation in illustration details and brand mark can occur but overall structure will be consistent."
+    },
+    "modelVariants": {
+      "chatgpt": "Generate a detailed textual description of a 1:1 ad image with a violet-blue background featuring a colorful abstract logo with three rounded bars in red, yellow, and green, accompanied by a bold white lowercase brand name at the top center. Below it, place a large white headline: 'Align your work platform to your marketing strategy.' Center align the headline in a clean rounded sans-serif font. Beneath that, add a wide pill-shaped white button with black text reading 'Download the full report →', centered horizontally. The lower section shows a simple stylized human figure in black shapes and pink line strokes pointing to a translucent blue interface panel showing a five-star rating with one star highlighted and some horizontal lines representing text. Include a dark purple speech bubble with white lines and a yellow circle accent to the right of the panel. Maintain generous whitespace and a flat, digital illustration style, no gradients or shadows.",
+      "midjourney": "--ar 1:1 --v 5 --q 2 flat digital ad with violet-blue background, minimalistic abstract logo with red, yellow, green bars next to bold white lowercase brand name top center, large white headline in clean sans-serif font center aligned: 'Align your work platform to your marketing strategy.', below a wide rounded white button with black text 'Download the full report →' centered, lower half with stylized black and pink minimal human figure interacting with translucent blue panel showing five star rating (one star highlighted) and text lines, dark purple speech bubble with yellow accent to right, flat lighting, no shadows or gradients",
+      "ideogram": "Create a 1:1 ad graphic with a solid violet-blue background, on top center a colorful logo with three rounded bars (red, yellow, green) next to a bold white lowercase wordmark. Below, large headline text 'Align your work platform to your marketing strategy.' in white and a clean sans-serif font. Add a wide white pill-shaped button with black text 'Download the full report →' horizontal center. At the lower area, illustrate a minimal black and pink outlined figure pointing to a translucent blue interface containing a star rating (one star highlighted) and lines of text, plus a dark purple speech bubble with white lines and a yellow dot. Flat style, clean, plenty of whitespace.",
+      "flux": "Generate a 1:1 ad image that features a violet-blue background with a top-center colorful abstract logo made from red, yellow, and green rounded bars paired with bold white lowercase text brand name. Below that, present a large white headline reading 'Align your work platform to your marketing strategy.' Beneath it, a wide white button with black text 'Download the full report →' is centered horizontally. The bottom left area includes a simplified human figure in black and pink line art pointing at a semi-transparent blue rectangular panel showing a star rating (one star highlighted) and several lines of text, plus a dark purple speech bubble with a yellow accent on the right. Style is flat, friendly, with generous whitespace and no complex textures or shadows."
+    },
+    "visualBlueprint": {
+      "composition": "Centered vertical stack with brand at top, headline below, CTA button next, and illustrated scene occupying lower half. Illustration balanced left with interface panel and speech bubble on right within lower block.",
+      "typography": "Rounded geometric sans-serif fonts, large headline white and bold, moderate letter spacing, clean and readable.",
+      "palette": [
+        "#5A60F6 (violet-blue background)",
+        "#FFFFFF (white text and button)",
+        "#000000 (illustration black parts)",
+        "#FF6BAC (pink highlight lines)",
+        "#3C3C9F (dark purple speech bubble)",
+        "#FFCA00 (yellow accent)",
+        "#9AB6FF (light blue interface panel)"
+      ],
+      "subject": "Abstract stylized human figure interacting with UI elements, dynamic finger point on star rating panel, speech bubble icon for dialogue or messaging.",
+      "layout": "Vertical orientation with clear separation: brand top, headline center, CTA button below headline, illustration lower third spanning horizontally with left focus, speech bubble offset right.",
+      "styleTags": [
+        "flat design",
+        "minimalist",
+        "geometric shapes",
+        "friendly",
+        "digital illustration",
+        "modern typography"
+      ]
+    }
+  },
+  "108-PMOPersonaAds_BrandLayerIIILI_1200x12001bpng.jpeg": {
+    "title": "Real-time execution is the new standard.",
+    "brandInspiration": "Notion",
+    "industry": "Productivity",
+    "format": "Static",
+    "shortDescription": "A clean, modern black-background ad featuring a motivational headline, a minimalistic illustration of a person holding a clock, and a simple call to action below in white and yellow text.",
+    "whyItWorks": "The ad uses a stark black background to create strong contrast, allowing the white and yellow text and colorful illustration to stand out crisply. The use of minimalist flat vector illustration communicates the concept clearly without distraction. The hierarchy flows naturally: brand icon at the top, bold headline centered, illustrative graphic below, then a bright, motivating call to action. This quiet confidence lets the message land with clarity and immediacy.",
+    "structureNotes": "Canvas set to a square ratio (1:1). Top margin houses a stylized, abstract brand icon with placeholder text next to it, centered horizontally. The main headline is large, white, sans-serif text, centered below the brand mark with generous vertical spacing. The illustration – a simple flat vector of a person with stylized yellow hair and a blue sleeve holding a clock with faint clock hands – sits centered beneath the headline and above the secondary call to action line. The call to action in bright yellow is centered and spaced below the illustration. The smallest text portion, a white underlined link-style phrase with an arrow, sits bottom center with subtle horizontal padding. The entire layout uses balanced negative space to avoid crowding, with consistent left-right margins.",
+    "fullPrompt": "Create a 1:1 ratio digital ad with a solid black background. At the top center, place a stylized abstract brand icon composed of three small colored shapes (pink, orange, green) followed by a bold white sans-serif wordmark reading 'SunDay.com'. Centered below this, add large white text reading 'Real-time execution is the new standard.' in a clean, modern, rounded sans-serif typeface with medium weight and comfortable line height. Below the headline, include a flat vector illustration of a single arm with a tan skin tone and a blue sleeve. The hand holds a small white clock with simple black tick marks and slender blue clock hands pointing roughly to 12 and 3 o'clock. The arm and hand are centered horizontally and sized to occupy roughly one third of the canvas height. Beneath the illustration, add a prominent call to action in bright yellow text with the phrase 'Embrace the change' in the same typeface but bold and slightly larger than the headline's line height, centered. Finally, below that, place a small white underlined link reading 'See what's possible →' in a lighter weight, with horizontal padding so it does not touch edges, also centered. Maintain generous vertical spacing and consistent margins, avoiding excessive visual noise, shadows, or gradients. The style is minimalistic, flat vector with smooth shapes and crisp edges, no 3D or photorealism.",
+    "reconstructionPrompt": "Design a square 1:1 digital advertisement with pitch-black background. Top center features a minimalistic abstract brand mark: three small rounded shapes colored hot pink, bright orange, and lime green, arranged horizontally, accompanied by the brand name 'SunDay.com' in a clean, bold, white rounded sans-serif font. Below, center a large headline text in pure white that reads: 'Real-time execution is the new standard.' Use a modern rounded sans-serif typeface with medium weight and comfortable line spacing. Centered beneath the headline, show a flat vector illustration of a person’s arm and hand: the skin tone is warm tan, the sleeve is bright blue and angular with smooth edges. The hand holds a simple round clock with a white face, thin black tick marks, and slender midnight blue clock hands angled at roughly three o’clock and twelve o’clock. Below the arm, center a bright yellow, bold line reading 'Embrace the change' in the same typeface, sized slightly larger and spaced well from the graphic. Finally, at the bottom center, present a small white underlined link text 'See what's possible →' in a lighter weight sans-serif font with horizontal padding. The composition must have balanced white space, consistent vertical margins and horizontal alignment, minimalistic flat style with no shadows or complex textures, emphasizing clarity and calm energy. Avoid photorealism, gradients, or excessive detail.",
+    "remixPrompt": "Reimagine a square ad with a deep charcoal background. Position a fresh abstract brand icon composed of three overlapping spheres in magenta, tangerine, and lime with a fictional name 'BrightDay.io' in smooth, lowercase white sans-serif at top center. Use a strong, concise headline centered reading 'Instant insight changes everything.' below the logo in crisp white. Under this, place a stylized vector hand with earthy brown skin tone and teal sleeve, holding a digital stopwatch with minimal black tick marks and neon blue hands. Show a vibrant call to action 'Seize the moment' in sunny yellow beneath the illustration, followed by a subtle, underlined link 'Discover more →' in smaller white text bottom center. Maintain balanced negative space, bold simplicity, and clean geometry.",
+    "editableVariables": [
+      "brandName",
+      "brandIconColors",
+      "headlineText",
+      "callToActionText",
+      "iconDesign",
+      "skinTone",
+      "sleeveColor",
+      "clockHandsColor",
+      "backgroundColor",
+      "fontFamily"
+    ],
+    "negativePrompt": "Avoid photographic elements, gradients, shadows, overly busy or cluttered compositions, detailed facial features, trademarked logos or copy, 3D effects, complex textures, and real brand identifiers.",
+    "recommendedModel": "GPT-4 Vision",
+    "aspectRatio": "1:1",
+    "remixNotes": [
+      "Change brand icon colors and shapes for new identity.",
+      "Adjust headline to match alternate messaging while preserving size and weight.",
+      "Switch hand/arm colors and clock style to suit new palette.",
+      "Modify call to action text but keep hierarchy spacing and contrast.",
+      "Keep background dark but experiment with charcoal or navy for variant mood."
+    ],
+    "promptQuality": {
+      "exactness": 8,
+      "editability": 9,
+      "brandSafety": 10,
+      "confidenceNote": "The prompt carefully captures layout, typography, and brand-safe elements to replicate the structure and mood without using proprietary assets, making it highly reliable in image generation tools."
+    },
+    "modelVariants": {
+      "chatgpt": "Generate a square, minimalistic digital ad with a black background. Top center: a multicolored abstract brand mark with rounded shapes in pink, orange, and green next to the text 'SunDay.com' in a bold white rounded sans-serif font. Centered beneath: large white text reading 'Real-time execution is the new standard.' Below that, a flat vector illustration of an arm with tan skin and blue sleeve holding a white clock with black tick marks and blue hands. Beneath the illustration: bright yellow bold text 'Embrace the change' and below that, small white underlined text link 'See what's possible →', all centered with balanced spacing and ample margins. Avoid any photorealism or shadows, use flat colors only.",
+      "midjourney": "square ad, black background, minimalistic flat vector style, abstract brand icon with pink orange green shapes and text 'SunDay.com' in white rounded sans-serif font top center, large white headline 'Real-time execution is the new standard' center, stylized arm with tan skin blue sleeve holding white clock with black ticks and blue hands below, bright yellow bold text 'Embrace the change' underneath, small white underlined link 'See what's possible →' at bottom center, simple clean composition, no shadows or gradients --ar 1:1 --v 5 --q 2",
+      "ideogram": "An ad in 1:1 ratio with a solid black background. At the top center, a colorful abstract brand mark with pink, orange, and green shapes next to 'SunDay.com' in bold white rounded sans-serif type. Centered large white text: 'Real-time execution is the new standard.' Below, a flat illustration of a tan arm wearing a blue sleeve holding a simple white clock with black tick marks and blue hands. Below the illustration, bright yellow bold text 'Embrace the change'. At the bottom center a smaller white underlined link 'See what's possible →'. Clean, minimalist, flat design with crisp edges and generous spacing.",
+      "flux": "Square ad with black background, top center brand icon with three rounded shapes in pink, orange, and green, text 'SunDay.com' in bold white rounded sans-serif font. Large centered white headline 'Real-time execution is the new standard' below brand mark. Under headline a stylized tan arm with blue sleeve holding a white clock with black tick marks and purple-blue hands. Below that, a bright yellow call to action 'Embrace the change', and at bottom center a small white underlined link 'See what's possible →'. Flat vector style, clean layout, lots of negative space, no shadows or textures, all elements horizontally centered --ratio 1:1."
+    },
+    "visualBlueprint": {
+      "composition": "Centered vertical stack with brand icon and text at top, headline below, illustration in middle, then call to action text and small link at bottom - all centered horizontally.",
+      "typography": "Rounded sans-serif fonts, white for headline and brand text, yellow for call to action, smaller weight and underlined for link text. Balanced line spacing and consistent horizontal alignment.",
+      "palette": [
+        "#000000 (black background)",
+        "#FFFFFF (white text and clock face)",
+        "#FF0078 (pink brand shape)",
+        "#FF6A00 (orange brand shape)",
+        "#7CEC00 (lime green brand shape)",
+        "#3B40FF (blue sleeve)",
+        "#D9A15A (tan skin tone)",
+        "#FFC700 (yellow call to action)",
+        "#000000 (clock tick marks)",
+        "#2E3192 (clock hands)"
+      ],
+      "subject": "Minimalistic arm and hand holding a simple analog clock, placed below clear headline and brand mark.",
+      "layout": "Vertical stack with generous spacing, brand mark top center, headline centered below, illustration centered in middle, bright call to action below illustration, small link text at bottom center.",
+      "styleTags": [
+        "minimalist",
+        "flat vector",
+        "bold typography",
+        "high contrast",
+        "clean",
+        "modern",
+        "tech",
+        "corporate",
+        "static ad"
+      ]
+    }
+  },
+  "108-PMOPersonaAds_BrandLayerIIILI_1200x12004png.jpeg": {
+    "title": "The PMO is the new operational backbone.",
+    "brandInspiration": "Notion",
+    "industry": "Productivity",
+    "format": "Static",
+    "shortDescription": "Minimalist productivity tool ad featuring a vertical stack of bold colorful shapes on black background, clean sans-serif typography and a bright call to action.",
+    "whyItWorks": "The design speaks quietly without clutter, using easily digestible geometry and crisp typography to focus the eye and the mind. The bold, contrasting colors create a lively but grounded energy that invites readers to pause and absorb the message. The layout balances visual weight on the left with text on the right, fostering calm confidence and clarity.",
+    "structureNotes": "Use a vertical, portrait-format canvas roughly 1:1 aspect ratio. Background is solid black. On the left side, stack four geometric shapes vertically with balanced spacing: two green circles top and bottom, a yellow rounded rectangle outline second from top, and a tall vertical blue capsule second from bottom. On the top right, place a fictional logo brand name composed of a multicolor icon and bold white sans-serif text. Below that, align a large three-line headline in bold white sans-serif with comfortable line spacing, left aligned with consistent margin from left shapes. Beneath the headline, a small bright yellow callout phrase enclosed in square brackets. Finally, at the lower right, a rounded white button with black text and a small arrow icon. Maintain generous padding and margins all around, simple minimal drop shadows or none, no gradients. Avoid gradients on shapes and text, avoid additional 3D effects or drop shadows beyond subtle if any.",
+    "fullPrompt": "Create a clean, modern productivity app advertisement portrait layout with a solid black background. On the left side, vertically stack four geometric shapes spaced evenly: a bright green solid circle at top, below it a tall horizontal yellow rounded rectangle outline, below that a tall vertical blue capsule shape, and finally a bright green solid circle at bottom. On the top right, place a fictional colorful multi-dot brand icon followed by bold white sans-serif text for the product name, horizontally aligned. Below the logo, include a large, three-line headline in bold white sans-serif font reading 'The PMO is the new operational backbone.' left aligned with comfortable line spacing and generous margin. Underneath the headline, add a smaller bright yellow phrase enclosed in square brackets: '[embrace the change]', same font family but smaller and lighter weight. At the bottom right, a pill-shaped white call-to-action button with black text reading 'Discover more →', horizontally aligned. Maintain balanced negative space, consistent vertical and horizontal margins, no gradients or shadows except subtle flat shading. The style is minimalist, geometric, bright color pops on black, sans-serif typography, clean and spacious composition.",
+    "reconstructionPrompt": "Portrait orientation ad with black background and clean minimalist style. On the left, a vertical stack of four bold shapes with equal spacing: bright green circle (top), yellow rounded rectangle outline just below, large vertical blue pill shape beneath that, and bright green circle at bottom. Top right features a fictional colorful multi-dot logo to the left of bold white brand name text in a clean sans-serif font, all horizontally aligned. Below the logo, a large three-line white headline reading exactly: 'The PMO is the new operational backbone.', left aligned with consistent line spacing and margin from shapes on left. Under headline, a smaller bright yellow callout phrase in square brackets stating '[embrace the change]', same sans-serif font but smaller size and lighter weight. Bottom right corner displays a horizontally centered pill-shaped white button containing black text: 'Discover more →' with arrow glyph, consistent padding around text. Maintain generous negative space, balanced margins, no drop shadows or gradients on text or shapes. Colors are vivid green (#00B76B), medium yellow (#FFC700), blue (#6B72FF), white (#FFFFFF), black (#000000). The typeface is geometric sans-serif with modern, friendly style, headline set large (approx 48-60 pt), subtext smaller (approx 24 pt), button text medium (approx 18 pt). Avoid photographic textures, gradients, complex detail or additional graphic elements.",
+    "remixPrompt": "Create an ad with a vertical layout and black background, featuring a vertical stack of four simple colorful geometric shapes aligned on left: circle (green), rounded rectangle outline (yellow), vertical capsule (blue), and circle (green) at bottom. Top right corner has a fictional vibrant multicolor icon and bold white sans-serif product name. Below that, a large three-line tagline in white sans-serif stating 'The PMO is the new operational backbone.', left aligned. Beneath tagline, a yellow bracketed phrase '[embrace the change]' in smaller font. Bottom right is a white pill-shaped button with black text reading 'Discover more →'. Keep spacing generous and balance clean. Use no gradients or shadows except subtle flat shading. The overall mood is minimal, modern and confident.",
+    "editableVariables": [
+      "headlineText",
+      "calloutText",
+      "buttonText",
+      "logoColors",
+      "shapeColors",
+      "brandName"
+    ],
+    "negativePrompt": "No complex backgrounds, no photography, no gradients, no drop shadows on text or shapes, no 3D effects, no additional text blocks, no multiple logos, no cluttered layouts, no fuzzy or pixelated text, no serif fonts, no cold colors like gray or navy.",
+    "recommendedModel": "Midjourney v5",
+    "aspectRatio": "1:1",
+    "remixNotes": [
+      "Try swapping the shape colors while keeping contrast strong and saturated.",
+      "Replace the headline with another three-line statement of similar length and structure.",
+      "Swap the callout text with another short bracketed phrase in bright color.",
+      "Experiment with a more rounded or geometric sans-serif typeface variant.",
+      "Adjust button shape from pill to rectangle with rounded corners for variation."
+    ],
+    "promptQuality": {
+      "exactness": 8,
+      "editability": 9,
+      "brandSafety": 10,
+      "confidenceNote": "The prompt well captures the geometric minimal layout, color distribution, and text hierarchy. Exact brand elements are replaced. It should reliably reproduce a close cousin of the original ad."
+    },
+    "modelVariants": {
+      "chatgpt": "Generate a clean 1:1 ad card with a black background. On left side, stack four bold geometric shapes vertically with even spacing: green circle at top, yellow rounded rectangle outline below, vertical blue pill shape below that, green circle at bottom. Top right corner displays a fictional colorful multi-dot brand icon and bold white sans-serif brand name horizontally aligned. Below that, large white three-line headline left aligned reading 'The PMO is the new operational backbone.'. Underneath, a smaller yellow bracketed phrase '[embrace the change]' in same font family but lighter weight. Bottom right corner includes a white rounded pill button with black text 'Discover more →'. Maintain generous spacing, no gradients or drop shadows, minimalist style.",
+      "midjourney": "1:1 portrait ad, black background, vertical stack on left of 4 geometric shapes: green circle, yellow rounded rectangle outline, vertical blue capsule, green circle bottom. Top right with multicolor dot logo next to bold white sans-serif brand name. Large white three-line headline left aligned: 'The PMO is the new operational backbone.'. Smaller bright yellow phrase in brackets below: '[embrace the change]'. White pill button bottom right with black text: 'Discover more →'. Clean minimalist, vivid colors, no gradients or shadows, modern geometric sans serif, sharp and crisp.",
+      "ideogram": "Design a portrait ad with solid black background. Place on left a vertical column of four geometric shapes spaced evenly: green solid circle top, yellow rounded rectangle outline second, tall vertical blue capsule third, green solid circle bottom. Top right corner has colorful multi-dot icon with bold white sans-serif brand name text. Below, a large white three-line headline: 'The PMO is the new operational backbone.', left aligned with even spacing. Beneath, bright yellow bracketed phrase '[embrace the change]'. Bottom right corner features a white rounded rectangular button with black text and arrow: 'Discover more →'. Minimalist, geometric shapes, no shadows, clear typography.",
+      "flux": "Create a square ad with black background. On left side align vertically four shapes: bright green circle top, yellow rounded rectangle outline below, tall blue pill shape below, bright green circle bottom. Top right corner: colorful dot logo plus bold white sans-serif product name horizontally. Below that, large white three-line headline left aligned: 'The PMO is the new operational backbone.'. Under headline, smaller bright yellow bracketed copy: '[embrace the change]'. Bottom right corner: white pill button with black text 'Discover more →'. Minimal, flat colors, no gradients, generous spacing, clean modern typography."
+    },
+    "visualBlueprint": {
+      "composition": "Vertical rectangular 1:1 layout divided visually into left column of stacked shapes and right column of text elements plus button.",
+      "typography": "Geometric sans-serif font family. Brand name is bold white, headline is large, bold white, subtext yellow smaller and lighter weight. Button uses same sans-serif but medium weight black on white pill shape.",
+      "palette": [
+        "#00B76B",
+        "#FFC700",
+        "#6B72FF",
+        "#FFFFFF",
+        "#000000"
+      ],
+      "subject": "Abstract geometric shapes stacked vertically on left, textual content on right: brand logo, headline, callout, CTA button.",
+      "layout": "Two column with left column narrow with vertical stack of geometric shapes, right column wide with logo top, headline middle, callout beneath, and CTA bottom right.",
+      "styleTags": [
+        "minimalist",
+        "geometric",
+        "modern",
+        "flat color",
+        "bold typography",
+        "high contrast"
+      ]
+    }
+  },
+  "1080X1080-22png.jpeg": {
+    "title": "SECURING AI AGENTS 101",
+    "brandInspiration": "Wiz",
+    "industry": "Security",
+    "format": "Static",
+    "shortDescription": "A tech ad promoting a security flashcard download, featuring a friendly robot illustration on a grid blue background with a simple but appealing call-to-action button.",
+    "whyItWorks": "The ad strikes a balance between informative typography and playful illustration, making the complex topic of AI security approachable. The crisp grid background adds a tech-savvy structure, while the pastel robot humanizes the concept. The vertical stacking with ample negative space directs the eye naturally from brand to headline to call to action, fostering calm clarity.",
+    "structureNotes": "Top aligned brand name center. Headline below brand, uppercase, large sans-serif. Sub-headline smaller, pastel color, placed directly beneath headline. Centered white rectangular button with subtle drop shadow below text cluster. Large friendly robot illustration anchored along bottom center, spanning roughly 40% of height. Background is bright blue grid with thin strokes. Minimal decorative line elements around robot and text for visual interest and flow.",
+    "fullPrompt": "Create a 1:1 square ad on a bright blue (#2563EB) background with a subtle grid pattern formed by thin lighter blue lines spaced evenly across. At the top center, place a crisp white bold sans-serif logo reading 'WIZ' with a small sparkle star on the top right corner of the 'Z'. Below that, center the headline in large uppercase white letters reading 'SECURING AI AGENTS 101', spaced with a modern geometric sans-serif font. Directly beneath the headline, center a smaller line of pastel pink text reading 'A Security Flashcard for Teams' in sentence case, medium weight, matching the palette (#F9A8D4). Below the text, place a white rounded rectangle button with subtle drop shadow, containing 'Download now' in the same blue as the background, mid-weight and slightly smaller than the sub-headline text, centered vertically and horizontally. The bottom portion features a stylized rectangular robot face with a vertical division: left half pink (#F9A8D4) with simple closed eyes (curved lines) and a smiling mouth in white with a blue outline, right half light periwinkle blue (#BFDBFE) with a headset microphone on a cord connecting to a circular ear pad; atop the robot is a small antenna with concentric rings representing signal waves, and various abstract line decorations (curved arrow, star shapes, zigzag) in white and pink scattered near the robot and text for dynamic flow. The overall layout has balanced spacing and calm rhythm, no clutter, and the color palette is limited to bright blue, pastel pink, light blue, and white. Avoid cluttered backgrounds or photographic elements, no real logos or trademark text.",
+    "reconstructionPrompt": "Square ad (1:1) with vibrant medium blue background featuring thin grid lines in lighter blue, evenly spaced across the canvas. Top center a bold white uppercase sans-serif brand name 'WIZ' with a small star sparkle on the 'Z'. Centered below it, large uppercase headline 'SECURING AI AGENTS 101' in white with geometric sans-serif font, below that a pastel pink smaller sub-headline 'A Security Flashcard for Teams' in sentence case, medium weight. Below text cluster, center a pill-shaped white button with subtle shadow containing 'Download now' in same blue as background, medium weight and smaller font size. Bottom half features stylized rectangular robot face: left side pink with minimal closed eyes and smiling mouth, right side pale blue with headset microphone connected to ear pad. Antenna with circular signal rings centered atop robot head. Minimal abstract decorative line elements (curved arrows, starbursts, zigzags) in white and pastel pink sprinkled near robot and text. Ample negative space with balanced margin. Avoid photographic or textured backgrounds, clutter, or real brand references.",
+    "remixPrompt": "Create a square ad featuring a vibrant blue grid background, with a friendly two-tone robot face at the bottom center, split pink and pale blue halves with simple smiling eyes and a headset microphone. Above, place a bold uppercase tech-style headline reading 'SECURING AI AGENTS 101' in white, a smaller pastel pink subheading 'A Security Flashcard for Teams,' and a prominent white rounded button labeled 'Download now.' Add playful abstract geometric line accents around the robot and text for a dynamic but clean layout. Keep the mood approachable and tech-forward, using crisp sans-serif fonts and consistent spacing.",
+    "editableVariables": [
+      "brandName",
+      "headlineText",
+      "subHeadlineText",
+      "buttonText",
+      "backgroundColor",
+      "brandColor",
+      "robotLeftColor",
+      "robotRightColor",
+      "decorativeElementColor"
+    ],
+    "negativePrompt": "No real logos or trademarks, no photographic elements, no cluttered backgrounds, no detailed textures or shadows beyond subtle drop shadows on button, no human characters.",
+    "recommendedModel": "midjourney-v5",
+    "aspectRatio": "1:1",
+    "remixNotes": [
+      "Adjust robot colors for brand customization.",
+      "Swap out headline and subheadline for alternate campaigns.",
+      "Modify button text for different CTAs.",
+      "Add or remove abstract decorative line elements as needed."
+    ],
+    "promptQuality": {
+      "exactness": 8,
+      "editability": 9,
+      "brandSafety": 10,
+      "confidenceNote": "The prompt captures layout, color palette, and key design elements well to get close to original. Minor deviations may occur in robot detail or grid line density but overall structure is defined strongly."
+    },
+    "modelVariants": {
+      "chatgpt": "Generate a square digital ad with a bright blue grid background, a bold white uppercase brand name 'WIZ' at the top center with a sparkle effect on the 'Z.' Below that, large white uppercase headline 'SECURING AI AGENTS 101' in a modern sans-serif font, followed by a smaller pink subheadline 'A Security Flashcard for Teams.' Centered below text is a white rounded rectangle button with subtle shadow containing the phrase 'Download now' in blue text. The bottom half has a stylized two-tone rectangular robot face, left side pink with smiling eyes, right side light blue with a headset microphone, topped with an antenna with circular waves. Include simple abstract line decorations in white and pink around robot and text for visual interest. Use balanced spacing and clean typography.",
+      "midjourney": "1:1 square ad, bright blue grid background with thin lighter blue lines, top center bold white sans-serif text 'WIZ' with a star sparkle on 'Z,' beneath large white uppercase headline 'SECURING AI AGENTS 101,' smaller pastel pink text 'A Security Flashcard for Teams,' white rounded button with subtle drop shadow containing blue text 'Download now,' stylized rectangular robot face bottom center split pink and light blue with simple smiling eyes and headset mic, antenna with concentric rings on top, minimal abstract white and pink line decorations, clean composition, vector style, flat design --v 5 --q 2 --ar 1:1 --style 4a",
+      "ideogram": "Square tech ad featuring a bright blue (#2563EB) grid background. Top center a white bold uppercase 'WIZ' logo with a sparkle detail. Centered below, large uppercase headline 'SECURING AI AGENTS 101' in white sans-serif, followed by smaller pastel pink subheading 'A Security Flashcard for Teams.' Beneath, a white pill-shaped 'Download now' button with subtle drop shadow and blue text. Bottom center a minimalistic robot face split pink and light blue with closed eyes smiling and headset microphone, topped with antenna emitting rings. Add simple abstract line shapes in white and pink nearby. Maintain clean, friendly tech style with balanced spacing and type hierarchy.",
+      "flux": "Square canvas ad with bright blue (#2563EB) grid background. Top center brand name 'WIZ' in bold white uppercase letters, sparkle accent on 'Z.' Below, large white uppercase headline 'SECURING AI AGENTS 101,' smaller pastel pink subheadline 'A Security Flashcard for Teams.' Centered below is a white rounded rectangle button with mild drop shadow, text 'Download now' in blue. Bottom half features stylized robot face: left pink with smiling eyes, right light blue with headset mic, and antenna with rings on top. Include abstract minimalist line decorations in pink and white near robot and text. Crisp, simple typography and flat vector style."
+    },
+    "visualBlueprint": {
+      "composition": "Centered vertical stack: brand top center, headline below, sub-headline below that, button beneath text cluster, large robot illustration anchored at bottom center, decorations scattered symmetrically around main elements.",
+      "typography": "Bold geometric sans-serif for brand and headline, uppercase for impact. Sub-headline in medium weight sentence case pastel pink. Button text mid-weight, consistent sans-serif.",
+      "palette": [
+        "#2563EB",
+        "#FFFFFF",
+        "#F9A8D4",
+        "#BFDBFE"
+      ],
+      "subject": "Friendly stylized robot face with antenna and headset, serving as mascot. Text and button above.",
+      "layout": "Square canvas (1:1 ratio) with generous negative space. Clear hierarchy vertically oriented. Margin on all sides consistent.",
+      "styleTags": [
+        "minimal",
+        "flat design",
+        "tech",
+        "friendly",
+        "playful",
+        "geometric",
+        "vector"
+      ]
+    }
+  },
+  "1080X108064png.jpeg": {
+    "title": "7 Best Practices for Secrets Security",
+    "brandInspiration": "Wiz",
+    "industry": "Security",
+    "format": "Static",
+    "shortDescription": "A tech ad promoting a downloadable cheat sheet on secrets security best practices, featuring a grid blueprint background, a stylized pink key inside a transparent lockbox, and a clear call-to-action button.",
+    "whyItWorks": "This ad brings a quiet confidence through its clean, schematic style that feels both authoritative and approachable. The blueprint grid in the back suggests precision and engineering rigor, while the soft pink key breaks the technical monotony with a touch of warmth and focus. The transparent lockbox underscores the promise of clear, visible security practices. The large, legible headline commands attention without shouting, and the rounded \"Get the guide\" button invites action without pressure. Together, these elements create a trustworthy, inviting appeal to professionals looking to secure their secrets without fuss.",
+    "structureNotes": "Centered vertical layout with top-aligned headline and subheading label, large centered key and lockbox graphic occupying middle third. The headline uses a large, sans-serif font with generous line spacing. The 'CHEAT SHEET' label is smaller, uppercase, pink, positioned above the headline with vertical padding. The lockbox is a transparent rectangular prism angled in perspective, enclosing a horizontal skeleton key in bright pink with a flat shadow beneath. The lock mechanism is mid-box, with subtle outlines and minimal detail in a darker blue shade. Background is a bright, cobalt blue with subtle grid lines and faint circular blueprint pattern overlays. The brand name in bold white is placed bottom left with a small sparkle icon. The call-to-action button is bottom right, wide, white with pink shadow, containing blue text and subtle rounded edges. Margins are generous all around with clean negative space. Avoid gradients or photographic textures to maintain flat vector style.",
+    "fullPrompt": "A vertical 1:1 ratio tech security ad with a bright cobalt blue background overlaid by a white grid pattern and faint circular blueprint diagrams. At top center, small uppercase pink text reading 'CHEAT SHEET' sits above a large white sans-serif headline reading '7 Best Practices for Secrets Security' spanning two lines with ample line spacing. Centered below is a transparent rectangular lockbox drawn in white outlines with subtle perspective tilt, enclosing a large flat pink skeleton key laying horizontally with a rounded triple-loop bow, casting a muted shadow beneath inside the box. A minimalistic blue lock mechanism hangs mid-box, locked onto the key. Bottom left features a bold white brand word 'WIZ' accompanied by a small sparkle icon. Bottom right is a round-cornered rectangular white button with a pink drop shadow containing blue text 'Get the guide'. The composition uses generous margins and clean negative space, employing flat vector shapes with no gradients or textures, in a concise, blueprint schematic style that is crisp and professional.",
+    "reconstructionPrompt": "Create a square (1:1) tech advertisement with a bright cobalt blue background featuring a subtle white grid overlay and faint geometric blueprint circles scattered but minimal, representing precision engineering. Place small uppercase pink text 'CHEAT SHEET' horizontally centered near the top with some breathing space above and below. Directly below, a large white sans-serif headline reading '7 Best Practices for Secrets Security' in two lines, left-aligned to the center line, with open letter spacing and balanced line height. Center a transparent white-outlined rectangular lockbox shape in perspective occupying about one-third vertical space from the center downward. Inside this box, position a large, flat pink skeleton key horizontally with a circular triple loop bow on the left end and a flat key bit on the right, casting a subtle navy shadow beneath to ground it. Affix a minimal blue lock hanging on the center of the box's top edge locking the key in place, using simple, clean lines without complex detail. At bottom left corner, place a bold white logotype reading 'WIZ' with a star sparkle symbol above the 'I'. At the bottom right corner, add a horizontally oriented rounded rectangle white button with pink drop shadow, containing blue text reading 'Get the guide' in a medium-weight sans-serif font. Maintain substantial margins all sides; background is flat with no gradients, shadows are crisp and simple, overall style is clean, schematic, with moderate negative space and balanced hierarchy. Avoid photographic textures or noisy details to keep a smooth vector blueprint aesthetic.",
+    "remixPrompt": "A clean security-focused ad layout with a large headline about best practices in secrets security, set on a bright blue grid background with transparent lockbox containing a bold colored key, minimalistic lock icon, brand logotype at bottom left, and a clean call-to-action button at bottom right, in flat vectors style with blueprint elements and gentle shadows.",
+    "editableVariables": [
+      "headline text",
+      "subheading text",
+      "key color",
+      "background color",
+      "brand name",
+      "button text",
+      "button colors"
+    ],
+    "negativePrompt": "No complex textures, no photos, no gradients, no cluttered elements, no real brand logos or trademarks, no extraneous text apart from specified headline and labels, no excessive shadows or glows, no 3D realism or photorealism beyond flat schematic style.",
+    "recommendedModel": "Midjourney v5 or Ideogram for vector and blueprint style; GPT-4 with image for text extraction and composition understanding.",
+    "aspectRatio": "1:1",
+    "remixNotes": [
+      "Try alternative key shapes to symbolize different types of security.",
+      "Experiment with different blue shades for background to shift mood from technical to trustworthy.",
+      "Switch CTA to bottom center for different balance.",
+      "Replace key with a padlock icon for variation in metaphor."
+    ],
+    "promptQuality": {
+      "exactness": 7,
+      "editability": 8,
+      "brandSafety": 10,
+      "confidenceNote": "This prompt retains the key structural and stylistic elements for a close visual familial match, with flexibility to swap text and colors safely."
+    },
+    "modelVariants": {
+      "chatgpt": "Generate an image of a tech ad with a bright cobalt blue grid background and faint blueprint circles. Place small uppercase pink text ‘CHEAT SHEET’ at top center. Underneath, add a large white sans-serif headline ‘7 Best Practices for Secrets Security’. Center a transparent outlined lockbox shape in perspective containing a flat pink skeleton key laying horizontally, with a small blue lock attached. Bottom left includes white bold text ‘WIZ’ and star icon. Bottom right has a white rounded rectangular button with pink shadow reading ‘Get the guide’ in blue text. Maintain clean vector style with no gradients or photos.",
+      "midjourney": "A minimalistic tech ad design in bright cobalt blue with white grid lines and faint circular blueprints, top center small uppercase pink text 'CHEAT SHEET', large white sans-serif headline '7 Best Practices for Secrets Security' below, center a transparent white rectangular lockbox with a horizontal flat pink skeleton key casting a navy shadow inside, a simple blue lock hanging in the box center, bottom left white bold 'WIZ' logo with star sparkle, bottom right white rounded button with pink shadow containing blue text 'Get the guide', flat vector style, crisp lines, schematic, no gradients --ar 1:1 --v 5",
+      "ideogram": "Square blueprint-themed tech security ad, bright cobalt blue background with white grid overlay and faint circles, small uppercase pink ‘CHEAT SHEET’ label top center, large white ‘7 Best Practices for Secrets Security’ headline, center transparent outlined lockbox with a flat pink skeleton key laying horizontally inside, minimal blue lock hanging centrally, bottom left white ‘WIZ’ brand mark with sparkle, bottom right white rounded rectangle button with pink shadow and blue ‘Get the guide’ text, clean and simple vector style, flat colors, schematic blueprint --ar 1:1",
+      "flux": "Bright cobalt blue 1:1 tech security ad with subtle white grid and circular blueprint overlays. Top center small uppercase pink text 'CHEAT SHEET', below large white sans-serif '7 Best Practices for Secrets Security' headline. Center a transparent lockbox outlined in white, housing a horizontal bold pink key with triple-loop bow and flat bit, shadow underneath. Blue lock hanging centrally inside box. Bottom left white bold 'WIZ' text with sparkle. Bottom right white rounded button with pink shadow containing blue text 'Get the guide'. Flat vector blueprint style, clear hierarchy, generous margins, no gradients or photorealism."
+    },
+    "visualBlueprint": {
+      "composition": "Centered vertical stack with top headline, middle graphic, bottom brand and CTA",
+      "typography": "Sans-serif, uppercase small for label, large and open for headline, medium for CTA",
+      "palette": [
+        "#0A48C0",
+        "#FFFFFF",
+        "#FF8EDF",
+        "#0A2E6E",
+        "#FFBCD9"
+      ],
+      "subject": "Transparent lockbox with a flat pink skeleton key and minimal locked padlock inside",
+      "layout": "Top label and headline horizontally centered, graphic centered below, brand bottom left, button bottom right",
+      "styleTags": [
+        "flat vector",
+        "blueprint",
+        "minimal",
+        "clean",
+        "tech",
+        "security",
+        "schematic",
+        "modern"
+      ]
+    }
+  },
+  "1080x108056png.jpeg": {
+    "title": "AWS AI Security Best Practices",
+    "brandInspiration": "Wiz",
+    "industry": "Security",
+    "format": "Static",
+    "shortDescription": "A dark-themed technical cheat sheet ad highlighting AWS AI security best practices, featuring a stylized robot and circular icons with tech glyphs and labels.",
+    "whyItWorks": "The ad strikes a neat balance between technical sophistication and friendly approachability. The dark, grid-based background immediately speaks to a tech-savvy audience while grounding the design. Circular icons with subtle pink text wrap add a sense of motion and interconnectedness important in AI security contexts. The robot character, simplified with geometric shapes and minimal facial features, brings a touch of personality without overwhelming the serious subject. A clear, large headline ensures quick comprehension, and the call to action is distinct yet harmonious with the color palette. There's an economy of elements that keeps the layout uncluttered yet informative.",
+    "structureNotes": "1. Canvas is a square ratio (1:1). 2. Background: dark navy black with subtle gridlines and thin pink radial arcs intersecting behind icons. 3. Top: Small uppercase pink text \"CHEAT SHEET\" left aligned. 4. Centered below top text: Large white bold headline text, horizontally centered, 3 lines. 5. Middle: three equally spaced circular icons with line art symbols in white inside each circle. Pink circular text wrapping border around each circle naming the technology. Lines connect icons visually. 6. Bottom half: large stylized robot head in bright blue with minimal details - two pink outlined oval eyes and a pink geometric mouth on a black screen face. An antenna is a simple blue line with blue dot on top and a pink orbit. 7. Bottom right: Rounded rectangular pink CTA button with black fill and pink text \"Download now.\" 8. Bottom left corner: white brand logo text \"WIZ\" with small star accent. 9. Spacing: generous margins, clean negative space. Consistent pink color for emphasis text and outlines. 10. Avoid clutter, no additional shots or screenshots, no realistic human figures. Avoid copy beyond brief labels and CTA text.",
+    "fullPrompt": "A square format tech ad with a dark navy black background patterned with subtle grid lines and thin pink radial arcs intersecting behind circular tech icons. At the top center, uppercase pink text \"CHEAT SHEET\" in clean sans serif, spaced out. Below, large white bold sans serif text in three lines: \"AWS AI Security Best Practices\". Centered horizontally. In the middle area, three evenly spaced white circular icons with white line art inside: the left and right icons depict stylized circuit brains, the center icon is a hexagon with stylized letter Q inside. Each circle is surrounded by pink circular text labeling the service, e.g. \"Amazon Q\", \"Amazon SageMaker\", \"Amazon Bedrock\" repeated around the circumference. Fine thin pink lines link the icons. The lower half features a large blue stylized robot head with a rectangular black screen face outlined in blue, two pink oval eyes outlined, a simple pink geometric rectangular mouth outline, and a single thin blue antenna topped with a blue circle and a subtle pink orbit line. White dashed line swirls to the left of robot's face imitating binary string movement. Bottom right corner has a rounded rectangular pink-outlined button filled with black and pink text \"Download now\". Bottom left corner features white text brand logo \"WIZ\" with a small star accent. Overall clean layout with generous spacing and no clutter. Use modern sans serif fonts, flat vector style, consistent pink (#E490FF), blue (#1559F6), white and black color palette. Avoid realistic textures, no people, no complex backgrounds or 3D shading.",
+    "reconstructionPrompt": "Create a 1:1 aspect ratio digital ad with a dark navy black background featuring subtle thin white grid lines and intersecting thin pink radial arcs behind three equally spaced circular white outline icons horizontally centered in the upper middle area. Place above them, small spaced uppercase pink text saying \"CHEAT SHEET\" in a clean sans serif font, left aligned horizontally near top margin. Below that heading, place a large white bold sans serif headline reading \"AWS AI Security Best Practices\" centered horizontally in three lines with generous line spacing. The three circular icons have white line art: left icon and right icon each show a stylized simplified circuit brain, the center icon is a hexagon shape with a stylized 'Q' inside. Each icon has pink circular text rotated around the circle reading their respective labels repeated evenly: \"Amazon Q\", \"Amazon SageMaker\", \"Amazon Bedrock\". Thin pink connecting lines visually join the icons. Below these icons, place a large simplified blue robot head centered horizontally occupying the bottom half of the canvas. The robot head has a rectangular black screen face outlined in blue with two pink oval outlined eyes and a simple pink geometric mouth. A thin blue antenna with a blue dot sits on top with a pink elliptical orbit ring around it. To left of the robot head's face, a white dashed curved line suggests a flowing binary stream. In the bottom right corner, add a horizontally elongated rounded rectangular button with thick pink border, black fill, and pink text reading \"Download now\" in a clean sans serif font. In the bottom left corner, place white brand logotype \"WIZ\" in a modern sans serif with a subtle star shape on the letter Z. Use a minimal flat style with no shading or gradients. Use a carefully limited color palette of pink (#E490FF), bright blue (#1559F6), white, black, and dark navy background. Keep generous margins and spacing, balanced symmetrical layout, and clear typography hierarchy. Avoid realistic textures, photo elements, humans, or cluttered graphics. The mood is technical but approachable with a clean modern aesthetic.",
+    "remixPrompt": "Reimagine a cybersecurity cheat sheet ad featuring a playful blue robot character with a bold black screen face showing minimalist pink outlined eyes and mouth. Surround the robot with three white circular tech icons each labeled with pink circular text for distinct AI services. Use a deep navy background with subtle grid and pink radial lines to add a technical vibe. Include a prominent white headline titled 'AI Security Best Practices' centered top, a small pink uppercase label above it, and a pink-outlined black button labeled 'Download now' bottom right, balanced by a crisp white brand mark bottom left. Maintain flat vector style, clean typography, and a cool pink and blue color palette for a polished but approachable look.",
+    "editableVariables": [
+      "headlineText",
+      "iconLabels",
+      "brandName",
+      "CTAtext",
+      "colorPalette"
+    ],
+    "negativePrompt": "No realistic textures, no photo backgrounds, no humans or animals, no 3D renderings, no clutter, no other logos or trademarked names, no extra copy beyond specified labels, no gradients, no shadows or bevels.",
+    "recommendedModel": "Midjourney V5",
+    "aspectRatio": "1:1",
+    "remixNotes": [
+      "Switch robot character color and facial expression for different moods.",
+      "Use alternate AI service names in icon labels.",
+      "Swap pink accent color for a cooler green or electric blue for variety.",
+      "Change grid pattern lines thickness or color for subtle background variety."
+    ],
+    "promptQuality": {
+      "exactness": 8,
+      "editability": 7,
+      "brandSafety": 10,
+      "confidenceNote": "This prompt is carefully tuned to reproduce the core structural elements, color palette, and composition, ensuring a close visual cousin. Minor differences in exact typography or icon style may appear, but the layout and mood remain intact."
+    },
+    "modelVariants": {
+      "chatgpt": "Generate a square technical ad featuring a dark navy background with subtle grid lines. At top center, place uppercase pink text 'CHEAT SHEET' in a clean sans serif font. Below, large bold white text reading 'AWS AI Security Best Practices' in three lines, centered. Below, three centered circular white icons spaced horizontally: left and right icons show simplified circuit brain graphics, center icon is a hexagon with a letter 'Q'. Surround each circle with repeated pink circular text naming the tech service. Below, a large flat blue robot head with black rectangular face outlined in blue, two pink oval eyes and pink geometric mouth outlined, topped by a thin blue antenna with blue circle and pink orbit line. Left side of robot face features white dashed swirling line resembling binary stream. Bottom right corner includes rounded pink-outlined black filled button with pink text 'Download now'. Bottom left corner has white brand text 'WIZ' with a star accent. Use flat design, consistent pink (#E490FF), bright blue (#1559F6), white and black colors, minimal spacing, and clean hierarchy.",
+      "midjourney": "/imagine a square tech security ad, dark navy grid background with thin pink radial arcs, top center text 'CHEAT SHEET' uppercase in pink sans serif, below large white bold text 'AWS AI Security Best Practices' centered, three white circular icons in row each with line art: left and right circuit brain, center hexagon with letter Q, pink circular script around each circle naming service, thin pink lines connecting icons, bottom half large flat blue robot head with black screen face outlined in blue, pink oval eyes and pink geometric mouth outline, thin blue antenna with blue dot and pink orbit ring on top, white dashed swirling line left side of face, bottom right pink outlined black filled rounded button 'Download now', bottom left white 'WIZ' logotype with star, flat vector style, limited color palette pink #E490FF blue #1559F6 black white, minimal shadows --ar 1:1 --v 5",
+      "ideogram": "A square aspect ratio cybersecurity ad featuring a dark navy blue background with subtle grid pattern and pink thin radial arcs behind three centrally aligned white circular icons: left and right icons depict abstract circuit brains, center icon is a stylized hexagon with letter Q inside. Pink circular text wraps around each icon naming AI services. Above, uppercase pink text 'CHEAT SHEET' is left aligned near top, below it a large white bold headline 'AWS AI Security Best Practices' is centered in three lines. A large blue robot head with black screen face, pink outlined oval eyes and rectangular mouth, and a thin antenna with a blue circle and pink elliptical orbit anchored below the icons. White dashed curved line flows from robot's face left. A rounded rectangular pink button reading 'Download now' is placed bottom right. White brand logo text 'WIZ' with a star accent is bottom left. Flat vector style, clean geometry, clear typography.",
+      "flux": "Create a square tech security ad with a dark navy background patterned with faint grid lines and thin pink circular arcs. Top area features small uppercase pink text 'CHEAT SHEET' aligned left near top margin. Centered below it, large bold white sans serif heading 'AWS AI Security Best Practices' in three lines. Below, three evenly spaced circular white line icons: left and right show stylized circuit brains, center a hexagon with letter Q, each circle surrounded by pink circular text naming services. Thin pink lines connect circles. Lower half shows a large flat blue robot head with a black rectangular face outlined in blue, two pink oval eyes and pink geometric mouth outlined. Single thin blue antenna with blue dot and pink orbit ring sits atop face. Left side displays a white dashed curved line suggesting data stream. Bottom right corner includes a rounded rectangle pink-outlined black-filled button labeled 'Download now' in pink letters. Bottom left corner has white brand text 'WIZ' with a small star accent, clean modern layout."
+    },
+    "visualBlueprint": {
+      "composition": "Centered symmetrical layout with top heading, mid-level icons horizontally aligned, large bottom robot head, and corner CTAs and brand marks.",
+      "typography": "Modern sans serif, uppercase small label in pink, large bold white headline, subtle pink circular text for tech labels, clean consistent type scale.",
+      "palette": [
+        "#1E1E2F",
+        "#E490FF",
+        "#1559F6",
+        "#FFFFFF",
+        "#000000"
+      ],
+      "subject": "Three AI-related circular tech icons, large stylized blue robot head with minimalist facial features and antenna, accented by branded button and text.",
+      "layout": "Square canvas. Top small label text, large centered headline, mid-canvas horizontal icon row, bottom large robot figure, CTA bottom right, brand logo bottom left.",
+      "styleTags": [
+        "flat design",
+        "minimalist",
+        "tech",
+        "vector",
+        "dark mode",
+        "futuristic",
+        "friendly"
+      ]
+    }
+  },
+  "1080x1080_MarginHeropng.jpeg": {
+    "title": "Join 200K+ businesses saving 80% on client FX",
+    "brandInspiration": "Ramp",
+    "industry": "Fintech",
+    "format": "Static",
+    "shortDescription": "A bright fintech ad featuring a gradient orange background with a company logo, currency icons, a bold headline, and a call to action button promoting cost savings on foreign exchange.",
+    "whyItWorks": "This ad draws you in with a warm, vibrant gradient that signals energy and innovation. The clear hierarchy, with the logo at top, symbolic currency flow in the middle, and a bold, benefit-driven headline, softly guides your eye down to an inviting call to action. The clean, rounded typography and subtle glass-like currency icons convey a sense of modernity and trust without noise. It's like a fresh handshake—friendly but straightforward, inviting confident engagement.",
+    "structureNotes": "The layout is a vertical rectangle in 1:1 aspect ratio. Top features a bold, horizontally centered logo icon plus brand name in a large sans-serif font. Center has three semi-transparent, softly glowing circular icons representing currencies ($, €, ¥) arranged horizontally, bracketed by two overlapped, translucent arrow shapes pointing directionally to imply currency exchange flow. Below, a multi-line headline is centered horizontally with strong line spacing and large font weight. The call to action button is a rounded rectangle with subtle inner glow and white text, placed beneath the headline with balanced spacing. At the very bottom is a small icon plus subtext label. The background transitions from off-white at top to saturated orange at bottom, with subtle vignette edges. Margin spacing is generous around all edges to keep composition airy. Typeface uses a rounded, geometric sans-serif with high legibility and friendly character shapes. The entire composition balances graphic elements and text with clear visual breathing room.",
+    "fullPrompt": "Create a high-resolution 1:1 square fintech advertisement with a smooth vertical gradient background transitioning from soft off-white at the top to a vibrant warm orange at the bottom, featuring a subtle vignette effect on edges. At the top center, place a fictitious modern logo composed of a stylized two-part upward arrow icon in a warm orange-red gradient next to the brand name 'FlowNex' rendered in bold, large, black geometric sans-serif typeface with slightly rounded edges. Below this, horizontally center three luminous, translucent circular icons representing currencies: dollar ($) on left, euro (€) in middle-left, and yen (¥) on right, each in white with subtle inner shadows and soft glowing edges. Between these icons, overlay two large, semi-transparent, rounded rectangles shaped as arrows pointing left and right, partially overlapping and softly glowing to indicate currency exchange flow. Beneath the currency icons, center a multi-line headline reading 'Join 200K+ businesses saving 80% on client FX' in large, bold, white geometric sans-serif font with relaxed line spacing and ample letter spacing to maintain legibility against the gradient background. Below the headline, place a horizontally centered call-to-action button in a softly rounded rectangle shape with a subtle inner glowing border and subtle drop shadow, filled with a lighter semi-transparent orange, containing the text 'Book a demo' in white, medium weight geometric sans-serif font. At the bottom center, add a small, simple icon of four arrows pointing outward forming a rounded square, next to the label 'Business Accounts' in smaller white font with medium weight and tight letter spacing. The entire layout uses generous margin spacing on all sides to create breathing room and balance. Avoid exact replication of any known logos or trademarks; instead, use original branding elements. Avoid harsh shadows or overly saturated colors that reduce readability. The overall mood is clean, approachable, and professional with a modern fintech aesthetic, balancing minimalism and inviting warmth.",
+    "reconstructionPrompt": "Design a square 1:1 fintech ad with a vertical gradient background shifting from pale off-white at the top to a vibrant orange at the bottom, softly vignetted at edges. Top center features a fictional logo: a stylized two-part upward arrow icon in a warm orange-red gradient, paired with bold black large geometric sans-serif brand name 'FlowNex'. Below, center three semi-transparent glowing circles with white currency symbols: dollar ($) at left, euro (€) middle-left, and yen (¥) right, spaced horizontally with equal gaps. Overlay two translucent overlapping arrows (rounded rectangles) between currency icons pointing left and right to represent currency exchange flow. Underneath, center a multi-line bold white headline: 'Join 200K+ businesses saving 80% on client FX' in a geometric sans-serif font with relaxed line height and letter spacing. Beneath headline, place a rounded rectangular call-to-action button with subtle inner glow and drop shadow, colored light semi-transparent orange, containing white text 'Book a demo' in medium weight geometric sans-serif. At bottom center, place a small icon of four outward arrows forming a rounded square and label 'Business Accounts' in smaller white font. Maintain generous margins and balanced vertical spacing throughout. Use warm lighting, avoid harsh shadows or excessive saturation. The design should convey friendliness, clarity, and trustworthy modern fintech vibe without copying any real trademarks or specific logos.",
+    "remixPrompt": "Create a similar fintech ad using a 1:1 square canvas with a warm gradient background from light beige to deep orange. Replace currency icons with pound (£), rupee (₹), and euro (€). Change brand name to 'FinXchange' with a modern arrow logo. Adjust headline to 'Trusted by 150K+ clients saving 75% on global payments'. Use rounded button saying 'Get started'. Keep layout, spacing, and style consistent with original.",
+    "editableVariables": [
+      "brandName",
+      "headlineText",
+      "currencySymbols",
+      "callToActionText",
+      "backgroundGradientColors",
+      "logoIconStyle",
+      "buttonColor",
+      "subtextLabel"
+    ],
+    "negativePrompt": "No real logos or trademarked brand names. No cluttered or overly complex backgrounds. Avoid harsh shadows and low contrast text. No cartoonish or 3D-rendered styles. No extraneous UI elements like app screens or device mockups.",
+    "recommendedModel": "Midjourney v5",
+    "aspectRatio": "1:1",
+    "remixNotes": [
+      "Swap currency symbols and related headline numbers for regional targeting.",
+      "Change brand name and logo icon to keep identity original.",
+      "Modify button text to suit campaign goals.",
+      "Adjust background gradient hues to match seasonal palettes."
+    ],
+    "promptQuality": {
+      "exactness": 8,
+      "editability": 9,
+      "brandSafety": 10,
+      "confidenceNote": "This prompt preserves key structural elements and brand-safe substitutions to recreate a visually similar fintech ad with high fidelity, suitable for multiple generation models."
+    },
+    "modelVariants": {
+      "chatgpt": "Generate a square fintech ad with warm vertical gradient background from pale off-white to rich orange. Top center a fictional bold black brand name 'FlowNex' with stylized orange-red upward arrow icon. Below, three glowing translucent circles in white containing currency symbols $, €, ¥ aligned horizontally with overlapping translucent arrows illustrating currency exchange flow. Centered below is a large white multi-line headline reading 'Join 200K+ businesses saving 80% on client FX' in geometric sans serif. Beneath it, a rounded orange semi-transparent button with white text 'Book a demo'. Bottom center shows a small icon of outward arrows with sublabel 'Business Accounts' in white. Maintain generous margins and soft lighting.",
+      "midjourney": "A 1:1 fintech advertisement with smooth vertical gradient background from off-white to vibrant orange, top center bold black brand name 'FlowNex' with stylized two-part upward arrow icon in orange-red gradient. Below, three glowing translucent white currency symbol circles ($, €, ¥) arranged horizontally, overlapped by two semi-transparent arrows pointing left and right. Beneath, large white multi-line headline 'Join 200K+ businesses saving 80% on client FX' in bold geometric sans-serif font. Below is a semi-transparent rounded button with white text 'Book a demo'. At the bottom center, a small outward arrows icon and text 'Business Accounts' in white. Clean, modern, minimalistic, glowing effects, soft vignette, high detail.",
+      "ideogram": "Create a square fintech ad with a gradient background fading from off-white on top to bright orange on bottom. Place a fictional company logo 'FlowNex' at the top center in bold black geometric sans-serif next to an orange-red gradient stylized upward arrow icon. Center three luminous circular icons horizontally featuring currency symbols ($, €, ¥) in white with translucent glow. Overlay two large semi-transparent arrows horizontally between circles to illustrate exchange. Center a multi-line white headline below reading 'Join 200K+ businesses saving 80% on client FX' in clean sans-serif with bold weight. Underneath place a rounded rectangular button glowing softly with text 'Book a demo' in white. At bottom center a small simple icon and 'Business Accounts' label in white. Maintain clear margins and soft lighting.",
+      "flux": "Design a 1:1 fintech ad featuring a vertical gradient from pale off-white to vibrant orange as background. Top center, place a fictional brand 'FlowNex' in bold black geometric sans-serif with a complementary orange-red stylized arrow icon. Center horizontal row of three glowing translucent currency symbols circles ($, €, ¥) with overlapping translucent arrows symbolizing currency exchange. Below, a large, multi-line white headline 'Join 200K+ businesses saving 80% on client FX'. Beneath headline, a softly glowing rounded rectangle button in light orange with white 'Book a demo' text. Bottom center shows small outward arrows icon with 'Business Accounts' text in white. Use generous spacing and soft vignette edges to balance the layout."
+    },
+    "visualBlueprint": {
+      "composition": "Vertical 1:1 layout with top logo, central icons and arrows, headline below, CTA button beneath headline, and footer label at bottom center.",
+      "typography": "Bold geometric sans-serif with rounded edges, large headline, medium button text, small footer text, high legibility, friendly tone.",
+      "palette": [
+        "#FFFFFF",
+        "#000000",
+        "#FF5A36",
+        "#FF8A55",
+        "#FF6100",
+        "#FFEFE8"
+      ],
+      "subject": "Abstract currency exchange theme with stylized arrows and currency symbols conveying financial transactions, brand identity, and call to action.",
+      "layout": "Centered, vertically stacked elements with generous margins and consistent spacing; logo top center, currency icons and exchange arrows in center, headline below, call to action button beneath headline, footer subtext at bottom center.",
+      "styleTags": [
+        "gradient background",
+        "glowing translucent icons",
+        "modern fintech",
+        "clean typography",
+        "minimalist",
+        "friendly",
+        "bright orange palette"
+      ]
+    }
+  },
+  "111-LinkedInads-Option1-Copy16png2jfif.jpeg": {
+    "title": "How are product leaders navigating AI's potential?",
+    "brandInspiration": "Claude",
+    "industry": "AI",
+    "format": "Static",
+    "shortDescription": "A clean, modern ad inviting product leaders to explore AI potential via an eBook, featuring a bold headline, stylized tree illustrations, and a distinct call-to-action on a two-tone pastel background.",
+    "whyItWorks": "The ad has a calm confidence that invites curiosity. The headline's direct question connects immediately with product leaders, while the soft pastel palette and abstract tree shapes suggest growth and exploration without being intrusive. The use of clean, chunky typography paired with a monospaced button creates a subtle tech vibe that feels trustworthy and approachable. The composition balances text and playful graphics in a way that feels intentional but light, encouraging the user to act without pressure.",
+    "structureNotes": "Top portion: bright pale lime green background with black bold headline left-aligned near top left. Below headline, a black rectangular button with light monospaced text \"Explore the eBook →\". The brand logo — a unique monogram formed by simple geometric shapes — placed top right, vertically aligned with headline. Lower two-thirds: a gradient background that moves from greenish gray at top to pale cream at bottom, featuring an arrangement of seven stylized tree illustrations inside black rectangular boxes with varying heights, arranged horizontally in two slightly staggered rows. Each tree uses flat pastel shapes with a grainy texture.",
+    "fullPrompt": "Create a 4:3 aspect ratio tech ad with a top section background in pale lime green (#e8fda3), containing a bold, black, large sans-serif headline left-aligned near the top reading 'How are product leaders navigating AI's potential?'. Below the headline, place a black rectangular call-to-action button with rounded corners, containing uppercase monospaced font text in pale lime green reading 'Explore the eBook →'. On the top right corner, vertically align a minimalistic geometric brand mark made of black lines and circles. The bottom two-thirds background transitions from muted green-gray (#8ba080) at top fading to pale cream (#f6f3d1) at bottom with a subtle grainy texture overlay. Center horizontally and vertically within this area, arrange seven abstract stylized 'trees' inside black rectangular frames of varying heights. Each tree is constructed of simple shapes in pastel blues, greens, and pinks with a soft grainy texture, including circular, oval, triangular, and layered forms. Use consistent spacing between tree frames, forming two uneven rows, with the lower row offset slightly to the right. Avoid photographic realism, gradients except for background fade, or human figures. Ensure the typography is crisp, the grainy texture is subtle, and overall mood is modern, calm, and inviting.",
+    "reconstructionPrompt": "4:3 ratio ad, top 1/3 pale lime green background (#e8fda3). Large black bold sans-serif headline left-aligned near top: 'How are product leaders navigating AI's potential?'. Below headline, a black rectangular button with rounded corners containing uppercase pale lime green monospaced text: 'Explore the eBook →'. Top right corner features a minimal geometric black brand logo, vertical alignment with headline. Bottom 2/3 background transitions vertically from muted green-gray (#8ba080) to pale cream (#f6f3d1) with grainy texture overlay. Centered horizontally in bottom area: seven black rectangles of varying sizes arranged in two staggered rows with consistent spacing. Inside each rectangle: abstract stylized trees made of simple pastel shapes (circles, ovals, triangles) in blues, greens, pinks with soft grainy texture. No people or photographic elements. Crisp typography, subtle grain, modern, calm, inviting mood.",
+    "remixPrompt": "Create a tech ad in 4:3 format with a top section of pale lime green background. Include a large, bold black headline on the top left posing a thoughtful question about product leadership and AI. Add a strongly contrasting black button beneath with monospaced pale green text inviting to 'Explore' a resource. Place a geometric minimal brand mark top right. The lower portion fades softly from muted green-gray to pale cream and holds several abstract, stylized tree shapes inside black rectangles arranged in staggered rows, using pastel blues, pinks, and greens, all with a grainy texture overlay. Keep the ad balanced, clean, and modern with smooth edges and no human imagery.",
+    "editableVariables": [
+      "headline text",
+      "button text",
+      "brand logo design",
+      "background colors",
+      "number of tree illustrations",
+      "tree shapes and colors"
+    ],
+    "negativePrompt": "No photographic images, no human figures, no gradients on typography or button, no shadows on text, no complex textures, avoid dark backgrounds, avoid high saturation colors, no logos or trademarks from real companies.",
+    "recommendedModel": "Midjourney V5",
+    "aspectRatio": "4:3",
+    "remixNotes": [
+      "Try altering the number of tree elements to test layout scalability.",
+      "Experiment with different pastel palettes for the shapes and background for a seasonal effect.",
+      "Adjust headline copy for different AI-related questions.",
+      "Swap the monospaced font style for a modern tech sans-serif and observe effect on tone.",
+      "Replace black rectangles with rounded-corner containers for softer look."
+    ],
+    "promptQuality": {
+      "exactness": 8,
+      "editability": 9,
+      "brandSafety": 10,
+      "confidenceNote": "This prompt should reproduce the core layout, typography hierarchy, distinct color blocking, and stylized abstract tree elements closely, well suited for clean, compositional ad recreations. Adjustments may be needed for exact brand logo forms."
+    },
+    "modelVariants": {
+      "chatgpt": "Generate an image with a 4:3 format. The top third features a pale lime green background with a large, bold black sans-serif headline on the left reading 'How are product leaders navigating AI's potential?'. Below the headline place a black rectangular button with pale lime green monospaced text 'Explore the eBook →'. On the top right, include a minimalistic geometric black logo. The bottom two-thirds transition in a vertical gradient from muted green-gray to pale cream, with a subtle grainy texture. Center horizontally within this is an arrangement of seven black rectangles in two rows, each containing abstract pastel-colored stylized trees made of geometric shapes with a grainy overlay. Avoid any photography or human imagery.",
+      "midjourney": "4:3 ad, top third pale lime green background (#e8fda3) with large bold black sans-serif text left-aligned: 'How are product leaders navigating AI's potential?'. Below, black rounded rectangle button with pale lime green monospaced text 'Explore the eBook →'. Top right corner a minimal geometric black logo. Bottom two-thirds with vertical gradient from muted green-gray (#8ba080) to pale cream (#f6f3d1) and grainy texture. Seven black rectangles arranged in two staggered rows centered horizontally, each containing soft pastel blue, green, pink abstract trees made of geometric shapes, grainy texture, no humans, no photos, modern style.",
+      "ideogram": "Create a 4:3 ad image with a pale lime green top third containing a bold black sans-serif headline on the left asking 'How are product leaders navigating AI's potential?'. Directly beneath, position a black button with pale lime green monospaced text 'Explore the eBook →'. Include a minimalist black geometric brand symbol top right. The bottom portion softly fades from muted green-gray to pale cream with a grainy pattern. Center horizontally are seven black boxes arranged across two staggered rows; each contains pastel-colored abstract stylized tree shapes with rounded edges and a grainy effect. No photographic content or people.",
+      "flux": "Render a 4:3 clean, modern tech ad with a top third background in pale lime green (#e8fda3). Left-aligned top black bold sans-serif heading: 'How are product leaders navigating AI's potential?'. Underneath, a black rectangular call-to-action with pale lime green monospaced text 'Explore the eBook →'. Top right vertical alignment: minimal black abstract logo. Bottom two-thirds background vertical fade from muted green-gray (#8ba080) to pale cream (#f6f3d1) with a subtle grain overlay. Centered horizontally, arrange seven black rectangles in two staggered rows, each containing pastel abstract tree shapes with grainy texture in blue, green, pink. Avoid realism, photography, or people."
+    },
+    "visualBlueprint": {
+      "composition": "Two horizontal sections: top section about 1/3 height with headline left and brand logo right; bottom 2/3 with a horizontal arrangement of black rectangles containing abstract trees in staggered rows, centered horizontally.",
+      "typography": "Bold, black, large sans-serif headline with clear hierarchy; rectangular button uses monospaced light text on black background, all caps with arrow; spacing is generous and balanced.",
+      "palette": [
+        "#e8fda3",
+        "#000000",
+        "#8ba080",
+        "#f6f3d1",
+        "#92c6a7",
+        "#9fc8e8",
+        "#ecb7c5"
+      ],
+      "subject": "Text headline about AI and product leadership, call-to-action button, minimal geometric brand logo, stylized abstract trees represented inside black framed rectangles.",
+      "layout": "Top left headline and button; top right brand logo; bottom arranged grid of framed abstract trees in soft pastel colors on a faded gradient background.",
+      "styleTags": [
+        "modern",
+        "minimal",
+        "tech",
+        "flat design",
+        "pastel colors",
+        "grainy texture",
+        "geometric",
+        "abstract"
+      ]
+    }
+  }
+}
