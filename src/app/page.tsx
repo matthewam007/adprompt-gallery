@@ -10,6 +10,7 @@ import { creatives } from "@/data/creatives";
 import { analyticsEvents, trackEvent } from "@/lib/analytics";
 import { getAccessibleTitle, getSearchText } from "@/lib/creative-display";
 import { getStoredAccess } from "@/lib/purchase-access";
+import type { Creative } from "@/types/creative";
 
 const initialFilters: Filters = {
   industry: "All",
@@ -21,6 +22,8 @@ export default function Home() {
   const [filters, setFilters] = useState<Filters>(initialFilters);
   const [search, setSearch] = useState("");
   const [selectedSlug, setSelectedSlug] = useState<string | null>(null);
+  const [selectedCreative, setSelectedCreative] = useState<Creative | null>(null);
+  const [detailError, setDetailError] = useState("");
   const [pricingOpen, setPricingOpen] = useState(false);
   const [memberAccess, setMemberAccess] = useState(false);
   const [unlocked, setUnlocked] = useState<string[]>([]);
@@ -39,8 +42,6 @@ export default function Home() {
       return industryMatch && formatMatch && brandMatch && searchMatch;
     });
   }, [filters, search]);
-
-  const selectedCreative = creatives.find((creative) => creative.slug === selectedSlug) ?? null;
 
   useEffect(() => {
     trackEvent(analyticsEvents.viewedGallery, {
@@ -102,6 +103,30 @@ export default function Home() {
     window.location.href = payload.url;
   };
 
+  const openCreative = async (slug: string) => {
+    const creative = creatives.find((item) => item.slug === slug);
+    trackEvent(analyticsEvents.openedAd, {
+      creativeSlug: slug,
+      premium: creative?.premium,
+      industry: creative?.industry,
+      format: creative?.format,
+    });
+
+    setSelectedSlug(slug);
+    setSelectedCreative(null);
+    setDetailError("");
+
+    const response = await fetch(`/api/creatives/${encodeURIComponent(slug)}`);
+    const payload = (await response.json()) as { creative?: Creative; error?: string };
+
+    if (!response.ok || !payload.creative) {
+      setDetailError(payload.error ?? "Could not load this prompt.");
+      return;
+    }
+
+    setSelectedCreative(payload.creative);
+  };
+
   return (
     <main>
       <Nav onPricing={() => setPricingOpen(true)} search={search} onSearch={setSearch} />
@@ -124,32 +149,46 @@ export default function Home() {
       <section className="shell gallery-pane">
         <GalleryGrid
           creatives={filteredCreatives}
-          onSelect={(slug) => {
-            const creative = creatives.find((item) => item.slug === slug);
-            trackEvent(analyticsEvents.openedAd, {
-              creativeSlug: slug,
-              premium: creative?.premium,
-              industry: creative?.industry,
-              format: creative?.format,
-            });
-            setSelectedSlug(slug);
-          }}
+          onSelect={openCreative}
           isUnlocked={(creative) => memberAccess || !creative.premium || unlocked.includes(creative.slug)}
         />
       </section>
-      {selectedCreative ? (
-        <div className="detail-backdrop" role="dialog" aria-modal="true" aria-label={`${getAccessibleTitle(selectedCreative)} detail`}>
-        <CreativeDetail
-          creative={selectedCreative}
-          unlocked={memberAccess || !selectedCreative.premium || unlocked.includes(selectedCreative.slug)}
-          onOpenPricing={() => {
-            trackEvent(analyticsEvents.openedPricing, {
-              creativeSlug: selectedCreative.slug,
-            });
-            setPricingOpen(true);
-          }}
-          onClose={() => setSelectedSlug(null)}
-        />
+      {selectedSlug ? (
+        <div className="detail-backdrop" role="dialog" aria-modal="true" aria-label={selectedCreative ? `${getAccessibleTitle(selectedCreative)} detail` : "Loading ad detail"}>
+        {selectedCreative ? (
+          <CreativeDetail
+            creative={selectedCreative}
+            unlocked={memberAccess || !selectedCreative.premium || unlocked.includes(selectedCreative.slug)}
+            onOpenPricing={() => {
+              trackEvent(analyticsEvents.openedPricing, {
+                creativeSlug: selectedCreative.slug,
+              });
+              setPricingOpen(true);
+            }}
+            onClose={() => {
+              setSelectedSlug(null);
+              setSelectedCreative(null);
+              setDetailError("");
+            }}
+          />
+        ) : (
+          <div className="detail-pane detail-loading">
+            <p>{detailError || "Loading the prompt..."}</p>
+            {detailError ? (
+              <button
+                type="button"
+                className="detail-close"
+                onClick={() => {
+                  setSelectedSlug(null);
+                  setDetailError("");
+                }}
+                aria-label="Close detail"
+              >
+                ×
+              </button>
+            ) : null}
+          </div>
+        )}
         </div>
       ) : null}
       <PricingModal

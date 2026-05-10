@@ -26,6 +26,7 @@ await loadDotEnvLocal();
 const adsDir = join(process.cwd(), "public", "ads");
 const outputPath = join(process.cwd(), "src", "data", "additional-uploaded-seeds.ts");
 const blueprintPath = join(process.cwd(), "src", "data", "uploaded-blueprints.json");
+const summaryPath = join(process.cwd(), "src", "data", "uploaded-summaries.json");
 const creativesPath = join(process.cwd(), "src", "data", "creatives.ts");
 
 const mimeByExt = {
@@ -197,6 +198,61 @@ ${body}
   );
 
   await writeFile(blueprintPath, `${JSON.stringify(existingBlueprints, null, 2)}\n`);
+  await writeFile(summaryPath, `${JSON.stringify(buildSummaries(existingBlueprints), null, 2)}\n`);
+}
+
+function slugify(value) {
+  return value.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
+}
+
+function buildSummaries(blueprints) {
+  return Object.entries(blueprints)
+    .sort(([a], [b]) => a.localeCompare(b))
+    .map(([filename, blueprint], index) => {
+      const title = blueprint.title || "Untitled reference";
+      const brandInspiration = blueprint.brandInspiration;
+      const industry = blueprint.industry;
+      const format = blueprint.format;
+
+      return {
+        id: `uploaded-${index + 1}`,
+        title,
+        slug: `uploaded-${index + 1}-${slugify(title)}`,
+        brandInspiration,
+        industry,
+        format,
+        visualStyleTags: blueprint.visualBlueprint?.styleTags ?? ["uploaded", "reference", "editorial"],
+        premium: index % 4 !== 0,
+        image: `/ads/${filename}`,
+        shortDescription: blueprint.shortDescription ?? `${brandInspiration}-adjacent ${format.toLowerCase()} reference for ${industry.toLowerCase()} teams.`,
+        whyItWorks: "",
+        structureNotes: "",
+        fullPrompt: "",
+        reconstructionPrompt: "",
+        remixPrompt: "",
+        editableVariables: [],
+        negativePrompt: "",
+        recommendedModel: "",
+        aspectRatio: blueprint.aspectRatio ?? "4:5",
+        remixNotes: [],
+        promptQuality: blueprint.promptQuality,
+        visualBlueprint: {
+          composition: "",
+          typography: "",
+          palette: [],
+          subject: "",
+          layout: "",
+          styleTags: blueprint.visualBlueprint?.styleTags ?? [],
+        },
+        visual: {
+          headline: title,
+          subline: "",
+          background: "#f5efe6",
+          accent: "#7a5c38",
+          motif: "docs",
+        },
+      };
+    });
 }
 
 async function analyzeFile(file, dataUrl) {
@@ -302,4 +358,5 @@ await persistRows();
 
 console.log(`Wrote ${rows.length} rows to ${outputPath}.`);
 console.log(`Wrote ${Object.keys(existingBlueprints).length} blueprints to ${blueprintPath}.`);
+console.log(`Wrote ${Object.keys(existingBlueprints).length} summaries to ${summaryPath}.`);
 console.log(`Analyzed ${analyzed} image(s).`);
