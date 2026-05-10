@@ -9,9 +9,15 @@ type AdPreviewProps = {
 
 export function AdPreview({ creative, large = false }: AdPreviewProps) {
   if (creative.image) {
+    const isVideo = /\.(mp4|webm|mov)$/i.test(creative.image);
+
     return (
       <div className={`ad-preview ad-preview-image ${large ? "ad-preview-large" : ""}`}>
-        <Image src={creative.image} alt={getAccessibleTitle(creative)} fill sizes={large ? "1080px" : "33vw"} />
+        {isVideo ? (
+          <video src={creative.image} autoPlay muted loop playsInline aria-label={getAccessibleTitle(creative)} />
+        ) : (
+          <Image src={creative.image} alt={getAccessibleTitle(creative)} fill sizes={large ? "1080px" : "33vw"} />
+        )}
       </div>
     );
   }

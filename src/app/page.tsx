@@ -9,6 +9,7 @@ import { PricingModal } from "@/components/PricingModal";
 import { creatives } from "@/data/creatives";
 import { analyticsEvents, trackEvent } from "@/lib/analytics";
 import { getAccessibleTitle, getSearchText } from "@/lib/creative-display";
+import { getStoredAccess } from "@/lib/purchase-access";
 
 const initialFilters: Filters = {
   industry: "All",
@@ -22,7 +23,7 @@ export default function Home() {
   const [selectedSlug, setSelectedSlug] = useState<string | null>(null);
   const [pricingOpen, setPricingOpen] = useState(false);
   const [memberAccess, setMemberAccess] = useState(false);
-  const [unlocked] = useState<string[]>([]);
+  const [unlocked, setUnlocked] = useState<string[]>([]);
   const [checkoutLoading, setCheckoutLoading] = useState<"single" | "membership" | null>(null);
   const [checkoutError, setCheckoutError] = useState("");
 
@@ -45,6 +46,10 @@ export default function Home() {
     trackEvent(analyticsEvents.viewedGallery, {
       totalCreatives: creatives.length,
     });
+
+    const storedAccess = getStoredAccess();
+    setMemberAccess(storedAccess.memberAccess);
+    setUnlocked(storedAccess.unlockedPrompts);
   }, []);
 
   useEffect(() => {

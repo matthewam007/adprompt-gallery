@@ -2250,6 +2250,14 @@ export const additionalUploadedSeeds: UploadedSeed[] = [
     "new uploaded productivity reference with a clear central idea, restrained hierarchy, and composed SaaS editorial tone"
   ],
   [
+    "RSJN7wilcJM9AHAQiniqDPwdrgg.webm",
+    "Animated product reference",
+    "Linear",
+    "Productivity",
+    "Static",
+    "short video ad reference with clean motion, composed hierarchy, and restrained SaaS editorial pacing"
+  ],
+  [
     "youradsareinvisible6png.jpeg",
     "Your Sareinvisible6",
     "Linear",

@@ -78,9 +78,6 @@ export function Nav({ onPricing, search, onSearch }: NavProps) {
           <span className="search-icon" aria-hidden="true">⌕</span>
         </label>
         <div className="nav-links" aria-label="Primary navigation">
-          <a href="#gallery">Extension</a>
-          <a href="#brands">Resources</a>
-          <a href="#formats">About</a>
           <button
             type="button"
             onClick={() => {
