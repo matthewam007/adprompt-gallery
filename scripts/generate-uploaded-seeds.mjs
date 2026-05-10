@@ -171,6 +171,98 @@ const files = (await readdir(adsDir))
 const rows = [];
 let analyzed = 0;
 
+async function persistRows() {
+  const quote = (value) => JSON.stringify(value);
+  const body = rows
+    .map(
+      ([filename, title, brandInspiration, industry, format, visualDirection]) => `  [
+    ${quote(filename)},
+    ${quote(title)},
+    ${quote(brandInspiration)},
+    ${quote(industry)},
+    ${quote(format)},
+    ${quote(visualDirection)}
+  ],`,
+    )
+    .join("\n");
+
+  await writeFile(
+    outputPath,
+    `import type { UploadedSeed } from "@/data/creatives";
+
+export const additionalUploadedSeeds: UploadedSeed[] = [
+${body}
+];
+`,
+  );
+
+  await writeFile(blueprintPath, `${JSON.stringify(existingBlueprints, null, 2)}\n`);
+}
+
+async function analyzeFile(file, dataUrl) {
+  const maxAttempts = 3;
+
+  for (let attempt = 1; attempt <= maxAttempts; attempt += 1) {
+    try {
+      const response = await fetch("https://api.openai.com/v1/responses", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: `Bearer ${process.env.OPENAI_API_KEY}`,
+        },
+        body: JSON.stringify({
+          model,
+          input: [
+            {
+              role: "system",
+              content:
+                "You are PromptSwipe's senior creative director and image-to-prompt specialist. Your job is to reverse-engineer tech/SaaS ad screenshots into reconstruction-grade prompts that can get roughly 80% of the way to the reference in one generation while staying legally safe. Do not claim to recover the original hidden prompt. Instead, create an exact reconstruction prompt: preserve composition, hierarchy, typography, spacing, subject placement, color, texture, lighting, margins, and ad format, while replacing real logos, trademarks, and exact protected copy with fictional equivalents. Write in a warm, plainspoken, quietly confident editorial voice. No hype, no exclamation marks.",
+            },
+            {
+              role: "user",
+              content: [
+                {
+                  type: "input_text",
+                  text:
+                    "Analyze this ad image and return a complete PromptSwipe blueprint. The title must be the visible main headline when readable; otherwise use a literal visual label. reconstructionPrompt is the product: make it highly specific, long enough to preserve the reference's layout and visual system, and optimized for producing a close cousin in one shot. Include exact details about canvas ratio, background, object count, object placement, headline location, type scale, type mood, spacing, palette, lighting, texture, CTA placement, and what to avoid. fullPrompt should be a polished cross-tool prompt. modelVariants must be tailored separately for ChatGPT image generation, Midjourney, Ideogram, and Flux. whyItWorks should be actual creative analysis in a warm Robert Redford-like voice, never starting with 'This holds because'. promptQuality should score how likely the prompt is to recreate the reference structure.",
+                },
+                { type: "input_image", image_url: dataUrl, detail: "high" },
+              ],
+            },
+          ],
+          text: {
+            format: {
+              type: "json_schema",
+              name: "promptswipe_blueprint",
+              strict: true,
+              schema,
+            },
+          },
+        }),
+      });
+
+      const payload = await response.json();
+
+      if (!response.ok) {
+        throw new Error(payload.error?.message ?? `OpenAI request failed for ${file}`);
+      }
+
+      const outputText =
+        payload.output_text ??
+        payload.output?.flatMap((item) => item.content ?? []).find((content) => content.type === "output_text")?.text;
+
+      return JSON.parse(outputText);
+    } catch (error) {
+      if (attempt === maxAttempts) {
+        throw error;
+      }
+
+      console.warn(`Retrying ${file} after attempt ${attempt} failed: ${error.message}`);
+      await new Promise((resolve) => setTimeout(resolve, 1500 * attempt));
+    }
+  }
+}
+
 for (const file of files) {
   const existing = existingRows.get(file);
   const existingBlueprint = existingBlueprints[file];
@@ -192,53 +284,7 @@ for (const file of files) {
   const dataUrl = `data:${mimeByExt[ext]};base64,${image.toString("base64")}`;
 
   console.log(`Analyzing ${file}`);
-  const response = await fetch("https://api.openai.com/v1/responses", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      Authorization: `Bearer ${process.env.OPENAI_API_KEY}`,
-    },
-    body: JSON.stringify({
-      model,
-      input: [
-        {
-          role: "system",
-          content:
-            "You are PromptSwipe's senior creative director and image-to-prompt specialist. Your job is to reverse-engineer tech/SaaS ad screenshots into reconstruction-grade prompts that can get roughly 80% of the way to the reference in one generation while staying legally safe. Do not claim to recover the original hidden prompt. Instead, create an exact reconstruction prompt: preserve composition, hierarchy, typography, spacing, subject placement, color, texture, lighting, margins, and ad format, while replacing real logos, trademarks, and exact protected copy with fictional equivalents. Write in a warm, plainspoken, quietly confident editorial voice. No hype, no exclamation marks.",
-        },
-        {
-          role: "user",
-          content: [
-            {
-              type: "input_text",
-              text:
-                "Analyze this ad image and return a complete PromptSwipe blueprint. The title must be the visible main headline when readable; otherwise use a literal visual label. reconstructionPrompt is the product: make it highly specific, long enough to preserve the reference's layout and visual system, and optimized for producing a close cousin in one shot. Include exact details about canvas ratio, background, object count, object placement, headline location, type scale, type mood, spacing, palette, lighting, texture, CTA placement, and what to avoid. fullPrompt should be a polished cross-tool prompt. modelVariants must be tailored separately for ChatGPT image generation, Midjourney, Ideogram, and Flux. whyItWorks should be actual creative analysis in a warm Robert Redford-like voice, never starting with 'This holds because'. promptQuality should score how likely the prompt is to recreate the reference structure.",
-            },
-            { type: "input_image", image_url: dataUrl, detail: "high" },
-          ],
-        },
-      ],
-      text: {
-        format: {
-          type: "json_schema",
-          name: "promptswipe_blueprint",
-          strict: true,
-          schema,
-        },
-      },
-    }),
-  });
-
-  const payload = await response.json();
-
-  if (!response.ok) {
-    throw new Error(payload.error?.message ?? `OpenAI request failed for ${file}`);
-  }
-
-  const outputText =
-    payload.output_text ??
-    payload.output?.flatMap((item) => item.content ?? []).find((content) => content.type === "output_text")?.text;
-  const blueprint = JSON.parse(outputText);
+  const blueprint = await analyzeFile(file, dataUrl);
   existingBlueprints[file] = blueprint;
   rows.push([
     file,
@@ -249,33 +295,10 @@ for (const file of files) {
     blueprint.visualBlueprint.composition,
   ]);
   analyzed += 1;
+  await persistRows();
 }
 
-const quote = (value) => JSON.stringify(value);
-const body = rows
-  .map(
-    ([filename, title, brandInspiration, industry, format, visualDirection]) => `  [
-    ${quote(filename)},
-    ${quote(title)},
-    ${quote(brandInspiration)},
-    ${quote(industry)},
-    ${quote(format)},
-    ${quote(visualDirection)}
-  ],`,
-  )
-  .join("\n");
-
-await writeFile(
-  outputPath,
-  `import type { UploadedSeed } from "@/data/creatives";
-
-export const additionalUploadedSeeds: UploadedSeed[] = [
-${body}
-];
-`,
-);
-
-await writeFile(blueprintPath, `${JSON.stringify(existingBlueprints, null, 2)}\n`);
+await persistRows();
 
 console.log(`Wrote ${rows.length} rows to ${outputPath}.`);
 console.log(`Wrote ${Object.keys(existingBlueprints).length} blueprints to ${blueprintPath}.`);
