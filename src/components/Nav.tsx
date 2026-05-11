@@ -79,6 +79,7 @@ export function Nav({ onPricing, search, onSearch }: NavProps) {
         </label>
         <div className="nav-links" aria-label="Primary navigation">
           <a href="/about">About</a>
+          <a href="/request">Request</a>
           <button
             type="button"
             onClick={() => {

@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { submitLead } from "@/lib/lead-capture";
 
 const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
@@ -10,26 +11,14 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: "Enter a valid email." }, { status: 400 });
   }
 
-  if (!process.env.GOOGLE_SHEETS_WEBHOOK_URL) {
-    return NextResponse.json(
-      { error: "GOOGLE_SHEETS_WEBHOOK_URL is not set." },
-      { status: 500 },
-    );
-  }
-
-  const response = await fetch(process.env.GOOGLE_SHEETS_WEBHOOK_URL, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({
+  try {
+    await submitLead({
       email: normalizedEmail,
-      source: "navbar",
-      createdAt: new Date().toISOString(),
-    }),
-  });
-
-  if (!response.ok) {
+      source: "newsletter",
+    });
+  } catch (error) {
     return NextResponse.json(
-      { error: `Could not save email. Google webhook returned ${response.status}.` },
+      { error: error instanceof Error ? error.message : "Could not save email." },
       { status: 502 },
     );
   }

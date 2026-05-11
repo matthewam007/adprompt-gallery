@@ -9,7 +9,7 @@ Sheet:
 In row 1 of the first sheet, add:
 
 ```text
-email | source | created_at
+email | source | created_at | details
 ```
 
 ## 2. Add Apps Script
@@ -25,6 +25,7 @@ function doPost(e) {
   const email = String(payload.email || "").trim().toLowerCase();
   const source = String(payload.source || "unknown");
   const createdAt = String(payload.createdAt || new Date().toISOString());
+  const details = String(payload.details || "");
 
   if (!email || !email.includes("@")) {
     return json({ ok: false, error: "Invalid email" }, 400);
@@ -32,7 +33,7 @@ function doPost(e) {
 
   const spreadsheet = SpreadsheetApp.openById(SHEET_ID);
   const sheet = spreadsheet.getSheetByName(SHEET_NAME) || spreadsheet.getSheets()[0];
-  sheet.appendRow([email, source, createdAt]);
+  sheet.appendRow([email, source, createdAt, details]);
 
   return json({ ok: true }, 200);
 }
