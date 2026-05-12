@@ -22,6 +22,8 @@ export const analyticsEvents = {
   clickedMembershipCheckout: "Clicked membership checkout",
   emailSubmitted: "Email submitted",
   checkoutSuccess: "Checkout success",
+  viewedLockedSingleTier: "Viewed locked single tier",
+  clickedLockedSingleCta: "Clicked locked single CTA",
 } as const;
 
 export function trackEvent(name: string, properties: AnalyticsProperties = {}) {

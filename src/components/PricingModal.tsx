@@ -1,6 +1,7 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { analyticsEvents, trackEvent } from "@/lib/analytics";
 import { playUnlockSound } from "@/lib/success-sound";
 
 type PricingModalProps = {
@@ -11,6 +12,7 @@ type PricingModalProps = {
   loading?: "single" | "membership" | null;
   error?: string;
   singlePurchaseDisabled?: boolean;
+  creativeSlug?: string;
 };
 
 export function PricingModal({
@@ -21,8 +23,17 @@ export function PricingModal({
   loading = null,
   error = "",
   singlePurchaseDisabled = false,
+  creativeSlug,
 }: PricingModalProps) {
   const [unlocking, setUnlocking] = useState<"single" | "membership" | null>(null);
+
+  useEffect(() => {
+    if (open && singlePurchaseDisabled) {
+      trackEvent(analyticsEvents.viewedLockedSingleTier, {
+        creativeSlug: creativeSlug ?? "",
+      });
+    }
+  }, [open, singlePurchaseDisabled, creativeSlug]);
 
   if (!open) {
     return null;
@@ -66,7 +77,16 @@ export function PricingModal({
               <>
                 <p>This one’s members-only.</p>
                 <small>Some ads lean on long literal text or brand-specific typography that image models don&apos;t one-shot. We keep these in the membership so you get the notes and remix variables that make them land.</small>
-                <button type="button" disabled className="pricing-option-locked-cta">
+                <button
+                  type="button"
+                  className="pricing-option-locked-cta"
+                  aria-disabled="true"
+                  onClick={() => {
+                    trackEvent(analyticsEvents.clickedLockedSingleCta, {
+                      creativeSlug: creativeSlug ?? "",
+                    });
+                  }}
+                >
                   Members only
                 </button>
               </>

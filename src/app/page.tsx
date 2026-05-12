@@ -202,6 +202,7 @@ export default function Home() {
         loading={checkoutLoading}
         error={checkoutError}
         singlePurchaseDisabled={selectedCreative?.oneShotConfidence === "low"}
+        creativeSlug={selectedCreative?.slug}
       />
     </main>
   );
