@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/next";
 import Script from "next/script";
 import { CustomCursor } from "@/components/CustomCursor";
+import { SupportWidget } from "@/components/SupportWidget";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -22,6 +23,7 @@ export default function RootLayout({
       <body>
         {children}
         <CustomCursor />
+        <SupportWidget />
         <Analytics />
         <Script id="microsoft-clarity" strategy="afterInteractive">
           {`

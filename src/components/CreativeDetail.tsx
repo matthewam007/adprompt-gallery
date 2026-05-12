@@ -64,7 +64,7 @@ export function CreativeDetail({ creative, unlocked, onOpenPricing, onClose }: C
         <div className="detail-actions">
           <button
             type="button"
-            className={`copy-prompt-mini ${pricingOpening ? "lock-opening" : ""}`}
+            className={`copy-prompt-mini ${!unlocked ? "copy-prompt-mini-unlock" : ""} ${pricingOpening ? "lock-opening" : ""}`}
             onClick={handleCopyPrompt}
             disabled={pricingOpening}
           >

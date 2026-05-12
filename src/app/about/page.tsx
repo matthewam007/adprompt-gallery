@@ -29,11 +29,10 @@ export default function AboutPage() {
       </header>
 
       <article className="about-essay shell">
-        <p className="about-kicker">About PromptSwipe</p>
         <h1>
-          If you are reading this,
+          If you are reading&nbsp;this,
           <br />
-          you probably love ads too.
+          you probably love ads&nbsp;too.
         </h1>
 
         <p>The good ones.</p>
