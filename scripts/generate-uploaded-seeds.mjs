@@ -144,7 +144,7 @@ const args = new Map(
 
 const limit = args.has("limit") ? Number(args.get("limit")) : Infinity;
 const regenerateAll = args.has("all");
-const model = process.env.IMAGE_TO_PROMPT_MODEL ?? "gpt-4.1-mini";
+const model = process.env.IMAGE_TO_PROMPT_MODEL ?? "gpt-5.1";
 
 if (!process.env.OPENAI_API_KEY) {
   throw new Error("OPENAI_API_KEY is required.");

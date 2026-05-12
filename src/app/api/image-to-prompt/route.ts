@@ -44,7 +44,7 @@ export async function POST(request: Request) {
       Authorization: `Bearer ${process.env.OPENAI_API_KEY}`,
     },
     body: JSON.stringify({
-      model: process.env.IMAGE_TO_PROMPT_MODEL ?? "gpt-4.1-mini",
+      model: process.env.IMAGE_TO_PROMPT_MODEL ?? "gpt-5.1",
       input: [
         {
           role: "system",
