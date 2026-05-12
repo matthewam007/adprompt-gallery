@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { analyticsEvents, trackEvent } from "@/lib/analytics";
 
 type NavProps = {
@@ -14,6 +14,33 @@ export function Nav({ onPricing, search, onSearch }: NavProps) {
   const [submitted, setSubmitted] = useState(false);
   const [captureError, setCaptureError] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [searchOpen, setSearchOpen] = useState(false);
+  const searchInputRef = useRef<HTMLInputElement | null>(null);
+
+  useEffect(() => {
+    if (searchOpen) {
+      searchInputRef.current?.focus();
+    }
+  }, [searchOpen]);
+
+  useEffect(() => {
+    if (!searchOpen) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setSearchOpen(false);
+    };
+    const onClick = (e: MouseEvent) => {
+      const target = e.target as HTMLElement;
+      if (!target.closest(".nav-search-overlay") && !target.closest(".nav-search-toggle")) {
+        setSearchOpen(false);
+      }
+    };
+    window.addEventListener("keydown", onKey);
+    document.addEventListener("mousedown", onClick);
+    return () => {
+      window.removeEventListener("keydown", onKey);
+      document.removeEventListener("mousedown", onClick);
+    };
+  }, [searchOpen]);
 
   const captureEmail = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
@@ -68,17 +95,21 @@ export function Nav({ onPricing, search, onSearch }: NavProps) {
           </span>
           PromptSwipe
         </a>
-        <label className="nav-search">
-          <span>Search</span>
-          <input
-            value={search}
-            onChange={(event) => onSearch(event.target.value)}
-            placeholder="Search..."
-          />
-          <span className="search-icon" aria-hidden="true">⌕</span>
-        </label>
         <div className="nav-links" aria-label="Primary navigation">
+          <button
+            type="button"
+            className="nav-search-toggle"
+            aria-label={searchOpen ? "Close search" : "Open search"}
+            aria-expanded={searchOpen}
+            onClick={() => setSearchOpen((v) => !v)}
+          >
+            <svg viewBox="0 0 20 20" aria-hidden="true" focusable="false">
+              <circle cx="9" cy="9" r="6" fill="none" stroke="currentColor" strokeWidth="1.6" />
+              <line x1="13.5" y1="13.5" x2="17" y2="17" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
+            </svg>
+          </button>
           <a href="/about">About</a>
+          <a href="/prompt-lab">Upload</a>
           <a href="/request">Request</a>
           <button
             type="button"
@@ -92,6 +123,31 @@ export function Nav({ onPricing, search, onSearch }: NavProps) {
             Pricing
           </button>
         </div>
+        {searchOpen ? (
+          <div className="nav-search-overlay" role="dialog" aria-label="Search">
+            <div className="nav-search-inner">
+              <svg viewBox="0 0 20 20" className="nav-search-glyph" aria-hidden="true">
+                <circle cx="9" cy="9" r="6" fill="none" stroke="currentColor" strokeWidth="1.6" />
+                <line x1="13.5" y1="13.5" x2="17" y2="17" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
+              </svg>
+              <input
+                ref={searchInputRef}
+                value={search}
+                onChange={(event) => onSearch(event.target.value)}
+                placeholder="Search prompts, brands, formats..."
+                aria-label="Search"
+              />
+              <button
+                type="button"
+                className="nav-search-close"
+                aria-label="Close search"
+                onClick={() => { onSearch(""); setSearchOpen(false); }}
+              >
+                Esc
+              </button>
+            </div>
+          </div>
+        ) : null}
         <form className="nav-capture" onSubmit={captureEmail}>
           <div className="nav-capture-row">
             <input
@@ -127,7 +183,7 @@ export function Nav({ onPricing, search, onSearch }: NavProps) {
             {captureError ||
               (submitted
                 ? "📬 You’re in. We’ll send the next batch when it’s worth your time."
-                : "A weekly swipe file worth opening.")}
+                : "🗂️ A weekly swipe file worth opening.")}
           </p>
         </form>
       </nav>

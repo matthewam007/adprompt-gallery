@@ -9,25 +9,16 @@ type SubmitState = {
   submitted: boolean;
 };
 
-const initialState: SubmitState = {
-  loading: false,
-  error: "",
-  submitted: false,
-};
+const initial: SubmitState = { loading: false, error: "", submitted: false };
 
 export default function RequestPage() {
   const [email, setEmail] = useState("");
   const [company, setCompany] = useState("");
-  const [note, setNote] = useState("");
   const [adUrl, setAdUrl] = useState("");
-  const [state, setState] = useState<SubmitState>(initialState);
-  const [uploadEmail, setUploadEmail] = useState("");
-  const [uploadState, setUploadState] = useState<SubmitState>(initialState);
-  const [supportEmail, setSupportEmail] = useState("");
-  const [supportNote, setSupportNote] = useState("");
-  const [supportState, setSupportState] = useState<SubmitState>(initialState);
+  const [note, setNote] = useState("");
+  const [state, setState] = useState<SubmitState>(initial);
 
-  const submitRequest = async (event: FormEvent<HTMLFormElement>) => {
+  const submit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     setState({ loading: true, error: "", submitted: false });
 
@@ -37,8 +28,8 @@ export default function RequestPage() {
       body: JSON.stringify({
         email,
         company,
-        note,
         adUrl,
+        note,
         requestType: "company_request",
       }),
     });
@@ -46,137 +37,107 @@ export default function RequestPage() {
     const payload = await response.json();
     setState({
       loading: false,
-      error: response.ok ? "" : payload.error ?? "Could not send request.",
+      error: response.ok ? "" : payload.error ?? "Could not send.",
       submitted: response.ok,
     });
 
     if (response.ok) {
       setEmail("");
       setCompany("");
-      setNote("");
       setAdUrl("");
-    }
-  };
-
-  const submitUpload = async (event: FormEvent<HTMLFormElement>) => {
-    event.preventDefault();
-    setUploadState({ loading: true, error: "", submitted: false });
-
-    const response = await fetch("/api/request", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        email: uploadEmail,
-        requestType: "image_upload",
-        note: "Upload an ad image for a one-shot prompt.",
-      }),
-    });
-
-    const payload = await response.json();
-    setUploadState({
-      loading: false,
-      error: response.ok ? "" : payload.error ?? "Could not send request.",
-      submitted: response.ok,
-    });
-
-    if (response.ok) {
-      setUploadEmail("");
-      window.location.href = "/prompt-lab";
-    }
-  };
-
-  const submitSupport = async (event: FormEvent<HTMLFormElement>) => {
-    event.preventDefault();
-    setSupportState({ loading: true, error: "", submitted: false });
-
-    const response = await fetch("/api/request", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        email: supportEmail,
-        requestType: "support_request",
-        note: supportNote,
-      }),
-    });
-
-    const payload = await response.json();
-    setSupportState({
-      loading: false,
-      error: response.ok ? "" : payload.error ?? "Could not send request.",
-      submitted: response.ok,
-    });
-
-    if (response.ok) {
-      setSupportEmail("");
-      setSupportNote("");
+      setNote("");
     }
   };
 
   return (
     <main className="request-page">
-      <section className="request-hero shell">
-        <div className="request-hero-copy">
-          <Link href="/" className="request-home">PromptSwipe</Link>
-          <h1>Request a prompt. Request a company. Upload an ad.</h1>
-          <p>
-            One small place for the things people actually ask for. If a brand is missing, tell us. If
-            you have an ad you want rebuilt, send it over. We log everything into the same sheet and
-            follow up by hand.
-          </p>
-        </div>
-        <div className="request-hero-links">
-          <Link href="/prompt-lab">Upload an image</Link>
-          <a href="#request-company">Request a company</a>
-          <a href="#support-widget">Support widget</a>
-        </div>
-      </section>
+      <header className="request-nav shell">
+        <Link href="/" className="wordmark" aria-label="PromptSwipe home">
+          <span className="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 56 44" role="img">
+              <rect x="32" y="3" width="8" height="5" rx="1.7" />
+              <rect x="25" y="10" width="14" height="5" rx="1.7" />
+              <rect x="16" y="17" width="25" height="5" rx="1.7" />
+              <rect x="1" y="24" width="32" height="5" rx="1.7" />
+              <rect x="13" y="31" width="25" height="5" rx="1.7" />
+              <rect x="41" y="14" width="8" height="5" rx="1.7" />
+              <rect x="36" y="21" width="18" height="5" rx="1.7" />
+              <rect x="34" y="28" width="15" height="5" rx="1.7" />
+              <rect x="49" y="28" width="6" height="5" rx="1.7" />
+              <rect x="8" y="36" width="10" height="5" rx="1.7" />
+              <rect x="22" y="38" width="7" height="5" rx="1.7" />
+              <rect x="34" y="36" width="11" height="5" rx="1.7" />
+              <rect x="28" y="0" width="6" height="4" rx="1.5" />
+              <rect x="20" y="38" width="5" height="5" rx="1.7" />
+            </svg>
+          </span>
+          PromptSwipe
+        </Link>
+        <Link href="/">Back to gallery</Link>
+      </header>
 
-      <section className="request-band shell" id="request-company">
-        <div className="request-band-copy">
-          <p className="request-label">Request a company</p>
-          <h2>Tell us which brand should be next.</h2>
-          <p>Use this when you want more ads from a specific company in the archive.</p>
-        </div>
-        <form className="request-form" onSubmit={submitRequest}>
-          <input type="email" value={email} onChange={(event) => setEmail(event.target.value)} placeholder="Email" />
-          <input type="text" value={company} onChange={(event) => setCompany(event.target.value)} placeholder="Company name" />
-          <input type="url" value={adUrl} onChange={(event) => setAdUrl(event.target.value)} placeholder="Ad link or reference URL" />
-          <textarea value={note} onChange={(event) => setNote(event.target.value)} placeholder="What should we look for?" rows={4} />
-          <button type="submit" disabled={state.loading}>{state.loading ? "Sending..." : "Send request"}</button>
-          {state.error ? <p className="request-status request-error">{state.error}</p> : null}
-          {state.submitted ? <p className="request-status request-success">Sent. We’ll look at it and follow up.</p> : null}
-        </form>
-      </section>
+      <article className="request-essay shell">
+        <p className="request-eyebrow">Request a brand</p>
+        <h1>Tell us which company should be next.</h1>
+        <p className="request-lede">
+          A swipe file is only as good as what&apos;s in it. If a brand you study is missing, name it.
+          We&apos;ll add the best ads next.
+        </p>
 
-      <section className="request-band shell">
-        <div className="request-band-copy">
-          <p className="request-label">Upload an ad</p>
-          <h2>Get a one-shot prompt from a reference image.</h2>
-          <p>For now this routes into Prompt Lab, where you can analyze a reference and copy the blueprint.</p>
-        </div>
-        <form className="request-form" onSubmit={submitUpload}>
-          <input type="email" value={uploadEmail} onChange={(event) => setUploadEmail(event.target.value)} placeholder="Email" />
-          <p className="request-helper">We’ll use this for the prompt drop and manual follow-up.</p>
-          <button type="submit" disabled={uploadState.loading}>{uploadState.loading ? "Sending..." : "Open Prompt Lab"}</button>
-          {uploadState.error ? <p className="request-status request-error">{uploadState.error}</p> : null}
-          {uploadState.submitted ? <p className="request-status request-success">Saved. Opening Prompt Lab now.</p> : null}
-        </form>
-      </section>
+        <form className="request-form-clean" onSubmit={submit} noValidate>
+          <label className="request-field">
+            <span>Email</span>
+            <input
+              type="email"
+              required
+              value={email}
+              onChange={(event) => setEmail(event.target.value)}
+              placeholder="you@studio.com"
+            />
+          </label>
 
-      <section className="request-band shell" id="support-widget">
-        <div className="request-band-copy">
-          <p className="request-label">Support widget</p>
-          <h2>Leave a note. We’ll log it and follow up by hand.</h2>
-          <p>Same sheet. Same quiet process. Good for questions, bugs, and anything that needs a human reply.</p>
-        </div>
-        <form className="request-form" onSubmit={submitSupport}>
-          <input type="email" value={supportEmail} onChange={(event) => setSupportEmail(event.target.value)} placeholder="Email" />
-          <textarea value={supportNote} onChange={(event) => setSupportNote(event.target.value)} placeholder="What do you need?" rows={4} />
-          <button type="submit" disabled={supportState.loading}>{supportState.loading ? "Sending..." : "Send note"}</button>
-          {supportState.error ? <p className="request-status request-error">{supportState.error}</p> : null}
-          {supportState.submitted ? <p className="request-status request-success">Logged. We’ll reply if needed.</p> : null}
+          <label className="request-field">
+            <span>Company</span>
+            <input
+              type="text"
+              required
+              value={company}
+              onChange={(event) => setCompany(event.target.value)}
+              placeholder="Linear, Ramp, Stripe..."
+            />
+          </label>
+
+          <label className="request-field">
+            <span>Ad reference <em>(optional)</em></span>
+            <input
+              type="url"
+              value={adUrl}
+              onChange={(event) => setAdUrl(event.target.value)}
+              placeholder="A link to an ad you want studied"
+            />
+          </label>
+
+          <label className="request-field">
+            <span>What to look for <em>(optional)</em></span>
+            <textarea
+              value={note}
+              onChange={(event) => setNote(event.target.value)}
+              placeholder="What about their work caught your eye?"
+              rows={4}
+            />
+          </label>
+
+          <div className="request-submit-row">
+            <button type="submit" disabled={state.loading}>
+              {state.loading ? "Sending..." : "Send request"}
+            </button>
+            {state.error ? <p className="request-msg request-msg-error">{state.error}</p> : null}
+            {state.submitted ? (
+              <p className="request-msg request-msg-success">Got it. We&apos;ll look at it and follow up.</p>
+            ) : null}
+          </div>
         </form>
-      </section>
+      </article>
     </main>
   );
 }

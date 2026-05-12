@@ -48,7 +48,7 @@ export function PricingModal({
       <div className="pricing-modal">
         <div className="modal-heading">
           <div>
-            <h2>Keep the prompt</h2>
+            <h2>Take it home.</h2>
             <p>📚 Choose the one you need today, or open the whole library.</p>
           </div>
           <button type="button" onClick={onClose} className="icon-button" aria-label="Close pricing">
@@ -58,6 +58,7 @@ export function PricingModal({
         {error ? <p className="pricing-error">{error}</p> : null}
         <div className="pricing-options">
           <article className={`pricing-option pricing-option-single ${singlePurchaseDisabled ? "pricing-option-disabled" : ""}`}>
+            <span className="pricing-peek" aria-hidden="true">🎟️</span>
             <span>Single prompt</span>
             <h3>Unlock one prompt</h3>
             <strong>$2</strong>
@@ -86,6 +87,7 @@ export function PricingModal({
             )}
           </article>
           <article className="pricing-option pricing-option-member">
+            <span className="pricing-peek" aria-hidden="true">🗝️</span>
             <span>Membership</span>
             <h3>Member access</h3>
             <strong>$15/mo</strong>

@@ -11,7 +11,6 @@ import { analyticsEvents, trackEvent } from "@/lib/analytics";
 import { getAccessibleTitle, getSearchText } from "@/lib/creative-display";
 import { getStoredAccess } from "@/lib/purchase-access";
 import type { Creative } from "@/types/creative";
-import Link from "next/link";
 
 const initialFilters: Filters = {
   industry: "All",
@@ -143,11 +142,6 @@ export default function Home() {
             {memberAccess ? "Member" : "Demo unlock"}
           </button>
         </div>
-      </section>
-      <section className="shell home-actions" aria-label="Primary actions">
-        <Link href="/prompt-lab" className="home-action">Upload an image</Link>
-        <Link href="/request" className="home-action">Request a company</Link>
-        <Link href="/request#support-widget" className="home-action">Support widget</Link>
       </section>
       <section className="shell gallery-tools" aria-label="Browse controls">
         <FilterBar filters={filters} onChange={setFilters} />
