@@ -55,9 +55,8 @@ export function SupportWidget() {
         <div className="support-widget-panel" role="dialog" aria-label="Send us a note">
           <div className="support-widget-head">
             <div>
-              <p className="support-widget-eyebrow">Talk to us</p>
-              <h3>Drop us a note.</h3>
-              <p className="support-widget-sub">We log every one. Reply by hand when it matters.</p>
+              <h3>📬 Drop us a note.</h3>
+              <p className="support-widget-sub">We read every one.</p>
             </div>
             <button
               type="button"

@@ -207,6 +207,7 @@ export default function Home() {
         onMembership={() => startCheckout("membership")}
         loading={checkoutLoading}
         error={checkoutError}
+        singlePurchaseDisabled={selectedCreative?.oneShotConfidence === "low"}
       />
     </main>
   );

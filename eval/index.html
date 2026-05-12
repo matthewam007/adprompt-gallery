@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Prompt Eval · PromptSwipe</title>
+<style>
+  :root {
+    --ink: #14110d;
+    --muted: #6b655d;
+    --line: #ece8e2;
+    --bg: #fbf9f4;
+    --good: #2a6c3f;
+    --okay: #b08300;
+    --bad: #8f3c22;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--bg); color: var(--ink); font-family: -apple-system, BlinkMacSystemFont, "Inter", system-ui, sans-serif; }
+  .shell { max-width: 1200px; margin: 0 auto; padding: 40px 28px 80px; }
+  header { display: flex; align-items: end; justify-content: space-between; gap: 24px; padding-bottom: 22px; border-bottom: 1px solid var(--line); margin-bottom: 28px; }
+  h1 { margin: 0; font-size: 28px; font-weight: 700; letter-spacing: -0.012em; }
+  .lede { margin: 6px 0 0; color: var(--muted); font-size: 15px; }
+  .scoreboard { display: flex; gap: 10px; font-size: 13px; font-weight: 700; }
+  .scoreboard span { padding: 6px 10px; border-radius: 999px; border: 1px solid var(--line); background: #fff; }
+  .scoreboard .pass-rate { background: var(--ink); color: #fff; border-color: var(--ink); }
+  .scoreboard .good { color: var(--good); }
+  .scoreboard .okay { color: var(--okay); }
+  .scoreboard .bad { color: var(--bad); }
+  .pair { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; padding: 24px 0; border-bottom: 1px solid var(--line); }
+  .pair h3 { margin: 0 0 10px; font-size: 14px; font-weight: 720; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
+  .pair img { width: 100%; height: auto; max-height: 540px; object-fit: contain; background: #fff; border: 1px solid var(--line); border-radius: 10px; }
+  .meta { grid-column: 1 / -1; display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; padding-top: 8px; }
+  .meta-info { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+  .title { margin: 0; font-size: 16px; font-weight: 660; }
+  .tag { display: inline-flex; align-items: center; padding: 3px 9px; border: 1px solid var(--line); border-radius: 999px; background: #fff; color: var(--muted); font-size: 12px; font-weight: 620; }
+  .self-score { color: var(--muted); font-size: 13px; }
+  .vote { display: flex; gap: 8px; }
+  .vote button {
+    padding: 8px 14px;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    background: #fff;
+    color: var(--ink);
+    font-weight: 660;
+    font-size: 13px;
+    cursor: pointer;
+    transition: transform 120ms ease, background 120ms ease, color 120ms ease;
+  }
+  .vote button:hover { transform: translateY(-1px); }
+  .vote button.match.on { background: var(--good); color: #fff; border-color: var(--good); }
+  .vote button.acceptable.on { background: var(--okay); color: #fff; border-color: var(--okay); }
+  .vote button.off.on { background: var(--bad); color: #fff; border-color: var(--bad); }
+  details { grid-column: 1 / -1; margin-top: 10px; }
+  details summary { cursor: pointer; color: var(--muted); font-size: 13px; }
+  details pre { white-space: pre-wrap; background: #faf7f1; border: 1px solid var(--line); border-radius: 8px; padding: 14px; font-size: 13px; line-height: 1.55; color: #2d2925; }
+  .error { padding: 14px; background: #fff7f3; border: 1px solid #e6c8bc; color: #8f3c22; border-radius: 8px; font-size: 14px; }
+  footer { margin-top: 40px; padding-top: 24px; border-top: 1px solid var(--line); color: var(--muted); font-size: 13px; display: flex; gap: 16px; flex-wrap: wrap; }
+  footer button { padding: 8px 14px; border: 1px solid var(--line); border-radius: 999px; background: #fff; cursor: pointer; font-weight: 660; font-size: 13px; }
+  .summary-box { margin-top: 18px; padding: 20px; background: #fff; border: 1px solid var(--line); border-radius: 12px; font-size: 14px; line-height: 1.6; }
+  .summary-box strong { display: block; margin-bottom: 6px; font-size: 16px; }
+</style>
+</head>
+<body>
+<div class="shell">
+  <header>
+    <div>
+      <h1>Prompt eval</h1>
+      <p class="lede">Original ad → image gen output from the <code>chatgpt</code> variant. Rate each pair.</p>
+    </div>
+    <div class="scoreboard" id="scoreboard">
+      <span class="good">match: <span id="cnt-match">0</span></span>
+      <span class="okay">acceptable: <span id="cnt-acceptable">0</span></span>
+      <span class="bad">off: <span id="cnt-off">0</span></span>
+      <span class="pass-rate">pass: <span id="pass-rate">—</span></span>
+    </div>
+  </header>
+
+  <div id="pairs"></div>
+
+  <div class="summary-box" id="summary" hidden></div>
+
+  <footer>
+    <button id="reset">Reset votes</button>
+    <button id="export">Export ratings (JSON)</button>
+    <span>Ratings save in localStorage automatically.</span>
+  </footer>
+</div>
+
+<script>
+const STORAGE_KEY = "promptswipe-eval-votes";
+const votes = JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}");
+
+async function main() {
+  const res = await fetch("./results.json?ts=" + Date.now());
+  if (!res.ok) {
+    document.getElementById("pairs").innerHTML = '<div class="error">No results.json yet. Run <code>npm run eval:prompts</code> first.</div>';
+    return;
+  }
+  const { results, seed } = await res.json();
+  const root = document.getElementById("pairs");
+  results.forEach((r, idx) => {
+    root.appendChild(renderPair(r, idx));
+  });
+  refreshScoreboard(results);
+}
+
+function renderPair(r, idx) {
+  const wrap = document.createElement("section");
+  wrap.className = "pair";
+  if (!r.ok) {
+    wrap.innerHTML = `<div class="error" style="grid-column:1/-1">FAIL · ${escapeHtml(r.filename)} · ${escapeHtml(r.error)}</div>`;
+    return wrap;
+  }
+  const score = r.promptQuality || {};
+  wrap.innerHTML = `
+    <div>
+      <h3>Original</h3>
+      <img src="../public/ads/${encodeURIComponent(r.filename)}" alt="" />
+    </div>
+    <div>
+      <h3>Generated (gpt-image-1)</h3>
+      <img src="./output/${encodeURIComponent(r.output)}" alt="" />
+    </div>
+    <div class="meta">
+      <div class="meta-info">
+        <p class="title">${escapeHtml(r.title || r.filename)}</p>
+        <span class="tag">${escapeHtml(r.brand || "")}</span>
+        <span class="tag">${escapeHtml(r.industry || "")}</span>
+        <span class="tag">${escapeHtml(r.format || "")} · ${escapeHtml(r.aspectRatio || "")}</span>
+        <span class="self-score">self-graded: ex ${score.exactness ?? "?"} · ed ${score.editability ?? "?"} · bs ${score.brandSafety ?? "?"}</span>
+      </div>
+      <div class="vote" data-key="${escapeAttr(r.filename)}">
+        <button class="match" data-vote="match">Match</button>
+        <button class="acceptable" data-vote="acceptable">Acceptable</button>
+        <button class="off" data-vote="off">Off</button>
+      </div>
+    </div>
+    <details>
+      <summary>show prompt</summary>
+      <pre>${escapeHtml(r.prompt)}</pre>
+    </details>
+  `;
+  const key = r.filename;
+  if (votes[key]) {
+    const btn = wrap.querySelector(`.vote button.${votes[key]}`);
+    if (btn) btn.classList.add("on");
+  }
+  wrap.querySelectorAll(".vote button").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const vote = btn.dataset.vote;
+      wrap.querySelectorAll(".vote button").forEach((b) => b.classList.remove("on"));
+      if (votes[key] === vote) {
+        delete votes[key];
+      } else {
+        btn.classList.add("on");
+        votes[key] = vote;
+      }
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(votes));
+      refreshScoreboardFromCache();
+    });
+  });
+  return wrap;
+}
+
+let lastResults = null;
+function refreshScoreboard(results) {
+  lastResults = results;
+  refreshScoreboardFromCache();
+}
+function refreshScoreboardFromCache() {
+  const tally = { match: 0, acceptable: 0, off: 0 };
+  Object.values(votes).forEach((v) => { if (tally[v] != null) tally[v] += 1; });
+  document.getElementById("cnt-match").textContent = tally.match;
+  document.getElementById("cnt-acceptable").textContent = tally.acceptable;
+  document.getElementById("cnt-off").textContent = tally.off;
+  const total = tally.match + tally.acceptable + tally.off;
+  const rated = total;
+  const passing = tally.match + tally.acceptable;
+  const passRate = rated ? Math.round((passing / rated) * 100) + "%" : "—";
+  document.getElementById("pass-rate").textContent = passRate;
+
+  if (lastResults && rated >= lastResults.filter((r) => r.ok).length) {
+    const box = document.getElementById("summary");
+    box.hidden = false;
+    const verdict = passing / rated >= 0.66
+      ? "Good enough to ship. ≥66% landed (match or acceptable)."
+      : passing / rated >= 0.5
+      ? "On the edge. Half landed. Tighten before launch — either regenerate weak ones or soften the marketing."
+      : "Not ready. Less than half landed. Don't charge until prompts improve.";
+    box.innerHTML = `<strong>Verdict</strong>${verdict}<br>Pass rate: ${passing}/${rated} (${passRate}). Off: ${tally.off}.`;
+  }
+}
+
+document.getElementById("reset").addEventListener("click", () => {
+  if (!confirm("Clear all your ratings?")) return;
+  Object.keys(votes).forEach((k) => delete votes[k]);
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(votes));
+  document.querySelectorAll(".vote button.on").forEach((b) => b.classList.remove("on"));
+  refreshScoreboardFromCache();
+  document.getElementById("summary").hidden = true;
+});
+
+document.getElementById("export").addEventListener("click", () => {
+  const blob = new Blob([JSON.stringify(votes, null, 2)], { type: "application/json" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = "promptswipe-eval-votes.json";
+  a.click();
+  URL.revokeObjectURL(url);
+});
+
+function escapeHtml(s) {
+  return String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+}
+function escapeAttr(s) { return escapeHtml(s); }
+
+main();
+</script>
+</body>
+</html>

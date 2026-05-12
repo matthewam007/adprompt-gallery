@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "generate:uploaded-seeds": "node scripts/generate-uploaded-seeds.mjs"
+    "generate:uploaded-seeds": "node scripts/generate-uploaded-seeds.mjs",
+    "eval:prompts": "node scripts/eval-prompts.mjs"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",

@@ -56,6 +56,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -119,6 +126,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 4,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(3)"
+      ]
     }
   },
   {
@@ -178,6 +193,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -237,6 +259,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -296,6 +325,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 4,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(3)"
+      ]
     }
   },
   {
@@ -353,6 +390,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -412,6 +456,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -471,6 +522,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "long-prompt(288)"
+      ]
     }
   },
   {
@@ -532,6 +591,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -593,6 +659,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -650,6 +723,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(1)"
+      ]
     }
   },
   {
@@ -713,6 +794,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -770,6 +858,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -829,6 +924,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -888,6 +990,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -947,6 +1056,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "long-prompt(344)"
+      ]
     }
   },
   {
@@ -1008,6 +1125,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -1067,6 +1191,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
+      ]
     }
   },
   {
@@ -1128,6 +1260,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
+      ]
     }
   },
   {
@@ -1185,6 +1325,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -1244,6 +1391,15 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 4,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)",
+        "long-prompt(301)"
+      ]
     }
   },
   {
@@ -1307,6 +1463,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
+      ]
     }
   },
   {
@@ -1366,6 +1530,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -1423,6 +1594,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -1484,6 +1662,15 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 4,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(1)",
+        "long-prompt(261)"
+      ]
     }
   },
   {
@@ -1543,6 +1730,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -1604,6 +1798,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -1659,6 +1860,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -1718,6 +1926,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -1779,6 +1994,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -1840,6 +2062,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "long-prompt(297)"
+      ]
     }
   },
   {
@@ -1897,6 +2127,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -1954,6 +2191,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -2011,6 +2255,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -2068,6 +2319,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
+      ]
     }
   },
   {
@@ -2129,6 +2388,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "long-prompt(284)"
+      ]
     }
   },
   {
@@ -2190,6 +2457,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
+      ]
     }
   },
   {
@@ -2251,6 +2526,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -2310,6 +2592,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(1)",
+        "brand-typography(1)"
+      ]
     }
   },
   {
@@ -2369,6 +2659,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -2424,6 +2721,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -2483,6 +2787,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -2544,6 +2855,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -2605,6 +2923,15 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 4,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)",
+        "long-prompt(266)"
+      ]
     }
   },
   {
@@ -2666,6 +2993,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
+      ]
     }
   },
   {
@@ -2725,6 +3060,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "long-prompt(252)"
+      ]
     }
   },
   {
@@ -2782,6 +3125,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -2839,6 +3189,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
+      ]
     }
   },
   {
@@ -2898,6 +3256,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -2957,6 +3322,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
+      ]
     }
   },
   {
@@ -3018,6 +3391,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -3077,6 +3457,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -3138,6 +3525,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -3193,6 +3587,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -3254,6 +3655,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -3313,6 +3721,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
+      ]
     }
   },
   {
@@ -3370,6 +3786,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
+      ]
     }
   },
   {
@@ -3427,6 +3851,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -3492,6 +3923,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -3551,6 +3989,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -3608,6 +4053,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
+      ]
     }
   },
   {
@@ -3665,6 +4118,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -3726,6 +4186,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
+      ]
     }
   },
   {
@@ -3783,6 +4251,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -3844,6 +4319,15 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 4,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(1)",
+        "long-prompt(261)"
+      ]
     }
   },
   {
@@ -3901,6 +4385,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -3960,6 +4451,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -4017,6 +4515,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -4072,6 +4577,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -4129,6 +4641,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -4184,6 +4703,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -4241,6 +4767,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -4300,6 +4833,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -4357,6 +4897,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -4412,6 +4959,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -4467,6 +5021,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
+      ]
     }
   },
   {
@@ -4526,6 +5088,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -4585,6 +5154,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -4644,6 +5220,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -4703,6 +5286,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 4,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(3)"
+      ]
     }
   },
   {
@@ -4760,6 +5351,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -4817,6 +5415,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -4876,6 +5481,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -4937,6 +5549,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "long-prompt(267)"
+      ]
     }
   },
   {
@@ -4998,6 +5618,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -5055,6 +5682,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -5114,6 +5748,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(1)"
+      ]
     }
   },
   {
@@ -5177,6 +5819,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -5232,6 +5881,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -5289,6 +5945,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
+      ]
     }
   },
   {
@@ -5346,6 +6010,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
+      ]
     }
   },
   {
@@ -5405,6 +6077,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -5462,6 +6141,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -5521,6 +6207,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -5582,6 +6275,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -5643,6 +6343,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -5700,6 +6407,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -5759,6 +6473,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -5816,6 +6537,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -5873,6 +6601,15 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 4,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)",
+        "long-prompt(299)"
+      ]
     }
   },
   {
@@ -5930,6 +6667,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -5991,6 +6735,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -6048,6 +6799,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -6105,6 +6863,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -6164,6 +6929,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(1)"
+      ]
     }
   },
   {
@@ -6221,6 +6994,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "long-prompt(304)"
+      ]
     }
   },
   {
@@ -6278,6 +7059,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -6335,6 +7123,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -6394,6 +7189,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -6453,6 +7255,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -6510,6 +7319,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -6567,6 +7383,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -6626,6 +7449,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(1)"
+      ]
     }
   },
   {
@@ -6685,6 +7516,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -6744,6 +7582,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -6809,6 +7654,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -6868,6 +7720,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "long-prompt(297)"
+      ]
     }
   },
   {
@@ -6933,6 +7793,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(1)"
+      ]
     }
   },
   {
@@ -6994,6 +7862,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -7053,6 +7928,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -7116,6 +7998,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(1)"
+      ]
     }
   },
   {
@@ -7171,6 +8061,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -7232,6 +8129,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -7291,6 +8195,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -7348,6 +8259,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -7409,6 +8327,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -7466,6 +8391,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -7523,6 +8455,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -7582,6 +8521,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -7639,6 +8585,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -7698,6 +8651,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
+      ]
     }
   },
   {
@@ -7757,6 +8718,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -7816,6 +8784,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -7879,6 +8854,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "high",
+    "oneShotRisk": {
+      "score": 1,
+      "reasons": [
+        "long-quoted-text(1)"
+      ]
     }
   },
   {
@@ -7944,6 +8926,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "long-prompt(252)"
+      ]
     }
   },
   {
@@ -8005,6 +8995,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -8062,6 +9059,15 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 5,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(2)",
+        "long-prompt(299)"
+      ]
     }
   },
   {
@@ -8119,6 +9125,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -8174,6 +9187,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -8235,6 +9255,15 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 4,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(1)",
+        "long-prompt(257)"
+      ]
     }
   },
   {
@@ -8290,6 +9319,11 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "high",
+    "oneShotRisk": {
+      "score": 0,
+      "reasons": []
     }
   },
   {
@@ -8349,6 +9383,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
+      ]
     }
   },
   {
@@ -8406,6 +9448,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(2)"
+      ]
     }
   },
   {
@@ -8469,6 +9519,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -8528,6 +9585,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
+      ]
     }
   },
   {
@@ -8585,6 +9650,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -8644,6 +9716,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -8701,6 +9780,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -8760,6 +9846,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -8817,6 +9910,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -8878,6 +9978,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -8939,6 +10046,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -9000,6 +10114,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 4,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(2)"
+      ]
     }
   },
   {
@@ -9059,6 +10181,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -9118,6 +10247,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -9175,6 +10311,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -9232,6 +10375,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -9291,6 +10441,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -9352,6 +10509,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 4,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(3)"
+      ]
     }
   },
   {
@@ -9409,6 +10574,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -9470,6 +10642,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -9527,6 +10706,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -9588,6 +10774,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -9649,6 +10842,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -9706,6 +10906,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -9765,6 +10972,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -9826,6 +11040,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "long-prompt(270)"
+      ]
     }
   },
   {
@@ -9881,6 +11103,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -9938,6 +11167,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -9995,6 +11231,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -10052,6 +11295,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -10113,6 +11363,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -10170,6 +11427,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -10229,6 +11493,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -10286,6 +11557,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -10343,6 +11621,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -10402,6 +11687,15 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 5,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(3)",
+        "long-prompt(269)"
+      ]
     }
   },
   {
@@ -10459,6 +11753,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -10518,6 +11819,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -10575,6 +11883,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -10634,6 +11949,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "long-prompt(303)"
+      ]
     }
   },
   {
@@ -10689,6 +12012,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -10752,6 +12082,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -10813,6 +12150,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -10872,6 +12216,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -10927,6 +12278,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(1)"
+      ]
     }
   },
   {
@@ -10982,6 +12341,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -11039,6 +12405,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -11096,6 +12469,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -11155,6 +12535,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
+      ]
     }
   },
   {
@@ -11212,6 +12600,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -11269,6 +12664,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -11326,6 +12728,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "long-prompt(293)"
+      ]
     }
   },
   {
@@ -11383,6 +12793,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "long-prompt(313)"
+      ]
     }
   },
   {
@@ -11444,6 +12862,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "long-prompt(256)"
+      ]
     }
   },
   {
@@ -11503,6 +12929,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -11566,6 +12999,15 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 4,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)",
+        "long-prompt(257)"
+      ]
     }
   },
   {
@@ -11635,6 +13077,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
+      ]
     }
   },
   {
@@ -11696,6 +13146,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(1)"
+      ]
     }
   },
   {
@@ -11751,6 +13209,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -11812,6 +13277,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
+      ]
     }
   },
   {
@@ -11869,6 +13342,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -11928,6 +13408,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "long-prompt(251)"
+      ]
     }
   },
   {
@@ -11989,6 +13477,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -12044,6 +13539,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "long-prompt(269)"
+      ]
     }
   },
   {
@@ -12103,6 +13606,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -12164,6 +13674,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -12219,6 +13736,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -12276,6 +13800,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -12333,6 +13864,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -12392,6 +13930,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -12447,6 +13992,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -12506,6 +14058,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -12565,6 +14124,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -12624,6 +14190,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -12685,6 +14258,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -12746,6 +14326,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -12801,6 +14388,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -12858,6 +14452,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
+      ]
     }
   },
   {
@@ -12919,6 +14521,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -12976,6 +14585,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "high",
+    "oneShotRisk": {
+      "score": 1,
+      "reasons": [
+        "long-quoted-text(1)"
+      ]
     }
   },
   {
@@ -13039,6 +14655,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "long-prompt(281)"
+      ]
     }
   },
   {
@@ -13098,6 +14722,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "long-prompt(273)"
+      ]
     }
   },
   {
@@ -13155,6 +14787,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -13220,6 +14859,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -13281,6 +14927,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
+      ]
     }
   },
   {
@@ -13338,6 +14992,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -13395,6 +15056,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "long-prompt(271)"
+      ]
     }
   },
   {
@@ -13456,6 +15125,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -13519,6 +15195,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -13576,6 +15259,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "long-prompt(304)"
+      ]
     }
   },
   {
@@ -13633,6 +15324,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -13690,6 +15388,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -13749,6 +15454,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -13806,6 +15518,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -13865,6 +15584,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
+      ]
     }
   },
   {
@@ -13922,6 +15649,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -13983,6 +15717,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -14040,6 +15781,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -14101,6 +15849,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
+      ]
     }
   },
   {
@@ -14164,6 +15920,15 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 4,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(1)",
+        "long-prompt(262)"
+      ]
     }
   },
   {
@@ -14223,6 +15988,16 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 5,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(1)",
+        "brand-typography(1)",
+        "long-prompt(273)"
+      ]
     }
   },
   {
@@ -14280,6 +16055,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "high",
+    "oneShotRisk": {
+      "score": 1,
+      "reasons": [
+        "long-quoted-text(1)"
+      ]
     }
   },
   {
@@ -14337,6 +16119,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -14396,6 +16185,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "long-prompt(251)"
+      ]
     }
   },
   {
@@ -14459,6 +16256,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -14518,6 +16322,15 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 5,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(2)",
+        "long-prompt(306)"
+      ]
     }
   },
   {
@@ -14579,6 +16392,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -14638,6 +16458,15 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 4,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(1)",
+        "long-prompt(308)"
+      ]
     }
   },
   {
@@ -14701,6 +16530,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -14764,6 +16600,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -14821,6 +16664,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -14880,6 +16730,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -14941,6 +16798,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -14998,6 +16862,15 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 4,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)",
+        "long-prompt(290)"
+      ]
     }
   },
   {
@@ -15057,6 +16930,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -15116,6 +16996,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -15175,6 +17062,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -15234,6 +17128,15 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 5,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(2)",
+        "long-prompt(279)"
+      ]
     }
   },
   {
@@ -15291,6 +17194,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -15352,6 +17262,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -15411,6 +17328,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -15468,6 +17392,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -15529,6 +17460,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "long-prompt(255)"
+      ]
     }
   },
   {
@@ -15588,6 +17527,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -15647,6 +17593,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "long-prompt(429)"
+      ]
     }
   },
   {
@@ -15708,6 +17662,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -15769,6 +17730,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -15828,6 +17796,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -15887,6 +17862,16 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 5,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(1)",
+        "brand-typography(1)",
+        "long-prompt(347)"
+      ]
     }
   },
   {
@@ -15948,6 +17933,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -16011,6 +18003,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "long-prompt(304)"
+      ]
     }
   },
   {
@@ -16070,6 +18070,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -16127,6 +18134,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -16186,6 +18200,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -16245,6 +18266,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -16304,6 +18332,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -16363,6 +18398,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -16424,6 +18466,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -16485,6 +18534,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -16542,6 +18598,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
+      ]
     }
   },
   {
@@ -16603,6 +18667,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -16662,6 +18733,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -16721,6 +18799,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -16780,6 +18865,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "long-prompt(253)"
+      ]
     }
   },
   {
@@ -16837,6 +18930,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -16896,6 +18996,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -16959,6 +19066,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -17018,6 +19132,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -17079,6 +19200,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "long-prompt(271)"
+      ]
     }
   },
   {
@@ -17138,6 +19267,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(1)"
+      ]
     }
   },
   {
@@ -17195,6 +19332,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -17252,6 +19396,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
+      ]
     }
   },
   {
@@ -17309,6 +19461,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
+      ]
     }
   },
   {
@@ -17368,6 +19528,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -17431,6 +19598,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -17488,6 +19662,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -17543,6 +19724,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -17602,6 +19790,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "long-prompt(255)"
+      ]
     }
   },
   {
@@ -17661,6 +19857,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
+      ]
     }
   },
   {
@@ -17720,6 +19924,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -17781,6 +19992,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -17842,6 +20060,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(1)"
+      ]
     }
   },
   {
@@ -17901,6 +20127,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(1)"
+      ]
     }
   },
   {
@@ -17958,6 +20192,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "long-prompt(410)"
+      ]
     }
   },
   {
@@ -18019,6 +20261,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
+      ]
     }
   },
   {
@@ -18078,6 +20328,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -18137,6 +20394,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -18194,6 +20458,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -18255,6 +20526,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -18316,6 +20594,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -18377,6 +20662,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -18438,6 +20730,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(1)"
+      ]
     }
   },
   {
@@ -18497,6 +20797,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "high",
+    "oneShotRisk": {
+      "score": 1,
+      "reasons": [
+        "long-quoted-text(1)"
+      ]
     }
   },
   {
@@ -18554,6 +20861,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
+      ]
     }
   },
   {
@@ -18613,6 +20928,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -18674,6 +20996,15 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 5,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(2)",
+        "long-prompt(295)"
+      ]
     }
   },
   {
@@ -18735,6 +21066,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -18796,6 +21134,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(1)"
+      ]
     }
   },
   {
@@ -18855,6 +21201,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
+      ]
     }
   },
   {
@@ -18916,6 +21270,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -18973,6 +21334,11 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "high",
+    "oneShotRisk": {
+      "score": 0,
+      "reasons": []
     }
   },
   {
@@ -19032,6 +21398,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -19089,6 +21462,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
+      ]
     }
   },
   {
@@ -19150,6 +21531,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -19211,6 +21599,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
+      ]
     }
   },
   {
@@ -19270,6 +21666,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -19325,6 +21728,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "long-prompt(257)"
+      ]
     }
   },
   {
@@ -19384,6 +21795,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -19445,6 +21863,15 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 5,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(2)",
+        "long-prompt(269)"
+      ]
     }
   },
   {
@@ -19502,6 +21929,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "long-prompt(264)"
+      ]
     }
   },
   {
@@ -19557,6 +21992,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "long-prompt(256)"
+      ]
     }
   },
   {
@@ -19612,6 +22055,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -19671,6 +22121,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "long-prompt(252)"
+      ]
     }
   },
   {
@@ -19732,6 +22190,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -19789,6 +22254,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "high",
+    "oneShotRisk": {
+      "score": 1,
+      "reasons": [
+        "long-quoted-text(1)"
+      ]
     }
   },
   {
@@ -19848,6 +22320,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -19907,6 +22386,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -19966,6 +22452,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -20025,6 +22518,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
+      ]
     }
   },
   {
@@ -20086,6 +22587,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -20147,6 +22655,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
+      ]
     }
   },
   {
@@ -20206,6 +22722,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -20265,6 +22788,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -20324,6 +22854,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -20381,6 +22918,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 4,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(2)"
+      ]
     }
   },
   {
@@ -20438,6 +22983,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -20497,6 +23049,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(1)"
+      ]
     }
   },
   {
@@ -20554,6 +23114,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -20613,6 +23180,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(1)"
+      ]
     }
   },
   {
@@ -20670,6 +23245,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -20727,6 +23309,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -20786,6 +23375,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
+      ]
     }
   },
   {
@@ -20843,6 +23440,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -20902,6 +23506,14 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
+      ]
     }
   },
   {
@@ -20961,6 +23573,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -21018,6 +23637,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   {
@@ -21077,6 +23703,15 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 4,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(1)",
+        "brand-typography(1)"
+      ]
     }
   },
   {
@@ -21136,6 +23771,15 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 4,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)",
+        "long-prompt(263)"
+      ]
     }
   },
   {
@@ -21191,6 +23835,13 @@
       "background": "#f5efe6",
       "accent": "#7a5c38",
       "motif": "docs"
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   }
 ]

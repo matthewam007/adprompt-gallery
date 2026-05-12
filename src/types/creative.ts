@@ -54,6 +54,11 @@ export type Creative = {
     brandSafety: number;
     confidenceNote: string;
   };
+  oneShotConfidence?: "high" | "medium" | "low";
+  oneShotRisk?: {
+    score: number;
+    reasons: string[];
+  };
   modelVariants?: {
     chatgpt: string;
     midjourney: string;

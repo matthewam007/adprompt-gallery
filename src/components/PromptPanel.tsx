@@ -63,9 +63,9 @@ export function PromptPanel({ creative, unlocked, onOpenPricing }: PromptPanelPr
         <div>
           <div className="locked-panel-heading">
             <span className="panel-icon" aria-hidden="true"><LockIcon /></span>
-            <h3>Get the exact reconstruction prompt</h3>
+            <h3>The prompt behind it.</h3>
           </div>
-          <p>Unlock the 80%-there reconstruction prompt and creative notes.</p>
+          <p>The prompt that builds the ad. Plus notes on the choices behind it.</p>
         </div>
         <div className="prompt-preview prompt-preview-locked">
           <span>Preview</span>

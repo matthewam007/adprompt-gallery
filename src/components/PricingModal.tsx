@@ -10,6 +10,7 @@ type PricingModalProps = {
   onMembership: () => Promise<void>;
   loading?: "single" | "membership" | null;
   error?: string;
+  singlePurchaseDisabled?: boolean;
 };
 
 export function PricingModal({
@@ -19,6 +20,7 @@ export function PricingModal({
   onMembership,
   loading = null,
   error = "",
+  singlePurchaseDisabled = false,
 }: PricingModalProps) {
   const [unlocking, setUnlocking] = useState<"single" | "membership" | null>(null);
 
@@ -55,21 +57,33 @@ export function PricingModal({
         </div>
         {error ? <p className="pricing-error">{error}</p> : null}
         <div className="pricing-options">
-          <article className="pricing-option pricing-option-single">
+          <article className={`pricing-option pricing-option-single ${singlePurchaseDisabled ? "pricing-option-disabled" : ""}`}>
             <span>Single prompt</span>
             <h3>Unlock one prompt</h3>
             <strong>$2</strong>
-            <p>For the one you came for.</p>
-            <small>Includes the exact reconstruction prompt, model notes, layout breakdown, and remix variables.</small>
-            <button
-              type="button"
-              onClick={() => handleUnlock("single", onSingleUnlock)}
-              disabled={loading !== null || unlocking !== null}
-              className={unlocking === "single" ? "lock-opening" : ""}
-            >
-              <span aria-hidden="true"><LockIcon /></span>
-              {loading === "single" ? "Opening checkout..." : "Unlock prompt"}
-            </button>
+            {singlePurchaseDisabled ? (
+              <>
+                <p>This one’s members-only.</p>
+                <small>Some ads lean on long literal text or brand-specific typography that image models don&apos;t one-shot. We keep these in the membership so you get the notes and remix variables that make them land.</small>
+                <button type="button" disabled className="pricing-option-locked-cta">
+                  Members only
+                </button>
+              </>
+            ) : (
+              <>
+                <p>For the one you came for.</p>
+                <small>Includes the exact reconstruction prompt, model notes, layout breakdown, and remix variables.</small>
+                <button
+                  type="button"
+                  onClick={() => handleUnlock("single", onSingleUnlock)}
+                  disabled={loading !== null || unlocking !== null}
+                  className={unlocking === "single" ? "lock-opening" : ""}
+                >
+                  <span aria-hidden="true"><LockIcon /></span>
+                  {loading === "single" ? "Opening checkout..." : "Unlock prompt"}
+                </button>
+              </>
+            )}
           </article>
           <article className="pricing-option pricing-option-member">
             <span>Membership</span>

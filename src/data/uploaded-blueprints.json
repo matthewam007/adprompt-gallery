@@ -64,6 +64,14 @@
         "clean",
         "balanced"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 4,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(3)"
+      ]
     }
   },
   "0426_singleimage_world-leading-startups_n_a_Dark_n_a_n_a_n_apng.jpeg": {
@@ -131,6 +139,13 @@
         "UI",
         "tech brand"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "0aa97867b7e4292895b82461cb7b5ecd.jpg": {
@@ -195,6 +210,14 @@
         "cutout heads",
         "sans serif typography"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 4,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(3)"
+      ]
     }
   },
   "100-Gartner-CriticalCapabilitiesMarketingReportLI_1200x12002apng.jpeg": {
@@ -258,6 +281,14 @@
         "friendly",
         "digital illustration",
         "modern typography"
+      ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(1)"
       ]
     }
   },
@@ -334,6 +365,13 @@
         "corporate",
         "static ad"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "108-PMOPersonaAds_BrandLayerIIILI_1200x12004png.jpeg": {
@@ -396,6 +434,13 @@
         "flat color",
         "bold typography",
         "high contrast"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -462,6 +507,13 @@
         "geometric",
         "vector"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "1080X108064png.jpeg": {
@@ -527,6 +579,13 @@
         "schematic",
         "modern"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "1080x108056png.jpeg": {
@@ -588,6 +647,14 @@
         "dark mode",
         "futuristic",
         "friendly"
+      ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "long-prompt(344)"
       ]
     }
   },
@@ -654,6 +721,13 @@
         "minimalist",
         "friendly",
         "bright orange palette"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -722,6 +796,14 @@
         "geometric",
         "abstract"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
+      ]
     }
   },
   "1123a4a4efbc78af4ddd413fcb7036bf.jpg": {
@@ -781,6 +863,13 @@
         "warm palette",
         "textured background",
         "soft lighting"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -849,6 +938,14 @@
         "dark mode",
         "corporate"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
+      ]
     }
   },
   "1200x1200V1.jpeg": {
@@ -912,6 +1009,13 @@
         "dark mode",
         "geometric",
         "elegant"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -980,6 +1084,15 @@
         "tech friendly",
         "playful"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 4,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)",
+        "long-prompt(301)"
+      ]
     }
   },
   "1200x1200png copy 2.jpeg": {
@@ -1042,6 +1155,13 @@
         "serif",
         "digital",
         "soft lighting"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -1106,6 +1226,13 @@
         "minimalist",
         "natural-light",
         "grain-texture"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -1177,6 +1304,15 @@
         "calm",
         "efficient"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 4,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(1)",
+        "long-prompt(261)"
+      ]
     }
   },
   "15cSpendtimeoncareNottabsLinkedInSquare1080x10802xpng.jpeg": {
@@ -1239,6 +1375,13 @@
         "clean",
         "flat design",
         "bold typography"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -1303,6 +1446,13 @@
         "painterly",
         "textured",
         "spotlight"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -1371,6 +1521,13 @@
         "friendly",
         "modern",
         "trustworthy"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -1444,6 +1601,14 @@
         "airy",
         "spacious"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "long-prompt(297)"
+      ]
     }
   },
   "1746118543750.jpeg": {
@@ -1511,6 +1676,13 @@
         "geometric",
         "flat design"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "1748439463968.jpeg": {
@@ -1573,6 +1745,13 @@
         "monochromatic",
         "informational",
         "modern"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -1640,6 +1819,13 @@
         "modern serif",
         "relatable humor"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "1755536725529.jpeg": {
@@ -1701,6 +1887,14 @@
         "high contrast",
         "monospace",
         "testimonial"
+      ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
       ]
     }
   },
@@ -1770,6 +1964,14 @@
         "clean",
         "digital art"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "long-prompt(284)"
+      ]
     }
   },
   "1762380632329.jpeg": {
@@ -1838,6 +2040,14 @@
         "tech",
         "digital"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
+      ]
     }
   },
   "1769011240740.jpeg": {
@@ -1903,6 +2113,13 @@
         "geometric",
         "grained"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "1769451342205.jpeg": {
@@ -1965,6 +2182,14 @@
         "testimonial",
         "fintech",
         "high contrast"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(1)",
+        "brand-typography(1)"
       ]
     }
   },
@@ -2032,6 +2257,13 @@
         "soft lighting",
         "UI elements"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "1770998444732.jpeg": {
@@ -2092,6 +2324,13 @@
         "inviting",
         "modern",
         "conversational"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -2156,6 +2395,13 @@
         "trustworthy",
         "data visualization",
         "serif typography"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -2224,6 +2470,13 @@
         "clean",
         "bright accent colors"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "1773131791577.jpeg": {
@@ -2289,6 +2542,15 @@
         "layered",
         "digital UI",
         "soft shadows"
+      ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 4,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)",
+        "long-prompt(266)"
       ]
     }
   },
@@ -2356,6 +2618,14 @@
         "corporate",
         "polished"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
+      ]
     }
   },
   "1773687984007.jpeg": {
@@ -2420,6 +2690,14 @@
         "calm",
         "modern serif",
         "warm accent"
+      ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "long-prompt(252)"
       ]
     }
   },
@@ -2486,6 +2764,13 @@
         "high contrast",
         "fintech"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "1774648903260.jpeg": {
@@ -2549,6 +2834,14 @@
         "cosmic texture",
         "high contrast",
         "serif and sans serif pairing"
+      ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
       ]
     }
   },
@@ -2617,6 +2910,13 @@
         "clean",
         "corporate"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "1775843118454.jpeg": {
@@ -2679,6 +2979,14 @@
         "flat color",
         "informal",
         "friendly"
+      ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
       ]
     }
   },
@@ -2746,6 +3054,13 @@
         "line art",
         "flat lighting"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "1776258666360.jpeg": {
@@ -2809,6 +3124,13 @@
         "bright",
         "optimistic"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "1776790572150.jpeg": {
@@ -2868,6 +3190,13 @@
         "bold typography",
         "colorful gradient",
         "abstract background"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -2938,6 +3267,13 @@
         "illustrated",
         "modern"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "1777401645438.jpeg": {
@@ -3001,6 +3337,14 @@
         "trustworthy",
         "modern",
         "fintech"
+      ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
       ]
     }
   },
@@ -3069,6 +3413,14 @@
         "warm-gradient",
         "typography-centric"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
+      ]
     }
   },
   "1777546946309.jpeg": {
@@ -3131,6 +3483,13 @@
         "modern",
         "professional",
         "warm gradient"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -3202,6 +3561,14 @@
         "playful",
         "professional"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "long-prompt(288)"
+      ]
     }
   },
   "1_1png copy.jpeg": {
@@ -3269,6 +3636,13 @@
         "glowing effects",
         "grain texture",
         "calm lighting"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -3338,6 +3712,13 @@
         "graphic",
         "colorful"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "2026-04-30_043_Knowledge-Worker-Emotional-v1_USEN_LinkedIn_1080x1080jpg.jpeg": {
@@ -3404,6 +3785,13 @@
         "corporate",
         "modern",
         "clean"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -3473,6 +3861,14 @@
         "warm",
         "paper texture"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
+      ]
     }
   },
   "2ec7f472fe6659a3e9be6e33e9beb604.jpg": {
@@ -3535,6 +3931,13 @@
         "high contrast",
         "bold typography",
         "food photography style"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -3605,6 +4008,15 @@
         "bold typography",
         "lifestyle photography"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 4,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(1)",
+        "long-prompt(261)"
+      ]
     }
   },
   "30bee91bb50ddb7e9f1c10732a98775d.jpg": {
@@ -3671,6 +4083,13 @@
         "negative space",
         "clean",
         "sophisticated"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -3740,6 +4159,13 @@
         "emoji integration",
         "friendly mascot"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "3973ddc123bcf25a6789e6202818e048.jpg": {
@@ -3802,6 +4228,13 @@
         "modern",
         "geometric-sans-serif"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "3am-onlycallthatdoesntcome-1080x1080png.jpeg": {
@@ -3863,6 +4296,13 @@
         "calm",
         "trustworthy",
         "clean"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -3929,6 +4369,13 @@
         "trustworthy",
         "serif typography"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "534a5a5f-8d06-4e18-b1a9-1f08c4ef0ceapng.jpeg": {
@@ -3992,6 +4439,13 @@
         "glowing effect",
         "geometric",
         "clean"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -4059,6 +4513,13 @@
         "trustworthy",
         "subtle lighting"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "5WaysMMBlog-Upmarket-Replatformer-US-English-MidMarket-Static-1x1png.jpeg": {
@@ -4124,6 +4585,14 @@
         "friendly",
         "professional"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 4,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(3)"
+      ]
     }
   },
   "62e012ccbd10730e031c6cf4e899fac1.jpg": {
@@ -4188,6 +4657,13 @@
         "corporate",
         "vector-art"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "699b3253d512747f961656d0d5903ca1.jpg": {
@@ -4249,6 +4725,13 @@
         "photorealistic",
         "clean",
         "authentic"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -4317,6 +4800,13 @@
         "bright",
         "friendly"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "86c08b63434ad4383258c5fd8913ff0b.jpg": {
@@ -4380,6 +4870,13 @@
         "bold",
         "flat",
         "typographic"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -4449,6 +4946,13 @@
         "flat colors",
         "vector style"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "8afbdb2036b4441be1eac06bc04d3a94.jpg": {
@@ -4514,6 +5018,13 @@
         "clean",
         "playful colors"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "8d6b53d73d76c2fc5d2bec035e34f1a1.jpg": {
@@ -4577,6 +5088,13 @@
         "modern",
         "clean",
         "tech-inspired"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -4643,6 +5161,13 @@
         "typography-focused",
         "abstract art"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "9191b807ce7a3dbdb15d096480e8b23c.jpg": {
@@ -4706,6 +5231,13 @@
         "corporate",
         "clean"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "9bc739a8a6cec13056402a6be0c191ac.jpg": {
@@ -4767,6 +5299,13 @@
         "clean typography",
         "informative",
         "warm tones"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -4834,6 +5373,13 @@
         "text-heavy",
         "geometric background"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "AccountingFirms_1080x1080_Custom_02png (1).jpeg": {
@@ -4898,6 +5444,13 @@
         "clean",
         "geometric"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "Accounting_1080x1080_Custom_02png.jpeg": {
@@ -4959,6 +5512,13 @@
         "flat design",
         "clean",
         "modern"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -5025,6 +5585,14 @@
         "portrait",
         "frosted glass",
         "split screen"
+      ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(1)"
       ]
     }
   },
@@ -5095,6 +5663,13 @@
         "typographic",
         "illustrative"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "Ad3CubeSquare108010802xpng.jpeg": {
@@ -5163,6 +5738,13 @@
         "bold typography",
         "colorful graphic"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "AdobeExpress-MixpanelAC25-Grow-Square1200x1200gif.gif": {
@@ -5229,6 +5811,14 @@
         "two-column",
         "balanced"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(1)"
+      ]
     }
   },
   "Airpods_VisualTest_Graphic_1x1png.jpeg": {
@@ -5289,6 +5879,13 @@
         "tech",
         "fintech",
         "promotional"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -5356,6 +5953,13 @@
         "motion-blur",
         "monochrome background"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "Allinone_2_4x3png.jpeg": {
@@ -5420,6 +6024,13 @@
         "natural textures",
         "minimal",
         "friendly"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -5487,6 +6098,13 @@
         "tech",
         "illustrative"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "BOFUV1New1_1jpg.jpeg": {
@@ -5550,6 +6168,15 @@
         "layered composition",
         "calm lighting",
         "modern productivity ad"
+      ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 5,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(2)",
+        "long-prompt(299)"
       ]
     }
   },
@@ -5622,6 +6249,14 @@
         "clean",
         "corporate"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "long-prompt(252)"
+      ]
     }
   },
   "Blog3-V2png.jpeg": {
@@ -5689,6 +6324,13 @@
         "vector illustration",
         "clean",
         "calm palette"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -5759,6 +6401,13 @@
         "flat design",
         "UI-inspired"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "Brand-digital-v2_algopng.jpeg": {
@@ -5824,6 +6473,13 @@
         "digital art",
         "bold color blocking"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "BrowsingtheLibrary.gif": {
@@ -5885,6 +6541,11 @@
         "flat colors",
         "modern"
       ]
+    },
+    "oneShotConfidence": "high",
+    "oneShotRisk": {
+      "score": 0,
+      "reasons": []
     }
   },
   "BuildvsBuy3_LinkedIn_1200x1200png.jpeg": {
@@ -5953,6 +6614,14 @@
         "clean UI",
         "SaaS ad"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
+      ]
     }
   },
   "CAMP27-53739-B_GTMInsurance_Paid_1080x1080png.jpeg": {
@@ -6015,6 +6684,13 @@
         "professional",
         "blue",
         "clean"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -6085,6 +6761,13 @@
         "digital",
         "secure"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "CREDIBILITY_Alt1_1_1png.jpeg": {
@@ -6146,6 +6829,13 @@
         "Modern",
         "Flat color",
         "Corporate"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -6220,6 +6910,13 @@
         "geometric",
         "friendly"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "Canva-B-1png.jpeg": {
@@ -6293,6 +6990,14 @@
         "flat",
         "UI"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 4,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(2)"
+      ]
     }
   },
   "Concept-Problem-Set2-4x5png.jpeg": {
@@ -6355,6 +7060,13 @@
         "calm",
         "natural lighting",
         "modern"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -6424,6 +7136,13 @@
         "professional",
         "bold"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "Concept-Solution-Set2-4x5png.jpeg": {
@@ -6487,6 +7206,13 @@
         "natural light",
         "friendly",
         "approachable"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -6554,6 +7280,13 @@
         "friendly",
         "fintech",
         "gradient-background"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -6626,6 +7359,14 @@
         "corporate",
         "trustworthy"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 4,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(3)"
+      ]
     }
   },
   "Custom_Switcher_blog_v1_1200x1200-2jpg.jpeg": {
@@ -6686,6 +7427,13 @@
         "typography-focused",
         "clean",
         "monochrome"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -6754,6 +7502,14 @@
         "event",
         "minimalist"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "long-prompt(270)"
+      ]
     }
   },
   "Dittoadscopy-01png.jpeg": {
@@ -6817,6 +7573,13 @@
         "bold typography",
         "geometric",
         "friendly"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -6884,6 +7647,13 @@
         "trustworthy",
         "clean"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "DscpC0ZZaSmDsMX18GHyoPh3og.webp": {
@@ -6947,6 +7717,13 @@
         "minimalist",
         "tech ad"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "EARN_Alt1_1_1png.jpeg": {
@@ -7006,6 +7783,13 @@
         "flat design",
         "tech oriented",
         "high contrast"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -7075,6 +7859,13 @@
         "symmetrical",
         "vector"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "FEAd-12jpg.jpeg": {
@@ -7140,6 +7931,15 @@
         "professional",
         "tech branding"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 4,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)",
+        "long-prompt(257)"
+      ]
     }
   },
   "FY26_Q2_VBR_Dpng.jpeg": {
@@ -7202,6 +8002,13 @@
         "digital",
         "modern",
         "trustworthy"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -7273,6 +8080,14 @@
         "gradient background",
         "rounded corners"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
+      ]
     }
   },
   "0093b098f960b16b4c2cdcf60cdc8f50.jpg": {
@@ -7342,6 +8157,13 @@
         "fintech",
         "approachable"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "044c09d3fbaf86d4acbc5354581aba98.jpg": {
@@ -7409,6 +8231,13 @@
         "abstract",
         "productive"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "0b416699a0382b1a3fc7be66f8d95f7a.jpg": {
@@ -7471,6 +8300,13 @@
         "refined",
         "productivity",
         "paper-organization"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -7537,6 +8373,13 @@
         "soft lighting",
         "3D render",
         "illustrated"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -7606,6 +8449,14 @@
         "global",
         "friendly"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
+      ]
     }
   },
   "14472b12c8bfd218d8df8c7110b0e7cd.jpg": {
@@ -7673,6 +8524,13 @@
         "natural texture",
         "calm",
         "inviting"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -7742,6 +8600,13 @@
         "dark",
         "contrast"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "218b3a1c5a0852445219848b067457d9.jpg": {
@@ -7807,6 +8672,13 @@
         "print ad",
         "moody lighting"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "249cdf1ff87952eb2893732096630f06.jpg": {
@@ -7867,6 +8739,13 @@
         "clean",
         "modern",
         "calm"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -7936,6 +8815,14 @@
         "overlapping shapes",
         "clean layout"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
+      ]
     }
   },
   "321cef8f4527a80c13679aeb29a2938b.jpg": {
@@ -7996,6 +8883,13 @@
         "flat lighting",
         "white space",
         "contemplative"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -8059,6 +8953,13 @@
         "clean",
         "natural lighting"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "3b8321a23dd57d1cf5d605bd538d8523.jpg": {
@@ -8118,6 +9019,13 @@
         "flat color",
         "symbolic",
         "modern classic"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -8189,6 +9097,13 @@
         "abstract",
         "sans-serif"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "45c9f3d8ab2997ac1eeb66137a48e14b.jpg": {
@@ -8249,6 +9164,13 @@
         "illustrative",
         "textured",
         "hand-drawn"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -8312,6 +9234,14 @@
         "Textured background",
         "Classic serif typography"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
+      ]
     }
   },
   "5768f7a06cfc40f43099c8fe0f81900f.jpg": {
@@ -8372,6 +9302,13 @@
         "classic serif",
         "nostalgic",
         "textured paper"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -8438,6 +9375,13 @@
         "classic typography",
         "dynamic motion",
         "textured background"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -8506,6 +9450,14 @@
         "calm",
         "refined",
         "luxury"
+      ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "long-prompt(267)"
       ]
     }
   },
@@ -8576,6 +9528,13 @@
         "flat-color",
         "productivity-ad"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "6f87b4be5be61f4e1e1d3d7545844ce0.jpg": {
@@ -8639,6 +9598,13 @@
         "print-ad",
         "serif typography",
         "clean"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -8706,6 +9672,14 @@
         "clean",
         "modern"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(1)"
+      ]
     }
   },
   "7021fd8489e39d3d1a91b16e7c5c3494.jpg": {
@@ -8767,6 +9741,13 @@
         "quietly confident",
         "simple",
         "balanced"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -8831,6 +9812,13 @@
         "minimalist",
         "typographic focus",
         "retro aviation"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -8900,6 +9888,14 @@
         "illustrative",
         "balanced white space"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
+      ]
     }
   },
   "784994f5b2c0cc2d1906ca8f9260b8fb.jpg": {
@@ -8959,6 +9955,14 @@
         "paper texture",
         "soft lighting",
         "modern typography"
+      ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
       ]
     }
   },
@@ -9022,6 +10026,13 @@
         "friendly",
         "balanced",
         "modern"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -9087,6 +10098,13 @@
         "warm lighting",
         "textured fabric",
         "flat lay"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -9157,6 +10175,13 @@
         "soft shadows",
         "typographic focus"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "8e050094f860b3fdf0a57ac4c65ed8f4.jpg": {
@@ -9222,6 +10247,15 @@
         "productivity",
         "handwritten accents",
         "matte texture"
+      ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 4,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)",
+        "long-prompt(299)"
       ]
     }
   },
@@ -9290,6 +10324,13 @@
         "instructional",
         "warm"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "961b1e9164941744026b739f9d0bf6d8.jpg": {
@@ -9356,6 +10397,13 @@
         "clean",
         "clear"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "973ee197ac7f806c6223a16857c9e8e9.jpg": {
@@ -9418,6 +10466,14 @@
         "analog technology",
         "clean layout",
         "classic serif"
+      ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(1)"
       ]
     }
   },
@@ -9488,6 +10544,14 @@
         "analog texture",
         "warm lighting"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "long-prompt(304)"
+      ]
     }
   },
   "9992b011e3691f76220dbff2f5eeb432.jpg": {
@@ -9546,6 +10610,13 @@
         "print ad",
         "typographic",
         "intellectual"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -9612,6 +10683,13 @@
         "corporate",
         "conceptual"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "Ent-Finance_Implementation_logo-proof-fun_1x1jpg.jpeg": {
@@ -9675,6 +10753,13 @@
         "structured",
         "professional",
         "bright background"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -9741,6 +10826,14 @@
         "calm",
         "authoritative"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(1)"
+      ]
     }
   },
   "Frame1739334701png.jpeg": {
@@ -9806,6 +10899,13 @@
         "professional",
         "warm",
         "balanced"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -9878,6 +10978,14 @@
         "bright colors",
         "clean layout"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
+      ]
     }
   },
   "Franken-techstack1png.jpeg": {
@@ -9940,6 +11048,13 @@
         "bold typography",
         "modern",
         "tech metaphor"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -10008,6 +11123,14 @@
         "clean",
         "bold"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "long-prompt(251)"
+      ]
     }
   },
   "G-MST-0_1200x1200_SI_APAC-EN_CNCpng.jpeg": {
@@ -10072,6 +11195,13 @@
         "friendly",
         "warm colors",
         "corporate"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -10139,6 +11269,13 @@
         "quiet tone",
         "respectful"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "G-yjivaaQAALYPS.png": {
@@ -10199,6 +11336,13 @@
         "monochrome with highlight",
         "clean",
         "modern"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -10264,6 +11408,13 @@
         "editorial",
         "print ad"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "G4Ra3h0bEAAs4pZ.png": {
@@ -10328,6 +11479,13 @@
         "modern",
         "elegant"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "G4YSOw5b0AATktC.png": {
@@ -10390,6 +11548,13 @@
         "modern",
         "clean"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "G4gcFFYa8AA1gOp.png": {
@@ -10449,6 +11614,13 @@
         "bold color contrast",
         "quiet",
         "sophisticated"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -10513,6 +11685,13 @@
         "bright lighting",
         "clean"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "G5gYfG-aIAAkajI.png": {
@@ -10575,6 +11754,13 @@
         "sophisticated",
         "product-focus",
         "serif typography"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -10642,6 +11828,13 @@
         "muted palette",
         "modern typography"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "G6xhgNZX0AANYqb.png": {
@@ -10705,6 +11898,13 @@
         "high contrast",
         "flat colors",
         "soft lighting"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -10771,6 +11971,13 @@
         "flat shadows",
         "high contrast"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "G9WgRz3bwAAM8mL.jpeg": {
@@ -10830,6 +12037,13 @@
         "informative",
         "quiet",
         "warm"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -10895,6 +12109,14 @@
         "witty",
         "balanced",
         "calm"
+      ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
       ]
     }
   },
@@ -10967,6 +12189,13 @@
         "futuristic",
         "clean"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "GHP_AgenticAI2-Image_USA_1200x1200_LFA_GitHub_EN_eBook_Standard_SBAN_LEA_NA_1png.jpeg": {
@@ -11038,6 +12267,13 @@
         "translucent",
         "flat design"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "GHP_HowAgenticAI2-ebook2_USA_1200x1200_LFA_GitHub_EN_eBook_Standard_SBAN_LEA_NA_5png.jpeg": {
@@ -11102,6 +12338,14 @@
         "geometric",
         "friendly",
         "approachable"
+      ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
       ]
     }
   },
@@ -11170,6 +12414,13 @@
         "layered",
         "clean"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "G_1EwuKbUAQsNzA.jpeg": {
@@ -11231,6 +12482,14 @@
         "print-style",
         "professional",
         "trustworthy"
+      ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "long-prompt(269)"
       ]
     }
   },
@@ -11297,6 +12556,13 @@
         "monochrome",
         "clean",
         "professional"
+      ]
+    },
+    "oneShotConfidence": "high",
+    "oneShotRisk": {
+      "score": 1,
+      "reasons": [
+        "long-quoted-text(1)"
       ]
     }
   },
@@ -11374,6 +12640,14 @@
         "tech",
         "informative"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "long-prompt(281)"
+      ]
     }
   },
   "Getbackonline-1080x1920png.jpeg": {
@@ -11444,6 +12718,14 @@
         "natural textures",
         "quiet mood"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "long-prompt(273)"
+      ]
     }
   },
   "GgnZsY4aQAAw4w1.jpeg": {
@@ -11506,6 +12788,13 @@
         "clean",
         "3D iconography",
         "bold typography"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -11578,6 +12867,14 @@
         "testimonial",
         "clean typography"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "long-prompt(271)"
+      ]
     }
   },
   "Granola_concept06_5_1X1png.jpeg": {
@@ -11648,6 +12945,13 @@
         "warm",
         "elegant"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "HBW6-8BbsAAhiUL.jpeg": {
@@ -11712,6 +13016,13 @@
         "trustworthy",
         "elegant"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "HBW7GUDbAAEdv47.jpeg": {
@@ -11770,6 +13081,13 @@
         "corporate",
         "flat color",
         "bold highlight"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -11835,6 +13153,14 @@
         "corporate",
         "warm"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
+      ]
     }
   },
   "HFYMuywa8AEzIc3.jpeg": {
@@ -11895,6 +13221,13 @@
         "clean",
         "calm",
         "modern"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -11959,6 +13292,13 @@
         "food photography",
         "flat design accents",
         "color block legend"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -12026,6 +13366,13 @@
         "iconic",
         "warm tone"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "Headcount.jpeg": {
@@ -12092,6 +13439,13 @@
         "3D geometric",
         "soft lighting"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "Hex-20260310-March_ContentAdsRefresh-DigitalAds_1x1_S4-2png.jpeg": {
@@ -12153,6 +13507,13 @@
         "clean typography",
         "soft colors",
         "modern"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -12227,6 +13588,15 @@
         "tech",
         "productivity"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 4,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(1)",
+        "long-prompt(262)"
+      ]
     }
   },
   "IBM_DesigntoCode_1080x1080DevToolsV2png.jpeg": {
@@ -12292,6 +13662,16 @@
         "flat UI",
         "tech",
         "productivity"
+      ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 5,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(1)",
+        "brand-typography(1)",
+        "long-prompt(273)"
       ]
     }
   },
@@ -12360,6 +13740,13 @@
         "inviting",
         "high-contrast",
         "elegant"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -12430,6 +13817,13 @@
         "cartoon mascot",
         "bright colors"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "KVhRE2xFqtOEYIVN1V6nTTTJRA.webp": {
@@ -12499,6 +13893,13 @@
         "human faces",
         "conceptual metaphor"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "KeepUberTeamsAlign_Redpng.jpeg": {
@@ -12565,6 +13966,15 @@
         "digital UI",
         "warm tones"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 4,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(1)",
+        "long-prompt(308)"
+      ]
     }
   },
   "LD_BuildvsBuy_Squarepng.jpeg": {
@@ -12629,6 +14039,13 @@
         "clean",
         "typography focused",
         "subtle geometric accents"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -12701,6 +14118,13 @@
         "flat lighting",
         "vector style"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "Less_manual_work_Opspng.jpeg": {
@@ -12768,6 +14192,13 @@
         "technology",
         "balanced",
         "trustworthy"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -12840,6 +14271,15 @@
         "geometric",
         "clean typography"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 4,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)",
+        "long-prompt(290)"
+      ]
     }
   },
   "LinkedIn-16png.jpeg": {
@@ -12907,6 +14347,13 @@
         "glowing light",
         "digital art"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "LinkedIn-1png.jpeg": {
@@ -12972,6 +14419,13 @@
         "line art",
         "typographic"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "LinkedInSingleImageAd-1080x10801_1squarepng copy.jpeg": {
@@ -13036,6 +14490,14 @@
         "clean",
         "professional"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "long-prompt(255)"
+      ]
     }
   },
   "LinkedInSingleImageAd-1080x10801_1squarepng.jpeg": {
@@ -13097,6 +14559,13 @@
         "modern",
         "flat lighting",
         "vector inspired"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -13162,6 +14631,13 @@
         "tech",
         "enterprise",
         "clean"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -13233,6 +14709,13 @@
         "flat design",
         "grid layout"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "LinkedIn_4_5png.jpeg": {
@@ -13302,6 +14785,13 @@
         "high-contrast",
         "colorful"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "LinkedIn_Horizontal3png.jpeg": {
@@ -13368,6 +14858,15 @@
         "software",
         "flat design",
         "typography-focused"
+      ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 5,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(2)",
+        "long-prompt(279)"
       ]
     }
   },
@@ -13436,6 +14935,13 @@
         "professional",
         "fintech",
         "digital"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -13512,6 +15018,14 @@
         "friendly",
         "playful"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "long-prompt(429)"
+      ]
     }
   },
   "Lock-in-squarepng.jpeg": {
@@ -13578,6 +15092,13 @@
         "subtle texture",
         "soft lighting"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "MKT-33533-ACUpskillCampaign_arcpopuppng.jpeg": {
@@ -13640,6 +15161,13 @@
         "fintech",
         "clean",
         "corporate"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -13705,6 +15233,13 @@
         "trustworthy",
         "clean typography",
         "inspirational"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -13778,6 +15313,14 @@
         "flat",
         "structured"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "long-prompt(304)"
+      ]
     }
   },
   "Modernpayrollsmallillustrationspng.jpeg": {
@@ -13841,6 +15384,13 @@
         "bold typography",
         "line art",
         "high contrast"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -13907,6 +15457,13 @@
         "clean typography",
         "tech aesthetic",
         "flat design"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -13977,6 +15534,13 @@
         "professional",
         "fintech"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "NewyearNewCRM-2png.jpeg": {
@@ -14044,6 +15608,13 @@
         "balanced",
         "typography focused"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "NextjsSocial01-Minimalpng.jpeg": {
@@ -14105,6 +15676,14 @@
         "flat design",
         "geometric",
         "typographic hierarchy"
+      ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
       ]
     }
   },
@@ -14174,6 +15753,13 @@
         "business",
         "tech"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "NotionvsConfluenceComparisonGuide1pdf.jpeg": {
@@ -14236,6 +15822,13 @@
         "corporate",
         "vector art",
         "pastel palette"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -14303,6 +15896,14 @@
         "trustworthy",
         "modern"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "long-prompt(253)"
+      ]
     }
   },
   "OPT2_Enterprise_Value_Static_Paid_1x1png.jpeg": {
@@ -14365,6 +15966,13 @@
         "modern",
         "calm",
         "trustworthy"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -14430,6 +16038,13 @@
         "professional",
         "fintech"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "Option1-4_5-1png.jpeg": {
@@ -14492,6 +16107,13 @@
         "glowing effects",
         "fintech",
         "abstract"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -14561,6 +16183,14 @@
         "serif typography",
         "pastel palette"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "long-prompt(271)"
+      ]
     }
   },
   "Oz-Paid-Enterrprise-03-1x1png.jpeg": {
@@ -14628,6 +16258,14 @@
         "SaaS",
         "tech"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(1)"
+      ]
     }
   },
   "Oz-Paid-Enterrprise-03-4x5png.jpeg": {
@@ -14692,6 +16330,13 @@
         "illustrative",
         "devtools",
         "metaphorical"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -14761,6 +16406,14 @@
         "tech",
         "AI"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
+      ]
     }
   },
   "POS-TOF-02-720x900jpg.jpeg": {
@@ -14827,6 +16480,13 @@
         "sans-serif",
         "dark mode"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "PaidAd1B1png.jpeg": {
@@ -14892,6 +16552,14 @@
         "soft glow",
         "tech branding",
         "UI-inspired"
+      ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
       ]
     }
   },
@@ -14962,6 +16630,13 @@
         "geometric",
         "gradient",
         "professional"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -15034,6 +16709,13 @@
         "soft-gradient",
         "balanced-spacing"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "PaidSocial-05png.jpeg": {
@@ -15098,6 +16780,13 @@
         "pastel colors",
         "modern",
         "tech style"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -15165,6 +16854,13 @@
         "Flat design",
         "Isometric",
         "Modern"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -15236,6 +16932,14 @@
         "calm",
         "confident"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
+      ]
     }
   },
   "Pj0Ilir1FJDOl0uVL98bpMLddk.webp": {
@@ -15301,6 +17005,13 @@
         "bold text",
         "productivity",
         "modern"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -15369,6 +17080,14 @@
         "bold headlines",
         "structured layout"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(1)"
+      ]
     }
   },
   "QdVsh9lZHtA3trdfBHnjWC844U.webp": {
@@ -15431,6 +17150,14 @@
         "high contrast",
         "clean",
         "modern"
+      ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(1)"
       ]
     }
   },
@@ -15499,6 +17226,14 @@
         "colorful",
         "tech"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
+      ]
     }
   },
   "SM-Bonsai-RTG-WinDeliverGet-1200x1200png.jpeg": {
@@ -15564,6 +17299,15 @@
         "clean",
         "sans serif",
         "green accents"
+      ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 5,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(2)",
+        "long-prompt(295)"
       ]
     }
   },
@@ -15635,6 +17379,13 @@
         "geometric typography",
         "gradient accents"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "SM-Drata-PR-DecisionMakers-RiskManagement-PainPoints-ST-1-1200x1200-042026png.jpeg": {
@@ -15701,6 +17452,14 @@
         "calm",
         "clean typography"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(1)"
+      ]
     }
   },
   "SM-Drata-PR-DrataForStartups-BOFU-BuyersAskForSOC2-ST-1-1200x1200-032026png.jpeg": {
@@ -15765,6 +17524,14 @@
         "flat",
         "professional",
         "UI inspired"
+      ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
       ]
     }
   },
@@ -15834,6 +17601,13 @@
         "gradient",
         "B2B"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "SM-Drata-PR-MOFU-CaseStudies-Lemonade-ST-1-1200x1200-042026png.jpeg": {
@@ -15898,6 +17672,11 @@
         "security",
         "dark mode"
       ]
+    },
+    "oneShotConfidence": "high",
+    "oneShotRisk": {
+      "score": 0,
+      "reasons": []
     }
   },
   "Screenshot 2026-05-03 at 1.06.11 PM.png": {
@@ -15962,6 +17741,13 @@
         "photographic texture",
         "flat lighting"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "ShipAISocial01-Minimalpng.jpeg": {
@@ -16021,6 +17807,14 @@
         "typography",
         "modern",
         "flat"
+      ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
       ]
     }
   },
@@ -16088,6 +17882,13 @@
         "modern",
         "trustworthy"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "SocialPost-Mastercard1png.jpeg": {
@@ -16149,6 +17950,13 @@
         "fintech",
         "invitation",
         "clean"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -16219,6 +18027,14 @@
         "flat",
         "modern"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
+      ]
     }
   },
   "StaticAd-1080x1080-KV01-2png.jpeg": {
@@ -16279,6 +18095,13 @@
         "testimonial",
         "clean",
         "modern"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -16342,6 +18165,13 @@
         "elegant",
         "typographic",
         "data-visualization"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -16411,6 +18241,14 @@
         "professional",
         "trustworthy"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "long-prompt(252)"
+      ]
     }
   },
   "Stillrunninggatedcontent1png.jpeg": {
@@ -16477,6 +18315,13 @@
         "clean",
         "colorful"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "Stillrunninggatedcontent2png.jpeg": {
@@ -16540,6 +18385,13 @@
         "minimal",
         "playful",
         "modern"
+      ]
+    },
+    "oneShotConfidence": "high",
+    "oneShotRisk": {
+      "score": 1,
+      "reasons": [
+        "long-quoted-text(1)"
       ]
     }
   },
@@ -16609,6 +18461,13 @@
         "gradient",
         "fintech"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "Stripe_StateOfAiEconomy_Static_Loveable_UserStories_V1_EN-US_1080x1080_2xjpg.jpeg": {
@@ -16670,6 +18529,13 @@
         "bold typography",
         "gradient",
         "fintech"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -16736,6 +18602,13 @@
         "flat design",
         "textured accents",
         "bold typography"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -16807,6 +18680,14 @@
         "fintech",
         "contrasting"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
+      ]
     }
   },
   "T1-yellow-1png.jpeg": {
@@ -16874,6 +18755,13 @@
         "high contrast",
         "UI",
         "clean"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -16945,6 +18833,13 @@
         "playful surrealism",
         "balanced asymmetry"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "Tabflows_LI_square_no_borderpng.jpeg": {
@@ -17011,6 +18906,13 @@
         "soft lighting",
         "realistic object rendering"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "Testimonials_Stilljpg.jpeg": {
@@ -17074,6 +18976,13 @@
         "bold",
         "high contrast",
         "geometric sans serif"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -17143,6 +19052,13 @@
         "textured",
         "gradient"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "TwitterPost_CFOAIpng.jpeg": {
@@ -17211,6 +19127,14 @@
         "modern typography",
         "quiet"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(1)"
+      ]
     }
   },
   "UltimateAIBuyersGuidebyNotionpdf.jpeg": {
@@ -17273,6 +19197,13 @@
         "flat colors",
         "vector style"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "UseCases_1_4x3png.jpeg": {
@@ -17333,6 +19264,13 @@
         "dark mode",
         "glowing accents",
         "clean UI"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -17400,6 +19338,13 @@
         "tech",
         "flat design"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "W4B-Q1Campaignpng.jpeg": {
@@ -17462,6 +19407,13 @@
         "modern serif",
         "bold typography",
         "neutral palette"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -17526,6 +19478,13 @@
         "professional",
         "fintech",
         "purple palette"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -17592,6 +19551,15 @@
         "neon glow",
         "isometric",
         "clean typography"
+      ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 4,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(1)",
+        "brand-typography(1)"
       ]
     }
   },
@@ -17664,6 +19632,15 @@
         "layered",
         "contrast"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 4,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)",
+        "long-prompt(263)"
+      ]
     }
   },
   "a4549861d757bee59b9cfda23a986f50.jpg": {
@@ -17728,6 +19705,13 @@
         "calm",
         "vibrant",
         "natural light"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -17797,6 +19781,13 @@
         "warm palette",
         "illustration"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "a5c4603042c3298111530776939a7a99.jpg": {
@@ -17860,6 +19851,13 @@
         "flat lighting",
         "product display",
         "bold typography"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -17927,6 +19925,14 @@
         "typographic",
         "tech",
         "product focus"
+      ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(1)"
       ]
     }
   },
@@ -18003,6 +20009,13 @@
         "flat design",
         "user interface"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "ad-pendo-abm-v5png.jpeg": {
@@ -18070,6 +20083,14 @@
         "bold typography",
         "grid background"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "long-prompt(297)"
+      ]
     }
   },
   "af42800f56c916cdce42012c9ca65839.jpg": {
@@ -18129,6 +20150,13 @@
         "contemplative",
         "clean",
         "high contrast"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -18190,6 +20218,13 @@
         "classic",
         "elegant",
         "quiet"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -18259,6 +20294,13 @@
         "balanced",
         "spacious"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "b91d89057f6db47c09bf8e11ead0bd85.jpg": {
@@ -18324,6 +20366,13 @@
         "clean",
         "typographic",
         "photo-realistic lamp"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -18392,6 +20441,14 @@
         "friendly",
         "illustrated",
         "warm"
+      ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
       ]
     }
   },
@@ -18465,6 +20522,13 @@
         "bright colors",
         "flat design"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "be6fe9d0327e092e7680cff182c9fa70.jpg": {
@@ -18526,6 +20590,13 @@
         "nostalgic",
         "serif",
         "monochrome"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -18595,6 +20666,13 @@
         "imaginative",
         "flat color"
       ]
+    },
+    "oneShotConfidence": "high",
+    "oneShotRisk": {
+      "score": 1,
+      "reasons": [
+        "long-quoted-text(1)"
+      ]
     }
   },
   "brandradfar.jpeg": {
@@ -18662,6 +20740,15 @@
         "digital",
         "AI-focused"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 4,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(1)",
+        "long-prompt(257)"
+      ]
     }
   },
   "c247f702ce8256b26042f6650ba63fa4.jpg": {
@@ -18723,6 +20810,14 @@
         "tactile",
         "paper texture",
         "handwritten"
+      ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(2)"
       ]
     }
   },
@@ -18791,6 +20886,13 @@
         "clean",
         "calm"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "c464a38645d5fcd79ee03abc45e1309d.jpg": {
@@ -18858,6 +20960,14 @@
         "flat color",
         "textured paper"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
+      ]
     }
   },
   "c5e06c5493f38092977577e742927f8c.jpg": {
@@ -18916,6 +21026,13 @@
         "flat color",
         "typographic",
         "clean"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -18981,6 +21098,13 @@
         "motivational",
         "clean"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "c74cdbd9924fbe0c1bccc77e3d860dbe.jpg": {
@@ -19045,6 +21169,13 @@
         "modern",
         "typographic"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "c90e355148a855a49ce492ff2ab8c3d7.jpg": {
@@ -19107,6 +21238,13 @@
         "modern",
         "warm",
         "approachable"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -19175,6 +21313,13 @@
         "clean layout",
         "high contrast"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "clickyposts7png.jpeg": {
@@ -19241,6 +21386,13 @@
         "friendly",
         "professional"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "customertestimonial-vertical_blkpng.jpeg": {
@@ -19305,6 +21457,13 @@
         "tech",
         "professional",
         "clean"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -19372,6 +21531,13 @@
         "clean",
         "approachable"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "d12ddfed4085e6c3840aaffacd124427.jpg": {
@@ -19432,6 +21598,13 @@
         "flat color",
         "symbolic",
         "high contrast"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -19501,6 +21674,13 @@
         "warm lighting",
         "nostalgic"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "dc02ac506afc7768629c00c8c60f22c7.jpg": {
@@ -19561,6 +21741,13 @@
         "classic",
         "metaphorical",
         "thoughtful"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -19624,6 +21811,13 @@
         "monochrome",
         "textured background"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "dc85e8710bd58bf99e79cb74633b0ca1.jpg": {
@@ -19683,6 +21877,13 @@
         "monochrome",
         "warm",
         "informative"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -19748,6 +21949,13 @@
         "text-driven",
         "authoritative"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "e6f98ab89fdff4d7837176ae7dd98625.jpg": {
@@ -19810,6 +22018,13 @@
         "vintage",
         "warm lighting",
         "clean layout"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -19876,6 +22091,13 @@
         "clean typography",
         "realistic object render"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "ea38f81b552c4fb60c9348ac5cbd17fa.jpg": {
@@ -19938,6 +22160,15 @@
         "productivity",
         "monochrome blue",
         "classic computing"
+      ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 5,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(3)",
+        "long-prompt(269)"
       ]
     }
   },
@@ -20005,6 +22236,13 @@
         "modern",
         "clean"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "ed38d56264732c6f4f30fc686d16a193.jpg": {
@@ -20066,6 +22304,13 @@
         "typographic",
         "print ad",
         "nostalgic"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -20130,6 +22375,14 @@
         "trustworthy",
         "purple palette"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "long-prompt(303)"
+      ]
     }
   },
   "engage_pay_image_bcg-casestudy-sdo_en_1080x1080pxpng.jpeg": {
@@ -20188,6 +22441,13 @@
         "geometric sans-serif",
         "gradient accents",
         "high contrast"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -20251,6 +22511,13 @@
         "conceptual",
         "clean",
         "monochromatic with accent"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -20318,6 +22585,14 @@
         "tech",
         "clean"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(1)"
+      ]
     }
   },
   "f1c627e7a6c3bec114072bd21b272109.jpg": {
@@ -20379,6 +22654,13 @@
         "clean",
         "bold",
         "classic serif"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -20447,6 +22729,13 @@
         "studio lighting",
         "clean composition"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "f504704f2764dda0a536f73fff6fbac8.jpg": {
@@ -20507,6 +22796,13 @@
         "flat design",
         "geometric",
         "vintage poster"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -20575,6 +22871,14 @@
         "productivity",
         "organized chaos"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
+      ]
     }
   },
   "f7d9b9e90db552a44a7cab18cdbe8c2d.jpg": {
@@ -20642,6 +22946,13 @@
         "minimal",
         "clean"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "f8b61ba8585c901c1333e80b198e9045.jpg": {
@@ -20704,6 +23015,13 @@
         "clean",
         "modern",
         "vintage-inspired"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -20778,6 +23096,14 @@
         "minimalist color blocking",
         "warm editorial tone"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "long-prompt(293)"
+      ]
     }
   },
   "fbaa23303dc0fdac26ffff1ec42dc64d.jpg": {
@@ -20841,6 +23167,14 @@
         "clean layout",
         "modern classic",
         "quietly confident"
+      ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "long-prompt(313)"
       ]
     }
   },
@@ -20911,6 +23245,14 @@
         "clean",
         "modern"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "long-prompt(256)"
+      ]
     }
   },
   "fca2b89a4a8fedebcadee1bf19e2f561.jpg": {
@@ -20977,6 +23319,13 @@
         "modern",
         "monochrome",
         "\u0007"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -21045,6 +23394,13 @@
         "clean layout",
         "high contrast"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "guardian.jpg": {
@@ -21108,6 +23464,14 @@
         "muted palette",
         "clean outlines",
         "warm"
+      ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "long-prompt(304)"
       ]
     }
   },
@@ -21178,6 +23542,14 @@
         "recruitment",
         "flat lighting"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
+      ]
     }
   },
   "images copy 2.jpeg": {
@@ -21238,6 +23610,13 @@
         "textured",
         "warm lighting"
       ]
+    },
+    "oneShotConfidence": "high",
+    "oneShotRisk": {
+      "score": 1,
+      "reasons": [
+        "long-quoted-text(1)"
+      ]
     }
   },
   "images copy.jpeg": {
@@ -21297,6 +23676,13 @@
         "corporate",
         "illustration",
         "flat color"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -21368,6 +23754,14 @@
         "minimalist",
         "geometric-typography"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "long-prompt(251)"
+      ]
     }
   },
   "ipad-desk-mobilepng.jpeg": {
@@ -21433,6 +23827,15 @@
         "modern",
         "clean",
         "professional"
+      ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 5,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(2)",
+        "long-prompt(306)"
       ]
     }
   },
@@ -21501,6 +23904,13 @@
         "photographic",
         "serif typography"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "legora_csjpg.jpeg": {
@@ -21568,6 +23978,13 @@
         "bold typography",
         "data driven"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "linkedin-paid-ads_optimization-QA_Adset3-1080x1080png.jpeg": {
@@ -21633,6 +24050,13 @@
         "professional",
         "data-driven"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "media copy 2.jpeg": {
@@ -21695,6 +24119,13 @@
         "flat colors",
         "professional",
         "clean"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -21761,6 +24192,16 @@
         "playful",
         "clean",
         "professional"
+      ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 5,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(1)",
+        "brand-typography(1)",
+        "long-prompt(347)"
       ]
     }
   },
@@ -21830,6 +24271,13 @@
         "airy",
         "geometric"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "metro.jpg": {
@@ -21897,6 +24345,13 @@
         "clean",
         "tech"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "new72png.jpeg": {
@@ -21962,6 +24417,13 @@
         "balanced",
         "tech",
         "corporate"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -22031,6 +24493,13 @@
         "muted colors",
         "informative"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "optionblightpng.jpeg": {
@@ -22096,6 +24565,13 @@
         "elegant",
         "calm"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "pBQ7TaBOBH0prdggrHC7e9FD2Q.webp": {
@@ -22160,6 +24636,14 @@
         "glow",
         "flat design",
         "contrast"
+      ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "long-prompt(255)"
       ]
     }
   },
@@ -22231,6 +24715,14 @@
         "comparison",
         "business infographic"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "long-prompt(410)"
+      ]
     }
   },
   "sana_csjpg.jpeg": {
@@ -22296,6 +24788,13 @@
         "tech",
         "geometric",
         "clean"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -22367,6 +24866,13 @@
         "soft shadows",
         "clean"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "semgrep-row71-1080x1080A-option2-v1jpg.jpeg": {
@@ -22434,6 +24940,13 @@
         "approachable",
         "tech",
         "security"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -22505,6 +25018,13 @@
         "flat",
         "professional"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "semgrep-row74-1080x1350Ajpg.jpeg": {
@@ -22574,6 +25094,14 @@
         "balanced",
         "informative"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(1)"
+      ]
     }
   },
   "shadow.jpg": {
@@ -22639,6 +25167,13 @@
         "high contrast",
         "smooth gradients"
       ]
+    },
+    "oneShotConfidence": "high",
+    "oneShotRisk": {
+      "score": 1,
+      "reasons": [
+        "long-quoted-text(1)"
+      ]
     }
   },
   "sourcegraph-row3-1080x1350Agif.gif": {
@@ -22701,6 +25236,14 @@
         "clean",
         "matte",
         "professional"
+      ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
       ]
     }
   },
@@ -22766,6 +25309,13 @@
         "flat-color",
         "grainy-texture"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "staticad-brand-liveaction-static-1080x1080_UNEXPECTED_AUTOMATORS_Rex_Set2png.jpeg": {
@@ -22828,6 +25378,14 @@
         "minimalist",
         "inviting",
         "tech-friendly"
+      ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "long-prompt(257)"
       ]
     }
   },
@@ -22894,6 +25452,13 @@
         "approachable",
         "modern",
         "photographic"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -22965,6 +25530,15 @@
         "warm lighting",
         "approachable"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 5,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(2)",
+        "long-prompt(269)"
+      ]
     }
   },
   "staticad-event-enterprise-April-PreEvent-staticad-4x5-V1-AI-Work-datefauxctapng.jpeg": {
@@ -23030,6 +25604,14 @@
         "calm",
         "corporate"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "long-prompt(264)"
+      ]
     }
   },
   "staticad-product-animated-static_4_5_Superside_153892_TopAppCombosProject_Slackpng.jpeg": {
@@ -23091,6 +25673,14 @@
         "friendly",
         "tech",
         "productive"
+      ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "long-prompt(256)"
       ]
     }
   },
@@ -23164,6 +25754,14 @@
         "playful",
         "tech ad"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
+      ]
     }
   },
   "thmLatkPfIKWeWTyE66eFMSeus.webp": {
@@ -23228,6 +25826,14 @@
         "professional",
         "clean",
         "blurred UI"
+      ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 4,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(2)"
       ]
     }
   },
@@ -23301,6 +25907,14 @@
         "playful",
         "calm"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "ui-screenshot(1)"
+      ]
     }
   },
   "unnamed.jpg": {
@@ -23363,6 +25977,13 @@
         "minimalist",
         "contrast",
         "clean typography"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   },
@@ -23430,6 +26051,13 @@
         "flat colors",
         "line art"
       ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
+      ]
     }
   },
   "vFbxzdISYTseQtADLNlViER187o.png": {
@@ -23496,6 +26124,14 @@
         "clean typography",
         "flat design"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
+      ]
     }
   },
   "vacay.jpg": {
@@ -23560,6 +26196,14 @@
         "texture",
         "soft lighting"
       ]
+    },
+    "oneShotConfidence": "low",
+    "oneShotRisk": {
+      "score": 3,
+      "reasons": [
+        "long-quoted-text(2)",
+        "brand-typography(1)"
+      ]
     }
   },
   "youradsareinvisible6png.jpeg": {
@@ -23620,6 +26264,13 @@
         "graphic",
         "flat",
         "modern"
+      ]
+    },
+    "oneShotConfidence": "medium",
+    "oneShotRisk": {
+      "score": 2,
+      "reasons": [
+        "long-quoted-text(2)"
       ]
     }
   }
