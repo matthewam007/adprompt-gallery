@@ -1,13 +1,19 @@
 "use client";
 
 import { type FormEvent, useEffect, useRef, useState } from "react";
+import { analyticsEvents, trackEvent } from "@/lib/analytics";
 
 type SubmitState = "idle" | "loading" | "success" | "error";
+type Reason = "note" | "refund";
+
+const REFUND_TEMPLATE =
+  "Refund request — the prompt didn't land for me.\n\nWhich prompt: \nWhat happened: \n";
 
 export function SupportWidget() {
   const [open, setOpen] = useState(false);
   const [email, setEmail] = useState("");
   const [note, setNote] = useState("");
+  const [reason, setReason] = useState<Reason>("note");
   const [state, setState] = useState<SubmitState>("idle");
   const [error, setError] = useState("");
   const noteRef = useRef<HTMLTextAreaElement | null>(null);
@@ -17,6 +23,20 @@ export function SupportWidget() {
       noteRef.current?.focus();
     }
   }, [open]);
+
+  const switchReason = (next: Reason) => {
+    setReason(next);
+    if (next === "refund") {
+      trackEvent(analyticsEvents.openedRefundTab);
+      if (!note.trim()) {
+        setNote(REFUND_TEMPLATE);
+      }
+    }
+    if (next === "note" && note === REFUND_TEMPLATE) {
+      setNote("");
+    }
+    noteRef.current?.focus();
+  };
 
   const submit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
@@ -28,7 +48,7 @@ export function SupportWidget() {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
         email: email.trim(),
-        requestType: "support_request",
+        requestType: reason === "refund" ? "refund_request" : "support_request",
         note: note.trim(),
       }),
     });
@@ -40,13 +60,20 @@ export function SupportWidget() {
       return;
     }
 
+    trackEvent(
+      reason === "refund"
+        ? analyticsEvents.submittedRefundRequest
+        : analyticsEvents.submittedSupportNote,
+    );
+
     setState("success");
     setEmail("");
     setNote("");
     window.setTimeout(() => {
       setOpen(false);
+      setReason("note");
       window.setTimeout(() => setState("idle"), 200);
-    }, 1600);
+    }, 1800);
   };
 
   return (
@@ -55,8 +82,12 @@ export function SupportWidget() {
         <div className="support-widget-panel" role="dialog" aria-label="Send us a note">
           <div className="support-widget-head">
             <div>
-              <h3>📬 Drop us a note.</h3>
-              <p className="support-widget-sub">We read every one.</p>
+              <h3>{reason === "refund" ? "💸 Refund this one." : "📬 Drop us a note."}</h3>
+              <p className="support-widget-sub">
+                {reason === "refund"
+                  ? "Tell us which prompt didn't land. We'll refund within 24 hours."
+                  : "We read every one."}
+              </p>
             </div>
             <button
               type="button"
@@ -67,6 +98,28 @@ export function SupportWidget() {
               ×
             </button>
           </div>
+
+          <div className="support-widget-tabs" role="tablist" aria-label="Reason">
+            <button
+              type="button"
+              role="tab"
+              aria-selected={reason === "note"}
+              className={reason === "note" ? "is-active" : ""}
+              onClick={() => switchReason("note")}
+            >
+              Send a note
+            </button>
+            <button
+              type="button"
+              role="tab"
+              aria-selected={reason === "refund"}
+              className={reason === "refund" ? "is-active" : ""}
+              onClick={() => switchReason("refund")}
+            >
+              Request a refund
+            </button>
+          </div>
+
           <form className="support-widget-form" onSubmit={submit}>
             <input
               type="email"
@@ -81,16 +134,30 @@ export function SupportWidget() {
               required
               value={note}
               onChange={(event) => setNote(event.target.value)}
-              placeholder="Question, bug, ask, anything..."
-              rows={4}
+              placeholder={
+                reason === "refund"
+                  ? "Which prompt, what went wrong..."
+                  : "Question, bug, ask, anything..."
+              }
+              rows={reason === "refund" ? 6 : 4}
               aria-label="Your message"
             />
             <button type="submit" disabled={state === "loading" || state === "success"}>
-              {state === "loading" ? "Sending..." : state === "success" ? "Sent ✓" : "Send note"}
+              {state === "loading"
+                ? "Sending..."
+                : state === "success"
+                ? "Sent ✓"
+                : reason === "refund"
+                ? "Request refund"
+                : "Send note"}
             </button>
             {state === "error" ? <p className="support-widget-error">{error}</p> : null}
             {state === "success" ? (
-              <p className="support-widget-success">Logged. We&apos;ll reply if needed.</p>
+              <p className="support-widget-success">
+                {reason === "refund"
+                  ? "Got it. We'll process the refund within 24 hours."
+                  : "Logged. We'll reply if needed."}
+              </p>
             ) : null}
           </form>
         </div>

@@ -82,6 +82,9 @@ export function PromptPanel({ creative, unlocked, onOpenPricing }: PromptPanelPr
             <span aria-hidden="true"><LockIcon /></span>
             Unlock prompt
           </button>
+          <p className="prompt-actions-promise">
+            <span aria-hidden="true">✱</span> No risk. If it doesn&apos;t land, we refund.
+          </p>
         </div>
       </section>
     );

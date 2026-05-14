@@ -93,7 +93,7 @@ export function PricingModal({
             ) : (
               <>
                 <p>For the one you came for.</p>
-                <small>Includes the exact reconstruction prompt, model notes, layout breakdown, and remix variables.</small>
+                <small>The prompt that builds it. Plus the notes, the layout breakdown, and the remix variables.</small>
                 <button
                   type="button"
                   onClick={() => handleUnlock("single", onSingleUnlock)}
@@ -112,7 +112,7 @@ export function PricingModal({
             <h3>Member access</h3>
             <strong>$15/mo</strong>
             <p>For people making ads every week.</p>
-            <small>Unlock every prompt in the library, including new drops.</small>
+            <small>Every prompt in the library. New drops as they land. Including the ones too text-heavy to one-shot.</small>
             <button
               type="button"
               onClick={() => handleUnlock("membership", onMembership)}

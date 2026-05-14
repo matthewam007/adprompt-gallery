@@ -1188,6 +1188,22 @@ button {
   color: #060606;
 }
 
+.prompt-actions-promise {
+  margin: 0;
+  color: #8a857d;
+  font-size: 12.5px;
+  font-weight: 460;
+  line-height: 1.45;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.prompt-actions-promise span {
+  color: #c9b821;
+  font-size: 11px;
+}
+
 .copy-button {
   display: inline-flex;
   align-items: center;
@@ -1724,6 +1740,32 @@ button {
   padding: 10px 14px;
   text-decoration: none;
   font-weight: 760;
+}
+
+.checkout-promise {
+  margin-top: 28px;
+  padding: 18px 22px;
+  border: 1px solid #ece8e2;
+  border-radius: 14px;
+  background: #faf7f1;
+  max-width: 540px;
+}
+
+.checkout-promise-label {
+  margin: 0 0 6px !important;
+  color: #9a9389 !important;
+  font-size: 11px !important;
+  font-weight: 640 !important;
+  letter-spacing: 0.1em !important;
+  text-transform: uppercase;
+}
+
+.checkout-promise p:last-child {
+  margin: 0 !important;
+  color: #2d2925 !important;
+  font-size: 15px !important;
+  font-weight: 440 !important;
+  line-height: 1.55 !important;
 }
 
 .empty-state {
@@ -2436,6 +2478,39 @@ button {
 .support-widget-close:hover {
   background: #f4f4f4;
   color: #171717;
+}
+
+.support-widget-tabs {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 12px;
+  padding: 3px;
+  border: 1px solid #ece8e2;
+  border-radius: 999px;
+  background: #faf7f1;
+}
+
+.support-widget-tabs button {
+  flex: 1;
+  padding: 7px 10px;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: #77736d;
+  font-family: inherit;
+  font-size: 12.5px;
+  font-weight: 640;
+  cursor: pointer;
+  transition: background 140ms ease, color 140ms ease;
+}
+
+.support-widget-tabs button:hover {
+  color: #14110d;
+}
+
+.support-widget-tabs button.is-active {
+  background: #14110d;
+  color: #ffffff;
 }
 
 .support-widget-form {
