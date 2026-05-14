@@ -1188,21 +1188,6 @@ button {
   color: #060606;
 }
 
-.prompt-actions-promise {
-  margin: 0;
-  color: #8a857d;
-  font-size: 12.5px;
-  font-weight: 460;
-  line-height: 1.45;
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-}
-
-.prompt-actions-promise span {
-  color: #c9b821;
-  font-size: 11px;
-}
 
 .copy-button {
   display: inline-flex;
@@ -1667,15 +1652,6 @@ button {
   background: #f0ece4 !important;
 }
 
-.pricing-guarantee {
-  margin: 22px auto 0;
-  max-width: 56ch;
-  color: #6f6b64;
-  font-size: 13px;
-  font-weight: 460;
-  line-height: 1.55;
-  text-align: center;
-}
 
 .pricing-error {
   margin: 16px 0 0;
@@ -1742,31 +1718,6 @@ button {
   font-weight: 760;
 }
 
-.checkout-promise {
-  margin-top: 28px;
-  padding: 18px 22px;
-  border: 1px solid #ece8e2;
-  border-radius: 14px;
-  background: #faf7f1;
-  max-width: 540px;
-}
-
-.checkout-promise-label {
-  margin: 0 0 6px !important;
-  color: #9a9389 !important;
-  font-size: 11px !important;
-  font-weight: 640 !important;
-  letter-spacing: 0.1em !important;
-  text-transform: uppercase;
-}
-
-.checkout-promise p:last-child {
-  margin: 0 !important;
-  color: #2d2925 !important;
-  font-size: 15px !important;
-  font-weight: 440 !important;
-  line-height: 1.55 !important;
-}
 
 .empty-state {
   border: 1px solid var(--line);
