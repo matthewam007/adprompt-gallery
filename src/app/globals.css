@@ -1651,6 +1651,16 @@ button {
   background: #f0ece4 !important;
 }
 
+.pricing-guarantee {
+  margin: 22px auto 0;
+  max-width: 56ch;
+  color: #6f6b64;
+  font-size: 13px;
+  font-weight: 460;
+  line-height: 1.55;
+  text-align: center;
+}
+
 .pricing-error {
   margin: 16px 0 0;
   border: 1px solid #e6c8bc;

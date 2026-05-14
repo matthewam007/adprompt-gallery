@@ -124,6 +124,9 @@ export function PricingModal({
             </button>
           </article>
         </div>
+        <p className="pricing-guarantee">
+          Most prompts land in 1–2 passes. If yours doesn&apos;t, we refund — no questions.
+        </p>
       </div>
     </div>
   );
